@@ -1,0 +1,132 @@
+/* Mini-jeux du chat sacré de Birmanie (route #/minijeux) — pastels rose, bleu, jaune */
+.mj-root { position: relative; }
+.mj-chat-svg { width: 100%; height: 100%; display: block; overflow: visible; }
+
+/* Accueil des jeux */
+.mj-hero { position: relative; display: flex; align-items: center; gap: 18px; margin: 6px 0 18px; }
+.mj-hero h1 { margin: 0 0 4px; }
+.mj-hero-chat { width: 110px; height: 114px; flex: none; border: 0; background: none; padding: 0; cursor: pointer; }
+.mj-hero-chat.saute, .cl-chat.saute { animation: mj-saute .6s ease; }
+@keyframes mj-saute { 30% { transform: translateY(-26px) rotate(-6deg); } 60% { transform: translateY(0) scale(1.06, .94); } }
+.mj-grille { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 14px; }
+.mj-carte { text-decoration: none; color: inherit; transition: transform .15s; }
+.mj-carte:hover { transform: translateY(-3px) rotate(-.5deg); }
+
+/* Habillage d'un jeu */
+.mj-regle { max-width: 760px; }
+.mj-hud { display: flex; flex-wrap: wrap; gap: 8px 18px; align-items: center; margin: 10px 0; font-size: 1.02rem; }
+.mj-hud > span { background: var(--panel); border: 1px solid var(--border); border-radius: 999px; padding: 4px 12px; }
+.mj-best { color: var(--muted); }
+.mj-scene { position: relative; overflow: hidden; border-radius: var(--radius); border: 1px solid var(--border); background: #fffaf3; box-shadow: var(--shadow); user-select: none; -webkit-user-select: none; touch-action: none; }
+.mj-canvas { display: block; width: 100%; height: auto; cursor: crosshair; }
+.mj-panneau { position: absolute; inset: 0; display: grid; place-items: center; background: rgba(255, 251, 253, .82); backdrop-filter: blur(2px); z-index: 20; padding: 16px; }
+.mj-panneau-in { text-align: center; max-width: 420px; background: var(--panel); border: 1px solid var(--border); border-radius: 18px; padding: 18px 22px; box-shadow: var(--shadow); }
+.mj-panneau-in h2 { margin: 4px 0 6px; }
+.mj-panneau-in p { margin: 0 0 12px; color: var(--muted); }
+.mj-panneau-chat { width: 86px; height: 90px; margin: 0 auto; animation: mj-respire 2.4s ease-in-out infinite; }
+@keyframes mj-respire { 50% { transform: scale(1.04, .97) translateY(2px); } }
+.mj-go { font-size: 1.05rem; padding: 10px 22px; }
+.mj-bulle { position: absolute; z-index: 15; pointer-events: none; font-weight: 700; font-size: 1.15rem; color: #c2577e; white-space: nowrap;
+  text-shadow: 0 1px 0 #fff, 0 0 6px #fff; animation: mj-envol 1.3s ease-out forwards; }
+.mj-bulle.ko { color: #d0445f; font-size: 1.25rem; }
+.mj-bulle.gros { font-size: 2.6rem; animation-duration: .9s; }
+.mj-bulle.poil { color: #b89d7f; font-size: 1rem; }
+.mj-bulle.zzz { color: #7aa7d6; }
+@keyframes mj-envol { from { opacity: 0; transform: translateY(8px) scale(.8); } 15% { opacity: 1; transform: translateY(0) scale(1.08); } to { opacity: 0; transform: translateY(-46px) scale(1); } }
+
+/* 1. Tout faire tomber */
+.mj-scene-tomber { height: 380px; background: linear-gradient(#fff6d6 0 72%, #f3e3cf 72%); }
+.tt-maitre { position: absolute; left: 3%; bottom: 28%; width: 120px; height: 168px; transition: transform .15s; }
+.tt-maitre svg { width: 100%; height: 100%; }
+.tt-maitre[data-etat="dos"] .tt-face, .tt-maitre[data-etat="alerte"] .tt-face, .tt-maitre[data-etat="face"] .tt-dos { display: none; }
+.tt-maitre[data-etat="alerte"] { animation: tt-tremble .12s linear infinite; }
+@keyframes tt-tremble { 50% { transform: rotate(3deg) translateX(2px); } }
+.tt-maitre:not(.colere) .tt-sourcils { display: none; }
+.tt-question { position: absolute; top: -26px; right: 4px; font-size: 2rem; font-weight: 800; color: #e0527a; display: none; }
+.tt-maitre[data-etat="alerte"] .tt-question { display: block; }
+.tt-dit { position: absolute; top: -44px; left: -6px; white-space: nowrap; background: #fff; border: 2px solid #f4b6cf; border-radius: 14px; padding: 3px 10px; font-weight: 700; color: #c2577e; }
+.tt-dit:empty { display: none; }
+.tt-table { position: absolute; left: 28%; right: 13%; bottom: 0; height: 52%; }
+.tt-plateau { position: absolute; top: 0; left: 0; right: 0; height: 18px; background: #e8c3a0; border-radius: 6px; box-shadow: 0 3px 0 #d3a985; }
+.tt-pied { position: absolute; top: 18px; bottom: 0; width: 16px; background: #d9b18c; }
+.tt-pied.g { left: 8%; } .tt-pied.d { right: 8%; }
+.tt-objet { position: absolute; bottom: calc(52% + 16px); font-size: 46px; line-height: 1; transform: translateX(-50%); }
+.tt-objet.tombe { animation: tt-chute .55s ease-in forwards; }
+@keyframes tt-chute { 20% { transform: translate(-30%, -6px) rotate(25deg); } to { transform: translate(40%, 205px) rotate(160deg); opacity: .2; } }
+.tt-chat { position: absolute; bottom: calc(52% + 12px); width: 104px; height: 108px; transform: translateX(-50%); transform-origin: bottom center; }
+.tt-chat.pousse { animation: tt-pousse .25s ease-in-out infinite alternate; }
+@keyframes tt-pousse { to { transform: translateX(-42%) rotate(7deg); } }
+.tt-chat.pris { animation: tt-sursaut .35s ease; }
+@keyframes tt-sursaut { 40% { transform: translateX(-50%) translateY(-24px); } }
+.tt-pousser { position: absolute; right: 14px; bottom: 14px; z-index: 5; font-size: 1.1rem; padding: 12px 22px; touch-action: none; }
+.tt-pousser.actif { transform: scale(.94); filter: brightness(.95); }
+
+/* 2. Cartons mystère */
+.mj-scene-cartons { height: 340px; background: linear-gradient(#e3f1fc 0 68%, #fdeef4 68%); --cm-duree: 400ms; }
+.cm-msg { position: absolute; top: 18px; left: 0; right: 0; text-align: center; font-size: 1.35rem; font-weight: 700; color: #b0577a; }
+.cm-carton { position: absolute; bottom: 70px; width: 110px; height: 150px; transform: translateX(-50%); border: 0; background: none; padding: 0; cursor: pointer;
+  transition: left var(--cm-duree) ease-in-out, transform var(--cm-duree) ease-in-out; }
+.cm-carton:disabled { cursor: default; }
+.cm-carton.haut { transform: translateX(-50%) translateY(-34px) scale(1.04); z-index: 2; }
+.cm-carton.bas { transform: translateX(-50%) translateY(12px) scale(.96); }
+.cm-carton:not(:disabled):hover .cm-boite { transform: translateY(-4px); }
+.cm-boite { position: absolute; bottom: 0; left: 0; right: 0; height: 88px; background: #e9c79e; border: 3px solid #cfa271; border-radius: 6px; transition: transform .15s; display: grid; place-items: center; }
+.cm-boite::before, .cm-boite::after { content: ''; position: absolute; top: -14px; width: 52%; height: 14px; background: #ddb88c; border: 3px solid #cfa271; border-bottom: 0; transition: transform .3s; }
+.cm-boite::before { left: -3px; transform-origin: left bottom; border-radius: 4px 0 0 0; }
+.cm-boite::after { right: -3px; transform-origin: right bottom; border-radius: 0 4px 0 0; }
+.cm-boite span { font-size: .65rem; font-weight: 800; letter-spacing: .1em; color: #c46a6a; border: 2px solid #c46a6a; padding: 1px 4px; transform: rotate(-8deg); }
+.cm-carton.ouvert .cm-boite::before { transform: rotate(-120deg); }
+.cm-carton.ouvert .cm-boite::after { transform: rotate(120deg); }
+.cm-dedans { position: absolute; z-index: 1; left: 50%; bottom: 66px; width: 78px; height: 80px; transform: translate(-50%, 40px) scale(.6); opacity: 0; transition: .3s; display: grid; place-items: center; font-size: 46px; }
+.cm-carton.ouvert .cm-dedans { transform: translate(-50%, 0); opacity: 1; }
+.cm-carton.secoue { animation: cm-secoue .5s; }
+@keyframes cm-secoue { 25% { transform: translateX(-50%) rotate(-6deg); } 75% { transform: translateX(-50%) rotate(6deg); } }
+.cm-carton.gagne .cm-boite { background: #d8ecfa; border-color: #a9d2f3; }
+.cm-carton.rate .cm-boite { background: #fde6ef; border-color: #f4b6cf; }
+
+/* 3 et 4. Jeux sur canvas */
+.mj-scene-laser, .mj-scene-course { background: #fbf3ea; }
+.mj-scene-course .mj-canvas { cursor: pointer; }
+
+/* 5. Le chat câlin */
+.mj-scene-calin { padding: 14px; touch-action: auto; }
+.cl-nom { width: 9em; border: 0; background: transparent; font: inherit; font-weight: 700; color: inherit; border-bottom: 1px dashed var(--accent); }
+.cl-jauges { display: flex; flex-wrap: wrap; gap: 10px 22px; justify-content: center; }
+.cl-jauge { display: flex; align-items: center; gap: 8px; font-size: .92rem; }
+.cl-jauge i { display: block; width: 130px; height: 12px; border-radius: 99px; background: #f6eef2; overflow: hidden; border: 1px solid var(--border); }
+.cl-jauge b { display: block; height: 100%; border-radius: 99px; transition: width .3s; }
+.cl-jauge[data-j="bonheur"] b { background: #f4b6cf; }
+.cl-jauge[data-j="ventre"] b { background: #f3dc86; }
+.cl-jauge[data-j="beaute"] b { background: #a9d2f3; }
+.cl-zone { position: relative; height: 330px; margin: 8px auto; max-width: 560px; touch-action: none; border-radius: 16px;
+  background: radial-gradient(ellipse at 50% 92%, #fde4ee 0 30%, transparent 31%), linear-gradient(#fffaf3, #fff6fa); }
+.cl-zone[data-outil="main"] { cursor: grab; }
+.cl-zone[data-outil="brosse"] { cursor: cell; }
+.cl-chat { position: absolute; left: 50%; bottom: 14px; width: 250px; height: 258px; margin-left: -125px; transform-origin: bottom center; }
+.cl-chat .mj-queue { transform-origin: 84px 100px; animation: cl-queue 3s ease-in-out infinite; }
+@keyframes cl-queue { 50% { transform: rotate(-8deg); } }
+.cl-gamelle { position: absolute; bottom: 4px; left: calc(50% + 100px); font-size: 44px; opacity: 0; transition: opacity .3s; }
+.cl-gamelle.vu { opacity: 1; animation: mj-respire .4s 4; }
+.cl-pelote { position: absolute; bottom: 8px; left: -60px; font-size: 40px; opacity: 0; }
+.cl-pelote.roule { animation: cl-roule 1.4s ease-out; }
+@keyframes cl-roule { 0% { left: -60px; opacity: 1; transform: rotate(0); } 60% { left: 70%; opacity: 1; transform: rotate(540deg); } 100% { left: 75%; opacity: 0; transform: rotate(600deg); } }
+.cl-griffes { position: absolute; inset: 0; pointer-events: none; opacity: 0;
+  background: linear-gradient(115deg, transparent 43%, rgba(224, 82, 122, .6) 43% 44.2%, transparent 44.2% 48%, rgba(224, 82, 122, .6) 48% 49.2%, transparent 49.2% 53%, rgba(224, 82, 122, .6) 53% 54.2%, transparent 54.2%); }
+.cl-griffes.vu { animation: cl-griffes .9s ease-out; }
+@keyframes cl-griffes { 10% { opacity: 1; } to { opacity: 0; } }
+.cl-zone.tremble { animation: tt-tremble .08s linear 6; }
+.cl-outils { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; }
+.cl-outils .btn.actif { background: var(--accent); }
+
+@media (max-width: 640px) {
+  .mj-scene-tomber { height: 320px; }
+  .tt-maitre { width: 90px; height: 126px; }
+  .tt-chat { width: 80px; height: 84px; }
+  .tt-objet { font-size: 36px; }
+  .cm-carton { width: 74px; height: 120px; }
+  .cm-boite { height: 66px; }
+  .cm-dedans { bottom: 48px; }
+  .cl-chat { width: 200px; height: 206px; margin-left: -100px; }
+  .cl-gamelle { left: calc(50% + 70px); }
+  .cl-jauge i { width: 90px; }
+}

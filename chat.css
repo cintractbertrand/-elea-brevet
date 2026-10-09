@@ -1,0 +1,284 @@
+/* Silver, le chat Sacré de Birmanie */
+.content { padding-bottom: 120px; }
+.chat { position: fixed; left: 0; bottom: 2px; z-index: 25; width: 120px; pointer-events: none; will-change: transform; }
+.chat[hidden] { display: none; }
+.chat-flip { pointer-events: auto; cursor: grab; touch-action: none; user-select: none; -webkit-user-select: none; transition: transform .25s; -webkit-tap-highlight-color: transparent; }
+.chat.gauche .chat-flip { transform: scaleX(-1); }
+.chat.porte .chat-flip { cursor: grabbing; }
+.chat-act { transform-origin: 50% 100%; }
+.chat-svg { display: block; width: 100%; height: auto; overflow: visible; }
+.chat.regarde .chat-svg { filter: drop-shadow(0 0 6px rgba(244, 182, 207, .85)); }
+
+.ch-ombre { fill: #4a4048; opacity: .08; transition: opacity .3s; }
+.ch-patte { transform-box: fill-box; transform-origin: 50% 8%; transition: transform .3s; }
+.ch-corps { transform-box: fill-box; transform-origin: 50% 100%; transition: transform .35s; animation: ch-souffle 3.2s ease-in-out infinite; }
+.ch-tete { transform-box: fill-box; transform-origin: 40% 85%; transition: transform .35s; }
+.ch-or { transform-box: fill-box; transform-origin: 50% 100%; transition: transform .25s; }
+.ch-queue-p { transition: d .45s ease; }
+.ch-queue { transform-box: view-box; transform-origin: 33px 58px; animation: ch-queue 2.6s ease-in-out infinite alternate; }
+.ch-pup { transition: transform .12s linear; }
+.ch-pupille { transform-box: fill-box; transform-origin: center; transition: transform .25s; }
+.ch-yeux-dodo, .ch-yeux-joie, .ch-bouche-o, .ch-blep, .ch-langue { display: none; }
+.ch-chapeau { transform-box: fill-box; transform-origin: 50% 100%; transform: rotate(-8deg); }
+@keyframes ch-souffle { 50% { transform: scale(1.012, 1.03); } }
+@keyframes ch-queue { from { transform: rotate(-7deg); } to { transform: rotate(10deg); } }
+
+/* Marche et course */
+.chat.marche .ch-patte, .chat.court .ch-patte { animation: ch-pas .6s ease-in-out infinite; }
+.chat.marche .p-af, .chat.marche .p-vp, .chat.court .p-af, .chat.court .p-vp { animation-delay: -.3s; }
+.chat.court .ch-patte { animation-duration: .24s; }
+.chat.court .p-af, .chat.court .p-vp { animation-delay: -.12s; }
+.chat.marche .ch-tete { animation: ch-bob .3s ease-in-out infinite alternate; }
+.chat.court .ch-queue-p { d: path("M32 58 C 22 58, 12 57, 4 54 C 0 53, -4 52, -8 50"); }
+.chat.court .ch-queue { animation: none; }
+.chat.court .ch-or { transform: rotate(-14deg) scaleY(.9); }
+@keyframes ch-pas { 0%, 100% { transform: rotate(20deg); } 50% { transform: rotate(-20deg); } }
+@keyframes ch-bob { to { transform: translateY(-1.3px); } }
+
+/* Oreilles qui bougent, regard attentif */
+.chat.or-g .ch-or.g { animation: ch-oreille .4s; }
+.chat.or-d .ch-or.d { animation: ch-oreille .4s; }
+@keyframes ch-oreille { 30% { transform: rotate(-16deg) scaleY(.85); } 60% { transform: rotate(6deg); } }
+.chat.regarde .ch-pupille { transform: scale(1.35, 1.12); }
+.chat.regarde .ch-or { transform: scaleY(1.07); }
+
+/* Yeux : clignement, sommeil, bonheur */
+.chat.cligne .ch-yeux, .chat.dodo .ch-yeux, .chat.baille .ch-yeux { display: none; }
+.chat.cligne .ch-yeux-dodo, .chat.dodo .ch-yeux-dodo, .chat.baille .ch-yeux-dodo { display: inline; }
+.chat.heureux .ch-yeux { display: none; }
+.chat.heureux .ch-yeux-joie { display: inline; }
+.chat.heureux .ch-tete { animation: ch-calin .5s ease-in-out infinite alternate; }
+.chat.heureux .ch-queue-p { d: path("M34 55 C 28 44, 27 30, 29 18 C 30 10, 38 8, 40 14"); }
+.chat.heureux .ch-queue { animation: ch-queue-joie .8s ease-in-out infinite alternate; }
+@keyframes ch-calin { from { transform: rotate(-6deg); } to { transform: rotate(6deg); } }
+@keyframes ch-queue-joie { from { transform: rotate(-3deg); } to { transform: rotate(4deg); } }
+
+/* Bouche : miaou, blep, bâillement */
+.chat.miaule .ch-bouche, .chat.baille .ch-bouche { display: none; }
+.chat.miaule .ch-bouche-o, .chat.baille .ch-bouche-o { display: inline; }
+.chat.baille .ch-bouche-o { transform-box: fill-box; transform-origin: 50% 0; transform: scale(1.5, 1.8); }
+.chat.baille .ch-tete { transform: rotate(-12deg); }
+.chat.baille .ch-or { transform: rotate(10deg); }
+.chat.blep .ch-blep { display: inline; }
+.chat.blep .ch-tete { transform: rotate(6deg); }
+
+/* Tête penchée (curieux / mignon) */
+.chat.penche .ch-tete { transform: rotate(-13deg); }
+.chat.penche .ch-or.d { transform: rotate(12deg); }
+
+/* Surpris et peur : poils hérissés, queue en goupillon */
+.chat.surpris .ch-pupille { transform: scale(1.55, 1.2); }
+.chat.surpris .ch-or { transform: scaleY(1.12); }
+.chat.peur .ch-pupille { transform: scale(.6, .7); }
+.chat.peur .ch-corps { animation: none; transform: scale(1.06, 1.16); }
+.chat.peur .ch-queue-p { d: path("M33 58 C 28 46, 26 34, 27 22 C 27 16, 27 10, 27 4"); stroke-width: 17px; }
+.chat.peur .ch-queue-halo { stroke-width: 22px; }
+.chat.peur .ch-queue { animation: ch-tremble .08s linear infinite; }
+.chat.peur .ch-or { transform: rotate(-30deg) scaleY(.75); }
+@keyframes ch-tremble { 50% { transform: translateX(.8px); } }
+
+/* Grognon : oreilles en arrière, queue qui fouette */
+.chat.grognon .ch-or.g { transform: rotate(-32deg) scaleY(.8); }
+.chat.grognon .ch-or.d { transform: rotate(32deg) scaleY(.8); }
+.chat.grognon .ch-yeux { transform-box: fill-box; transform-origin: 50% 100%; transform: scaleY(.55); }
+.chat.grognon .ch-queue-p { d: path("M32 58 C 22 60, 14 66, 8 72 C 5 75, 3 78, 2 80"); }
+.chat.grognon .ch-queue { animation: ch-fouette .3s ease-in-out infinite alternate; }
+@keyframes ch-fouette { from { transform: rotate(-14deg); } to { transform: rotate(14deg); } }
+.chat.tape .p-vp { transform: translate(6px, -14px) rotate(-100deg); transition-duration: .12s; }
+
+/* Chasse : fesses qui gigotent avant de bondir */
+.chat.chasse .ch-corps { animation: none; transform: rotate(-6deg) translateY(4px); }
+.chat.chasse .ch-tete { transform: translateY(8px); }
+.chat.chasse .ch-pupille { transform: scale(1.6, 1.25); }
+.chat.chasse .ch-queue-p { d: path("M32 58 C 22 60, 14 66, 8 72 C 5 75, 3 78, 2 80"); }
+.chat-act.a-fesses { animation: ch-fesses .16s ease-in-out 4; transform-origin: 80% 100%; }
+@keyframes ch-fesses { 50% { transform: rotate(3.5deg); } }
+
+/* Sieste : il se couche, la queue enroulée */
+.chat.dodo .ch-patte { transform-origin: 50% 100%; transform: scaleY(.18); }
+.chat.dodo .ch-corps { animation: ch-souffle 2.4s ease-in-out infinite; translate: 0 14px; }
+.chat.dodo .ch-tete { transform: translate(-3px, 23px) rotate(10deg); }
+.chat.dodo .ch-or { transform: rotate(-10deg) scaleY(.85); }
+.chat.dodo .ch-queue-p { d: path("M34 62 C 24 72, 30 80, 44 80 C 56 80, 66 80, 74 78"); }
+.chat.dodo .ch-queue { animation: none; transform: translateY(6px); }
+
+/* Petit pain : pattes cachées sous lui */
+.chat.pain .ch-patte { transform-origin: 50% 100%; transform: scaleY(.12); }
+.chat.pain .ch-corps { translate: 0 11px; }
+.chat.pain .ch-tete { transform: translateY(11px); }
+.chat.pain .ch-queue-p { d: path("M34 62 C 24 72, 30 80, 44 80 C 56 80, 66 80, 74 78"); }
+.chat.pain .ch-queue { animation: none; transform: translateY(4px); }
+
+/* Toilette : patte levée et petite langue */
+.chat.toilette .p-vp { transform: translate(-6px, -8px) rotate(-118deg); }
+.chat.toilette .ch-tete { transform: rotate(14deg); }
+.chat.toilette .ch-yeux { display: none; }
+.chat.toilette .ch-yeux-dodo { display: inline; }
+.chat.toilette .ch-langue { display: inline; animation: ch-lape .35s infinite alternate; }
+@keyframes ch-lape { to { transform: translateY(-1.5px); } }
+
+/* Étirement */
+.chat.etire .ch-corps { animation: none; transform: translateY(5px) scaleX(1.06); }
+.chat.etire .p-vp, .chat.etire .p-vf { transform: rotate(-55deg); }
+.chat.etire .ch-tete { transform: translate(6px, 9px); }
+.chat.etire .ch-yeux { display: none; }
+.chat.etire .ch-yeux-dodo { display: inline; }
+.chat.etire .ch-queue-p { d: path("M34 55 C 28 44, 27 30, 29 18 C 30 10, 38 8, 40 14"); }
+
+/* Dans la boîte : on ne voit plus que la tête */
+.chat.dans-boite .ch-patte, .chat.dans-boite .ch-ombre { opacity: 0; }
+.chat.dans-boite .chat-act { translate: 0 14px; }
+
+/* Porté par la peau du cou : il pendouille et gigote */
+.chat.porte .chat-act { animation: ch-gigote .5s ease-in-out infinite alternate; transform-origin: 62% 15%; }
+.chat.porte .ch-patte { transform: rotate(8deg) scaleY(1.1); }
+.chat.porte .ch-patte.p-af, .chat.porte .ch-patte.p-vf { animation: ch-pedale .3s ease-in-out infinite alternate; }
+.chat.porte .ch-queue-p { d: path("M32 58 C 26 66, 22 74, 22 82 C 22 86, 24 90, 26 92"); }
+.chat.porte .ch-queue { animation: ch-fouette .4s ease-in-out infinite alternate; }
+.chat.porte .ch-ombre { opacity: 0; }
+@keyframes ch-gigote { from { transform: rotate(-7deg); } to { transform: rotate(7deg); } }
+@keyframes ch-pedale { to { transform: rotate(-25deg); } }
+
+/* Bêtises */
+.chat-act.a-saut { animation: ch-saut .9s ease-out; }
+.chat-act.a-grand-saut { animation: ch-grand-saut 1s ease-out; }
+.chat-act.a-roulade { animation: ch-roulade 1.2s ease-in-out; transform-origin: 50% 60%; }
+.chat-act.a-bond { animation: ch-bond .6s ease-out; }
+.chat-act.a-danse { animation: ch-danse .55s ease-in-out 4; }
+.chat-act.a-sursaut { animation: ch-sursaut .5s ease-out; }
+.chat-act.a-cache { animation: ch-cache 1.9s ease-in-out; }
+.chat-act.a-hoche { animation: ch-hoche .45s ease-in-out 2; }
+.chat-act.a-atterrit { animation: ch-atterrit .5s ease-out; }
+.chat-act.a-mange { animation: ch-mange .42s ease-in-out; transform-origin: 30% 100%; }
+.chat-act.a-souffle { animation: ch-halete .3s ease-in-out 4; }
+.chat-act.a-hic { animation: ch-hic .17s ease-out; }
+.chat-act.a-vertige { animation: ch-vertige .8s ease-in-out 2; }
+.chat-act.a-atchoum { animation: ch-atchoum .6s ease-out; transform-origin: 30% 100%; }
+.chat-act.a-calin { animation: ch-calin-fort .4s ease-in-out 4 alternate; }
+@keyframes ch-saut { 0% { transform: scale(1.06, .88); } 40% { transform: translateY(-58px) rotate(-8deg) scale(.96, 1.06); } 70% { transform: translateY(-20px); } 85% { transform: scale(1.08, .9); } 100% { transform: none; } }
+@keyframes ch-grand-saut { 0% { transform: scale(1.1, .8); } 35% { transform: translateY(-95px) rotate(-14deg) scale(.95, 1.1); } 70% { transform: translateY(-15px) rotate(6deg); } 85% { transform: scale(1.1, .86); } 100% { transform: none; } }
+@keyframes ch-roulade { 0% { transform: none; } 30% { transform: translateY(-26px) rotate(-180deg); } 60% { transform: translateY(-10px) rotate(-360deg); } 100% { transform: rotate(-360deg); } }
+@keyframes ch-bond { 0% { transform: scale(1.05, .88); } 50% { transform: translate(26px, -34px) rotate(10deg); } 100% { transform: translateX(10px); } }
+@keyframes ch-danse { 0%, 100% { transform: rotate(0); } 25% { transform: rotate(-11deg) translateY(-6px); } 75% { transform: rotate(11deg) translateY(-6px); } }
+@keyframes ch-sursaut { 40% { transform: translateY(-22px); } }
+@keyframes ch-cache { 0%, 100% { transform: none; } 25%, 70% { transform: translateY(105%); } 85% { transform: translateY(-12px); } }
+@keyframes ch-hoche { 50% { transform: rotate(5deg); } }
+@keyframes ch-atterrit { 0% { transform: scale(1.25, .7); } 45% { transform: scale(.92, 1.1); } 75% { transform: scale(1.04, .96); } }
+@keyframes ch-mange { 50% { transform: rotate(9deg) translateY(3px); } }
+@keyframes ch-halete { 50% { transform: scale(1.03, .97); } }
+@keyframes ch-hic { 40% { transform: translateY(-9px) scale(.97, 1.04); } }
+@keyframes ch-vertige { 25% { transform: rotate(-7deg) translateX(-4px); } 75% { transform: rotate(7deg) translateX(4px); } }
+@keyframes ch-atchoum { 0% { transform: rotate(-6deg); } 25% { transform: rotate(14deg) translateY(4px) scale(1.04, .94); } 60% { transform: rotate(-3deg); } }
+@keyframes ch-calin-fort { to { transform: scale(1.1, .94) rotate(-3deg); } }
+
+/* Bulle */
+.chat-bulle { position: absolute; bottom: calc(100% + 26px); left: 50%; transform: translateX(-50%); width: max-content; max-width: 250px;
+  padding: 7px 12px; border-radius: 16px; background: #fff; border: 2px solid #f4b6cf; box-shadow: 0 4px 14px rgba(200, 140, 170, .22);
+  font-size: .88rem; line-height: 1.35; color: #4a4048; pointer-events: auto; transform-origin: 50% 100%; }
+.chat-bulle.pop { animation: ch-bulle .32s cubic-bezier(.3, 1.6, .5, 1); }
+.chat-bulle[hidden] { display: none; }
+.chat-bulle::after { content: ""; position: absolute; top: 100%; left: 50%; margin-left: -7px; border: 7px solid transparent; border-top-color: #f4b6cf; }
+.chat-bulle.a-droite { left: auto; right: 0; transform: none; transform-origin: 80% 100%; }
+.chat-bulle.a-droite::after { left: auto; right: 34px; }
+.chat-bulle.a-gauche { left: 0; transform: none; transform-origin: 20% 100%; }
+.chat-bulle.a-gauche::after { left: 40px; }
+.chat-bulle a { font-weight: 700; }
+.chat-bulle .chat-donner { margin-top: 6px; display: inline-block; cursor: pointer; }
+@keyframes ch-bulle { from { opacity: 0; scale: .6; } }
+
+/* Petits effets : cœurs, notes, zzz, mots */
+.chat-fx { position: absolute; bottom: 62%; font-size: 18px; pointer-events: none; animation: ch-monte 2.4s ease-out forwards; opacity: 0; }
+.chat-fx.zz { font-weight: 800; font-style: italic; color: #7fb8e6; font-size: 20px; }
+.chat-fx.coeur { font-size: 16px; animation-name: ch-coeur; }
+.chat-fx.gros-coeur { font-size: 40px; left: 45% !important; animation: ch-gros-coeur 1.8s ease-out forwards; }
+.chat-fx.mot { font-size: 13px; font-weight: 800; color: #e07fa6; font-style: italic; }
+@keyframes ch-monte { 0% { opacity: 0; transform: translateY(0) scale(.6); } 15% { opacity: 1; } 100% { opacity: 0; transform: translate(14px, -70px) scale(1.2); } }
+@keyframes ch-coeur { 0% { opacity: 0; transform: scale(.4); } 15% { opacity: 1; transform: scale(1.1); } 50% { transform: translate(-8px, -40px); } 100% { opacity: 0; transform: translate(8px, -80px) scale(.9); } }
+@keyframes ch-gros-coeur { 0% { opacity: 0; transform: scale(.2); } 25% { opacity: 1; transform: scale(1.2) translateY(-20px); } 45% { transform: scale(.95) translateY(-28px); } 65% { transform: scale(1.1) translateY(-34px); } 100% { opacity: 0; transform: scale(1) translateY(-60px); } }
+
+/* Objets : pelote, papillon, concombre, boîte, tasse, laser, bol */
+.chat-objet { position: fixed; bottom: 6px; z-index: 25; font-size: 28px; pointer-events: none; line-height: 1; }
+.chat-objet.pelote { transition: transform 1.3s cubic-bezier(.2, .7, .3, 1); }
+.chat-objet.attrape { animation: ch-pop .5s forwards; }
+.chat-objet.papillon { bottom: 118px; animation: ch-vole 1s ease-in-out infinite alternate; }
+.chat-objet.papillon.part { animation: ch-envol 1.4s ease-in forwards; }
+.chat-objet.concombre { font-size: 30px; transform: rotate(-80deg); animation: ch-apparait .4s ease-out; }
+.chat-objet.boite { width: 110px; height: 56px; z-index: 26; animation: ch-apparait .35s ease-out; }
+.chat-objet.boite .boite-fond { display: none; }
+.chat-objet.boite .boite-avant { font-size: 62px; position: absolute; left: 50%; bottom: -8px; transform: translateX(-50%) scaleX(1.25); }
+.chat-objet.tasse { font-size: 24px; bottom: 8px; transform-origin: 50% 100%; animation: ch-apparait .35s ease-out; }
+.chat-objet.tasse.tombe { animation: ch-tombe .9s cubic-bezier(.5, 0, .9, .5) forwards; }
+.chat-objet.laser { width: 12px; height: 12px; bottom: 10px; border-radius: 50%; background: #ff4d6d; box-shadow: 0 0 8px 3px rgba(255, 77, 109, .6);
+  transition: left .35s ease-out; animation: ch-clignote .3s infinite alternate; }
+.chat-objet.bol { font-size: 26px; bottom: 4px; animation: ch-apparait .35s ease-out; }
+.chat-objet.bol.vide { opacity: .6; }
+.chat-objet.part { animation: ch-pop .45s forwards; }
+.chat-objet.papillon.part { animation: ch-envol 1.4s ease-in forwards; }
+@keyframes ch-pop { 50% { transform: scale(1.4); } 100% { transform: scale(0); opacity: 0; } }
+@keyframes ch-vole { from { transform: translate(-12px, 6px) rotate(-10deg); } to { transform: translate(14px, -10px) rotate(10deg); } }
+@keyframes ch-envol { to { transform: translate(160px, -360px) rotate(25deg); opacity: 0; } }
+@keyframes ch-apparait { from { opacity: 0; scale: .3; } }
+@keyframes ch-tombe { 30% { transform: translateX(calc(var(--dir, 1) * 10px)) rotate(calc(var(--dir, 1) * 40deg)); }
+  100% { transform: translate(calc(var(--dir, 1) * 60px), 12px) rotate(calc(var(--dir, 1) * 100deg)); opacity: 0; } }
+@keyframes ch-clignote { to { opacity: .6; transform: scale(.8); } }
+
+@media (prefers-reduced-motion: reduce) { .ch-corps, .ch-queue { animation: none; } }
+@media (max-width: 600px) {
+  .chat { width: 96px; }
+  .chat-bulle { font-size: .82rem; }
+}
+@media print { .chat, .chat-objet { display: none !important; } }
+
+/* ===== Silver v4 : nouveaux objets et modes de jeu ===== */
+.chat.cache { opacity: 0; visibility: hidden; }
+.chat-act.a-gym { animation: ch-gym .48s ease-in-out; }
+.chat-act.a-secoue { animation: ch-secoue .12s linear 8; }
+@keyframes ch-gym { 50% { transform: translateY(9px) scale(1.06, .82); } }
+@keyframes ch-secoue { 25% { transform: rotate(-9deg) translateX(-3px); } 75% { transform: rotate(9deg) translateX(3px); } }
+
+.chat-objet.lapin { font-size: 30px; bottom: 56px; animation: ch-lapin .7s ease-out; }
+.chat-objet.lapin.part { animation: ch-pop .45s forwards; }
+@keyframes ch-lapin { from { transform: translateY(40px) scale(.2); opacity: 0; } 60% { transform: translateY(-34px) scale(1.15); opacity: 1; } to { transform: translateY(-14px); } }
+.chat-objet.poisson { font-size: 30px; bottom: 6px; animation: ch-poisson .8s cubic-bezier(.4, 0, 1, 1); }
+.chat-objet.poisson.mange { animation: ch-gruge 1.3s forwards; }
+@keyframes ch-poisson { from { transform: translateY(-420px) rotate(180deg); } 85% { transform: none; } 92% { transform: translateY(-14px); } to { transform: none; } }
+@keyframes ch-gruge { 60% { transform: scale(.7); } to { transform: scale(0); opacity: 0; } }
+.chat-objet.pizza { font-size: 32px; animation: ch-apparait .4s ease-out; }
+.chat-objet.parapluie { font-size: 38px; bottom: 82px; animation: ch-apparait .3s ease-out; }
+.chat-fx.pluie { animation-name: ch-pluie; bottom: 130%; }
+@keyframes ch-pluie { 0% { opacity: 0; transform: translateY(0); } 20% { opacity: 1; } 100% { opacity: 0; transform: translateY(120px); } }
+.chat-objet.miroir { width: 48px; height: 52px; font-size: 40px; animation: ch-apparait .35s ease-out; }
+.chat-objet.miroir .mir { position: absolute; inset: 0; }
+.chat-objet.miroir .mir-chat { position: absolute; left: 14px; top: 8px; font-size: 18px; transform: scaleX(-1); animation: ch-hoche .4s ease-in-out infinite; }
+.chat-objet.miroir.part { animation: ch-pop .45s forwards; }
+
+/* Laser (suit la souris), balles, papillons, yeux du cache-cache */
+.chat-objet.laser-souris { top: 0; left: 0; bottom: auto; width: 12px; height: 12px; border-radius: 50%; background: #ff4d6d; box-shadow: 0 0 10px 4px rgba(255, 77, 109, .55); z-index: 40; animation: ch-clignote .3s infinite alternate; }
+.chat-objet.balle { top: 0; left: 0; bottom: auto; font-size: 26px; z-index: 40; will-change: transform; }
+.chat-objet.papi { top: 0; left: 0; bottom: auto; font-size: 32px; z-index: 40; pointer-events: auto; cursor: pointer; will-change: transform; }
+.chat-objet.papi.attrape { animation: ch-pop .5s forwards; }
+.chat-objet.oeil { bottom: 4px; font-size: 26px; pointer-events: auto; cursor: pointer; z-index: 40; }
+.chat-objet.oeil span { display: inline-block; animation: ch-oeil 2.4s ease-in-out infinite; }
+.chat-objet.oeil.indice span { animation: ch-oeil-indice .5s ease-in-out infinite alternate; }
+@keyframes ch-oeil { 0%, 55%, 100% { transform: scaleY(1); } 60% { transform: scaleY(.1); } 65% { transform: scaleY(1); } 80% { transform: translateX(6px); } }
+@keyframes ch-oeil-indice { to { transform: scale(1.4) translateY(-6px); } }
+
+/* Minuteur de révision */
+.chat-pomo { position: fixed; right: 12px; bottom: 12px; z-index: 30; padding: 6px 12px; border-radius: 999px; border: 2px solid #f4b6cf; background: #fff; color: #4a4048;
+  font: 700 .9rem/1 inherit; cursor: pointer; box-shadow: 0 4px 14px rgba(200, 140, 170, .25); }
+.chat-pomo:hover { background: #fde4ee; }
+
+/* Panneau Jouer avec Silver */
+#chat-jouer.on { background: #fde4ee; }
+.chat-panel { position: fixed; top: 58px; right: 10px; z-index: 60; width: min(320px, calc(100vw - 20px)); padding: 12px; border-radius: 18px; background: #fff;
+  border: 2px solid #f4b6cf; box-shadow: 0 10px 30px rgba(200, 140, 170, .3); animation: ch-bulle .28s cubic-bezier(.3, 1.6, .5, 1); transform-origin: 90% 0; }
+.chat-panel[hidden] { display: none; }
+.cp-titre { font-weight: 800; margin-bottom: 8px; color: #4a4048; }
+.cp-grille { display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px; }
+.cp-btn { display: flex; flex-direction: column; align-items: center; gap: 2px; padding: 8px 2px; border: 2px solid #f9d6e4; border-radius: 12px; background: #fff8fb; color: #4a4048;
+  font: 600 .7rem/1.15 inherit; cursor: pointer; text-align: center; transition: transform .12s, background .12s; }
+.cp-btn span { font-size: 1.5rem; }
+.cp-btn:hover { background: #fde4ee; transform: translateY(-2px); }
+.cp-btn.on { background: #e3f1fc; border-color: #a9d2f3; }
+.cp-bonheur { display: flex; align-items: center; justify-content: space-between; margin-top: 10px; font-size: .8rem; color: #7b6f78; }
+.cp-aide { margin-top: 8px; font-size: .74rem; color: #8a7e86; line-height: 1.35; }

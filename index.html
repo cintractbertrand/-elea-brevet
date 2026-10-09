@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Révisions du brevet</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎓</text></svg>">
+  <!-- KaTeX : affichage des formules LaTeX (chargé depuis Internet, mis en cache par le navigateur) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.47/dist/katex.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.47/dist/katex.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="monde.css">
+  <link rel="stylesheet" href="chat.css">
+  <link rel="stylesheet" href="chat-jeux/minijeux.css">
+</head>
+<body>
+  <header class="topbar">
+    <button class="icon-btn" id="menu-btn" aria-label="Menu">☰</button>
+    <a class="brand" id="brand" href="#/">🎓 <span>Révisions du brevet</span></a>
+    <nav class="espaces" aria-label="Choisir un espace">
+      <a href="#/" data-e="brevet">📚 <span>Brevet</span></a>
+      <a href="#/monde" data-e="jeux">🌍 <span>Découverte</span></a>
+    </nav>
+    <div class="search">
+      <input id="search" type="search" placeholder="Rechercher une notion… (touche /)" autocomplete="off">
+    </div>
+    <button class="icon-btn" id="chat-btn" aria-label="Montrer ou cacher le chat" title="Montrer / cacher le chat">🐱</button>
+    <button class="icon-btn" id="theme-btn" aria-label="Changer de thème" title="Mode clair / sombre">🌙</button>
+  </header>
+  <div class="layout">
+    <nav class="sidebar" id="sidebar"></nav>
+    <main class="content" id="content">
+      <p class="muted">Chargement des fiches…</p>
+    </main>
+  </div>
+  <script defer src="app.js"></script>
+  <script defer src="monde.js"></script>
+  <script defer src="chat-jeux/minijeux.js"></script>
+  <script defer src="chat.js"></script>
+</body>
+</html>
