@@ -1,0 +1,79 @@
+/* Jeux d'arcade de l'espace découverte (Snake, 2048, Démineur, Casse-briques) — pastels rose, bleu, jaune */
+.ar-accueil { margin-top: 26px; }
+.ar-accueil h2 { margin: 0 0 12px; }
+
+.ar-root h1 { margin-bottom: 4px; }
+.ar-regle { margin: 2px 0 6px; max-width: 760px; }
+.ar-regle summary { cursor: pointer; color: var(--muted); font-size: .92rem; width: fit-content; }
+.ar-regle p { margin: 6px 0 0; }
+.ar-hud { margin: 6px 0 10px; }
+.ar-panneau-emoji { font-size: 2.6rem; line-height: 1.1; }
+
+/* Zone de jeu : le plateau tient dans l'écran (hauteur visible moins l'en-tête) */
+.ar-zone { --libre: calc(100vh - 290px); --libre: calc(100dvh - 290px); display: flex; flex-wrap: wrap; gap: 12px; align-items: center; justify-content: center; }
+.ar-scene { flex: none; width: min(100%, max(260px, var(--libre) * var(--ratio, 1))); aspect-ratio: var(--ratio, 1); background: #fffaf3; }
+.ar-toile { display: block; width: 100%; height: 100%; outline: none; touch-action: none; }
+.ar-toile-briques { cursor: none; }
+.ar-outils { flex: 1 0 100%; display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; align-items: center; }
+.ar-outils .btn.actif { background: var(--accent, #f4a6c4); color: #fff; border-color: transparent; }
+.ar-outils .btn:disabled { opacity: .45; cursor: default; }
+.ar-niveaux { display: inline-flex; gap: 4px; }
+
+/* Croix de flèches (souris et doigt) */
+.ar-croix { flex: none; display: grid; grid-template-columns: repeat(3, 52px); grid-template-rows: repeat(3, 52px); gap: 4px; touch-action: none; }
+.ar-croix button { border: 1px solid var(--border); background: var(--panel); border-radius: 14px; font-size: 1.2rem; color: #c2577e; cursor: pointer; box-shadow: var(--shadow); -webkit-tap-highlight-color: transparent; }
+.ar-croix button:active { transform: scale(.92); background: #fde4ee; }
+.ar-croix [data-d="haut"] { grid-area: 1 / 2; } .ar-croix [data-d="gauche"] { grid-area: 2 / 1; }
+.ar-croix [data-d="droite"] { grid-area: 2 / 3; } .ar-croix [data-d="bas"] { grid-area: 3 / 2; }
+@media (hover: hover) and (pointer: fine) { .ar-zone-2048 .ar-croix { grid-template-columns: repeat(3, 42px); grid-template-rows: repeat(3, 42px); } }
+
+/* 2048 */
+.ar-scene-2048 { --ratio: 1; background: #f7e6ee; padding: 0; }
+.g2-plateau { --g: 2.4%; --s: calc((100% - 5 * var(--g)) / 4); position: relative; width: 100%; height: 100%; outline: none; touch-action: none; cursor: grab; }
+.g2-plateau:focus-visible { box-shadow: inset 0 0 0 3px #a9d2f3; }
+.g2-plateau { display: grid; grid-template-columns: repeat(4, 1fr); grid-template-rows: repeat(4, 1fr); gap: var(--g); padding: var(--g); box-sizing: border-box; }
+.g2-case { background: rgba(255, 255, 255, .6); border-radius: 10px; }
+.g2-tuile { position: absolute; z-index: 2; width: var(--s); height: var(--s); left: calc(var(--g) + var(--c) * (var(--s) + var(--g))); top: calc(var(--g) + var(--r) * (var(--s) + var(--g)));
+  display: grid; place-items: center; border-radius: 10px; font-weight: 800; font-size: clamp(1.1rem, 5.5vmin, 2.4rem); color: #6d5560;
+  transition: left .11s ease-in-out, top .11s ease-in-out; box-shadow: 0 2px 0 rgba(0, 0, 0, .06); }
+.g2-tuile.long { font-size: clamp(.9rem, 4.2vmin, 1.8rem); }
+.g2-tuile.neuf { animation: g2-pop .18s ease .1s backwards; }
+.g2-tuile.fusion { animation: g2-fusion .2s ease .1s; z-index: 3; }
+@keyframes g2-pop { from { transform: scale(0); } }
+@keyframes g2-fusion { 50% { transform: scale(1.15); } }
+.g2-plateau.secoue { animation: g2-secoue .25s; }
+@keyframes g2-secoue { 25% { transform: translateX(-4px); } 75% { transform: translateX(4px); } }
+.g2-tuile[data-v="2"] { background: #fdf3f7; } .g2-tuile[data-v="4"] { background: #fde4ee; }
+.g2-tuile[data-v="8"] { background: #ffd8b8; } .g2-tuile[data-v="16"] { background: #ffc49c; }
+.g2-tuile[data-v="32"] { background: #ffe39a; } .g2-tuile[data-v="64"] { background: #ffd56b; }
+.g2-tuile[data-v="128"] { background: #c9ecd0; } .g2-tuile[data-v="256"] { background: #a6dfb4; }
+.g2-tuile[data-v="512"] { background: #bfdcf6; } .g2-tuile[data-v="1024"] { background: #9cc9ee; color: #fff; }
+.g2-tuile[data-v="2048"] { background: #f4a6c4; color: #fff; box-shadow: 0 0 18px #f8c9dc; }
+.g2-tuile[data-v="gros"] { background: #c8b2ee; color: #fff; }
+
+/* Démineur */
+.ar-scene-demineur { --ratio: 1; width: min(100%, max(260px, var(--libre) - 44px)); background: #eef6fd; padding: 6px; box-sizing: border-box; }
+.dm-grille { display: grid; grid-template-columns: repeat(var(--w), 1fr); grid-template-rows: repeat(var(--w), 1fr); gap: 2px; width: 100%; height: 100%; outline: none; }
+.dm-case { min-width: 0; min-height: 0; padding: 0; border: 0; border-radius: 4px; background: #bfdcf6; box-shadow: inset 0 -2px 0 #9cc4e8; cursor: pointer;
+  font: 800 clamp(.7rem, calc(var(--libre) / var(--w) * .5), 1.3rem)/1 system-ui, sans-serif; color: #6d5560; display: grid; place-items: center; -webkit-tap-highlight-color: transparent; }
+.dm-case:hover:not(.ouvert) { background: #d4e8fa; }
+.dm-case.ouvert { background: #fffaf3; box-shadow: none; cursor: default; }
+.dm-case.drapeau { background: #fde4ee; }
+.dm-case.cur { outline: 3px solid #f4a6c4; outline-offset: -2px; position: relative; z-index: 1; }
+.dm-grille:not(:focus) .dm-case.cur { outline-color: transparent; }
+.dm-case.boum { background: #f7a1b4 !important; }
+.dm-case[data-n="1"] { color: #4f8fd6; } .dm-case[data-n="2"] { color: #3d9b62; } .dm-case[data-n="3"] { color: #d9536f; }
+.dm-case[data-n="4"] { color: #7b5bc0; } .dm-case[data-n="5"] { color: #b4613a; } .dm-case[data-n="6"] { color: #2c9aa0; }
+.dm-case[data-n="7"] { color: #555; } .dm-case[data-n="8"] { color: #999; }
+
+@media (max-width: 760px) {
+  .ar-zone { --libre: 100vw; gap: 10px; }
+  .ar-root > .breadcrumb { display: none; }
+  .ar-root h1 { font-size: 1.45rem; margin: 0 0 2px; }
+  .ar-hud { gap: 6px; font-size: .92rem; margin: 4px 0 8px; }
+  .ar-hud > span { padding: 3px 10px; }
+  .ar-croix { grid-template-columns: repeat(3, 58px); grid-template-rows: repeat(3, 44px); }
+  .ar-scene, .ar-scene-demineur { width: 100%; }
+}
+.ar-zone-2048 .ar-scene { width: min(100%, max(260px, var(--libre) - 46px)); }
+@media (pointer: coarse) { .ar-zone-2048 .ar-croix { display: none; } }
