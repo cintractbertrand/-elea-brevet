@@ -143,6 +143,168 @@ Le temps composé marque l'**antériorité** : *Quand il **eut fini**, il **sort
 > 2. « aurais reconnue » est au **conditionnel passé**. Il exprime un **regret** ou une hypothèse **irréalisée** dans le passé (la condition « si j'avais eu des jumelles » n'a pas eu lieu). Le participe s'accorde avec le COD « l' » (= la voile), placé avant.
 > 3. « descende » est au **subjonctif présent** : il exprime une **obligation** après « il faut que ».
 
+## 25 exercices : les valeurs du présent
+
+> [!info] Comment t'entraîner
+> 5 séries de 5 questions, de plus en plus difficiles. Pour chaque phrase, demande-toi : **de quand je parle ?** Maintenant (énonciation) ? Toujours (vérité générale) ? Chaque semaine (habitude) ? Dans le passé raconté comme en direct (narration) ? Dans très peu de temps ou à l'instant (futur proche, passé récent) ?
+
+```quiz Série 1 : je reconnais la valeur
+? « Je t'écris depuis la plage, il fait très beau. » Quelle valeur du présent ?
++ énonciation
+- habitude
+- vérité générale
+- narration
+> L'action se passe au moment où l'on parle ou écrit.
+
+? « La Terre tourne autour du Soleil. » Quelle valeur du présent ?
+- énonciation
+- habitude
++ vérité générale
+- narration
+> C'est toujours vrai, quelle que soit l'époque.
+
+? « Chaque dimanche, ma grand-mère prépare des crêpes. » Quelle valeur du présent ?
+- énonciation
++ habitude
+- vérité générale
+- narration
+> « Chaque dimanche » indique une action répétée.
+
+? « En 1789, le peuple prend la Bastille. » Quelle valeur du présent ?
+- énonciation
+- habitude
+- vérité générale
++ narration
+> Le fait est passé, mais le présent le rend vivant : présent de narration (ou historique). La date est l'indice.
+
+? « Qui sème le vent récolte la tempête. » Quelle valeur du présent ?
+- énonciation
++ vérité générale
+- habitude
+> Un proverbe est toujours au présent de vérité générale.
+
+```
+
+```quiz Série 2 : je repère les indices
+? Quel indice annonce une habitude ?
+- soudain
++ tous les matins
+- en ce moment
+> « Tous les matins » indique la répétition.
+
+? Quel indice annonce le présent d'énonciation ?
+- toujours
+- en 1900
++ en ce moment
+> « En ce moment », « maintenant », « aujourd'hui » situent l'action dans le moment présent.
+
+? « Le lendemain, le roi quitte le château et s'enfuit. » Pourquoi est-ce du présent de narration ?
++ Le récit est au passé, mais les verbes sont au présent pour rendre la scène vivante
+- Parce que l'action se passe maintenant
+- Parce que c'est une vérité générale
+> Le « lendemain » est dans le passé du récit.
+
+? « Les chats retombent toujours sur leurs pattes. » Quel mot renforce la valeur de vérité générale ?
+= toujours
+> « Toujours » montre que la phrase vaut en tout temps.
+
+? Dans « Ma sœur joue du violon tous les soirs », quel groupe de mots indique l'habitude ?
+= tous les soirs
+> C'est le complément de temps qui exprime la répétition.
+
+```
+
+```quiz Série 3 : passé récent et futur proche
+? « Je viens de finir mon devoir. » Quelle valeur ?
+- futur proche
++ passé récent
+- habitude
+> « Venir de + infinitif » exprime un passé récent.
+
+? « Le train part dans deux minutes. » Quelle valeur ?
++ futur proche
+- passé récent
+- vérité générale
+> Le présent exprime ici un futur très proche.
+
+? « Elle sort à l'instant de la salle. » Quelle valeur ?
+- futur proche
++ passé récent
+- narration
+> « À l'instant » : l'action vient de se produire.
+
+? « Demain, je pars à Lyon. » Quelle valeur ?
+- passé récent
++ futur proche
+- habitude
+> « Demain » est le repère du futur proche.
+
+? Complète avec « venir de » au présent : « Tu ... arriver. » (écris la forme du verbe venir seule)
+= viens de
+= viens
+> Tu viens d'arriver : passé récent.
+
+```
+
+```quiz Série 4 : je mets au présent
+? Conjugue « finir » à la 3e personne du singulier du présent : « Il ... son travail. »
+= finit
+> Finir (2e groupe) : il finit.
+
+? Conjugue « prendre » : « Chaque matin, nous ... le bus. »
+= prenons
+> Nous prenons : présent d'habitude.
+
+? Conjugue « bouillir » : « L'eau ... à 100 °C. »
+= bout
+> Il bout : présent de vérité générale.
+
+? Conjugue « ouvrir » : « Soudain, la porte ... lentement. » (présent de narration)
+= s'ouvre
+= ouvre
+> La porte s'ouvre : présent de narration, comme dans un film.
+
+? Conjugue « aller » : « Vous ... au collège tous les jours. »
+= allez
+> Vous allez : présent d'habitude.
+
+```
+
+```quiz Série 5 : type brevet
+? « Pendant la guerre, Marie vit dans une ferme. Un soir, des soldats frappent à la porte. Elle ouvre. » Quelle est la valeur des présents ?
+- vérité générale
+- habitude
++ narration
+- énonciation
+> Le récit se situe pendant la guerre : le présent rend les événements vivants.
+
+? « Le sportif doit s'entraîner pour progresser. » Quelle valeur ?
+- narration
++ vérité générale
+- énonciation
+> C'est une règle valable en général.
+
+? « Je me lève à sept heures et je déjeune toujours rapidement. » Quelle valeur ?
++ habitude
+- narration
+- énonciation
+> « Toujours » et l'heure fixe indiquent une action répétée.
+
+? Quelles phrases sont au présent de vérité générale ?
++ Les abeilles fabriquent du miel.
++ Le sel fond dans l'eau.
+- Je regarde la télévision en ce moment.
+- Ce jour-là, il entre dans la pièce et s'assoit.
+> Les deux premières sont toujours vraies. La troisième est d'énonciation, la quatrième de narration.
+
+? Pourquoi un auteur emploie-t-il le présent de narration dans un récit au passé ?
++ Pour rendre l'action plus vivante et plus proche du lecteur
+- Pour expliquer une règle générale
+- Pour indiquer une habitude
+> C'est un effet de style : on a l'impression de voir la scène en direct. À savoir pour analyser un texte au brevet.
+
+```
+
 ## Quiz
 
 ```quiz
