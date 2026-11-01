@@ -395,7 +395,9 @@ function scoreBadge(score, total, label = '') {
 
 /* ======================= Données ======================= */
 async function loadAll() {
-  const res = await fetch('/api/fiches', { cache: 'no-store' });
+  // Vercel : /api/fiches est réécrit vers fiches.json ; GitHub Pages sert fiches.json directement
+  let res = await fetch('/api/fiches', { cache: 'no-store' });
+  if (!res.ok) res = await fetch('fiches.json', { cache: 'no-store' });
   if (!res.ok) throw new Error('api');
   const list = await res.json();
   const fiches = await Promise.all(list.map(async (f) => {
