@@ -129,7 +129,7 @@ function texToText(s) {
 function resolveAsset(url) {
   if (/^(https?:|data:)/.test(url)) return url;
   const dir = currentPath().split('/').slice(0, -1).join('/');
-  return '/vault/' + encodeURI((dir ? dir + '/' : '') + url);
+  return 'vault/' + encodeURI((dir ? dir + '/' : '') + url);
 }
 
 function youtubeId(url) {
@@ -436,7 +436,7 @@ async function loadAll() {
   if (!res.ok) throw new Error('api');
   const list = await res.json();
   const fiches = await Promise.all(list.map(async (f) => {
-    const r = await fetch('/vault/' + encodeURI(f.path), { cache: 'no-store' });
+    const r = await fetch('vault/' + encodeURI(f.path), { cache: 'no-store' });
     return makeFiche(f.path, await r.text());
   }));
   state.fiches = fiches;
@@ -627,7 +627,7 @@ async function pageFiche(path, anchor) {
   if (!f) { app.innerHTML = '<p>Fiche introuvable. <a href="#/">Retour à l\'accueil</a></p>'; return; }
   // Relit le fichier pour afficher les dernières modifications faites dans Obsidian
   try {
-    const r = await fetch('/vault/' + encodeURI(path), { cache: 'no-store' });
+    const r = await fetch('vault/' + encodeURI(path), { cache: 'no-store' });
     if (r.ok) { const txt = await r.text(); if (txt !== f.src) { f = makeFiche(path, txt); state.byPath.set(path, f); state.fiches = state.fiches.map((x) => (x.path === path ? f : x)); } }
   } catch { /* hors ligne : on garde la version chargée */ }
 
