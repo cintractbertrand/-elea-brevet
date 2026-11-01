@@ -49,3 +49,6 @@ Ces sites proposent des annales et des exercices gratuits, à utiliser après le
 - [Sujets probables du brevet 2026 en maths (Digischool)](https://www.digischool.fr/articles/college/brevet/sujets-probables-brevet-2026-maths/)
 - [Ce qui tombe le plus souvent au brevet de maths (Sherpas)](https://sherpas.com/blog/parents/a/sujets-frequents-maths-brevet/)
 - [Exercices du brevet de maths (L'Étudiant)](https://www.letudiant.fr/college/brevet/exercices-brevet-mathematiques.html)
+
+> [!tip] Sujets complets
+> Pour t'entraîner sur un sujet entier : [[19 - Annales du brevet 2025 (série générale)]], [[20 - Annales du brevet 2025 (Polynésie)]], [[21 - Annales du brevet 2024 (Polynésie)]], [[22 - Annales du brevet 2024 (Métropole, Antilles-Guyane)]] et [[23 - Annales du brevet 2024 (sujet AA1)]].
