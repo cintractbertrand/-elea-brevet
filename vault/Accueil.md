@@ -3,7 +3,7 @@ titre: Accueil
 type: accueil
 ---
 
-# 🎓 Révisions du brevet d'Elea
+# 🎓 Révisions du brevet
 
 Bienvenue ! Ce coffre Obsidian contient les fiches de révision du brevet, rangées **un dossier par matière** et **une fiche par chapitre**.
 

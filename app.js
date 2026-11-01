@@ -545,10 +545,9 @@ function prochaineFiche(subject) {
 /* ======================= Pages ======================= */
 function pageHome() {
   _current = '';
-  const name = 'Elea';
   const last = store.get('last', null);
   const lastF = last && state.byPath.get(last);
-  let html = `<div class="hero"><h1>Bonjour ${name} 👋</h1><p class="muted">Choisis une matière, ouvre une fiche, puis teste-toi avec le quiz. Coche « Je maîtrise » quand une fiche est acquise.</p></div>`;
+  let html = `<div class="hero"><h1>Bonjour 👋</h1><p class="muted">Choisis une matière, ouvre une fiche, puis teste-toi avec le quiz. Coche « Je maîtrise » quand une fiche est acquise.</p></div>`;
   if (lastF) html += `<div class="actions"><a class="btn" href="${ficheUrl(lastF.path)}">▶ Reprendre : ${esc(lastF.title)}</a><a class="btn ghost" href="#/quiz">🎲 Quiz surprise (toutes matières)</a></div>`;
   else html += `<div class="actions"><a class="btn ghost" href="#/quiz">🎲 Quiz surprise (toutes matières)</a></div>`;
   const todo = state.subjects.map((s) => ({ s, f: prochaineFiche(s) })).filter((x) => x.f);
