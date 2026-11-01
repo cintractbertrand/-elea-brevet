@@ -32,14 +32,16 @@ Après chaque série, un **quiz interactif** te permet de t'entraîner : répond
 > 4. Pour tout nombre entier $n$, $(n + 3)^2 - n^2$ est un multiple de 3.
 > 5. Pour tout nombre entier $n$, $n^2 + n + 1$ est un nombre pair.
 > 6. Pour tout nombre entier $n$, $(n + 2)^2 - (n - 2)^2$ est un multiple de 8.
+
+> [!success]- Corrigé (détaillé)
+> **Rappel.** Un nombre pair s'écrit $2k$, un nombre impair s'écrit $2k + 1$ ($k$ est un nombre entier). Des entiers consécutifs sont de la forme $n$, $n + 1$, $n + 2$…
 >
-> [!success]- Corrigé
-> 1. **Vrai.** Trois entiers consécutifs : $n - 1$, $n$, $n + 1$. Leur somme vaut $3n$, multiple de 3.
-> 2. **Vrai.** Deux pairs consécutifs : $2k$ et $2k + 2$. Produit : $2k(2k + 2) = 4k(k + 1)$. Or $k(k + 1)$ est pair (produit de deux entiers consécutifs), donc $k(k + 1) = 2m$ et le produit vaut $8m$.
-> 3. **Faux.** Contre-exemple : $3 + 5 = 8$, qui est pair.
-> 4. **Vrai.** $(n + 3)^2 - n^2 = 6n + 9 = 3(2n + 3)$.
-> 5. **Faux.** Contre-exemple : $n = 2$ donne $4 + 2 + 1 = 7$, impair. (En fait $n^2 + n + 1 = n(n + 1) + 1$ est toujours impair.)
-> 6. **Vrai.** $(n + 2)^2 - (n - 2)^2 = 8n$.
+> 1. **Vrai.** Trois entiers consécutifs : $n - 1$, $n$, $n + 1$. Leur somme : $(n - 1) + n + (n + 1) = 3n$, c'est un multiple de 3. Exemple : $4 + 5 + 6 = 15 = 3 \times 5$.
+> 2. **Vrai.** Deux pairs consécutifs : $2k$ et $2k + 2$. Leur produit : $2k(2k + 2) = 4k^2 + 4k = 4k(k + 1)$. Or $k$ et $k + 1$ se suivent, donc l'un des deux est pair : $k(k + 1) = 2m$. Le produit vaut $4 \times 2m = 8m$, un multiple de 8. Exemples : $4 \times 6 = 24 = 8 \times 3$ et $6 \times 8 = 48 = 8 \times 6$.
+> 3. **Faux.** *Contre-exemple* : $3 + 5 = 8$, qui est pair. En fait, $(2a + 1) + (2b + 1) = 2(a + b + 1)$ : la somme de deux impairs est toujours paire.
+> 4. **Vrai.** $(n + 3)^2 - n^2 = n^2 + 6n + 9 - n^2 = 6n + 9 = 3(2n + 3)$. Test avec $n = 1$ : $16 - 1 = 15 = 3 \times 5$.
+> 5. **Faux.** *Contre-exemple* : avec $n = 2$, $4 + 2 + 1 = 7$, qui est impair. En fait $n^2 + n + 1 = n(n + 1) + 1$ : $n(n + 1)$ est pair (deux entiers qui se suivent), donc le résultat est toujours **impair**.
+> 6. **Vrai.** $(n + 2)^2 - (n - 2)^2 = (n^2 + 4n + 4) - (n^2 - 4n + 4) = 8n$. Test avec $n = 3$ : $25 - 1 = 24 = 8 \times 3$.
 
 ```quiz Série 1 : entraîne-toi
 ? La somme de trois nombres entiers consécutifs est un multiple de 3.
@@ -93,14 +95,14 @@ Après chaque série, un **quiz interactif** te permet de t'entraîner : répond
 > 4. Le produit de deux multiples de 5 est toujours un multiple de 25.
 > 5. La somme de deux multiples de 6 est toujours un multiple de 12.
 > 6. Pour tout nombre entier $n$, $(n + 1)^2 + (n - 1)^2$ est un multiple de 4.
->
-> [!success]- Corrigé
-> 1. **Vrai.** $2k(2k + 2) + 1 = 4k^2 + 4k + 1 = (2k + 1)^2$. Exemple : $4 \times 6 + 1 = 25 = 5^2$.
-> 2. **Faux.** Contre-exemple : $2 \times 3 + 1 = 7$, qui n'est pas un carré.
-> 3. **Vrai.** $(n + 1)^2 - (n - 1)^2 = 4n$.
-> 4. **Vrai.** $5a \times 5b = 25ab$.
-> 5. **Faux.** Contre-exemple : $6 + 12 = 18$, qui n'est pas multiple de 12.
-> 6. **Faux.** Contre-exemple : $n = 2$ donne $9 + 1 = 10$, non multiple de 4.
+
+> [!success]- Corrigé (détaillé)
+> 1. **Vrai.** Deux pairs consécutifs : $2k$ et $2k + 2$. $2k(2k + 2) + 1 = 4k^2 + 4k + 1 = (2k + 1)^2$ (identité remarquable). Exemple : $4 \times 6 + 1 = 25 = 5^2$.
+> 2. **Faux.** *Contre-exemple* : $2 \times 3 + 1 = 7$, qui n'est pas un carré (les carrés sont 1, 4, 9, 16…). Explication : $n(n + 1) + 1 = n^2 + n + 1$, qui se trouve entre $n^2$ et $(n + 1)^2 = n^2 + 2n + 1$ (pour $n \ge 1$), donc ce n'est pas un carré.
+> 3. **Vrai.** $(n + 1)^2 - (n - 1)^2 = (n^2 + 2n + 1) - (n^2 - 2n + 1) = 4n$, un multiple de 4.
+> 4. **Vrai.** Deux multiples de 5 : $5a$ et $5b$. Leur produit : $5a \times 5b = 25ab$, un multiple de 25.
+> 5. **Faux.** *Contre-exemple* : $6 + 12 = 18$, et 18 n'est pas un multiple de 12. En fait $6a + 6b = 6(a + b)$ est un multiple de 12 seulement quand $a + b$ est pair.
+> 6. **Faux.** $(n + 1)^2 + (n - 1)^2 = n^2 + 2n + 1 + n^2 - 2n + 1 = 2n^2 + 2$. *Contre-exemple* : avec $n = 2$, $9 + 1 = 10$, qui n'est pas un multiple de 4.
 
 ```quiz Série 2 : entraîne-toi
 ? Le produit de deux nombres pairs consécutifs, auquel on ajoute 1, est le carré d'un nombre entier.
@@ -153,14 +155,14 @@ Après chaque série, un **quiz interactif** te permet de t'entraîner : répond
 > 4. Le carré d'un nombre pair est un multiple de 4.
 > 5. La somme de deux nombres premiers est un nombre premier.
 > 6. Si un nombre est multiple de 4 et de 6, alors il est multiple de 24.
->
-> [!success]- Corrigé
-> 1. **Vrai.** $(2a + 1)(2b + 1) = 2(2ab + a + b) + 1$, qui est impair.
-> 2. **Vrai.** $3a + 3b = 3(a + b)$.
-> 3. **Vrai.** Parmi trois entiers consécutifs, il y a au moins un nombre pair et exactement un multiple de 3. Le produit est donc divisible par 2 et par 3, donc par 6. Exemple : $4 \times 5 \times 6 = 120$.
-> 4. **Vrai.** $(2k)^2 = 4k^2$.
-> 5. **Faux.** Contre-exemple : $3 + 5 = 8$, qui n'est pas premier.
-> 6. **Faux.** Contre-exemple : 12 est multiple de 4 et de 6, mais pas de 24.
+
+> [!success]- Corrigé (détaillé)
+> 1. **Vrai.** Deux impairs : $2a + 1$ et $2b + 1$. $(2a + 1)(2b + 1) = 4ab + 2a + 2b + 1 = 2(2ab + a + b) + 1$, de la forme $2k + 1$ : impair. Exemple : $3 \times 5 = 15$.
+> 2. **Vrai.** $3a + 3b = 3(a + b)$ : c'est un multiple de 3.
+> 3. **Vrai.** Parmi trois entiers consécutifs, il y a au moins un nombre pair et exactement un multiple de 3. Le produit est donc divisible par 2 et par 3, donc par 6. Exemple : $4 \times 5 \times 6 = 120 = 6 \times 20$.
+> 4. **Vrai.** Un nombre pair s'écrit $2k$, son carré est $(2k)^2 = 4k^2$ : un multiple de 4.
+> 5. **Faux.** *Contre-exemple* : $3 + 5 = 8$, et 8 n'est pas premier (8 = 2 × 4).
+> 6. **Faux.** *Contre-exemple* : 12 est un multiple de 4 et de 6, mais pas de 24. Un tel nombre est un multiple de 12 (le plus petit multiple commun de 4 et 6).
 
 ```quiz Série 3 : entraîne-toi
 ? Le produit de deux nombres impairs est un nombre impair.
@@ -213,14 +215,14 @@ Après chaque série, un **quiz interactif** te permet de t'entraîner : répond
 > 4. Pour tout nombre entier $n$, $(2n + 1)^2 - 1$ est un multiple de 4.
 > 5. Le résultat de $(n + 1)(n + 2) - n(n + 3)$ dépend de la valeur de $n$.
 > 6. Pour tout nombre entier $n$, $(n + 5)^2 - 25$ est un multiple de 10.
->
-> [!success]- Corrigé
-> 1. **Vrai.** $(n + 1)^2 - n^2 = 2n + 1$, impair.
-> 2. **Faux.** Contre-exemple : $n = 1$ donne $1 + 2 = 3$, impair.
-> 3. **Vrai.** $(n + 4)^2 - (n - 4)^2 = 16n$.
-> 4. **Vrai.** $(2n + 1)^2 - 1 = 4n(n + 1)$.
-> 5. **Faux.** $(n + 1)(n + 2) - n(n + 3) = n^2 + 3n + 2 - n^2 - 3n = 2$, quelle que soit la valeur de $n$.
-> 6. **Faux.** $(n + 5)^2 - 25 = n(n + 10)$. Contre-exemple : $n = 1$ donne 11, qui n'est pas multiple de 10.
+
+> [!success]- Corrigé (détaillé)
+> 1. **Vrai.** $(n + 1)^2 - n^2 = n^2 + 2n + 1 - n^2 = 2n + 1$, de la forme $2k + 1$ : impair.
+> 2. **Faux.** *Contre-exemple* : avec $n = 1$, $1 + 2 = 3$, qui est impair. En fait $n^2 + 2n = n(n + 2)$ : si $n$ est pair, le résultat est pair ; si $n$ est impair, c'est impair $\times$ impair, donc impair.
+> 3. **Vrai.** $(n + 4)^2 - (n - 4)^2 = (n^2 + 8n + 16) - (n^2 - 8n + 16) = 16n$.
+> 4. **Vrai.** $(2n + 1)^2 - 1 = 4n^2 + 4n + 1 - 1 = 4n^2 + 4n = 4n(n + 1)$, un multiple de 4.
+> 5. **Faux.** $(n + 1)(n + 2) - n(n + 3) = n^2 + 3n + 2 - n^2 - 3n = 2$. Le résultat vaut **toujours 2**, il ne dépend donc pas de $n$.
+> 6. **Faux.** $(n + 5)^2 - 25 = n^2 + 10n + 25 - 25 = n^2 + 10n = n(n + 10)$. *Contre-exemple* : avec $n = 1$, on obtient 11, qui n'est pas un multiple de 10.
 
 ```quiz Série 4 : entraîne-toi
 ? Pour tout nombre entier $n$, $(n + 1)^2 - n^2$ est un nombre impair.
@@ -272,14 +274,14 @@ Après chaque série, un **quiz interactif** te permet de t'entraîner : répond
 > 4. Le produit de deux nombres impairs consécutifs est toujours un multiple de 3.
 > 5. La somme de quatre nombres entiers consécutifs est un multiple de 4.
 > 6. La somme de cinq nombres entiers consécutifs est un multiple de 5.
->
-> [!success]- Corrigé
-> 1. **Vrai.** $n^2 + (n + 1)^2 = 2(n^2 + n) + 1$, impair. Exemple : $3^2 + 4^2 = 25$.
+
+> [!success]- Corrigé (détaillé)
+> 1. **Vrai.** $n^2 + (n + 1)^2 = n^2 + n^2 + 2n + 1 = 2n^2 + 2n + 1 = 2(n^2 + n) + 1$, de la forme $2k + 1$ : impair. Exemple : $3^2 + 4^2 = 25$.
 > 2. **Vrai.** $n + (n + 1) = 2n + 1$, impair.
-> 3. **Faux.** Contre-exemple : $2 \times 3 = 6$, qui n'est pas multiple de 4.
-> 4. **Faux.** Contre-exemple : $5 \times 7 = 35$, qui n'est pas multiple de 3.
-> 5. **Faux.** La somme vaut $4n + 6$, qui n'est pas multiple de 4. Contre-exemple : $1 + 2 + 3 + 4 = 10$.
-> 6. **Vrai.** La somme vaut $5n + 10 = 5(n + 2)$.
+> 3. **Faux.** *Contre-exemple* : $2 \times 3 = 6$, qui n'est pas un multiple de 4.
+> 4. **Faux.** *Contre-exemple* : $5 \times 7 = 35$, qui n'est pas un multiple de 3.
+> 5. **Faux.** $n + (n + 1) + (n + 2) + (n + 3) = 4n + 6 = 4(n + 1) + 2$ : le reste dans la division par 4 est toujours 2. *Contre-exemple* : $1 + 2 + 3 + 4 = 10$.
+> 6. **Vrai.** $n + (n + 1) + (n + 2) + (n + 3) + (n + 4) = 5n + 10 = 5(n + 2)$, un multiple de 5. Exemple : $1 + 2 + 3 + 4 + 5 = 15 = 5 \times 3$.
 
 ```quiz Série 5 : entraîne-toi
 ? La somme des carrés de deux nombres entiers consécutifs est un nombre impair.
@@ -323,129 +325,9 @@ Après chaque série, un **quiz interactif** te permet de t'entraîner : répond
 > $1 + 2 + 3 + 4 = 10$, donc la somme vaut $5n + 10 = 5(n + 2)$.
 ```
 
-### Série 6
+### Séries 6 et 7
 
-> [!question] Énoncés
-> 1. Pour tout nombre $x$, $(x + 3)^2 = x^2 + 9$.
-> 2. Pour tout nombre $x$, $(x + 5)(x - 5) = x^2 - 25$.
-> 3. Pour tout nombre $x$, $(x - 2)^2$ est positif ou nul.
-> 4. L'équation $x^2 = 9$ a une seule solution.
-> 5. Pour tout nombre $x$, $x^2 - 6x + 9 = (x - 3)^2$.
-> 6. Pour tout nombre $x$, $(x + 1)^2$ est supérieur ou égal à $x^2$.
->
-> [!success]- Corrigé
-> 1. **Faux.** $(x + 3)^2 = x^2 + 6x + 9$. Contre-exemple : $x = 1$ donne 16 d'un côté et 10 de l'autre.
-> 2. **Vrai.** Identité remarquable $(a + b)(a - b) = a^2 - b^2$.
-> 3. **Vrai.** Un carré est toujours positif ou nul.
-> 4. **Faux.** $x^2 = 9$ a deux solutions : 3 et $-3$.
-> 5. **Vrai.** Identité remarquable $(a - b)^2 = a^2 - 2ab + b^2$, avec $a = x$ et $b = 3$.
-> 6. **Faux.** Contre-exemple : $x = -2$ donne $(-1)^2 = 1$, qui est inférieur à $(-2)^2 = 4$.
-
-```quiz Série 6 : entraîne-toi
-? Pour tout nombre $x$, $(x + 3)^2 = x^2 + 9$.
-- Vrai
-+ Faux
-> $(x + 3)^2 = x^2 + 6x + 9$. Contre-exemple : $x = 1$ donne 16 d'un côté, 10 de l'autre.
-
-? Pour tout nombre $x$, $(x + 5)(x - 5) = x^2 - 25$.
-+ Vrai
-- Faux
-> Identité remarquable $(a + b)(a - b) = a^2 - b^2$.
-
-? Pour tout nombre $x$, $(x - 2)^2$ est positif ou nul.
-+ Vrai
-- Faux
-> Un carré est toujours positif ou nul.
-
-? L'équation $x^2 = 9$ a une seule solution.
-- Vrai
-+ Faux
-> $x^2 = 9$ a deux solutions : 3 et $-3$.
-
-? Pour tout nombre $x$, $x^2 - 6x + 9 = (x - 3)^2$.
-+ Vrai
-- Faux
-> $(a - b)^2 = a^2 - 2ab + b^2$ avec $a = x$ et $b = 3$.
-
-? Pour tout nombre $x$, $(x + 1)^2$ est supérieur ou égal à $x^2$.
-- Vrai
-+ Faux
-> Contre-exemple : $x = -2$ donne $(-1)^2 = 1$, inférieur à $(-2)^2 = 4$.
-
-? Quelle expression est égale à $x^2 - 6x + 9$ ?
-+ $(x - 3)^2$
-- $(x + 3)^2$
-- $(x - 3)(x + 3)$
-> $(x - 3)^2 = x^2 - 2 \times x \times 3 + 3^2 = x^2 - 6x + 9$.
-
-? Complète (tape un nombre) : $(x + 3)^2 = x^2 + \ldots x + 9$
-= 6
-= 6x
-> Le double produit vaut $2 \times x \times 3 = 6x$.
-
-? Donne la solution **négative** de l'équation $x^2 = 9$.
-= -3
-= −3
-> $(-3)^2 = 9$ : les solutions sont $3$ et $-3$.
-```
-
-### Série 7 (programmes de calcul)
-
-> [!question] Énoncés
-> 1. On choisit un nombre, on lui ajoute 3, on multiplie le résultat par 2, puis on soustrait 6. On obtient toujours le double du nombre choisi.
-> 2. On choisit un nombre, on le multiplie par 4, on ajoute 8, on divise par 4, puis on soustrait 2. On retrouve toujours le nombre choisi.
-> 3. On choisit un nombre, on lui ajoute 1, on élève le résultat au carré, puis on soustrait le carré du nombre choisi. On obtient toujours 1.
-> 4. On choisit un nombre, on calcule son carré, on ajoute le triple du nombre choisi, puis on ajoute 2. Le résultat est le produit de $(n + 1)$ par $(n + 2)$, où $n$ est le nombre choisi.
-> 5. On choisit un nombre, on lui ajoute 5, on élève le résultat au carré, puis on soustrait 25. Le résultat est toujours un multiple du nombre choisi.
-> 6. On choisit un nombre, on lui ajoute 2, on élève le résultat au carré, puis on soustrait 4. On obtient toujours le carré du nombre choisi.
->
-> [!success]- Corrigé
-> 1. **Vrai.** $(n + 3) \times 2 - 6 = 2n$.
-> 2. **Vrai.** $(4n + 8) \div 4 - 2 = n$.
-> 3. **Faux.** $(n + 1)^2 - n^2 = 2n + 1$. Contre-exemple : $n = 2$ donne $9 - 4 = 5$.
-> 4. **Vrai.** $n^2 + 3n + 2 = (n + 1)(n + 2)$.
-> 5. **Vrai.** $(n + 5)^2 - 25 = n(n + 10)$, multiple de $n$.
-> 6. **Faux.** $(n + 2)^2 - 4 = n^2 + 4n$, qui n'est pas égal à $n^2$. Contre-exemple : $n = 1$ donne 5.
-
-```quiz Série 7 : entraîne-toi
-? On choisit un nombre, on lui ajoute 3, on multiplie le résultat par 2, puis on soustrait 6. On obtient toujours le double du nombre choisi.
-+ Vrai
-- Faux
-> $(n + 3) \times 2 - 6 = 2n$.
-
-? On choisit un nombre, on le multiplie par 4, on ajoute 8, on divise par 4, puis on soustrait 2. On retrouve toujours le nombre choisi.
-+ Vrai
-- Faux
-> $(4n + 8) \div 4 - 2 = n + 2 - 2 = n$.
-
-? On choisit un nombre, on lui ajoute 1, on élève au carré, puis on soustrait le carré du nombre choisi. On obtient toujours 1.
-- Vrai
-+ Faux
-> $(n + 1)^2 - n^2 = 2n + 1$. Contre-exemple : $n = 2$ donne 5.
-
-? On choisit un nombre $n$, on calcule son carré, on ajoute le triple de $n$, puis on ajoute 2. Le résultat est $(n + 1)(n + 2)$.
-+ Vrai
-- Faux
-> $(n + 1)(n + 2) = n^2 + 3n + 2$.
-
-? On choisit un nombre, on lui ajoute 5, on élève au carré, puis on soustrait 25. Le résultat est toujours un multiple du nombre choisi.
-+ Vrai
-- Faux
-> $(n + 5)^2 - 25 = n^2 + 10n = n(n + 10)$, multiple de $n$.
-
-? On choisit un nombre, on lui ajoute 2, on élève au carré, puis on soustrait 4. On obtient toujours le carré du nombre choisi.
-- Vrai
-+ Faux
-> $(n + 2)^2 - 4 = n^2 + 4n$. Contre-exemple : $n = 1$ donne 5, pas 1.
-
-? Programme 1 avec le nombre 5 : on ajoute 3, on multiplie par 2, on soustrait 6. Quel résultat obtiens-tu ?
-= 10
-> $(5 + 3) \times 2 - 6 = 16 - 6 = 10$, c'est bien le double de 5.
-
-? Programme 3 avec le nombre 2 : on ajoute 1, on élève au carré, on soustrait $2^2$. Quel résultat obtiens-tu ?
-= 5
-> $(2 + 1)^2 - 2^2 = 9 - 4 = 5$ : ce n'est pas 1, la phrase 3 est donc fausse.
-```
+Les séries 6 (identités remarquables) et 7 (programmes de calcul) se trouvent maintenant dans le chapitre [[04 - Calcul littéral]], avec leurs exercices interactifs.
 
 ### Série 8 (défis)
 
@@ -458,16 +340,16 @@ Après chaque série, un **quiz interactif** te permet de t'entraîner : répond
 > 6. Le double d'un nombre impair est un multiple de 4.
 > 7. Pour tout nombre entier $n$, $n(n + 1)(n + 2)(n + 3) + 1$ est le carré d'un nombre entier.
 > 8. Pour tout nombre entier $n$, $n^3 - n$ est un multiple de 6.
->
-> [!success]- Corrigé
-> 1. **Vrai.** Trois impairs consécutifs : $2k - 1$, $2k + 1$, $2k + 3$. Somme : $6k + 3 = 3(2k + 1)$.
-> 2. **Vrai.** Parmi trois entiers consécutifs $x$, $x + 1$, $x + 2$, un seul est multiple de 3 ; ici les impairs sont $x$, $x + 2$, $x + 4$ et leurs restes modulo 3 sont tous différents, donc l'un d'eux est multiple de 3. Exemple : $7 \times 9 \times 11$.
-> 3. **Vrai.** $(2k + 1)^2 + 1 = 2(2k^2 + 2k + 1)$, pair.
-> 4. **Faux.** Contre-exemple : $1^2 = 1$ n'est pas strictement supérieur à 1 (de même pour 0).
-> 5. **Faux.** Contre-exemple : $1^2 + 2^2 = 5$, qui n'est pas un carré.
-> 6. **Faux.** Contre-exemple : $2 \times 3 = 6$, qui n'est pas multiple de 4.
-> 7. **Vrai.** En posant $A = n^2 + 3n$, le produit vaut $A(A + 2)$, donc $A(A + 2) + 1 = (A + 1)^2 = (n^2 + 3n + 1)^2$. Exemple : $1 \times 2 \times 3 \times 4 + 1 = 25 = 5^2$.
-> 8. **Vrai.** $n^3 - n = (n - 1)\,n\,(n + 1)$, produit de trois entiers consécutifs, donc multiple de 6 (voir série 3, question 3).
+
+> [!success]- Corrigé (détaillé)
+> 1. **Vrai.** Trois impairs consécutifs : $2k - 1$, $2k + 1$, $2k + 3$. Somme : $6k + 3 = 3(2k + 1)$, un multiple de 3. Exemple : $3 + 5 + 7 = 15$.
+> 2. **Vrai.** Les trois nombres sont $x$, $x + 2$, $x + 4$. Regardons le reste dans la division par 3 : si $x$ a pour reste 0, c'est lui le multiple de 3 ; si $x$ a pour reste 1, alors $x + 2$ a pour reste $1 + 2 = 3$, donc 0 ; si $x$ a pour reste 2, alors $x + 4$ a pour reste $2 + 4 = 6$, donc 0. Dans tous les cas, l'un des facteurs est un multiple de 3 et le produit aussi. Exemple : $7 \times 9 \times 11$.
+> 3. **Vrai.** $(2k + 1)^2 + 1 = 4k^2 + 4k + 1 + 1 = 4k^2 + 4k + 2 = 2(2k^2 + 2k + 1)$, un nombre pair. Exemple : $3^2 + 1 = 10$.
+> 4. **Faux.** *Contre-exemple* : $1^2 = 1$ n'est pas strictement supérieur à 1 (de même $0^2 = 0$).
+> 5. **Faux.** *Contre-exemple* : $1^2 + 2^2 = 5$, qui n'est pas un carré. (Parfois c'est vrai, par exemple $3^2 + 4^2 = 5^2$, mais pas toujours.)
+> 6. **Faux.** Le double d'un impair vaut $2(2k + 1) = 4k + 2$ : il reste toujours 2 dans la division par 4. *Contre-exemple* : $2 \times 3 = 6$.
+> 7. **Vrai.** $n(n + 3) = n^2 + 3n$ et $(n + 1)(n + 2) = n^2 + 3n + 2$. On pose $A = n^2 + 3n$. Le produit vaut $A \times (A + 2)$, donc $A(A + 2) + 1 = A^2 + 2A + 1 = (A + 1)^2 = (n^2 + 3n + 1)^2$. Exemples : $1 \times 2 \times 3 \times 4 + 1 = 25 = 5^2$ et $2 \times 3 \times 4 \times 5 + 1 = 121 = 11^2$.
+> 8. **Vrai.** $n^3 - n = n(n^2 - 1) = n(n - 1)(n + 1)$ (identité $a^2 - b^2 = (a - b)(a + b)$). C'est le produit de trois entiers consécutifs, donc un multiple de 6 (voir la série 3, question 3). Exemple : $n = 4$ donne $64 - 4 = 60 = 6 \times 10$.
 
 ```quiz Série 8 : entraîne-toi
 ? La somme de trois nombres impairs consécutifs est un multiple de 3.
@@ -519,15 +401,15 @@ Après chaque série, un **quiz interactif** te permet de t'entraîner : répond
 
 > [!question] Énoncé
 > Calculer $1 \times 3 + 1$, puis $2 \times 4 + 1$, puis $3 \times 5 + 1$, puis $4 \times 6 + 1$. Que remarque-t-on ? Le démontrer. Expliquer comment calculer mentalement $49 \times 51 + 1$.
+
+> [!success]- Corrigé (détaillé)
+> **Observation.** $1 \times 3 + 1 = 4 = 2^2$ ; $2 \times 4 + 1 = 9 = 3^2$ ; $3 \times 5 + 1 = 16 = 4^2$ ; $4 \times 6 + 1 = 25 = 5^2$. Le résultat est toujours le carré du nombre du milieu.
 >
-> [!success]- Corrigé
-> $1 \times 3 + 1 = 2^2$ ; $2 \times 4 + 1 = 3^2$ ; $3 \times 5 + 1 = 4^2$ ; $4 \times 6 + 1 = 5^2$.
+> **Conjecture.** $n(n + 2) + 1$ est le carré de $n + 1$.
 >
-> Conjecture : $n(n + 2) + 1$ est le carré de $n + 1$.
+> **Preuve.** $n(n + 2) + 1 = n^2 + 2n + 1 = (n + 1)^2$ (identité remarquable).
 >
-> Preuve : $n(n + 2) + 1 = n^2 + 2n + 1 = (n + 1)^2$.
->
-> Calcul mental : $49 \times 51 + 1 = (49 + 1)^2 = 50^2 = 2\,500$.
+> **Calcul mental.** $49 \times 51 = 50^2 - 1$ car $49 \times 51 = (50 - 1)(50 + 1)$. Donc $49 \times 51 + 1 = 50^2 = 2\,500$.
 
 ```quiz Bonus : entraîne-toi
 ? Calcule $3 \times 5 + 1$.

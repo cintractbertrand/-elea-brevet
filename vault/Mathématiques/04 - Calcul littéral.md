@@ -20,6 +20,140 @@ tags: [calcul littéral, développer, factoriser, identités remarquables]
 >   - $(a - b)^2 = a^2 - 2ab + b^2$
 >   - $(a + b)(a - b) = a^2 - b^2$
 
+## Cours de classe (prioritaire)
+
+Suite du « Vrai ou faux type brevet » fait en classe par Eléa (les séries 1 à 5 et 8 sont dans le chapitre [[03 - Arithmétique]]). Ces deux séries portent sur le calcul littéral : identités remarquables et programmes de calcul.
+
+Pour chaque phrase, réponds par vrai ou faux et justifie : un « faux » se justifie par un **contre-exemple**, un « vrai » par une **démonstration** (pas par un exemple).
+
+### Série 6
+
+> [!question] Énoncés
+> 1. Pour tout nombre $x$, $(x + 3)^2 = x^2 + 9$.
+> 2. Pour tout nombre $x$, $(x + 5)(x - 5) = x^2 - 25$.
+> 3. Pour tout nombre $x$, $(x - 2)^2$ est positif ou nul.
+> 4. L'équation $x^2 = 9$ a une seule solution.
+> 5. Pour tout nombre $x$, $x^2 - 6x + 9 = (x - 3)^2$.
+> 6. Pour tout nombre $x$, $(x + 1)^2$ est supérieur ou égal à $x^2$.
+
+> [!success]- Corrigé (détaillé)
+> **Rappel.** $(a + b)^2 = a^2 + 2ab + b^2$, $(a - b)^2 = a^2 - 2ab + b^2$ et $(a + b)(a - b) = a^2 - b^2$.
+>
+> 1. **Faux.** $(x + 3)^2$ veut dire $(x + 3) \times (x + 3)$. En développant : $x^2 + 3x + 3x + 9 = x^2 + 6x + 9$. Il manque le terme $6x$ (le « double produit »). *Contre-exemple* : avec $x = 1$, $(1 + 3)^2 = 16$ mais $1^2 + 9 = 10$.
+> 2. **Vrai.** C'est l'identité $(a + b)(a - b) = a^2 - b^2$ avec $a = x$ et $b = 5$. Vérification : $(x + 5)(x - 5) = x^2 - 5x + 5x - 25 = x^2 - 25$.
+> 3. **Vrai.** $(x - 2)^2$ est un carré, et un carré n'est jamais négatif (positif $\times$ positif ou négatif $\times$ négatif donne un résultat positif). Il vaut 0 quand $x = 2$. Exemples : $x = 5$ donne 9, $x = 0$ donne 4.
+> 4. **Faux.** Il y a deux nombres dont le carré vaut 9 : $3^2 = 9$ et aussi $(-3)^2 = 9$. L'équation $x^2 = 9$ a donc deux solutions, 3 et $-3$.
+> 5. **Vrai.** On reconnaît $(a - b)^2 = a^2 - 2ab + b^2$ avec $a = x$ et $b = 3$ : $(x - 3)^2 = x^2 - 2 \times x \times 3 + 3^2 = x^2 - 6x + 9$.
+> 6. **Faux.** $(x + 1)^2 = x^2 + 2x + 1$. Il est plus grand que $x^2$ seulement si $2x + 1 \ge 0$, donc si $x \ge -0{,}5$. *Contre-exemple* : avec $x = -2$, $(x + 1)^2 = (-1)^2 = 1$ et $x^2 = 4$, et $1 < 4$.
+
+```quiz Série 6 : entraîne-toi
+? Pour tout nombre $x$, $(x + 3)^2 = x^2 + 9$.
+- Vrai
++ Faux
+> $(x + 3)^2 = x^2 + 6x + 9$. Contre-exemple : $x = 1$ donne 16 d'un côté, 10 de l'autre.
+
+? Pour tout nombre $x$, $(x + 5)(x - 5) = x^2 - 25$.
++ Vrai
+- Faux
+> Identité remarquable $(a + b)(a - b) = a^2 - b^2$.
+
+? Pour tout nombre $x$, $(x - 2)^2$ est positif ou nul.
++ Vrai
+- Faux
+> Un carré est toujours positif ou nul.
+
+? L'équation $x^2 = 9$ a une seule solution.
+- Vrai
++ Faux
+> $x^2 = 9$ a deux solutions : 3 et $-3$.
+
+? Pour tout nombre $x$, $x^2 - 6x + 9 = (x - 3)^2$.
++ Vrai
+- Faux
+> $(a - b)^2 = a^2 - 2ab + b^2$ avec $a = x$ et $b = 3$.
+
+? Pour tout nombre $x$, $(x + 1)^2$ est supérieur ou égal à $x^2$.
+- Vrai
++ Faux
+> Contre-exemple : $x = -2$ donne $(-1)^2 = 1$, inférieur à $(-2)^2 = 4$.
+
+? Quelle expression est égale à $x^2 - 6x + 9$ ?
++ $(x - 3)^2$
+- $(x + 3)^2$
+- $(x - 3)(x + 3)$
+> $(x - 3)^2 = x^2 - 2 \times x \times 3 + 3^2 = x^2 - 6x + 9$.
+
+? Complète (tape un nombre) : $(x + 3)^2 = x^2 + \ldots x + 9$
+= 6
+= 6x
+> Le double produit vaut $2 \times x \times 3 = 6x$.
+
+? Donne la solution **négative** de l'équation $x^2 = 9$.
+= -3
+= −3
+> $(-3)^2 = 9$ : les solutions sont $3$ et $-3$.
+```
+
+### Série 7 (programmes de calcul)
+
+> [!question] Énoncés
+> 1. On choisit un nombre, on lui ajoute 3, on multiplie le résultat par 2, puis on soustrait 6. On obtient toujours le double du nombre choisi.
+> 2. On choisit un nombre, on le multiplie par 4, on ajoute 8, on divise par 4, puis on soustrait 2. On retrouve toujours le nombre choisi.
+> 3. On choisit un nombre, on lui ajoute 1, on élève le résultat au carré, puis on soustrait le carré du nombre choisi. On obtient toujours 1.
+> 4. On choisit un nombre, on calcule son carré, on ajoute le triple du nombre choisi, puis on ajoute 2. Le résultat est le produit de $(n + 1)$ par $(n + 2)$, où $n$ est le nombre choisi.
+> 5. On choisit un nombre, on lui ajoute 5, on élève le résultat au carré, puis on soustrait 25. Le résultat est toujours un multiple du nombre choisi.
+> 6. On choisit un nombre, on lui ajoute 2, on élève le résultat au carré, puis on soustrait 4. On obtient toujours le carré du nombre choisi.
+
+> [!success]- Corrigé (détaillé)
+> **Méthode.** On appelle $n$ le nombre choisi et on écrit chaque étape avec $n$. Si on obtient toujours la même expression, la phrase est vraie. Sinon, un exemple chiffré montre qu'elle est fausse.
+>
+> 1. **Vrai.** $n \to n + 3 \to 2(n + 3) = 2n + 6 \to 2n + 6 - 6 = 2n$. C'est bien le double de $n$. Test avec 5 : $(5 + 3) \times 2 - 6 = 10 = 2 \times 5$.
+> 2. **Vrai.** $n \to 4n \to 4n + 8 \to (4n + 8) \div 4 = n + 2 \to n + 2 - 2 = n$. On retrouve $n$. Test avec 7 : $7 \times 4 = 28$, $28 + 8 = 36$, $36 \div 4 = 9$, $9 - 2 = 7$.
+> 3. **Faux.** $n \to n + 1 \to (n + 1)^2 \to (n + 1)^2 - n^2 = n^2 + 2n + 1 - n^2 = 2n + 1$. Le résultat dépend de $n$. *Contre-exemple* : avec $n = 2$, on obtient 5 (et pas 1) ; avec $n = 3$, on obtient 7.
+> 4. **Vrai.** $n \to n^2 \to n^2 + 3n \to n^2 + 3n + 2$. Et $(n + 1)(n + 2) = n^2 + 2n + n + 2 = n^2 + 3n + 2$. C'est la même expression. Test avec 3 : $9 + 9 + 2 = 20 = 4 \times 5$.
+> 5. **Vrai.** $n \to n + 5 \to (n + 5)^2 \to (n + 5)^2 - 25 = n^2 + 10n + 25 - 25 = n^2 + 10n = n(n + 10)$. C'est $n$ multiplié par $(n + 10)$ : un multiple de $n$. Test avec 4 : $9^2 - 25 = 56 = 4 \times 14$.
+> 6. **Faux.** $n \to n + 2 \to (n + 2)^2 \to (n + 2)^2 - 4 = n^2 + 4n + 4 - 4 = n^2 + 4n$, qui n'est pas $n^2$. *Contre-exemple* : avec $n = 1$, on obtient $9 - 4 = 5$, alors que $1^2 = 1$.
+
+```quiz Série 7 : entraîne-toi
+? On choisit un nombre, on lui ajoute 3, on multiplie le résultat par 2, puis on soustrait 6. On obtient toujours le double du nombre choisi.
++ Vrai
+- Faux
+> $(n + 3) \times 2 - 6 = 2n$.
+
+? On choisit un nombre, on le multiplie par 4, on ajoute 8, on divise par 4, puis on soustrait 2. On retrouve toujours le nombre choisi.
++ Vrai
+- Faux
+> $(4n + 8) \div 4 - 2 = n + 2 - 2 = n$.
+
+? On choisit un nombre, on lui ajoute 1, on élève au carré, puis on soustrait le carré du nombre choisi. On obtient toujours 1.
+- Vrai
++ Faux
+> $(n + 1)^2 - n^2 = 2n + 1$. Contre-exemple : $n = 2$ donne 5.
+
+? On choisit un nombre $n$, on calcule son carré, on ajoute le triple de $n$, puis on ajoute 2. Le résultat est $(n + 1)(n + 2)$.
++ Vrai
+- Faux
+> $(n + 1)(n + 2) = n^2 + 3n + 2$.
+
+? On choisit un nombre, on lui ajoute 5, on élève au carré, puis on soustrait 25. Le résultat est toujours un multiple du nombre choisi.
++ Vrai
+- Faux
+> $(n + 5)^2 - 25 = n^2 + 10n = n(n + 10)$, multiple de $n$.
+
+? On choisit un nombre, on lui ajoute 2, on élève au carré, puis on soustrait 4. On obtient toujours le carré du nombre choisi.
+- Vrai
++ Faux
+> $(n + 2)^2 - 4 = n^2 + 4n$. Contre-exemple : $n = 1$ donne 5, pas 1.
+
+? Programme 1 avec le nombre 5 : on ajoute 3, on multiplie par 2, on soustrait 6. Quel résultat obtiens-tu ?
+= 10
+> $(5 + 3) \times 2 - 6 = 16 - 6 = 10$, c'est bien le double de 5.
+
+? Programme 3 avec le nombre 2 : on ajoute 1, on élève au carré, on soustrait $2^2$. Quel résultat obtiens-tu ?
+= 5
+> $(2 + 1)^2 - 2^2 = 9 - 4 = 5$ : ce n'est pas 1, la phrase 3 est donc fausse.
+```
+
 ## Le cours
 
 | Mot-clé | En une phrase |
