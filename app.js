@@ -152,7 +152,7 @@ function markdown(src, ctx = { headings: [], quizzes: [] }) {
     if (isBlank(line)) { i++; continue; }
 
     // Bloc de code (et quiz)
-    const fence = line.match(/^(```|~~~)\s*([\w-]*)/);
+    const fence = line.match(/^(```|~~~)\s*([\w-]*)\s*(.*)$/);
     if (fence) {
       const body = [];
       i++;
@@ -160,6 +160,7 @@ function markdown(src, ctx = { headings: [], quizzes: [] }) {
       i++;
       if (fence[2].toLowerCase() === 'quiz') {
         const quiz = parseQuiz(body.join('\n'));
+        quiz.title = fence[3].trim(); // ```quiz Titre : quiz nommé (ex. exercices des cours de classe)
         ctx.quizzes.push(quiz);
         html += `<div class="quiz-slot" data-quiz="${ctx.quizzes.length - 1}"></div>`;
       } else {
@@ -285,7 +286,8 @@ function renderList(lines, start, ctx) {
    ? La question
    - mauvaise réponse
    + bonne réponse
-   > explication affichée après la réponse            */
+   > explication affichée après la réponse
+   = réponse à saisir (une ligne par réponse acceptée, sans propositions + / -) */
 function parseQuiz(text) {
   const questions = [];
   let q = null;
@@ -295,10 +297,17 @@ function parseQuiz(text) {
     if (line.startsWith('?')) { q = { text: line.slice(1).trim(), options: [], explain: '' }; questions.push(q); }
     else if (!q) continue;
     else if (/^[+-]\s/.test(line)) q.options.push({ text: line.slice(2).trim(), ok: line[0] === '+' });
+    else if (/^=\s/.test(line)) (q.answers = q.answers || []).push(line.slice(2).trim());
     else if (line.startsWith('>')) q.explain += (q.explain ? ' ' : '') + line.slice(1).trim();
     else if (q.options.length === 0) q.text += ' ' + line;
   }
-  return questions.filter((x) => x.options.length);
+  return questions.filter((x) => x.options.length || (x.answers && x.answers.length));
+}
+
+/* Compare une réponse saisie : sans espaces ni majuscules, virgule = point, × = x = *. */
+function normAnswer(s) {
+  return String(s).toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+    .replace(/\$/g, '').replace(/\\times|×|\*/g, 'x').replace(/,/g, '.').replace(/\s+/g, '');
 }
 
 /* Construit un quiz interactif. onDone(score, total) est appelé à la fin. */
@@ -317,8 +326,34 @@ function buildQuiz(questions, { title = 'Quiz', storeKey = null, sources = null 
     el.innerHTML = `<div class="q-text"><span class="q-num">${n + 1}.</span>${inline(q.text)}${multi ? ' <span class="badge">plusieurs réponses</span>' : ''}</div><div class="opts"></div>`;
     if (sources && sources[n]) el.innerHTML += `<div class="quiz-source">Fiche : <a href="${ficheUrl(sources[n].path)}">${esc(sources[n].title)}</a></div>`;
     const opts = $('.opts', el);
+    if (q.answers && q.answers.length) { // question à réponse saisie
+      opts.innerHTML = '<div class="q-saisie"><input type="text" class="q-input" placeholder="Ta réponse" autocomplete="off" inputmode="text"><button class="btn q-validate">Valider</button></div>';
+      const input = $('.q-input', opts), v = $('.q-validate', opts);
+      const check = () => {
+        if (!input.value.trim()) { input.focus(); return; }
+        const good = q.answers.some((a) => normAnswer(a) === normAnswer(input.value));
+        input.disabled = true; v.remove();
+        input.classList.add(good ? 'right' : 'wrong');
+        const ex = document.createElement('div');
+        ex.className = 'explain' + (good ? '' : ' bad');
+        ex.innerHTML = (good ? '✅ Bravo ! ' : `❌ Pas tout à fait. Réponse attendue : <strong>${inline(q.answers[0])}</strong>. `) + (q.explain ? inline(q.explain) : '');
+        el.appendChild(ex);
+        renderMath(ex);
+        if (window.chatReagit && (!good || Math.random() < 0.5)) window.chatReagit(good ? 'bravo' : 'oups');
+        answered++; if (good) score++;
+        if (answered === questions.length) showResult();
+      };
+      v.addEventListener('click', check);
+      input.addEventListener('keydown', (e) => { if (e.key === 'Enter') check(); });
+      qs.appendChild(el);
+      return;
+    }
     const chosen = new Set();
-    const order = shuffle(q.options.map((o, k) => k));
+    const vraiFaux = q.options.length === 2 && q.options.every((o) => /^(vrai|faux)$/i.test(o.text.trim()));
+    const order = vraiFaux // Vrai toujours à gauche, Faux à droite
+      ? q.options.map((o, k) => k).sort((x, y) => (/^vrai/i.test(q.options[y].text.trim()) ? 1 : 0) - (/^vrai/i.test(q.options[x].text.trim()) ? 1 : 0))
+      : shuffle(q.options.map((o, k) => k));
+    if (vraiFaux) opts.classList.add('opts-vf');
     const buttons = order.map((k) => {
       const b = document.createElement('button');
       b.className = 'opt';
@@ -418,7 +453,7 @@ function makeFiche(path, src) {
   const name = baseName(path);
   const num = parseInt(meta.chapitre ?? (name.match(/^(\d+)/) || [])[1], 10);
   const quizzes = [];
-  for (const m of body.matchAll(/```quiz\n([\s\S]*?)```/g)) quizzes.push(...parseQuiz(m[1]));
+  for (const m of body.matchAll(/```quiz[^\n]*\n([\s\S]*?)```/g)) quizzes.push(...parseQuiz(m[1]));
   const plain = texToText(body).replace(/```quiz/g, '').replace(/==/g, '').replace(/[#>*_`|\[\]]/g, ' ').replace(/\s+/g, ' ');
   return {
     path, src, meta, body, subject, name,
@@ -634,10 +669,12 @@ async function pageFiche(path, anchor) {
   document.title = f.title + ' · Révisions';
 
   // Quiz interactifs
+  const sansTitre = ctx.quizzes.filter((q) => !q.title); // les quiz nommés ne changent pas la numérotation ni le score de la fiche
   app.querySelectorAll('.quiz-slot').forEach((slot) => {
     const qs = ctx.quizzes[+slot.dataset.quiz];
-    const single = ctx.quizzes.length === 1;
-    slot.replaceWith(buildQuiz(qs, { title: single ? 'Quiz : teste-toi !' : `Quiz ${+slot.dataset.quiz + 1}`, storeKey: single ? path : null }));
+    if (qs.title) { slot.replaceWith(buildQuiz(qs, { title: qs.title, storeKey: path + '#' + qs.title })); return; }
+    const single = sansTitre.length === 1;
+    slot.replaceWith(buildQuiz(qs, { title: single ? 'Quiz : teste-toi !' : `Quiz ${sansTitre.indexOf(qs) + 1}`, storeKey: single ? path : null }));
   });
   enhanceVideos(app);
   renderMath(app);

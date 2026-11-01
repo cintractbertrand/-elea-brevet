@@ -262,6 +262,14 @@ a.card:hover { transform: translateY(-2px); border-color: var(--accent); }
 .explain { margin-top: 10px; padding: 8px 12px; border-radius: 8px; background: var(--tip-soft); font-size: .93rem; }
 .explain.bad { background: var(--warn-soft); }
 .q-validate { margin-top: 10px; }
+.opts-vf { grid-template-columns: repeat(2, minmax(0, 160px)); }
+.opts-vf .opt { text-align: center; font-weight: 600; }
+.q-saisie { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+.q-saisie .q-validate { margin-top: 0; }
+.q-input { font: inherit; font-size: .97rem; color: var(--text); padding: 9px 14px; border-radius: 10px; border: 1px solid var(--border); background: var(--bg); min-width: 0; flex: 1 1 160px; max-width: 260px; }
+.q-input:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft); }
+.q-input.right { border-color: var(--ok); background: var(--ok-soft); font-weight: 600; }
+.q-input.wrong { border-color: var(--ko); background: var(--ko-soft); text-decoration: line-through; }
 .quiz-result { margin-top: 14px; padding: 12px 16px; border-radius: 10px; background: var(--accent-soft); font-weight: 600; display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
 .quiz-source { font-size: .8rem; color: var(--muted); margin-top: 6px; }
 
