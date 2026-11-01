@@ -1,5 +1,0 @@
-{
-  "cleanUrls": false,
-  "rewrites": [{ "source": "/api/fiches", "destination": "/fiches.json" }],
-  "headers": [{ "source": "/(.*)", "headers": [{ "key": "Cache-Control", "value": "no-cache" }] }]
-}
