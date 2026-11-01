@@ -433,10 +433,13 @@ async function loadAll() {
   const res = await fetch('fiches.json', { cache: 'no-store' });
   if (!res.ok) throw new Error('api');
   const list = await res.json();
-  const fiches = await Promise.all(list.map(async (f) => {
+  // Une fiche qui ne se charge pas est ignorée (au lieu d'afficher une page d'erreur comme texte)
+  const fiches = (await Promise.all(list.map(async (f) => {
     const r = await fetch('vault/' + encodeURI(f.path), { cache: 'no-store' });
-    return makeFiche(f.path, await r.text());
-  }));
+    const texte = r.ok ? await r.text() : '';
+    if (!texte || /^\s*<!doctype html|^\s*<html/i.test(texte)) return null;
+    return makeFiche(f.path, texte);
+  }))).filter(Boolean);
   state.fiches = fiches;
   state.byPath = new Map(fiches.map((f) => [f.path, f]));
   const subj = [...new Set(fiches.filter((f) => f.subject).map((f) => f.subject))];
