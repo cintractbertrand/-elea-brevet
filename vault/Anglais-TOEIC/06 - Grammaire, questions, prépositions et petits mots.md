@@ -235,6 +235,418 @@ Autres : *from … to* (de… à), *for* + durée (*for two hours*), *since* + d
 > Voyelle (umbrella) → an.
 ```
 
+## Banque d'entraînement
+
+Cette banque contient **70 questions**. À chaque essai, le site en tire **15** au hasard parmi celles que tu n'as pas encore vues, et en change quand tu cliques sur « Recommencer ». Refais-la autant de fois que tu veux.
+
+```quiz Banque : questions, prépositions et petits mots ~15
+? ___ do you get up? – At 7 o'clock.
++ What time
+- Where
+- Who
+> « At 7 » répond à What time.
+
+? ___ is your birthday? – In May.
++ When
+- Why
+- Who
+> In May → When.
+
+? ___ do you live? – In Lyon.
++ Where
+- When
+- How
+> Lyon est un lieu → Where.
+
+? ___ is that girl? – She's my cousin.
++ Who
+- What
+- Where
+> Qui est-ce ? → Who.
+
+? ___ is your favourite subject? – Maths.
++ What
+- Who
+- When
+> Maths est une chose → What.
+
+? ___ are you late? – Because I missed the bus.
++ Why
+- How
+- Who
+> Because répond à Why.
+
+? ___ do you go to school? – By bike.
++ How
+- Why
+- Where
+> By bike répond à How.
+
+? ___ people are there in your class? – Twenty-five.
++ How many
+- How much
+- How long
+> People → dénombrable.
+
+? ___ does this book cost? – Ten pounds.
++ How much
+- How many
+- How often
+> Prix : How much.
+
+? ___ does he play tennis? – Twice a week.
++ How often
+- How long
+- How much
+> Fréquence : How often.
+
+? ___ is the film? – Two hours.
++ How long
+- How many
+- How far
+> Durée : How long.
+
+? ___ bag is this? – It's mine.
++ Whose
+- Who
+- Which
+> Possession : Whose.
+
+? ___ is the nearest station? – It's 500 metres away.
++ How far
+- How much
+- How old
+> Distance : How far.
+
+? ___ old is your sister? – She's twelve.
++ How
+- What
+- Who
+> How old = quel âge.
+
+? I get up ___ 7 o'clock.
++ at
+- on
+- in
+> Heure : at.
+
+? My birthday is ___ June.
++ in
+- on
+- at
+> Mois : in.
+
+? The meeting is ___ Monday.
++ on
+- in
+- at
+> Jour : on.
+
+? We have a party ___ 14 July.
++ on
+- in
+- at
+> Date précise : on.
+
+? He was born ___ 2010.
++ in
+- on
+- at
+> Année : in.
+
+? I always feel sleepy ___ the morning.
++ in
+- on
+- at
+> In the morning.
+
+? She works ___ night.
++ at
+- in
+- on
+> At night.
+
+? There's a picture ___ the wall.
++ on
+- in
+- at
+> Sur le mur : on.
+
+? We live ___ London.
++ in
+- at
+- on
+> Ville : in.
+
+? I'm ___ school now.
++ at
+- in
+- on
+> At school = à l'école (en cours).
+
+? He lives ___ a small village.
++ in
+- on
+- at
+> Village : in.
+
+? The bank is ___ the post office and the library.
++ between
+- among
+- behind
+> Between = entre deux.
+
+? The cinema is ___ the supermarket. (en face)
++ opposite
+- between
+- among
+> Opposite = en face de.
+
+? The cat is ___ the sofa. (sous)
++ under
+- over
+- on
+> Under = sous.
+
+? I have studied English ___ four years.
++ for
+- since
+- during
+> Durée : for.
+
+? I have studied English ___ 2022.
++ since
+- for
+- in
+> Point de départ : since.
+
+? We stayed in Spain ___ two weeks.
++ for
+- since
+- at
+> Durée : for.
+
+? I was ill ___ the holidays.
++ during
+- for
+- since
+> During = pendant (période).
+
+? Choisis :
++ I'm good at maths.
+- I'm good in maths.
+- I'm good on maths.
+> Good at.
+
+? Choisis :
++ She's afraid of spiders.
+- She's afraid from spiders.
+- She's afraid at spiders.
+> Afraid of.
+
+? Choisis :
++ He's interested in music.
+- He's interested on music.
+- He's interested at music.
+> Interested in.
+
+? Choisis :
++ I listen to music.
+- I listen music.
+- I listen at music.
+> Listen to.
+
+? Choisis :
++ We arrived at the station.
+- We arrived to the station.
+- We arrived in the station.
+> Arrive at (petit lieu), arrive in (ville).
+
+? This is not my book. It's ___. (à elle)
++ hers
+- her
+- she
+> Pronom possessif : hers.
+
+? I like my teacher. I talk to ___ every day.
++ him
+- he
+- his
+> Complément : him.
+
+? Where are Tom and Sue? I can't see ___.
++ them
+- they
+- their
+> Complément : them.
+
+? That bike isn't ___. It's Mia's.
++ mine
+- my
+- me
+> Pronom possessif : mine.
+
+? ___ is a good idea. (c'est)
++ It
+- He
+- They
+> It pour une chose.
+
+? My parents love ___ garden.
++ their
+- there
+- they're
+> Possessif : their.
+
+? The dog is wagging ___ tail.
++ its
+- it's
+- it
+> Its = son (de l'animal).
+
+? Is ___ your bag? – Yes, it's ___.
++ that / mine
+- that / my
+- this / me
+> Possession : mine.
+
+? It was late, ___ we went home.
++ so
+- but
+- because
+> So = donc.
+
+? I was tired ___ I stayed in bed.
++ because
+- so
+- although
+> Because = parce que.
+
+? I like tea, ___ I don't like coffee.
++ but
+- so
+- because
+> But = mais.
+
+? ___ it was raining, we went out.
++ Although
+- Because
+- So
+> Although = bien que.
+
+? I wanted to go out. ___, it was too late.
++ However
+- Because
+- And
+> However = cependant.
+
+? Do your homework ___ you watch TV.
++ before
+- because
+- although
+> Before = avant de.
+
+? Wait here ___ I come back.
++ until
+- during
+- since
+> Until = jusqu'à ce que.
+
+? I'll call you ___ I arrive.
++ when
+- because
+- but
+> When = quand.
+
+? The woman ___ lives next door is a doctor.
++ who
+- which
+- where
+> Personne : who.
+
+? The book ___ I read was great.
++ that
+- who
+- where
+> Chose : that/which.
+
+? The town ___ I was born is small.
++ where
+- who
+- which
+> Lieu : where.
+
+? This is the boy ___ won the prize.
++ who
+- which
+- where
+> Personne : who.
+
+? I need ___ umbrella.
++ an
+- a
+- the a
+> Voyelle : an.
+
+? She is ___ honest girl.
++ an
+- a
+- the
+> Honest : h muet → an.
+
+? I love ___ music.
++ –
+- the
+- a
+> Généralité : pas d'article.
+
+? The sun rises in ___ east.
++ the
+- a
+- –
+> Direction unique : the.
+
+? He plays ___ guitar.
++ the
+- a
+- –
+> Instrument : the.
+
+? We had dinner ___ a nice restaurant.
++ at
+- on
+- to
+> Au restaurant : at.
+
+? Pose la question : « She lives in Rome. » (où)
+= Where does she live
+> Where does she live ?
+
+? Pose la question : « He is twelve. » (âge)
+= How old is he
+> How old is he ?
+
+? Pose la question : « They play tennis on Sunday. » (quand)
+= When do they play tennis
+> When do they play tennis ?
+
+? Complète : « The film starts ___ 8 pm. »
+= at
+> Heure : at.
+
+? Complète : « My birthday is ___ March. »
+= in
+> Mois : in.
+
+? Complète : « It's ___ book. » (à moi, adjectif)
+= my
+> Adjectif possessif.
+
+? Complète : « This book is ___. » (à moi, pronom)
+= mine
+> Pronom possessif.
+```
+
 ## Voir aussi
 
 - [[Anglais-TOEIC]]

@@ -208,6 +208,478 @@ tags: [verbes irréguliers, faux amis, expressions]
 = library
 ```
 
+## Banque d'entraînement
+
+Cette banque contient **80 questions**. À chaque essai, le site en tire **15** au hasard parmi celles que tu n'as pas encore vues, et en change quand tu cliques sur « Recommencer ». Refais-la autant de fois que tu veux.
+
+```quiz Banque : verbes irréguliers et faux amis ~15
+? Past simple de « begin » ?
++ began
+- beginned
+- begun
+> begin – began – begun.
+
+? Participe passé de « begin » ?
++ begun
+- began
+- beginned
+> begin – began – begun.
+
+? Past simple de « break » ?
++ broke
+- breaked
+- broken
+> break – broke – broken.
+
+? Participe passé de « break » ?
++ broken
+- broke
+- breaked
+> Participe : broken.
+
+? Past simple de « bring » ?
++ brought
+- bringed
+- broughten
+> bring – brought – brought.
+
+? Past simple de « buy » ?
++ bought
+- buyed
+- boughten
+> buy – bought – bought.
+
+? Past simple de « choose » ?
++ chose
+- choosed
+- chosen
+> choose – chose – chosen.
+
+? Past simple de « come » ?
++ came
+- comed
+- come
+> come – came – come.
+
+? Participe passé de « do » ?
++ done
+- did
+- doed
+> do – did – done.
+
+? Past simple de « drink » ?
++ drank
+- drunk
+- drinked
+> drink – drank – drunk.
+
+? Participe passé de « drink » ?
++ drunk
+- drank
+- drinked
+> drink – drank – drunk.
+
+? Past simple de « eat » ?
++ ate
+- eated
+- eaten
+> eat – ate – eaten.
+
+? Participe passé de « eat » ?
++ eaten
+- ate
+- eated
+> Participe : eaten.
+
+? Past simple de « feel » ?
++ felt
+- feeled
+- felten
+> feel – felt – felt.
+
+? Past simple de « find » ?
++ found
+- finded
+- fund
+> find – found – found.
+
+? Past simple de « forget » ?
++ forgot
+- forgetted
+- forgotten
+> forget – forgot – forgotten.
+
+? Participe passé de « forget » ?
++ forgotten
+- forgot
+- forgetted
+> Participe : forgotten.
+
+? Past simple de « give » ?
++ gave
+- gived
+- given
+> give – gave – given.
+
+? Participe passé de « give » ?
++ given
+- gave
+- gived
+> Participe : given.
+
+? Past simple de « go » ?
++ went
+- goed
+- gone
+> go – went – gone.
+
+? Participe passé de « go » ?
++ gone
+- went
+- goed
+> go – went – gone.
+
+? Past simple de « have » ?
++ had
+- haved
+- has
+> have – had – had.
+
+? Past simple de « know » ?
++ knew
+- knowed
+- known
+> know – knew – known.
+
+? Participe passé de « know » ?
++ known
+- knew
+- knowed
+> Participe : known.
+
+? Past simple de « leave » ?
++ left
+- leaved
+- leaft
+> leave – left – left.
+
+? Past simple de « lose » ?
++ lost
+- losed
+- loosed
+> lose – lost – lost.
+
+? Past simple de « make » ?
++ made
+- maked
+- maden
+> make – made – made.
+
+? Past simple de « meet » ?
++ met
+- meeted
+- meat
+> meet – met – met.
+
+? Past simple de « pay » ?
++ paid
+- payed
+- pay
+> pay – paid – paid.
+
+? Past simple de « say » ?
++ said
+- sayed
+- sayd
+> say – said – said.
+
+? Past simple de « see » ?
++ saw
+- seed
+- seen
+> see – saw – seen.
+
+? Participe passé de « see » ?
++ seen
+- saw
+- seed
+> Participe : seen.
+
+? Past simple de « sell » ?
++ sold
+- selled
+- seld
+> sell – sold – sold.
+
+? Past simple de « send » ?
++ sent
+- sended
+- send
+> send – sent – sent.
+
+? Past simple de « sit » ?
++ sat
+- sitted
+- sit
+> sit – sat – sat.
+
+? Past simple de « speak » ?
++ spoke
+- speaked
+- spoken
+> speak – spoke – spoken.
+
+? Participe passé de « speak » ?
++ spoken
+- spoke
+- speaked
+> Participe : spoken.
+
+? Past simple de « take » ?
++ took
+- taked
+- taken
+> take – took – taken.
+
+? Participe passé de « take » ?
++ taken
+- took
+- taked
+> Participe : taken.
+
+? Past simple de « teach » ?
++ taught
+- teached
+- tought
+> teach – taught – taught.
+
+? Past simple de « think » ?
++ thought
+- thinked
+- thoughten
+> think – thought – thought.
+
+? Past simple de « understand » ?
++ understood
+- understanded
+- understand
+> understand – understood – understood.
+
+? Past simple de « wear » ?
++ wore
+- weared
+- worn
+> wear – wore – worn.
+
+? Participe passé de « write » ?
++ written
+- wrote
+- writed
+> write – wrote – written.
+
+? Past simple de « write » ?
++ wrote
+- writed
+- written
+> write – wrote – written.
+
+? « Actually » veut dire :
++ en fait
+- actuellement
+- activement
+> Actuellement = at the moment.
+
+? « Eventually » veut dire :
++ finalement
+- éventuellement
+- évidemment
+> Éventuellement = possibly.
+
+? « A sensible person » :
++ une personne raisonnable
+- une personne sensible
+- une personne sensationnelle
+> Sensible (émotif) = sensitive.
+
+? « A library » :
++ une bibliothèque
+- une librairie
+- un livre
+> Librairie = bookshop.
+
+? « To attend a meeting » :
++ assister à une réunion
+- attendre une réunion
+- animer une réunion
+> Attendre = to wait for.
+
+? « A pain » :
++ une douleur
+- du pain
+- un plaisir
+> Pain = bread.
+
+? « To pretend » :
++ faire semblant
+- prétendre
+- prévenir
+> Prétendre = to claim.
+
+? « A lecture » :
++ un cours magistral
+- une lecture
+- un livre
+> Lecture = reading.
+
+? « A college » (UK/US) :
++ un établissement post-bac ou lycée
+- un collège
+- une cantine
+> Collège (France) = secondary school.
+
+? « To demand » :
++ exiger
+- demander
+- décider
+> Demander = to ask.
+
+? « A journey » :
++ un trajet
+- une journée
+- un journal
+> Journée = a day.
+
+? « Large » :
++ grand
+- large
+- long
+> Large (largeur) = wide.
+
+? « To realise » :
++ se rendre compte
+- réaliser un film
+- réparer
+> Réaliser (film) = to make.
+
+? « A rest » :
++ un repos
+- un restaurant
+- un reste
+> Reste = remains.
+
+? « Sympathetic » :
++ compatissant
+- sympathique
+- sportif
+> Sympathique = nice, friendly.
+
+? « Sensitive » :
++ sensible
+- raisonnable
+- sensé
+> Raisonnable = sensible.
+
+? « Crime » :
++ un crime/délit
+- une crème
+- un cri
+> Crime = délit.
+
+? « A stage » :
++ une scène/une étape
+- un stage
+- un étage
+> Stage (formation) = internship.
+
+? I'm looking forward to ___ you.
++ seeing
+- see
+- saw
+> Look forward to + verbe-ing.
+
+? Would you mind ___ the window?
++ opening
+- open
+- to open
+> Would you mind + verbe-ing.
+
+? I'm used to ___ up early.
++ getting
+- get
+- got
+> Be used to + verbe-ing (habitude).
+
+? I used to ___ football when I was younger.
++ play
+- playing
+- played
+> Used to + base verbale.
+
+? It depends ___ the weather.
++ on
+- of
+- at
+> Depend on.
+
+? I'm good ___ drawing.
++ at
+- in
+- on
+> Good at.
+
+? She is afraid ___ dogs.
++ of
+- from
+- at
+> Afraid of.
+
+? I'm waiting ___ the bus.
++ for
+- to
+- at
+> Wait for.
+
+? He apologised ___ being late.
++ for
+- of
+- to
+> Apologise for.
+
+? We arrived ___ London at noon.
++ in
+- to
+- at
+> Arrive in + ville.
+
+? Participe passé de « speak » ?
+= spoken
+> speak – spoke – spoken.
+
+? Participe passé de « choose » ?
+= chosen
+> choose – chose – chosen.
+
+? Past simple de « drink » ?
+= drank
+> drink – drank – drunk.
+
+? Past simple de « teach » ?
+= taught
+> teach – taught – taught.
+
+? Participe passé de « wear » ?
+= worn
+> wear – wore – worn.
+
+? « bibliothèque » en anglais ?
+= library
+> Library = bibliothèque.
+
+? « en fait » en anglais ?
+= actually
+> Actually = en fait.
+```
+
 ## Voir aussi
 
 - [[Anglais-TOEIC]]

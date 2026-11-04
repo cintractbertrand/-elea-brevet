@@ -162,6 +162,8 @@ function markdown(src, ctx = { headings: [], quizzes: [] }) {
       if (fence[2].toLowerCase() === 'quiz') {
         const quiz = parseQuiz(body.join('\n'));
         quiz.title = fence[3].trim(); // ```quiz Titre : quiz nommé (ex. exercices des cours de classe)
+        const tirage = quiz.title.match(/\s*~\s*(\d+)\s*$/); // ```quiz Titre ~10 : banque, 10 questions tirées au hasard à chaque essai
+        if (tirage) { quiz.pick = +tirage[1]; quiz.title = quiz.title.slice(0, tirage.index).trim(); }
         ctx.quizzes.push(quiz);
         html += `<div class="quiz-slot" data-quiz="${ctx.quizzes.length - 1}"></div>`;
       } else {
@@ -312,7 +314,18 @@ function normAnswer(s) {
 }
 
 /* Construit un quiz interactif. onDone(score, total) est appelé à la fin. */
-function buildQuiz(questions, { title = 'Quiz', storeKey = null, sources = null } = {}) {
+const quizVus = new Map(); // banques à tirage : questions déjà posées (pour varier d'un essai à l'autre)
+function buildQuiz(pool, { title = 'Quiz', storeKey = null, sources = null, pick = 0 } = {}) {
+  let questions = pool;
+  if (pick && pool.length > pick) {
+    const cle = storeKey || title;
+    let vus = quizVus.get(cle) || new Set();
+    let frais = pool.filter((q) => !vus.has(q));
+    if (frais.length < pick) { vus = new Set(); frais = pool.slice(); } // banque épuisée : on repart de zéro
+    questions = shuffle(frais).slice(0, pick);
+    questions.forEach((q) => vus.add(q));
+    quizVus.set(cle, vus);
+  }
   const box = document.createElement('div');
   box.className = 'quiz';
   const best = storeKey ? store.get('quiz:' + storeKey, null) : null;
@@ -409,7 +422,7 @@ function buildQuiz(questions, { title = 'Quiz', storeKey = null, sources = null 
     const again = document.createElement('button');
     again.className = 'btn ghost';
     again.textContent = '↻ Recommencer';
-    again.addEventListener('click', () => box.replaceWith(buildQuiz(questions, { title, storeKey, sources })));
+    again.addEventListener('click', () => box.replaceWith(buildQuiz(pool, { title, storeKey, sources, pick })));
     r.appendChild(again);
     box.appendChild(r);
     if (storeKey) {
@@ -673,7 +686,7 @@ async function pageFiche(path, anchor) {
   const sansTitre = ctx.quizzes.filter((q) => !q.title); // les quiz nommés ne changent pas la numérotation ni le score de la fiche
   app.querySelectorAll('.quiz-slot').forEach((slot) => {
     const qs = ctx.quizzes[+slot.dataset.quiz];
-    if (qs.title) { slot.replaceWith(buildQuiz(qs, { title: qs.title, storeKey: path + '#' + qs.title })); return; }
+    if (qs.title) { slot.replaceWith(buildQuiz(qs, { title: qs.title, storeKey: path + '#' + qs.title, pick: qs.pick || 0 })); return; }
     const single = sansTitre.length === 1;
     slot.replaceWith(buildQuiz(qs, { title: single ? 'Quiz : teste-toi !' : `Quiz ${sansTitre.indexOf(qs) + 1}`, storeKey: single ? path : null }));
   });
