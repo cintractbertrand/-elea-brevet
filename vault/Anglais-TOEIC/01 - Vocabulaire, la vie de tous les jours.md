@@ -158,6 +158,343 @@ tags: [vocabulaire, école, famille, maison, météo]
 = homework
 ```
 
+## Banque d'entraînement
+
+Cette banque contient **57 questions**. À chaque essai, le site en tire **12** au hasard parmi celles que tu n'as pas encore vues, et en change quand tu cliques sur « Recommencer ». Refais-la autant de fois que tu veux.
+
+```quiz Banque : vocabulaire du quotidien ~12
+? « Homework » se traduit par ?
++ devoirs
+- vacances
+- maison
+> Home + work : le travail fait à la maison.
+
+? « A teacher » est :
++ un professeur
+- un élève
+- un directeur
+> Pupil ou student = élève.
+
+? « A pupil » est :
++ un élève
+- un professeur
+- un parent
+> Teacher = professeur.
+
+? « A subject » à l'école :
++ une matière
+- un cahier
+- un examen
+> Maths, English, History sont des subjects.
+
+? « A mark » ou « a grade » :
++ une note
+- une marque de voiture
+- une punition
+> Mark/grade = note scolaire.
+
+? « To fail an exam » :
++ rater un examen
+- réussir un examen
+- passer un examen sans stress
+> Fail = échouer ; pass = réussir.
+
+? « To borrow » :
++ emprunter
+- prêter
+- acheter
+> Lend = prêter.
+
+? « To lend » :
++ prêter
+- emprunter
+- perdre
+> Borrow = emprunter.
+
+? « A canteen » :
++ une cantine
+- un couloir
+- un gymnase
+> Canteen = cantine scolaire.
+
+? « A break » à l'école :
++ une récréation
+- une cassure
+- un examen
+> Break = pause, récréation.
+
+? « An uncle » :
++ un oncle
+- une tante
+- un cousin
+> Aunt = tante.
+
+? « An aunt » :
++ une tante
+- un oncle
+- une voisine
+> Uncle = oncle.
+
+? « A grandmother » :
++ une grand-mère
+- une belle-mère
+- une marraine
+> Grandfather = grand-père.
+
+? « A neighbour » :
++ un voisin
+- un cousin
+- un ami
+> Neighbour = voisin (orthographe britannique).
+
+? « A classmate » :
++ un camarade de classe
+- un professeur
+- un voisin
+> Class + mate = camarade.
+
+? « Tall » :
++ grand
+- gros
+- court
+> Short = petit, tall = grand (taille).
+
+? « Shy » :
++ timide
+- sociable
+- fâché
+> Shy = timide ; outgoing = sociable.
+
+? « Kind » :
++ gentil
+- méchant
+- grand
+> Kind = aimable ; rude = impoli.
+
+? « A bedroom » :
++ une chambre
+- une salle de bains
+- une cuisine
+> Bathroom = salle de bains.
+
+? « A bathroom » :
++ une salle de bains
+- une chambre
+- un salon
+> Bath = bain.
+
+? « The living room » :
++ le salon
+- la salle à manger
+- le garage
+> Living room = pièce de vie, salon.
+
+? « The ground floor » :
++ le rez-de-chaussée
+- le sous-sol
+- le grenier
+> Ground floor = rez-de-chaussée (UK).
+
+? « A fridge » :
++ un frigo
+- un four
+- un lave-vaisselle
+> Fridge = réfrigérateur.
+
+? « A wardrobe » :
++ une armoire
+- un tiroir
+- un miroir
+> Wardrobe = armoire à vêtements.
+
+? « A garden » :
++ un jardin
+- un garage
+- un grenier
+> Garden = jardin.
+
+? « To rent a flat » :
++ louer un appartement
+- acheter un appartement
+- vendre un appartement
+> Rent = louer ; flat = appartement (UK).
+
+? « Breakfast » :
++ le petit-déjeuner
+- le déjeuner
+- le dîner
+> Lunch = déjeuner, dinner = dîner.
+
+? « Lunch » :
++ le déjeuner
+- le petit-déjeuner
+- le dîner
+> Lunch = repas du midi.
+
+? « A snack » :
++ un en-cas
+- un serpent
+- un repas complet
+> Snack = petit encas.
+
+? « Vegetables » :
++ des légumes
+- des fruits
+- de la viande
+> Fruit = fruits.
+
+? « A jumper » :
++ un pull
+- un pantalon
+- une chemise
+> Jumper (UK) = pull ; sweater aussi.
+
+? « Trousers » :
++ un pantalon
+- une jupe
+- une chemise
+> Trousers est toujours pluriel : a pair of trousers.
+
+? « Trainers » :
++ des baskets
+- des bottes
+- des sandales
+> Trainers (UK) = sneakers (US).
+
+? « A coat » :
++ un manteau
+- une cravate
+- un chapeau
+> Coat = manteau.
+
+? « It's windy » :
++ Il y a du vent
+- Il neige
+- Il pleut
+> Wind = vent.
+
+? « It's freezing » :
++ Il gèle, il fait glacial
+- Il fait chaud
+- Il pleut
+> Freezing = très froid.
+
+? « Autumn » :
++ automne
+- printemps
+- été
+> Fall en anglais américain.
+
+? « Spring » :
++ le printemps
+- l'été
+- l'hiver
+> Spring = printemps (aussi : ressort).
+
+? « Yesterday » :
++ hier
+- demain
+- aujourd'hui
+> Tomorrow = demain.
+
+? « Twice a week » :
++ deux fois par semaine
+- une fois par semaine
+- tous les deux jours
+> Twice = deux fois.
+
+? It's a quarter to nine. Quelle heure ?
++ 8 h 45
+- 9 h 15
+- 9 h 45
+> Quarter to nine = neuf heures moins le quart.
+
+? It's a quarter past nine. Quelle heure ?
++ 9 h 15
+- 8 h 45
+- 9 h 45
+> Quarter past = et quart.
+
+? It's half past seven. Quelle heure ?
++ 7 h 30
+- 6 h 30
+- 8 h 30
+> Half past seven = sept heures et demie.
+
+? It's twenty to ten. Quelle heure ?
++ 9 h 40
+- 10 h 20
+- 9 h 20
+> Twenty to ten = dix heures moins vingt.
+
+? « Thirteen » est :
++ 13
+- 30
+- 31
+> Thirty = 30 ; thirteen = 13 (accent sur teen).
+
+? « Fifty » est :
++ 50
+- 15
+- 5
+> Fifteen = 15.
+
+? I usually have ___ at 7 in the morning. (petit-déjeuner)
++ breakfast
+- lunch
+- dinner
+> Breakfast = premier repas de la journée.
+
+? My ___ is my mother's brother.
++ uncle
+- cousin
+- nephew
+> Frère de la mère = uncle.
+
+? It's very cold. Put on your ___.
++ coat
+- shorts
+- sandals
+> Il fait froid, on met un manteau.
+
+? « bibliothèque » en anglais ?
+= library
+> Ne pas confondre avec bookshop (librairie).
+
+? « cuisine » (la pièce) en anglais ?
+= kitchen
+> Kitchen = cuisine.
+
+? « devoirs » en anglais ?
+= homework
+> Homework est indénombrable : no « homeworks ».
+
+? « voisin » en anglais ?
+= neighbour
+= neighbor
+> Deux orthographes : UK neighbour, US neighbor.
+
+? « pull » en anglais (UK) ?
+= jumper
+= sweater
+> Jumper ou sweater.
+
+? « hiver » en anglais ?
+= winter
+> Winter = hiver.
+
+? « grand-père » en anglais ?
+= grandfather
+= grandpa
+= grandad
+> Grandfather, grandad ou grandpa.
+
+? « note scolaire » en anglais (un mot) ?
+= mark
+= grade
+> Mark (UK) ou grade (US).
+```
+
 ## Voir aussi
 
 - [[Anglais-TOEIC]]
