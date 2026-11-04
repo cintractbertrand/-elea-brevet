@@ -8,11 +8,12 @@ const SUBJECTS = {
   'Français': { emoji: '📚', color: '#d65b8f' },
   'Histoire-Géographie-EMC': { emoji: '🌍', color: '#c77700' },
   'Sciences': { emoji: '🔬', color: '#0f9b8e' },
+  'Anglais-TOEIC': { emoji: '🇬🇧', color: '#2f6fd6' },
 };
 const SUBJECT_ORDER = Object.keys(SUBJECTS);
 
 const state = { fiches: [], byPath: new Map(), subjects: [], cur: null };
-const SHORT = { 'Histoire-Géographie-EMC': 'Histoire-Géo-EMC', 'Mathématiques': 'Maths' };
+const SHORT = { 'Histoire-Géographie-EMC': 'Histoire-Géo-EMC', 'Mathématiques': 'Maths', 'Anglais-TOEIC': 'Anglais' };
 const $ = (sel, root = document) => root.querySelector(sel);
 const app = $('#content');
 
