@@ -315,7 +315,7 @@ function normAnswer(s) {
 
 /* Construit un quiz interactif. onDone(score, total) est appelé à la fin. */
 const quizVus = new Map(); // banques à tirage : questions déjà posées (pour varier d'un essai à l'autre)
-function buildQuiz(pool, { title = 'Quiz', storeKey = null, sources = null, pick = 0 } = {}) {
+function buildQuiz(pool, { title = 'Quiz', storeKey = null, sources = null, pick = 0, total = null } = {}) {
   let questions = pool;
   if (pick && pool.length > pick) {
     const cle = storeKey || title;
@@ -422,7 +422,7 @@ function buildQuiz(pool, { title = 'Quiz', storeKey = null, sources = null, pick
     const again = document.createElement('button');
     again.className = 'btn ghost';
     again.textContent = '↻ Recommencer';
-    again.addEventListener('click', () => box.replaceWith(buildQuiz(pool, { title, storeKey, sources, pick })));
+    again.addEventListener('click', () => box.replaceWith(buildQuiz(pool, { title, storeKey, sources, pick, total })));
     r.appendChild(again);
     box.appendChild(r);
     if (storeKey) {
@@ -430,6 +430,11 @@ function buildQuiz(pool, { title = 'Quiz', storeKey = null, sources = null, pick
       store.set('quiz:' + storeKey, {
         best: prev ? Math.max(prev.best, score) : score, total: questions.length, last: score, date: new Date().toISOString(),
       });
+      if (total) { // fiche à plusieurs quiz : le score de la fiche cumule ses quiz
+        let b = 0, t = 0;
+        total.keys.forEach((k) => { const v = store.get('quiz:' + k, null); if (v) b += v.best; t += total.sizes[k]; });
+        store.set('quiz:' + total.path, { best: b, total: t, last: b, date: new Date().toISOString() });
+      }
       renderSidebar();
     }
   }
@@ -688,7 +693,11 @@ async function pageFiche(path, anchor) {
     const qs = ctx.quizzes[+slot.dataset.quiz];
     if (qs.title) { slot.replaceWith(buildQuiz(qs, { title: qs.title, storeKey: path + '#' + qs.title, pick: qs.pick || 0 })); return; }
     const single = sansTitre.length === 1;
-    slot.replaceWith(buildQuiz(qs, { title: single ? 'Quiz : teste-toi !' : `Quiz ${sansTitre.indexOf(qs) + 1}`, storeKey: single ? path : null }));
+    if (single) { slot.replaceWith(buildQuiz(qs, { title: 'Quiz : teste-toi !', storeKey: path })); return; }
+    const n = sansTitre.indexOf(qs) + 1;
+    const keys = sansTitre.map((_, i) => path + '#Quiz ' + (i + 1)), sizes = {};
+    keys.forEach((k, i) => { sizes[k] = sansTitre[i].length; });
+    slot.replaceWith(buildQuiz(qs, { title: `Quiz ${n}`, storeKey: keys[n - 1], total: { path, keys, sizes } }));
   });
   enhanceVideos(app);
   renderMath(app);
