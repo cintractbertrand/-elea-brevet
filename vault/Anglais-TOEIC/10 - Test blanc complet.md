@@ -276,7 +276,7 @@ tags: [test blanc, entraînement, qcm]
 
 ## Test blanc sans fin
 
-Une banque de **514 questions** tirées de toutes les fiches : vocabulaire, grammaire, verbes, lecture et dialogues. Chaque essai propose **40 questions différentes** (le site évite de reprendre les mêmes tant que la banque n'est pas épuisée). Vise 34/40 au moins avant le jour J.
+Une banque de **659 questions** tirées de toutes les fiches : vocabulaire, grammaire, verbes, lecture et dialogues. Chaque essai propose **40 questions différentes** (le site évite de reprendre les mêmes tant que la banque n'est pas épuisée). Vise 34/40 au moins avant le jour J.
 
 ```quiz Test blanc ~40
 ? « Homework » se traduit par ?
@@ -3271,6 +3271,876 @@ Une banque de **514 questions** tirées de toutes les fiches : vocabulaire, gram
 - far from town
 - in the park
 > Next to + opposite.
+
+? The manager asked all employees ___ the report by Friday.
++ to submit
+- submit
+- submitting
+> Ask somebody + to + infinitif.
+
+? Mr Park is responsible ___ the new project.
++ for
+- of
+- to
+> Responsible for.
+
+? We are pleased ___ you that your application was successful.
++ to inform
+- informing
+- inform
+> Pleased + to + infinitif.
+
+? The meeting has been ___ until next week.
++ postponed
+- postponing
+- postpone
+> Participe passé après has been.
+
+? All visitors must ___ at the reception desk.
++ register
+- registering
+- registered
+> Après must : base verbale.
+
+? Please send me the documents as soon as ___.
++ possible
+- possibly
+- possibility
+> As soon as possible.
+
+? She has worked for this company ___ 2019.
++ since
+- for
+- during
+> Since + point de départ.
+
+? He has been the manager ___ five years.
++ for
+- since
+- ago
+> For + durée.
+
+? If you ___ any questions, please contact us.
++ have
+- will have
+- would have
+> If + présent (type 1).
+
+? The new printer is ___ than the old one.
++ faster
+- more fast
+- fastest
+> Comparatif de fast.
+
+? This is the ___ expensive laptop in the shop.
++ most
+- more
+- much
+> Superlatif d'un adjectif long.
+
+? The shop opens ___ 9 am ___ Monday to Saturday.
++ at / from
+- in / on
+- on / since
+> At + heure ; from … to.
+
+? Our flight was delayed ___ the bad weather.
++ because of
+- because
+- although
+> Because of + nom.
+
+? ___ the rain, the match took place.
++ Despite
+- Because
+- So
+> Despite + nom : malgré.
+
+? We didn't go out ___ it was raining.
++ because
+- because of
+- despite
+> Because + sujet + verbe.
+
+? The report ___ by the team last week.
++ was written
+- wrote
+- has written
+> Passif au passé : was written.
+
+? New offices ___ next year.
++ will be opened
+- will open
+- opens
+> Passif futur : will be opened.
+
+? The documents ___ already ___ sent.
++ have been
+- has been
+- are
+> Present perfect passif : have been sent.
+
+? He asked me whether I ___ free on Monday.
++ was
+- am
+- will be
+> Discours rapporté : concordance → was.
+
+? She said she ___ come to the party.
++ would
+- will
+- can
+> Concordance : will → would.
+
+? I suggest ___ a taxi.
++ taking
+- to take
+- take
+> Suggest + verbe-ing.
+
+? They decided ___ the contract.
++ to sign
+- signing
+- sign
+> Decide + to + infinitif.
+
+? I look forward ___ from you soon.
++ to hearing
+- to hear
+- hearing
+> Look forward to + verbe-ing.
+
+? Would you mind ___ the window?
++ closing
+- to close
+- close
+> Would you mind + verbe-ing.
+
+? We apologise ___ the delay.
++ for
+- of
+- about
+> Apologise for.
+
+? He is interested ___ working abroad.
++ in
+- on
+- at
+> Interested in.
+
+? She is good ___ organising events.
++ at
+- in
+- on
+> Good at + verbe-ing.
+
+? I'm afraid I can't attend the meeting. I have ___ appointment.
++ another
+- other
+- others
+> Another + singulier.
+
+? There ___ many people at the conference yesterday.
++ were
+- was
+- are
+> Pluriel, passé : were.
+
+? There isn't ___ time left.
++ much
+- many
+- few
+> Indénombrable : much.
+
+? We need ___ more information.
++ some
+- an
+- many
+> Information est indénombrable : some.
+
+? Neither Anna ___ Tom attended the meeting.
++ nor
+- or
+- and
+> Neither … nor.
+
+? Either you call him ___ I do.
++ or
+- nor
+- but
+> Either … or.
+
+? Both the manager ___ his assistant were late.
++ and
+- or
+- nor
+> Both … and.
+
+? The candidate ___ I interviewed yesterday was excellent.
++ whom
+- whose
+- which
+> Personne complément : whom/who/that.
+
+? The company, ___ was founded in 1990, has 500 employees.
++ which
+- who
+- whose
+> Chose : which.
+
+? That's the woman ___ car was stolen.
++ whose
+- who
+- which
+> Possession : whose.
+
+? He works ___ a software engineer.
++ as
+- like
+- such
+> As = en tant que.
+
+? She looks ___ her mother.
++ like
+- as
+- alike
+> Look like = ressembler à.
+
+? He was ___ tired that he fell asleep.
++ so
+- such
+- too
+> So + adjectif + that.
+
+? It was ___ a good film that we watched it twice.
++ such
+- so
+- too
+> Such + a + adjectif + nom.
+
+? The room is ___ small for twenty people.
++ too
+- very
+- enough
+> Too = trop.
+
+? The hotel isn't big ___ for 200 guests.
++ enough
+- too
+- so
+> Adjectif + enough.
+
+? Let's meet ___ Tuesday ___ ten.
++ on / at
+- in / on
+- at / in
+> On + jour ; at + heure.
+
+? He arrived ___ the airport at noon.
++ at
+- to
+- in
+> Arrive at + lieu précis.
+
+? We arrived ___ London last night.
++ in
+- at
+- to
+> Arrive in + ville.
+
+? I'll call you ___ I get to the office.
++ when
+- while
+- during
+> When = quand (action).
+
+? ___ you wait, I'll prepare the documents.
++ While
+- During
+- Since
+> While + verbe.
+
+? She worked ___ the summer in a hotel.
++ during
+- while
+- for
+> During + nom : pendant.
+
+? You should leave now ___ you miss the train.
++ or
+- and
+- but
+> Or = sinon.
+
+? The price ___ by 10% last year.
++ increased
+- increase
+- has increase
+> Past simple : increased.
+
+? Sales have ___ since January.
++ risen
+- rose
+- risen up
+> Participe passé de rise : risen.
+
+? Profits fell ___ 5%.
++ by
+- at
+- to
+> Fall by = baisser de.
+
+? The company employs ___ 200 people.
++ about
+- during
+- between of
+> About = environ.
+
+? Please ___ me know if you can come.
++ let
+- make
+- tell
+> Let me know = faites-moi savoir.
+
+? Could you ___ me a favour?
++ do
+- make
+- take
+> Do someone a favour.
+
+? He ___ a mistake in the report.
++ made
+- did
+- took
+> Make a mistake.
+
+? I'd like to ___ an appointment with Dr Lee.
++ make
+- do
+- take
+> Make an appointment.
+
+? She ___ a decision after a long discussion.
++ made
+- did
+- took off
+> Make a decision.
+
+? Our team ___ a lot of work this week.
++ has done
+- has made
+- has taken
+> Do work.
+
+? They have ___ the contract for two years.
++ extended
+- extending
+- extend
+> Present perfect + participe passé.
+
+? The sales manager is ___ on holiday.
++ currently
+- actually
+- eventually
+> Currently = actuellement.
+
+? Our suppliers are ___ in Asia.
++ mainly
+- mainly of
+- main
+> Adverbe : mainly.
+
+? A: « Is Ms Brown available? » B: « She's in a meeting until 3. Can I take a message? » What does B offer?
++ To take a message
+- To book a room
+- To send an email
+> Take a message.
+
+? A: « Could you send me the report by tomorrow? » B: « Sure, no problem. » What will B do?
++ Send the report
+- Cancel the report
+- Write a new report
+> No problem = d'accord.
+
+? A: « I'm calling about the job advert. » B: « Please send your CV to our HR department. » What should A send?
++ A CV
+- A report
+- A photo
+> Send your CV.
+
+? A: « Shall we move the meeting to Friday? » B: « Friday's difficult. How about Thursday? » What does B suggest?
++ Thursday
+- Friday
+- Monday
+> How about Thursday.
+
+? A: « The printer is out of paper. » B: « I'll get some from the storeroom. » What will B do?
++ Get paper
+- Call a technician
+- Buy a printer
+> Get some paper.
+
+? A: « Did you reserve a room for the training session? » B: « Yes, room 4, at 10. » Where is the session?
++ Room 4
+- Room 10
+- Room 14
+> Room 4.
+
+? A: « I'm sorry, I'll be late. The train is delayed. » B: « Don't worry, we'll start without you. » B will:
++ start the meeting
+- cancel it
+- wait
+> Start without you.
+
+? A: « What time does the conference start? » B: « Registration is at 9, and the first talk is at 9:30. » When is the first talk?
++ 9:30
+- 9:00
+- 10:00
+> First talk at 9:30.
+
+? A: « Can I pay by credit card? » B: « I'm afraid we only accept cash. » How can A pay?
++ Cash
+- Card
+- Cheque
+> Only cash.
+
+? A: « I'd like to change my flight to Monday. » B: « There will be a fee of 50 euros. » What is the problem?
++ There is a fee
+- The flight is full
+- A is late
+> Fee = frais.
+
+? A: « Our sales went up by 10% this quarter. » B: « That's great news! » What happened?
++ Sales increased
+- Sales fell
+- Sales stayed the same
+> Went up = ont augmenté.
+
+? A: « Who's going to present the results? » B: « Sara will, she knows the figures best. » Who will present?
++ Sara
+- A
+- B
+> Sara will.
+
+? A: « I can't open this file. » B: « Try downloading it again. » What does B advise?
++ Download it again
+- Delete it
+- Print it
+> Try downloading again.
+
+? A: « We're running out of time. » B: « Then let's skip the last item. » B suggests:
++ skipping the last item
+- adding items
+- stopping the meeting
+> Skip = sauter.
+
+? A: « Is this seat taken? » B: « No, go ahead. » B means:
++ You can sit
+- You can't sit
+- It's reserved
+> Go ahead = vas-y.
+
+? A: « Would you like to join us for lunch? » B: « I'd love to, but I have a deadline. » B:
++ can't come
+- will come
+- is late
+> I'd love to, but… = refus poli.
+
+? A: « How long have you worked here? » B: « Since 2018. » Which is true?
++ B started in 2018
+- B started yesterday
+- B will leave in 2018
+> Since 2018 = depuis 2018.
+
+? A: « The shop is closed on Sundays. » B: « So we must go on Saturday. » When will they go?
++ Saturday
+- Sunday
+- Monday
+> Must go on Saturday.
+
+? A: « I'd like a refund. The jacket is too small. » B: « Do you have the receipt? » What does B ask for?
++ The receipt
+- A new jacket
+- Identity card
+> Receipt = reçu.
+
+? A: « Where can I find the HR department? » B: « Take the lift to the third floor. » Where is HR?
++ On the third floor
+- In the basement
+- On the roof
+> Third floor.
+
+? A: « Are you coming to the party? » B: « Only if I finish my work. » B:
++ might not come
+- will certainly come
+- will never come
+> Only if = seulement si.
+
+? A: « The invoice is wrong. » B: « I'll check it and call you back. » B will:
++ check and call back
+- ignore
+- send it again
+> Call back = rappeler.
+
+? A: « Would you like to leave a message? » B: « No, I'll call again later. » B:
++ will call later
+- will wait
+- will leave a message
+> Call again later.
+
+? A: « We need to hire two more employees. » B: « I'll post the job advert today. » B will:
++ publish a job advert
+- cancel jobs
+- fire staff
+> Post an advert.
+
+? A: « I've lost my password. » B: « Click on « Forgot password » to reset it. » What should A do?
++ Reset it online
+- Call the police
+- Buy a new computer
+> Reset = réinitialiser.
+
+? A: « The delivery should arrive on Tuesday. » B: « Will somebody be there to sign for it? » B asks about:
++ someone to receive it
+- the price
+- the colour
+> Sign for = signer à la réception.
+
+? A: « Can you give me a lift to the station? » B: « Sorry, my car is at the garage. » B:
++ can't drive A
+- will drive A
+- has two cars
+> At the garage = en réparation.
+
+? A: « It's freezing in here. » B: « I'll turn up the heating. » B will:
++ make it warmer
+- open the window
+- turn off the lights
+> Turn up the heating = monter le chauffage.
+
+? A: « I didn't get your email. » B: « I'll forward it again. » B will:
++ send it again
+- delete it
+- print it
+> Forward = faire suivre.
+
+? A: « Could I have a window seat? » B: « Of course. Here is your boarding pass. » Where are they?
++ At an airport
+- At a bank
+- At a school
+> Seat + boarding pass.
+
+? A: « Two coffees, please. » B: « To drink here or to take away? » Where are they?
++ In a café
+- In a hospital
+- At a station
+> Take away.
+
+? « An invoice » :
++ une facture
+- une invitation
+- un inventaire
+> Invoice = facture.
+
+? « A receipt » :
++ un reçu
+- une recette
+- une réception
+> Receipt = reçu.
+
+? « A supplier » :
++ un fournisseur
+- un supporter
+- un supérieur
+> Supplier = fournisseur.
+
+? « A customer » :
++ un client
+- un coutumier
+- un consommateur
+> Customer = client.
+
+? « A deadline » :
++ une date limite
+- une ligne morte
+- une limite d'âge
+> Deadline = date limite.
+
+? « A budget » :
++ un budget
+- un bouquet
+- un bureau
+> Budget = budget.
+
+? « A branch » (banque) :
++ une agence
+- une branche d'arbre
+- un bureau
+> Branch = agence.
+
+? « Headquarters » :
++ le siège social
+- la tête
+- le quartier général de police
+> Headquarters = siège (HQ).
+
+? « A department » :
++ un service
+- un département français
+- un magasin
+> Department = service d'une entreprise.
+
+? « The staff » :
++ le personnel
+- un bâton
+- une étape
+> Staff = personnel.
+
+? « To resign » :
++ démissionner
+- résigner
+- signer
+> Resign = démissionner.
+
+? « To retire » :
++ prendre sa retraite
+- se retirer
+- tirer
+> Retire = prendre sa retraite.
+
+? « A raise » :
++ une augmentation de salaire
+- un lever
+- une réunion
+> Raise = augmentation.
+
+? « To be out of the office » :
++ être absent du bureau
+- être au bureau
+- être malade
+> Out of the office = absent.
+
+? « To book a meeting room » :
++ réserver une salle de réunion
+- construire
+- louer un livre
+> Book = réserver.
+
+? « An agenda » :
++ un ordre du jour
+- un agenda de poche
+- une réunion
+> Agenda = ordre du jour.
+
+? « To attend a conference » :
++ assister à une conférence
+- attendre une conférence
+- donner une conférence
+> Attend = assister à.
+
+? « To schedule » :
++ programmer
+- ordonner
+- écrire
+> Schedule = planifier.
+
+? « To cancel » :
++ annuler
+- reporter
+- confirmer
+> Cancel = annuler.
+
+? « To postpone » :
++ reporter
+- annuler
+- avancer
+> Postpone = repousser.
+
+? « To confirm » :
++ confirmer
+- contredire
+- conformer
+> Confirm = confirmer.
+
+? « To attach a file » :
++ joindre un fichier
+- attacher quelqu'un
+- effacer
+> Attach = joindre.
+
+? « Attached you will find » :
++ Vous trouverez ci-joint
+- Attachez-vous
+- Attendez
+> Formule de mail.
+
+? « I look forward to hearing from you » :
++ J'attends votre réponse avec impatience
+- Je regarde devant
+- Je vous entends
+> Fin de mail formelle.
+
+? « I am writing to inquire about » :
++ Je vous écris pour me renseigner sur
+- Je vous écris pour me plaindre de
+- Je vous écris pour vous féliciter
+> Inquire about = se renseigner.
+
+? « Dear Sir or Madam » :
++ Madame, Monsieur
+- Cher ami
+- Salut
+> Début formel.
+
+? « Yours faithfully » se place après :
++ Dear Sir or Madam
+- Dear Mr Smith
+- Dear John
+> Faithfully après un destinataire inconnu ; sincerely après un nom.
+
+? « Kind regards » :
++ Cordialement
+- Mes sincères regrets
+- Bonne chance
+> Formule de politesse.
+
+? « ASAP » :
++ dès que possible
+- à tout à l'heure
+- d'accord
+> As soon as possible.
+
+? « FYI » :
++ pour information
+- pour toi
+- finalement
+> For your information.
+
+? « To follow up » :
++ relancer / faire le suivi
+- suivre quelqu'un
+- arrêter
+> Follow up = suivi.
+
+? « To get back to someone » :
++ recontacter quelqu'un
+- revenir en arrière
+- rapporter
+> I'll get back to you = je vous recontacte.
+
+? « To put someone through » :
++ passer la communication
+- faire passer un test
+- refuser
+> Put through = transférer l'appel.
+
+? « Hold the line » :
++ Ne quittez pas
+- Faites la queue
+- Tenez la ligne droite
+> Au téléphone.
+
+? « Could I speak to Mr Lee? »
++ Puis-je parler à M. Lee ?
+- Puis-je épeler M. Lee ?
+- Lee peut-il parler ?
+> Could I speak to… = demande polie.
+
+? « Would you like to leave a message? »
++ Voulez-vous laisser un message ?
+- Voulez-vous partir ?
+- Voulez-vous un message ?
+> Leave a message.
+
+? « I'm afraid he's not in. »
++ Je crains qu'il ne soit pas là.
+- J'ai peur de lui.
+- Il n'a pas peur.
+> I'm afraid = je regrette.
+
+? « A résumé / CV » :
++ un curriculum vitae
+- un résumé de film
+- une lettre
+> CV (UK) / résumé (US).
+
+? « A cover letter » :
++ une lettre de motivation
+- une couverture
+- une lettre recommandée
+> Cover letter.
+
+? « A reference » (emploi) :
++ une recommandation
+- une référence littéraire
+- un diplôme
+> Reference = recommandation.
+
+? « Qualifications » :
++ diplômes et compétences
+- qualités
+- quantités
+> Qualifications.
+
+? « Experience » (travail) :
++ expérience professionnelle
+- expérience scientifique
+- expérimentation
+> Work experience.
+
+? « To be fluent in English » :
++ parler couramment anglais
+- être fluide
+- être faible en anglais
+> Fluent = courant.
+
+? « Strengths and weaknesses » :
++ points forts et points faibles
+- forces et faiblesses physiques
+- succès et échecs
+> Entretien d'embauche.
+
+? « Salary » :
++ salaire
+- salade
+- sel
+> Salary = salaire.
+
+? « Full-time » :
++ à plein temps
+- à temps partiel
+- de nuit
+> Full-time = plein temps.
+
+? « A permanent contract » :
++ un CDI
+- un CDD
+- un stage
+> Permanent = durable.
+
+? « A temporary job » :
++ un emploi temporaire
+- un emploi permanent
+- un travail de nuit
+> Temporary = temporaire.
+
+? « An internship » :
++ un stage
+- un entretien
+- une formation continue
+> Internship = stage.
+
+? « A trainee » :
++ un stagiaire
+- un entraîneur
+- un trainer
+> Trainee = stagiaire.
+
+? « To train » :
++ former, s'entraîner
+- traîner
+- transporter
+> Train = former.
 ```
 
 ## Voir aussi
