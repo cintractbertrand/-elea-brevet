@@ -501,9 +501,19 @@ const chaptersOf = (subject) => state.fiches
   .filter((f) => f.subject === subject && f.type !== 'sommaire')
   .sort((a, b) => (a.num ?? 999) - (b.num ?? 999) || a.title.localeCompare(b.title));
 
+/* Une fiche compte comme faite si la case « maîtrisée » est cochée ou si on a terminé au moins un de ses quiz. */
+function fait(path) {
+  if (store.get('ok:' + path, false)) return true;
+  try {
+    const pre = 'brevet:quiz:' + path;
+    for (let i = 0; i < localStorage.length; i++) { const k = localStorage.key(i); if (k === pre || k.startsWith(pre + '#')) return true; }
+  } catch { /* stockage indisponible */ }
+  return false;
+}
+
 function progressOf(subject) {
   const ch = chaptersOf(subject).filter((f) => f.type === 'fiche');
-  const done = ch.filter((f) => store.get('ok:' + f.path, false)).length;
+  const done = ch.filter((f) => fait(f.path)).length;
   return { done, total: ch.length };
 }
 
@@ -522,7 +532,7 @@ function renderSidebar() {
     let theme = null;
     for (const f of chs) {
       if (f.theme && f.theme !== theme) { theme = f.theme; html += `<div class="side-theme">${esc(theme)}</div>`; }
-      const ok = store.get('ok:' + f.path, false);
+      const ok = fait(f.path);
       const q = store.get('quiz:' + f.path, null);
       const badge = ok ? '<span class="badge ok badge-r" title="Maîtrisé">✓</span>' : q ? scoreBadge(q.best, q.total) : '';
       html += `<a class="side-link" data-path="${esc(f.path)}" href="${ficheUrl(f.path)}"><span class="num">${numLabel(f)}</span><span>${esc(f.title)}</span>${badge ? badge.replace('class="badge', 'class="badge') : ''}</a>`;
@@ -558,7 +568,7 @@ function matieresNav() {
 /* La prochaine fiche à travailler dans une matière (première non maîtrisée) */
 function prochaineFiche(subject) {
   const ch = chaptersOf(subject).filter((f) => f.type === 'fiche');
-  return ch.find((f) => !store.get('ok:' + f.path, false)) || null;
+  return ch.find((f) => !fait(f.path)) || null;
 }
 
 /* ======================= Pages ======================= */
@@ -585,7 +595,7 @@ function pageHome() {
     const p = progressOf(s);
     const has = state.subjects.includes(s);
     html += `<a class="card" href="#/m/${encodeURIComponent(s)}"><div class="emoji">${info.emoji}</div><h3>${esc(s)}</h3>`;
-    html += p.total ? `<p>${p.total} fiche${p.total > 1 ? 's' : ''} · ${p.done} maîtrisée${p.done > 1 ? 's' : ''}</p><div class="progress"><span style="width:${Math.round((100 * p.done) / p.total)}%"></span></div>` : `<p>${has ? 'Fiches à venir' : 'Dossier à créer'}</p>`;
+    html += p.total ? `<p>${p.total} fiche${p.total > 1 ? 's' : ''} · ${p.done} faite${p.done > 1 ? 's' : ''}</p><div class="progress"><span style="width:${Math.round((100 * p.done) / p.total)}%"></span></div>` : `<p>${has ? 'Fiches à venir' : 'Dossier à créer'}</p>`;
     html += '</a>';
   }
   html += '</div>';
@@ -605,7 +615,7 @@ function pageSubject(subject) {
   const nbQ = chs.reduce((n, f) => n + f.quizQuestions.length, 0);
   let html = matieresNav() + `<div class="breadcrumb"><a href="#/">Accueil</a> › ${esc(subject)}</div>`;
   html += `<div class="hero"><h1>${info.emoji} ${esc(subject)}</h1>`;
-  html += p.total ? `<p class="muted">${p.done} fiche${p.done > 1 ? 's' : ''} maîtrisée${p.done > 1 ? 's' : ''} sur ${p.total}</p><div class="progress" style="max-width:420px"><span style="width:${Math.round((100 * p.done) / p.total)}%"></span></div>` : '<p class="muted">Les fiches de cette matière arrivent bientôt.</p>';
+  html += p.total ? `<p class="muted">${p.done} fiche${p.done > 1 ? 's' : ''} faite${p.done > 1 ? 's' : ''} sur ${p.total}</p><div class="progress" style="max-width:420px"><span style="width:${Math.round((100 * p.done) / p.total)}%"></span></div>` : '<p class="muted">Les fiches de cette matière arrivent bientôt.</p>';
   html += '</div>';
   const nxt = prochaineFiche(subject);
   html += '<div class="actions">';
@@ -617,10 +627,10 @@ function pageSubject(subject) {
     if (f.theme !== theme) {
       if (theme !== null) html += '</div>';
       theme = f.theme;
-      const du = chs.filter((x) => x.theme === theme && x.type === 'fiche'), fait = du.filter((x) => store.get('ok:' + x.path, false)).length;
-      html += `<h2 class="section-title">${esc(theme || 'Fiches')}${du.length ? ` <small class="theme-prog">${fait}/${du.length} maîtrisées</small>` : ''}</h2><div class="grid">`;
+      const du = chs.filter((x) => x.theme === theme && x.type === 'fiche'), nbFait = du.filter((x) => fait(x.path)).length;
+      html += `<h2 class="section-title">${esc(theme || 'Fiches')}${du.length ? ` <small class="theme-prog">${nbFait}/${du.length} faites</small>` : ''}</h2><div class="grid">`;
     }
-    const ok = store.get('ok:' + f.path, false);
+    const ok = fait(f.path);
     const q = store.get('quiz:' + f.path, null);
     html += `<a class="card" href="${ficheUrl(f.path)}"><h3>${f.type === 'fiche' && f.num != null ? f.num + '. ' : ''}${esc(f.title)}</h3>`;
     if (f.meta.resume) html += `<p>${esc(f.meta.resume)}</p>`;
