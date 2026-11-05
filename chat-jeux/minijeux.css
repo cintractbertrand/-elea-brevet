@@ -141,3 +141,15 @@
   .mj-scene-tomber { height: 330px; }
   .tt-maitre { width: 92px; height: 130px; }
 }
+
+/* Téléphone : le panneau « Jouer » doit toujours tenir dans le cadre, même quand le jeu est très large et peu haut
+   (chat qui court, point laser) ou que le téléphone affiche les textes en grand. */
+@media (max-width: 760px) {
+  .mj-scene:has(> .mj-panneau) { min-height: max(270px, 19rem); }
+  .mj-panneau { padding: 8px; }
+  .mj-panneau-in { padding: 10px 14px; max-width: 92%; }
+  .mj-panneau-in h2 { font-size: 1.1rem; margin: 2px 0 4px; }
+  .mj-panneau-in p { font-size: .88rem; margin: 0 0 8px; }
+  .mj-panneau-chat { width: 56px; height: 58px; }
+  .ar-panneau-emoji { font-size: 1.8rem; }
+}
