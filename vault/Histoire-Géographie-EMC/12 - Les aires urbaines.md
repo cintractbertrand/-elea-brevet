@@ -111,6 +111,39 @@ Schéma à savoir refaire : des **cercles** du centre vers l'extérieur (ville-c
 
 ## Quiz
 
+### ⚡ Échauffement express
+
+Cinq petites questions à réponse tapée pour vérifier que les bases sont là.
+
+```quiz Échauffement express
+? Comment appelle-t-on l'espace formé par une ville-centre, ses banlieues et sa couronne périurbaine ?
+= aire urbaine
+= aire d'attraction
+= une aire urbaine
+= aire d'attraction d'une ville
+> L'INSEE parle aujourd'hui d'« aire d'attraction des villes ».
+
+? Quelle est la plus grande aire urbaine de France ?
+= Paris
+> Environ 13 millions d'habitants.
+
+? Quelle est la deuxième aire urbaine de France ?
+= Lyon
+> Environ 2,3 millions d'habitants.
+
+? Comment s'appelle l'extension des villes vers les campagnes ?
+= périurbanisation
+= la périurbanisation
+= étalement urbain
+> Les gens s'installent en lotissements pavillonnaires.
+
+? Comment appelle-t-on un trajet quotidien domicile-travail ?
+= migration pendulaire
+= migrations pendulaires
+= pendulaire
+> On fait l'aller-retour chaque jour.
+```
+
 ```quiz
 ? Quelle part des Français vit dans une aire urbaine ?
 - environ 50 %
@@ -166,6 +199,166 @@ Schéma à savoir refaire : des **cercles** du centre vers l'extérieur (ville-c
 + La ville-centre et ses banlieues
 - La campagne autour
 > C'est le cœur urbanisé de l'aire.
+```
+
+### 🎲 Entraînement sans fin
+
+Une banque de 26 questions : 10 sont tirées au hasard à chaque essai, sans répétition tant que la banque n'est pas épuisée. Recommence autant que tu veux !
+
+```quiz Entraînement sans fin ~10
+? Une aire urbaine comprend…
++ un pôle urbain (ville-centre + banlieue) et une couronne périurbaine
+- seulement le centre-ville
+- seulement des villages isolés
+> Les habitants de la couronne travaillent souvent dans le pôle.
+
+? La banlieue est…
++ l'espace urbanisé autour de la ville-centre, en continuité de bâti
+- la campagne lointaine
+- le centre historique
+> Elle mêle habitations, zones d'activités, grands ensembles.
+
+? Le périurbain est…
++ un espace de lotissements et villages autour de la ville, sous son influence
+- le centre historique
+- un quartier d'affaires
+> On y vit à la campagne mais on travaille en ville.
+
+? La périurbanisation s'explique par…
++ la recherche d'une maison avec jardin moins chère et l'usage de la voiture
+- l'interdiction de vivre en ville
+- la fin des voitures
+> Le prix du logement est élevé en ville-centre.
+
+? Un inconvénient de la périurbanisation est…
++ la consommation d'espaces agricoles et la dépendance à la voiture
+- la baisse des embouteillages
+- la protection des terres agricoles
+> On parle d'étalement urbain.
+
+? La métropolisation est…
++ la concentration des populations et des activités dans les grandes villes
+- le déclin des grandes villes
+- le développement des villages
+> Les métropoles attirent emplois et services.
+
+? La Défense est…
++ un quartier d'affaires de l'aire parisienne
+- une base militaire
+- une zone rurale
+> Le plus grand quartier d'affaires d'Europe.
+
+? La gentrification désigne…
++ l'arrivée de populations aisées dans un quartier populaire
+- la construction de grands ensembles
+- l'exode rural
+> Les prix montent, les plus modestes partent.
+
+? Les quartiers prioritaires de la politique de la ville…
++ concentrent difficultés sociales et chômage, et reçoivent des aides
+- sont les quartiers les plus riches
+- n'existent pas
+> Rénovation urbaine, transports, écoles.
+
+? Un éco-quartier est…
++ un quartier conçu pour limiter son impact environnemental
+- un quartier d'usines polluantes
+- un parking géant
+> Ex. bâtiments économes, transports doux, espaces verts.
+
+? Pour limiter l'usage de la voiture, les villes développent…
++ tramways, pistes cyclables, transports en commun
+- des autoroutes urbaines
+- des parkings en centre-ville
+> Mobilités douces.
+
+? Les migrations pendulaires provoquent…
++ des embouteillages aux heures de pointe
+- l'absence de trafic
+- la fin des transports
+> Matin vers le centre, soir vers la périphérie.
+
+? Les principales métropoles françaises après Paris sont…
++ Lyon, Marseille, Toulouse, Lille, Bordeaux
+- Brest, Pau, Dijon
+- Monaco et Andorre
+> Elles ont le statut de métropole.
+
+? Les villes françaises sont reliées entre elles par…
++ des réseaux de transport (TGV, autoroutes, aéroports)
+- aucun réseau
+- uniquement des chemins de terre
+> Paris est au centre du réseau en étoile.
+
+? Une ville mondiale comme Paris…
++ concentre des fonctions de commandement à l'échelle mondiale
+- est isolée du monde
+- n'a pas d'aéroport
+> Sièges d'entreprises, organisations internationales, tourisme.
+
+? Les espaces commerciaux de périphérie (zones commerciales) se sont développés grâce…
++ à la voiture et aux grandes surfaces
+- aux tramways uniquement
+- aux marchés de village
+> Ils concurrencent les commerces de centre-ville.
+
+? Vrai ou faux : la majorité des Français vit dans un espace sous influence urbaine.
++ Vrai
+- Faux
+> La France est un pays très urbanisé.
+
+? Vrai ou faux : le périurbain est uniquement rural et sans lien avec la ville.
+- Vrai
++ Faux
+> Ses habitants dépendent de la ville pour le travail et les services.
+
+? L'artificialisation des sols, c'est…
++ la transformation d'espaces naturels ou agricoles en routes, bâtiments, parkings
+- la plantation de forêts
+- l'irrigation
+> L'objectif « zéro artificialisation nette » vise 2050.
+
+? Un centre-ville historique attire souvent…
++ les touristes, les commerces et les services
+- les usines lourdes
+- les exploitations agricoles
+> Il concentre le patrimoine.
+
+? Les inégalités dans les aires urbaines se voient par…
++ des quartiers aisés et des quartiers défavorisés
+- une population identique partout
+- l'absence de logements sociaux
+> On parle de ségrégation socio-spatiale.
+
+? La loi SRU impose aux grandes communes…
++ un minimum de logements sociaux
+- de supprimer les transports
+- de construire des autoroutes
+> 20 à 25 % de logements sociaux.
+
+? Le Grand Paris Express est…
++ un projet de nouvelles lignes de métro autour de Paris
+- un train vers Marseille
+- un aéroport
+> Pour relier les banlieues entre elles.
+
+? Pour un sujet du brevet sur une aire urbaine, on décrit souvent…
++ le centre, la banlieue, le périurbain et les flux entre eux
+- uniquement le climat
+- les volcans
+> Le croquis organise ces espaces.
+
+? Une ville moyenne (ex. Albi, Niort) peut…
++ offrir une bonne qualité de vie et attirer de nouveaux habitants
+- n'avoir aucun habitant
+- être plus grande que Paris
+> Certaines souffrent aussi du déclin de leur centre.
+
+? Le télétravail, développé depuis 2020, peut…
++ favoriser l'installation hors des grandes villes
+- supprimer toutes les villes
+- augmenter les migrations pendulaires quotidiennes
+> Moins de trajets quotidiens.
 ```
 
 ## Vidéos

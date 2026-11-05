@@ -113,6 +113,40 @@ tags: [géographie, espaces productifs, industrie, agriculture, tourisme, mondia
 
 ## Quiz
 
+### ⚡ Échauffement express
+
+Cinq petites questions à réponse tapée pour vérifier que les bases sont là.
+
+```quiz Échauffement express
+? Comment s'appelle le secteur d'activité de l'agriculture et de la pêche ?
+= primaire
+= secteur primaire
+= le secteur primaire
+> Secondaire = industrie, tertiaire = services.
+
+? Quel secteur emploie la grande majorité des actifs français ?
+= tertiaire
+= secteur tertiaire
+= le tertiaire
+> Environ 3 actifs sur 4.
+
+? Comment s'appelle le secteur de l'industrie et de la construction ?
+= secondaire
+= secteur secondaire
+= le secteur secondaire
+> Il transforme les matières premières.
+
+? Comment s'appelle un pôle qui rassemble entreprises, recherche et universités autour d'un domaine ?
+= technopole
+= technopôle
+= pôle de compétitivité
+> Ex. Sophia Antipolis, Toulouse pour l'aéronautique.
+
+? Quelle ville est le grand centre européen de l'aéronautique (Airbus) ?
+= Toulouse
+> Siège d'Airbus.
+```
+
 ```quiz
 ? Quel secteur emploie le plus d'actifs en France ?
 - l'agriculture
@@ -162,6 +196,160 @@ tags: [géographie, espaces productifs, industrie, agriculture, tourisme, mondia
 - La Provence
 - La Corse
 > Le Bassin parisien est connu pour les céréales.
+```
+
+### 🎲 Entraînement sans fin
+
+Une banque de 25 questions : 10 sont tirées au hasard à chaque essai, sans répétition tant que la banque n'est pas épuisée. Recommence autant que tu veux !
+
+```quiz Entraînement sans fin ~10
+? Un espace productif est…
++ un espace aménagé pour produire des richesses (agricole, industriel, de services)
+- un espace protégé sans activité
+- un désert
+> Il est relié à d'autres espaces par des flux.
+
+? La France est une grande puissance agricole, notamment pour…
++ les céréales et le vin
+- le riz et le café
+- le cacao
+> Le Bassin parisien est une grande région céréalière.
+
+? L'agriculture française est devenue…
++ très productive grâce à la mécanisation et à la modernisation
+- archaïque
+- sans machines
+> Moins d'agriculteurs mais des rendements élevés.
+
+? Une conséquence de l'agriculture intensive est…
++ la pollution des sols et des eaux par les engrais et pesticides
+- l'amélioration de la biodiversité
+- l'absence de production
+> Ex. les algues vertes en Bretagne.
+
+? L'agriculture biologique…
++ n'utilise pas de pesticides ni d'engrais chimiques de synthèse
+- utilise plus de pesticides
+- est interdite en France
+> Elle progresse en France.
+
+? Les industries se localisent aujourd'hui souvent…
++ près des axes de transport, des ports et des métropoles
+- uniquement près des mines de charbon
+- en haute montagne
+> Les anciennes régions minières (Nord, Lorraine) ont décliné.
+
+? La désindustrialisation désigne…
++ la baisse du nombre d'emplois industriels
+- la construction de nouvelles usines partout
+- l'agriculture
+> Concurrence internationale, délocalisations.
+
+? Une délocalisation, c'est…
++ le transfert d'une activité vers un pays où les coûts sont plus faibles
+- l'ouverture d'un magasin
+- un déménagement de famille
+> Ex. usines textiles déplacées en Asie.
+
+? Une zone industrialo-portuaire (ZIP) est…
++ une zone d'industries installée près d'un grand port
+- un aéroport
+- un parc naturel
+> Ex. Fos-sur-Mer près de Marseille, Le Havre.
+
+? Le secteur tertiaire regroupe…
++ le commerce, les transports, la santé, l'éducation, le tourisme…
+- l'agriculture
+- les mines
+> C'est le secteur des services.
+
+? La France est le premier pays du monde pour…
++ le nombre de touristes internationaux
+- la production de pétrole
+- la production de riz
+> Environ 90 à 100 millions de visiteurs par an.
+
+? Les espaces touristiques français les plus fréquentés sont…
++ Paris, les littoraux et les montagnes
+- uniquement les zones industrielles
+- les déserts
+> Tourisme balnéaire, culturel, sports d'hiver.
+
+? Un technopôle associe…
++ entreprises de haute technologie, centres de recherche et universités
+- uniquement des fermes
+- uniquement des commerces
+> Ex. Sophia Antipolis près de Nice.
+
+? Le secteur aéronautique et spatial est un point fort de la France, avec…
++ Airbus (Toulouse) et la base de Kourou (Guyane)
+- aucune entreprise
+- seulement des usines textiles
+> Kourou permet de lancer les fusées Ariane.
+
+? Les espaces productifs sont de plus en plus…
++ connectés à la mondialisation
+- isolés du monde
+- fermés aux exportations
+> Ils exportent et importent.
+
+? Le port de Marseille-Fos est…
++ le premier port français
+- un petit port de pêche
+- un port fluvial
+> Grand port maritime.
+
+? Une AOP / AOC garantit…
++ l'origine géographique et le savoir-faire d'un produit
+- un prix bas
+- une fabrication industrielle à l'étranger
+> Ex. le Roquefort, le Champagne.
+
+? Le secteur secondaire regroupe…
++ l'industrie et la construction
+- les services
+- l'agriculture
+> Il transforme les matières premières.
+
+? Les régions du Nord et de l'Est ont été marquées par…
++ le déclin des mines et de la sidérurgie
+- le développement des stations de ski
+- l'arrivée massive d'agriculteurs
+> Elles se reconvertissent (logistique, services, tourisme de mémoire).
+
+? Vrai ou faux : la France n'a plus d'industrie.
+- Vrai
++ Faux
+> Elle reste une puissance industrielle (aéronautique, luxe, agroalimentaire, nucléaire).
+
+? Vrai ou faux : le tourisme est un espace productif.
++ Vrai
+- Faux
+> Il crée des richesses et des emplois.
+
+? Un circuit court, c'est…
++ une vente avec au plus un intermédiaire entre producteur et consommateur
+- une course de vélo
+- une exportation lointaine
+> Ex. vente à la ferme, AMAP.
+
+? La logistique (entrepôts) se développe surtout…
++ près des autoroutes et des grandes villes
+- en haute montagne
+- sur les îles isolées
+> Pour livrer rapidement les marchandises.
+
+? Les espaces productifs agricoles de montagne sont souvent tournés vers…
++ l'élevage et les produits de qualité (fromages)
+- la culture du riz
+- la culture du coton
+> Ex. le Comté dans le Jura.
+
+? Les énergies marines renouvelables (éoliennes en mer) se développent…
++ au large des côtes de l'Atlantique et de la Manche
+- au centre du Massif central
+- dans les villes
+> Ex. le parc éolien de Saint-Nazaire.
 ```
 
 ## Vidéos

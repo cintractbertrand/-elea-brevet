@@ -117,6 +117,40 @@ tags: [géographie, faible densité, rural, montagne, diagonale]
 
 ## Quiz
 
+### ⚡ Échauffement express
+
+Cinq petites questions à réponse tapée pour vérifier que les bases sont là.
+
+```quiz Échauffement express
+? Comment s'appelle le nombre d'habitants par km² ?
+= densité
+= la densité
+= densité de population
+> Densité = habitants ÷ superficie.
+
+? Comment appelle-t-on la diagonale des espaces peu peuplés de la Meuse aux Landes ?
+= diagonale du vide
+= la diagonale du vide
+= diagonale des faibles densités
+> Expression souvent critiquée, on dit aussi « diagonale des faibles densités ».
+
+? Quel massif montagneux est au centre de la France ?
+= Massif central
+= le Massif central
+> Un espace de faible densité.
+
+? Comment appelle-t-on les citadins qui s'installent à la campagne ?
+= néoruraux
+= les néoruraux
+= neoruraux
+> Ils redonnent vie à certains villages.
+
+? Quel type d'espace protégé réunit nature et activités humaines ? (parc naturel…)
+= régional
+= parc naturel régional
+> Ex. le PNR des Volcans d'Auvergne.
+```
+
 ```quiz
 ? Un espace de faible densité compte…
 + moins de 30 habitants par km²
@@ -166,6 +200,160 @@ tags: [géographie, faible densité, rural, montagne, diagonale]
 - Des trains régionaux
 - Des parcs naturels
 > Ils rapprochent les services des habitants.
+```
+
+### 🎲 Entraînement sans fin
+
+Une banque de 25 questions : 10 sont tirées au hasard à chaque essai, sans répétition tant que la banque n'est pas épuisée. Recommence autant que tu veux !
+
+```quiz Entraînement sans fin ~10
+? Les espaces de faible densité sont…
++ des espaces peu peuplés, souvent ruraux ou montagnards
+- les centres des grandes villes
+- les banlieues
+> Ils couvrent une grande partie du territoire.
+
+? On trouve des espaces de faible densité notamment…
++ dans le Massif central, les Alpes du Sud, les Landes
+- dans le centre de Paris
+- à Lyon
+> Ainsi qu'en Guyane.
+
+? Les difficultés de ces espaces sont…
++ l'éloignement des services (santé, écoles) et le vieillissement
+- la surpopulation
+- les embouteillages
+> On parle parfois de « déserts médicaux ».
+
+? Un « désert médical » est…
++ une zone où il manque de médecins
+- un désert de sable
+- un hôpital géant
+> Les maisons de santé tentent d'y répondre.
+
+? Les espaces de faible densité ont des atouts comme…
++ le cadre de vie, la nature, le tourisme vert
+- les grandes usines
+- les gratte-ciel
+> Randonnée, patrimoine, produits locaux.
+
+? Certains espaces ruraux attirent à nouveau des habitants car…
++ le prix des logements est bas et le télétravail se développe
+- il n'y a plus de place en ville
+- ils sont plus pollués
+> Les néoruraux s'y installent.
+
+? Les parcs nationaux visent…
++ à protéger la nature, avec des règles strictes
+- à construire des usines
+- à interdire toute visite
+> Ex. le parc national des Cévennes.
+
+? Le tourisme dans les espaces de faible densité…
++ crée des emplois et fait vivre les commerces
+- n'existe pas
+- détruit forcément tout
+> Il est souvent saisonnier.
+
+? L'agriculture de ces espaces est souvent…
++ tournée vers l'élevage et les produits de qualité
+- très intensive et céréalière
+- inexistante
+> Ex. AOP fromagères.
+
+? Les stations de ski sont…
++ des aménagements touristiques en montagne
+- des usines
+- des quartiers d'affaires
+> Elles doivent s'adapter au manque de neige.
+
+? Le réchauffement climatique menace…
++ les stations de ski de basse et moyenne altitude
+- les grandes villes de l'intérieur uniquement
+- rien
+> On développe le tourisme « quatre saisons ».
+
+? Pour désenclaver un territoire, on peut…
++ améliorer les routes, le train et la couverture Internet
+- fermer les gares
+- supprimer les écoles
+> L'accès au très haut débit est un enjeu majeur.
+
+? Les « France services » sont…
++ des guichets qui regroupent plusieurs services publics dans les zones rurales
+- des supermarchés
+- des parcs nationaux
+> Pour éviter de longs déplacements.
+
+? La Guyane est un territoire…
++ de faible densité, couvert en grande partie par la forêt amazonienne
+- très densément peuplé
+- désertique et sans arbres
+> La population se concentre sur le littoral.
+
+? Vrai ou faux : tous les espaces ruraux perdent des habitants.
+- Vrai
++ Faux
+> Ceux proches des villes ou attractifs (littoral, Sud) en gagnent.
+
+? Vrai ou faux : les espaces de faible densité sont tous des espaces vides et sans activités.
+- Vrai
++ Faux
+> Agriculture, tourisme, artisanat, énergies renouvelables.
+
+? Les éoliennes et parcs solaires sont souvent installés…
++ dans les espaces ruraux où il y a de la place
+- au centre de Paris
+- dans les métros
+> Cela crée des revenus mais parfois des conflits d'usage.
+
+? Un conflit d'usage, c'est…
++ un désaccord entre acteurs sur l'utilisation d'un espace
+- une guerre
+- un accord parfait
+> Ex. agriculteurs, randonneurs, chasseurs, promoteurs.
+
+? Les commerces ambulants et marchés…
++ permettent d'apporter des services dans les villages
+- n'existent plus
+- sont réservés aux villes
+> Ils maintiennent le lien social.
+
+? La densité de population se calcule par…
++ le nombre d'habitants divisé par la superficie
+- la superficie divisée par le nombre de villes
+- le nombre de voitures
+> Exprimée en hab./km².
+
+? La densité moyenne de la France métropolitaine est d'environ…
++ 120 hab./km²
+- 10 hab./km²
+- 1 000 hab./km²
+> Mais très inégale selon les régions.
+
+? Le Larzac, le plateau de Millevaches sont des exemples…
++ d'espaces de faible densité
+- de métropoles
+- de ports
+> Dans le Massif central et ses bordures.
+
+? Pour un croquis sur les espaces de faible densité, on représente souvent…
++ les espaces en déclin, les espaces attractifs, les axes de désenclavement
+- uniquement les métros
+- les volcans du Japon
+> Avec une légende organisée.
+
+? La fermeture d'une école dans un village peut…
++ inciter des familles à partir
+- attirer plus d'habitants
+- n'avoir aucun effet
+> Les services sont essentiels pour garder la population.
+
+? Les labels « Plus beaux villages de France » et le patrimoine…
++ favorisent le tourisme rural
+- interdisent les visites
+- concernent seulement Paris
+> Ex. Conques, Rocamadour.
 ```
 
 ## Voir aussi

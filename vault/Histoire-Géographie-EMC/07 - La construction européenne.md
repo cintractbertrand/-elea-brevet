@@ -124,6 +124,35 @@ tags: [histoire, Europe, CEE, Union européenne, euro]
 
 ## Quiz
 
+### ⚡ Échauffement express
+
+Cinq petites questions à réponse tapée pour vérifier que les bases sont là.
+
+```quiz Échauffement express
+? En quelle année est signé le traité de Rome qui crée la CEE ?
+= 1957
+> Signé par 6 pays fondateurs.
+
+? Combien de pays fondent la CEE en 1957 ?
+= 6
+> France, RFA, Italie, Belgique, Pays-Bas, Luxembourg.
+
+? Quelle est la monnaie commune mise en circulation en 2002 ?
+= euro
+= l'euro
+> Utilisée aujourd'hui par 20 pays.
+
+? Quel traité de 1992 crée l'Union européenne ?
+= Maastricht
+= traité de Maastricht
+= le traité de Maastricht
+> Il prévoit aussi la monnaie unique.
+
+? Combien de pays membres compte l'UE depuis le départ du Royaume-Uni ?
+= 27
+> Le Brexit a pris effet le 31 janvier 2020.
+```
+
 ```quiz
 ? Les traités de Rome (1957) créent…
 - l'Union européenne
@@ -185,6 +214,166 @@ tags: [histoire, Europe, CEE, Union européenne, euro]
 + Le rejet par référendum du projet de Constitution européenne
 - L'entrée dans la CEE
 > Les Français votent « non » en mai 2005.
+```
+
+### 🎲 Entraînement sans fin
+
+Une banque de 26 questions : 10 sont tirées au hasard à chaque essai, sans répétition tant que la banque n'est pas épuisée. Recommence autant que tu veux !
+
+```quiz Entraînement sans fin ~10
+? La construction européenne commence après 1945 surtout pour…
++ garantir la paix et reconstruire l'Europe
+- préparer une nouvelle guerre
+- recréer les empires coloniaux
+> Il faut réconcilier la France et l'Allemagne.
+
+? La CECA (1951) met en commun…
++ le charbon et l'acier
+- la monnaie
+- les armées
+> Proposée par Robert Schuman (déclaration du 9 mai 1950).
+
+? Robert Schuman et Jean Monnet sont considérés comme…
++ des « pères de l'Europe »
+- des chefs de la Résistance
+- des présidents américains
+> Ils proposent une Europe construite par étapes.
+
+? La CEE crée d'abord…
++ un marché commun (libre circulation des marchandises)
+- une armée commune
+- une monnaie unique
+> Les droits de douane sont supprimés entre les membres.
+
+? La PAC (politique agricole commune) aide…
++ les agriculteurs européens
+- les industries automobiles uniquement
+- les banques
+> Lancée en 1962.
+
+? L'espace Schengen permet…
++ de circuler sans contrôle aux frontières intérieures
+- d'utiliser l'euro
+- de voter aux élections américaines
+> Tous les pays de l'UE n'en font pas partie.
+
+? Le traité de Maastricht crée…
++ la citoyenneté européenne
+- la CECA
+- l'OTAN
+> Un Européen peut voter aux élections municipales et européennes dans son pays de résidence.
+
+? Le grand élargissement de 2004 fait entrer…
++ dix pays, dont beaucoup d'anciens pays communistes
+- la Turquie et la Russie
+- les États-Unis
+> Ex. Pologne, Hongrie, pays baltes.
+
+? Le Parlement européen est élu…
++ au suffrage universel direct par les citoyens européens
+- par les rois
+- par l'ONU
+> Depuis 1979, tous les 5 ans.
+
+? La Commission européenne…
++ propose les lois et veille à leur application
+- est élue directement par les citoyens
+- est l'armée européenne
+> Elle siège à Bruxelles.
+
+? Le Conseil européen réunit…
++ les chefs d'État ou de gouvernement des pays membres
+- les maires
+- les présidents de clubs de football
+> Il fixe les grandes orientations.
+
+? Le siège du Parlement européen est à…
++ Strasbourg
+- Paris
+- Berlin
+> Il se réunit aussi à Bruxelles.
+
+? Le Brexit désigne…
++ la sortie du Royaume-Uni de l'UE
+- l'entrée de la Belgique
+- la création de l'euro
+> Voté par référendum en 2016.
+
+? La réconciliation franco-allemande est symbolisée par…
++ le traité de l'Élysée (1963) entre de Gaulle et Adenauer
+- le traité de Versailles
+- la ligne Maginot
+> Les deux pays deviennent le « moteur » de l'Europe.
+
+? Le programme Erasmus permet…
++ aux étudiants d'étudier dans un autre pays européen
+- de voyager sans passeport dans le monde entier
+- de payer en euros
+> Lancé en 1987.
+
+? La zone euro regroupe…
++ les pays de l'UE qui ont adopté l'euro
+- tous les pays d'Europe
+- tous les pays de l'UE
+> Ex. la Suède et la Pologne ne l'ont pas adopté.
+
+? La devise de l'UE est…
++ « Unie dans la diversité »
+- « Liberté, Égalité, Fraternité »
+- « Un pour tous »
+> Le drapeau a 12 étoiles, symbole d'unité.
+
+? L'hymne européen est…
++ l'« Ode à la joie » de Beethoven
+- La Marseillaise
+- God Save the King
+> Sans paroles officielles.
+
+? Vrai ou faux : tous les pays européens sont membres de l'UE.
+- Vrai
++ Faux
+> Ex. la Suisse, la Norvège ne sont pas membres.
+
+? Vrai ou faux : l'UE a reçu le prix Nobel de la paix en 2012.
++ Vrai
+- Faux
+> Pour avoir contribué à la paix et à la réconciliation.
+
+? Le 9 mai est…
++ la journée de l'Europe
+- la fête nationale française
+- le jour de l'armistice
+> En souvenir de la déclaration Schuman (1950).
+
+? Un pays candidat à l'UE doit notamment…
++ être une démocratie qui respecte les droits de l'homme
+- être riche
+- avoir une monarchie
+> Ce sont les « critères de Copenhague ».
+
+? Les débats sur l'Europe portent souvent sur…
++ la part de souveraineté que les États confient à l'UE
+- le choix de la couleur du drapeau
+- la langue unique
+> Europe des nations ou Europe fédérale ?
+
+? La BCE (Banque centrale européenne) gère…
++ la politique monétaire de la zone euro
+- les élections européennes
+- les armées
+> Elle siège à Francfort.
+
+? En 2005, les Français votent par référendum…
++ « non » au projet de Constitution européenne
+- « oui » à la sortie de l'UE
+- pour l'entrée de la Russie
+> Le traité de Lisbonne (2007) le remplace en partie.
+
+? La Croatie, dernier pays entré dans l'UE, l'a rejointe en…
++ 2013
+- 1957
+- 1995
+> Elle a adopté l'euro en 2023.
 ```
 
 ## Vidéos

@@ -119,6 +119,34 @@ tags: [géographie, Union européenne, Schengen, euro, puissance, francophonie]
 
 ## Quiz
 
+### ⚡ Échauffement express
+
+Cinq petites questions à réponse tapée pour vérifier que les bases sont là.
+
+```quiz Échauffement express
+? Combien de pays membres compte l'Union européenne ?
+= 27
+> Depuis le Brexit (2020).
+
+? Quelle est la capitale où siège la Commission européenne ?
+= Bruxelles
+> En Belgique.
+
+? Combien la France a-t-elle de voisins terrestres en Europe ? (nombre)
+= 8
+> Belgique, Luxembourg, Allemagne, Suisse, Italie, Monaco, Andorre, Espagne.
+
+? La France est-elle membre permanent du Conseil de sécurité de l'ONU ? (oui/non)
+= oui
+> Avec droit de veto.
+
+? Quelle organisation regroupe les pays ayant le français en partage ? (sigle)
+= OIF
+= Francophonie
+= la Francophonie
+> L'Organisation internationale de la Francophonie.
+```
+
 ```quiz
 ? Combien d'États compte l'Union européenne ?
 - 12
@@ -167,6 +195,160 @@ tags: [géographie, Union européenne, Schengen, euro, puissance, francophonie]
 - Une économie très faible
 - Une population trop réduite
 > L'UE est surtout une puissance économique et commerciale.
+```
+
+### 🎲 Entraînement sans fin
+
+Une banque de 25 questions : 10 sont tirées au hasard à chaque essai, sans répétition tant que la banque n'est pas épuisée. Recommence autant que tu veux !
+
+```quiz Entraînement sans fin ~10
+? L'UE est…
++ une union politique et économique de pays européens
+- un seul pays
+- une alliance militaire mondiale
+> Elle a des institutions communes.
+
+? Le cœur économique de l'UE, très peuplé et riche, s'étend…
++ de Londres à Milan, autour du Rhin (la « mégalopole européenne »)
+- en Scandinavie
+- dans les Balkans
+> On l'appelle parfois la « dorsale européenne ».
+
+? Les régions périphériques de l'UE sont souvent…
++ moins riches et plus éloignées des grands centres
+- les plus riches
+- toutes en Allemagne
+> Ex. certaines régions d'Europe de l'Est ou du Sud.
+
+? La France est un acteur important de l'UE car…
++ c'est un pays fondateur et l'une des premières économies
+- elle n'en fait pas partie
+- elle est le plus petit pays
+> Le couple franco-allemand joue un rôle moteur.
+
+? La France est ouverte sur le monde par…
++ ses grands ports, aéroports et entreprises multinationales
+- l'absence d'échanges
+- l'interdiction des exportations
+> Ex. aéroport Roissy-Charles-de-Gaulle, port du Havre.
+
+? La France exporte notamment…
++ des avions, des produits de luxe, du vin, des médicaments
+- surtout du pétrole brut
+- du riz
+> Elle importe beaucoup d'énergie fossile.
+
+? La puissance « douce » (soft power) de la France repose sur…
++ sa culture, sa langue, sa gastronomie, son tourisme
+- uniquement son armée
+- sa production de charbon
+> Ex. musées, mode, cinéma.
+
+? La puissance militaire de la France repose notamment sur…
++ la dissuasion nucléaire et des bases à l'étranger
+- l'absence d'armée
+- l'armée de l'UE seule
+> Elle participe à des opérations extérieures.
+
+? La francophonie, c'est…
++ l'ensemble des personnes et pays qui parlent français
+- une loi européenne
+- un parti politique
+> Environ 320 millions de locuteurs.
+
+? Les DROM sont des « régions ultrapériphériques » de l'UE, ce qui signifie qu'ils…
++ appliquent le droit européen et reçoivent des aides adaptées
+- ne font pas partie de l'UE
+- ont leur propre monnaie
+> L'euro y circule.
+
+? L'espace Schengen permet…
++ la libre circulation des personnes sans contrôle systématique aux frontières intérieures
+- d'avoir la même monnaie
+- de voter dans tous les pays
+> Il comprend aussi des pays hors UE (Suisse, Norvège).
+
+? Les régions transfrontalières, comme autour de Genève ou du Luxembourg, connaissent…
++ des flux quotidiens de travailleurs frontaliers
+- aucun échange
+- une fermeture totale
+> Les salaires y sont souvent plus élevés.
+
+? L'Eurométropole Lille-Kortrijk-Tournai est…
++ une coopération transfrontalière entre la France et la Belgique
+- une ville allemande
+- un aéroport
+> Les acteurs coopèrent sur les transports, l'emploi…
+
+? L'aide au développement de la France vise…
++ à soutenir des pays pauvres (santé, éducation)
+- à acheter des territoires
+- à fermer les frontières
+> L'Agence française de développement (AFD) la gère.
+
+? Vrai ou faux : tous les pays de l'UE utilisent l'euro.
+- Vrai
++ Faux
+> Ex. la Pologne, la Suède, le Danemark gardent leur monnaie.
+
+? Vrai ou faux : la France joue un rôle dans le monde grâce à son siège permanent à l'ONU.
++ Vrai
+- Faux
+> Avec le droit de veto.
+
+? Le tunnel sous la Manche relie…
++ la France et le Royaume-Uni
+- la France et l'Espagne
+- la France et l'Italie
+> Ouvert en 1994.
+
+? Les grandes entreprises françaises présentes dans le monde sont…
++ des firmes multinationales (ex. TotalEnergies, LVMH, Airbus)
+- de petites boutiques
+- des associations
+> Elles ont des filiales partout.
+
+? Les fonds européens de la PAC soutiennent…
++ les agriculteurs français
+- les banques américaines
+- l'armée
+> La France en est une grande bénéficiaire.
+
+? Paris accueille le siège de…
++ l'UNESCO et l'OCDE
+- l'ONU
+- l'OTAN
+> L'ONU est à New York, l'OTAN à Bruxelles.
+
+? Le Parlement européen se trouve à Strasbourg, ce qui fait de la ville…
++ une capitale européenne
+- une capitale africaine
+- la capitale de la France
+> Elle accueille aussi le Conseil de l'Europe.
+
+? La France est le premier pays…
++ touristique au monde par le nombre de visiteurs
+- producteur de pétrole
+- le plus peuplé d'Europe
+> L'Allemagne est le pays le plus peuplé de l'UE.
+
+? Le pays le plus peuplé de l'UE est…
++ l'Allemagne
+- la France
+- l'Espagne
+> Environ 84 millions d'habitants.
+
+? L'élargissement de l'UE vers l'Est a…
++ augmenté les écarts de richesse au sein de l'UE
+- supprimé toutes les inégalités
+- fait sortir la France
+> Les fonds de cohésion visent à les réduire.
+
+? La France possède des territoires sur…
++ tous les océans
+- un seul continent
+- aucun océan
+> Atlantique, Indien, Pacifique, Austral.
 ```
 
 ## Vidéos

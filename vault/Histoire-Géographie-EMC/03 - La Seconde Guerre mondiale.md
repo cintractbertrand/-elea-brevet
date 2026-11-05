@@ -132,6 +132,33 @@ tags: [histoire, Seconde Guerre mondiale, Shoah, génocide, anéantissement]
 
 ## Quiz
 
+### ⚡ Échauffement express
+
+Cinq petites questions à réponse tapée pour vérifier que les bases sont là.
+
+```quiz Échauffement express
+? En quelle année commence la Seconde Guerre mondiale ?
+= 1939
+> Le 1er septembre 1939, l'Allemagne envahit la Pologne.
+
+? Quel pays l'Allemagne envahit-elle le 1er septembre 1939 ?
+= Pologne
+= la Pologne
+> La France et le Royaume-Uni déclarent la guerre deux jours plus tard.
+
+? En quelle année les Japonais attaquent-ils Pearl Harbor ?
+= 1941
+> Le 7 décembre 1941 : les États-Unis entrent en guerre.
+
+? En quelle année a lieu le débarquement en Normandie ?
+= 1944
+> Le 6 juin 1944.
+
+? Le 8 mai de quelle année l'Allemagne capitule-t-elle ?
+= 1945
+> Fin de la guerre en Europe ; le Japon capitule en septembre 1945.
+```
+
 ```quiz
 ? Quel événement fait entrer les États-Unis dans la guerre ?
 - Le débarquement en Normandie
@@ -193,6 +220,166 @@ tags: [histoire, Seconde Guerre mondiale, Shoah, génocide, anéantissement]
 - Des chambres à gaz
 - Des armées alliées
 > C'est ce qu'on appelle la « Shoah par balles ».
+```
+
+### 🎲 Entraînement sans fin
+
+Une banque de 26 questions : 10 sont tirées au hasard à chaque essai, sans répétition tant que la banque n'est pas épuisée. Recommence autant que tu veux !
+
+```quiz Entraînement sans fin ~10
+? La « guerre d'anéantissement » signifie que…
++ les nazis veulent détruire l'ennemi, y compris les civils
+- la guerre est courte
+- seuls les soldats sont visés
+> Surtout à l'Est contre les Slaves et les Juifs.
+
+? La Shoah est…
++ l'extermination d'environ 6 millions de Juifs par les nazis
+- une bataille en Russie
+- un traité de paix
+> Les Tsiganes sont aussi victimes d'un génocide.
+
+? Les Einsatzgruppen sont…
++ des unités nazies qui fusillent les Juifs à l'Est
+- des résistants
+- des soldats soviétiques
+> La « Shoah par balles » : plus d'un million de victimes.
+
+? Auschwitz-Birkenau est…
++ un camp de concentration et centre de mise à mort
+- une ville française
+- une usine d'armement uniquement
+> Plus d'un million de personnes y ont été assassinées.
+
+? La conférence de Wannsee (janvier 1942) organise…
++ la « solution finale », l'extermination des Juifs d'Europe
+- le débarquement
+- la paix
+> Coordination des administrations nazies.
+
+? La bataille de Stalingrad (1942-1943) est…
++ un tournant de la guerre : première grande défaite allemande
+- une victoire allemande décisive
+- une bataille navale
+> L'Armée rouge commence ensuite à reculer les Allemands vers l'Ouest.
+
+? La bataille de Midway (1942) oppose…
++ les États-Unis au Japon dans le Pacifique
+- la France à l'Allemagne
+- l'URSS à l'Italie
+> Tournant de la guerre dans le Pacifique.
+
+? Le pacte germano-soviétique (août 1939) est…
++ un accord de non-agression entre Hitler et Staline
+- une alliance contre l'Allemagne
+- un traité de paix de 1945
+> Il permet à Hitler d'envahir la Pologne sans craindre l'URSS.
+
+? En juin 1941, l'Allemagne attaque…
++ l'URSS (opération Barbarossa)
+- les États-Unis
+- le Royaume-Uni par la mer
+> Elle rompt le pacte germano-soviétique.
+
+? La guerre devient mondiale en 1941 avec…
++ l'entrée en guerre de l'URSS et des États-Unis
+- la défaite de la France
+- la capitulation du Japon
+> Le conflit touche tous les continents.
+
+? Les bombes atomiques sont larguées en août 1945 sur…
++ Hiroshima et Nagasaki
+- Tokyo et Kyoto
+- Berlin et Dresde
+> Le Japon capitule le 2 septembre 1945.
+
+? Les bombardements massifs de villes visent…
++ à détruire l'industrie et briser le moral des civils
+- uniquement les soldats
+- à protéger les civils
+> Ex. Dresde, Londres (Blitz), Hambourg.
+
+? Le procès de Nuremberg (1945-1946) juge…
++ les principaux dirigeants nazis
+- les résistants
+- Staline
+> Il crée la notion de crime contre l'humanité.
+
+? Un crime contre l'humanité est…
++ un crime grave commis contre des civils de façon massive et organisée
+- un vol
+- un délit de presse
+> Il est imprescriptible en France.
+
+? L'ONU est créée en 1945 pour…
++ maintenir la paix et la sécurité internationale
+- organiser la guerre froide
+- remplacer les États
+> Elle remplace la SDN.
+
+? La Seconde Guerre mondiale a fait environ…
++ 60 millions de morts, dont une majorité de civils
+- 1 million de morts
+- 10 millions de morts, tous soldats
+> C'est le conflit le plus meurtrier de l'histoire.
+
+? Les ghettos (ex. Varsovie) sont…
++ des quartiers où les nazis enferment les Juifs
+- des camps militaires
+- des usines
+> Faim, maladies, puis déportation vers les centres de mise à mort.
+
+? Les Alliés sont principalement…
++ le Royaume-Uni, l'URSS, les États-Unis et la France libre
+- l'Allemagne, l'Italie, le Japon
+- la Suisse et la Suède
+> L'Axe regroupe l'Allemagne, l'Italie et le Japon.
+
+? Vrai ou faux : la Seconde Guerre mondiale s'est déroulée uniquement en Europe.
+- Vrai
++ Faux
+> Aussi en Asie, dans le Pacifique, en Afrique du Nord.
+
+? Vrai ou faux : la Shoah a été préparée et organisée par l'État nazi.
++ Vrai
+- Faux
+> Administrations, trains, camps : un génocide planifié.
+
+? Le « Blitz » désigne…
++ les bombardements allemands sur le Royaume-Uni en 1940-1941
+- le débarquement
+- une arme nucléaire
+> Londres est durement touchée ; Churchill refuse de céder.
+
+? Le Premier ministre britannique pendant la guerre est…
++ Winston Churchill
+- Charles de Gaulle
+- Franklin Roosevelt
+> Roosevelt est président des États-Unis.
+
+? La « guerre éclair » (Blitzkrieg) consiste à…
++ attaquer très vite avec chars et avions
+- creuser des tranchées
+- assiéger longuement
+> Elle permet à l'Allemagne de battre la France en six semaines (1940).
+
+? Les centres de mise à mort (Treblinka, Sobibor…) se trouvaient surtout…
++ en Pologne occupée
+- en France
+- en Angleterre
+> Loin des regards, à l'Est.
+
+? Primo Levi et Simone Veil sont…
++ des survivants de la déportation qui ont témoigné
+- des généraux
+- des chefs nazis
+> Leurs témoignages sont essentiels.
+
+? La libération des camps révèle au monde…
++ l'ampleur des crimes nazis
+- une victoire allemande
+- rien de nouveau
+> Les Soviétiques libèrent Auschwitz le 27 janvier 1945.
 ```
 
 ## Vidéos

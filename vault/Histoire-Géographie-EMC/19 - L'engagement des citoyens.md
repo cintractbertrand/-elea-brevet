@@ -116,6 +116,38 @@ tags: [EMC, citoyenneté, vote, référendum, engagement, transition écologique
 
 ## Quiz
 
+### ⚡ Échauffement express
+
+Cinq petites questions à réponse tapée pour vérifier que les bases sont là.
+
+```quiz Échauffement express
+? À quel âge se déroule le recensement citoyen obligatoire ? (en années)
+= 16
+= 16 ans
+> À la mairie, entre 16 ans et 16 ans et 3 mois.
+
+? Comment s'appelle la journée obligatoire de découverte de la défense ? (sigle)
+= JDC
+= JDC
+> Journée défense et citoyenneté.
+
+? Quel service permet aux jeunes de 16 à 25 ans de s'engager pour une mission d'intérêt général ?
+= service civique
+= le service civique
+> Il est indemnisé.
+
+? Comment appelle-t-on une personne qui donne de son temps sans être payée dans une association ?
+= bénévole
+= un bénévole
+= benevole
+> Environ 20 millions de bénévoles en France.
+
+? Quelle loi de 1901 encadre la liberté d'association ?
+= loi de 1901
+= 1901
+> Il suffit de 2 personnes pour créer une association.
+```
+
 ```quiz
 ? À quel âge devient-on électeur en France ?
 - 16 ans
@@ -170,6 +202,160 @@ tags: [EMC, citoyenneté, vote, référendum, engagement, transition écologique
 - Une association
 - Un parti politique
 > Elle reconnaît le droit à un environnement sain.
+```
+
+### 🎲 Entraînement sans fin
+
+Une banque de 25 questions : 10 sont tirées au hasard à chaque essai, sans répétition tant que la banque n'est pas épuisée. Recommence autant que tu veux !
+
+```quiz Entraînement sans fin ~10
+? S'engager, c'est…
++ agir pour une cause ou pour les autres de façon volontaire
+- obéir à un ordre
+- ne rien faire
+> Associations, syndicats, partis, bénévolat…
+
+? Un syndicat défend…
++ les intérêts des salariés (ou des employeurs)
+- un club de foot
+- un parti politique uniquement
+> Ex. CGT, CFDT.
+
+? Un parti politique…
++ rassemble des citoyens autour d'idées et présente des candidats aux élections
+- est une entreprise
+- est une association sportive
+> Il participe à la vie démocratique.
+
+? Au collège, les élèves peuvent s'engager en devenant…
++ délégués de classe ou éco-délégués
+- professeurs
+- principaux
+> Ils représentent leurs camarades.
+
+? Le conseil de la vie collégienne (CVC) permet…
++ aux élèves de proposer des projets pour améliorer la vie au collège
+- de noter les professeurs
+- de supprimer les cours
+> Il réunit élèves et adultes.
+
+? La JDC permet notamment…
++ de découvrir les métiers de la défense et de passer des tests de lecture
+- d'obtenir le permis de conduire
+- de voter
+> L'attestation est nécessaire pour passer des examens (bac, permis).
+
+? Le SNU (service national universel)…
++ propose aux jeunes un séjour de cohésion et une mission d'intérêt général
+- remplace l'école
+- est un service militaire de 10 ans
+> Il est actuellement facultatif.
+
+? L'armée française est aujourd'hui…
++ professionnelle (le service militaire obligatoire est suspendu depuis 1997)
+- composée d'appelés obligatoires
+- inexistante
+> Des réservistes peuvent aussi s'engager.
+
+? Être juré d'assises, c'est…
++ participer comme citoyen tiré au sort au jugement des crimes
+- être avocat
+- être policier
+> Une forme d'engagement civique obligatoire si on est tiré au sort.
+
+? Payer ses impôts est…
++ un devoir du citoyen qui finance les services publics
+- facultatif
+- interdit
+> Écoles, hôpitaux, routes…
+
+? La fraternité se traduit par…
++ la solidarité et l'entraide entre citoyens
+- l'égoïsme
+- la compétition
+> Elle figure dans la devise républicaine.
+
+? Les sapeurs-pompiers volontaires sont…
++ des citoyens qui s'engagent en plus de leur métier
+- uniquement des militaires
+- payés comme des ministres
+> Ils représentent environ 80 % des pompiers en France.
+
+? Une ONG humanitaire comme Médecins sans frontières…
++ apporte des soins dans des zones de crise
+- vend des médicaments à profit
+- dirige un pays
+> Engagement international.
+
+? Le service civique dure en général…
++ de 6 à 12 mois
+- 1 jour
+- 10 ans
+> Il est ouvert jusqu'à 30 ans pour les personnes en situation de handicap.
+
+? Le don du sang est possible à partir de…
++ 18 ans
+- 12 ans
+- 30 ans
+> Un geste d'engagement solidaire.
+
+? La Réserve civique permet…
++ de s'engager ponctuellement pour des missions d'intérêt général
+- de garder son argent
+- de faire grève
+> Plateforme jeveuxaider.gouv.fr.
+
+? L'engagement pour l'environnement peut passer par…
++ des actions de nettoyage, de tri, des associations écologistes
+- le gaspillage
+- la pollution
+> Ex. les éco-délégués.
+
+? Vrai ou faux : il faut être majeur pour être bénévole dans une association.
+- Vrai
++ Faux
+> Les mineurs peuvent être bénévoles, et même créer une association dès 16 ans.
+
+? Vrai ou faux : la grève est un droit en France.
++ Vrai
+- Faux
+> Reconnu par la Constitution (préambule de 1946).
+
+? La désobéissance civile, c'est…
++ refuser publiquement et pacifiquement d'obéir à une loi jugée injuste
+- un crime violent
+- voter blanc
+> Ex. Rosa Parks aux États-Unis (1955).
+
+? Les Restos du cœur, fondés par Coluche en 1985, …
++ distribuent des repas aux personnes en difficulté
+- vendent des voitures
+- organisent des élections
+> Grâce à des bénévoles.
+
+? Le recensement à 16 ans est nécessaire pour…
++ être convoqué à la JDC et s'inscrire aux examens et sur les listes électorales
+- obtenir un téléphone
+- aller au collège
+> L'inscription sur les listes électorales devient automatique à 18 ans.
+
+? S'engager dans la défense, c'est par exemple…
++ devenir militaire, réserviste ou cadet de la défense
+- refuser de payer ses impôts
+- quitter la France
+> La défense protège le territoire et la population.
+
+? L'engagement politique peut prendre la forme de…
++ l'adhésion à un parti, la candidature à une élection, le militantisme
+- l'abstention systématique
+- l'indifférence
+> Dès 18 ans, on peut être candidat à presque toutes les élections.
+
+? Malala Yousafzai est connue pour…
++ son engagement pour l'éducation des filles (prix Nobel de la paix 2014)
+- avoir été présidente des États-Unis
+- avoir inventé Internet
+> Elle a survécu à un attentat des talibans.
 ```
 
 ## Voir aussi

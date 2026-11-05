@@ -128,6 +128,37 @@ tags: [histoire, Vichy, collaboration, Résistance, de Gaulle]
 
 ## Quiz
 
+### ⚡ Échauffement express
+
+Cinq petites questions à réponse tapée pour vérifier que les bases sont là.
+
+```quiz Échauffement express
+? Qui lance l'appel du 18 juin 1940 depuis Londres ?
+= de Gaulle
+= Charles de Gaulle
+= De Gaulle
+> Il appelle à poursuivre le combat.
+
+? Qui dirige le régime de Vichy ?
+= Pétain
+= Philippe Pétain
+= le maréchal Pétain
+> Il obtient les pleins pouvoirs le 10 juillet 1940.
+
+? En quelle année Paris est-il libéré ?
+= 1944
+> Le 25 août 1944.
+
+? Quel résistant unifie la Résistance intérieure en 1943 ?
+= Jean Moulin
+= Moulin
+> Il crée le Conseil national de la Résistance (CNR).
+
+? En quelle année a lieu la rafle du Vél' d'Hiv ?
+= 1942
+> Les 16 et 17 juillet 1942, environ 13 000 Juifs arrêtés à Paris.
+```
+
 ```quiz
 ? Qui signe l'armistice de juin 1940 ?
 + Le maréchal Pétain
@@ -189,6 +220,166 @@ tags: [histoire, Vichy, collaboration, Résistance, de Gaulle]
 + Paris
 - Marseille
 > Avec la 2e DB du général Leclerc et les résistants.
+```
+
+### 🎲 Entraînement sans fin
+
+Une banque de 26 questions : 10 sont tirées au hasard à chaque essai, sans répétition tant que la banque n'est pas épuisée. Recommence autant que tu veux !
+
+```quiz Entraînement sans fin ~10
+? En juin 1940, la France signe avec l'Allemagne…
++ un armistice
+- un traité d'alliance
+- une victoire
+> Le pays est coupé en deux zones.
+
+? Après l'armistice, la France est divisée en…
++ une zone occupée au nord et une zone « libre » au sud
+- quatre zones
+- aucune zone
+> La zone sud est occupée à son tour en novembre 1942.
+
+? La devise du régime de Vichy est…
++ « Travail, Famille, Patrie »
+- « Liberté, Égalité, Fraternité »
+- « Un peuple, un empire, un chef »
+> Pétain veut une « Révolution nationale ».
+
+? Le régime de Vichy est…
++ autoritaire, antisémite et collabore avec l'Allemagne
+- démocratique
+- allié des Britanniques
+> Il supprime la République.
+
+? La collaboration, c'est…
++ la coopération de l'État français avec l'occupant nazi
+- la résistance armée
+- l'aide aux Alliés
+> Pétain l'annonce après Montoire (octobre 1940).
+
+? Le statut des Juifs (octobre 1940) est décidé par…
++ le régime de Vichy, sans demande allemande
+- les Alliés
+- la Résistance
+> Il exclut les Juifs de nombreuses professions.
+
+? La rafle du Vél' d'Hiv est menée par…
++ la police française
+- uniquement des soldats allemands
+- la Résistance
+> Environ 13 000 Juifs, dont 4 000 enfants, sont arrêtés.
+
+? Le camp de Drancy servait de…
++ camp de transit avant la déportation vers Auschwitz
+- camp de vacances
+- prison pour résistants uniquement
+> Environ 75 000 Juifs sont déportés de France.
+
+? Le STO (Service du travail obligatoire) envoie…
++ de jeunes Français travailler en Allemagne
+- des soldats en Afrique
+- des enfants à la campagne
+> Beaucoup de réfractaires rejoignent les maquis.
+
+? Les maquis sont…
++ des groupes de résistants cachés dans les campagnes
+- des villes
+- des usines allemandes
+> Ex. le maquis du Vercors.
+
+? La France libre est dirigée par…
++ le général de Gaulle, depuis Londres
+- Pétain, depuis Vichy
+- Laval
+> Elle s'appuie sur des territoires de l'Empire.
+
+? Le CNR (Conseil national de la Résistance) rédige en 1944…
++ un programme pour reconstruire la France après la guerre
+- un armistice
+- une loi antisémite
+> Sécurité sociale, nationalisations, droit de vote des femmes…
+
+? Jean Moulin meurt en 1943 après avoir été…
++ arrêté et torturé par la Gestapo
+- élu président
+- tué au combat en Normandie
+> Il a été arrêté à Caluire, près de Lyon.
+
+? Le débarquement de Provence a lieu en…
++ août 1944
+- juin 1940
+- mai 1945
+> Avec une forte participation de l'armée française d'Afrique.
+
+? Oradour-sur-Glane (juin 1944) est…
++ un village dont les habitants ont été massacrés par la division SS Das Reich
+- une victoire de la Résistance
+- un camp de concentration
+> 643 victimes.
+
+? Les Justes parmi les Nations sont…
++ des personnes qui ont sauvé des Juifs au péril de leur vie
+- des juges de Nuremberg
+- des soldats américains
+> Plus de 4 000 Français ont reçu ce titre.
+
+? Le GPRF (1944) est…
++ le Gouvernement provisoire de la République française dirigé par de Gaulle
+- le gouvernement de Vichy
+- un parti politique
+> Il rétablit la légalité républicaine.
+
+? Pétain est jugé à la Libération et…
++ condamné à mort, peine commuée en prison à vie
+- acquitté
+- élu président
+> En raison de son âge.
+
+? Vrai ou faux : tous les Français étaient résistants.
+- Vrai
++ Faux
+> La majorité tentait de survivre ; une minorité résistait ou collaborait.
+
+? Vrai ou faux : l'État français a reconnu sa responsabilité dans la déportation des Juifs en 1995.
++ Vrai
+- Faux
+> Discours de Jacques Chirac au Vél' d'Hiv.
+
+? Les tracts et journaux clandestins servaient à…
++ informer et inciter à résister
+- soutenir Vichy
+- vendre des produits
+> Ex. le journal « Combat ».
+
+? Lucie Aubrac est…
++ une résistante célèbre
+- une collaboratrice
+- une ministre de Vichy
+> Elle a fait évader son mari Raymond Aubrac.
+
+? Les FFI sont…
++ les Forces françaises de l'intérieur, qui regroupent les résistants armés
+- une armée allemande
+- un parti politique
+> Ils participent à la Libération.
+
+? La « ligne de démarcation » séparait…
++ la zone occupée de la zone libre
+- la France de l'Espagne
+- Paris de Londres
+> Il fallait un laissez-passer pour la franchir.
+
+? Pierre Laval est…
++ chef du gouvernement de Vichy, symbole de la collaboration
+- un chef de la Résistance
+- un général américain
+> Il est exécuté en 1945.
+
+? Les femmes obtiennent le droit de vote en France en…
++ 1944
+- 1918
+- 1968
+> Par une ordonnance du GPRF ; elles votent pour la première fois en 1945.
 ```
 
 ## Vidéos
