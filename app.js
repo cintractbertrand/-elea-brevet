@@ -497,9 +497,13 @@ let _current = '';
 function currentPath() { return _current; }
 
 const numLabel = (f) => (f.type === 'fiche' && f.num != null ? String(f.num) : '★');
-const chaptersOf = (subject) => state.fiches
-  .filter((f) => f.subject === subject && f.type !== 'sommaire')
-  .sort((a, b) => (a.num ?? 999) - (b.num ?? 999) || a.title.localeCompare(b.title));
+/* Fiches d'une matière, regroupées par thème (dans l'ordre du premier chapitre de chaque thème), puis par numéro :
+   un chapitre ajouté plus tard (ex. 16 en physique-chimie) rejoint ainsi son thème au lieu de créer un second groupe. */
+const chaptersOf = (subject) => {
+  const list = state.fiches.filter((f) => f.subject === subject && f.type !== 'sommaire'), rang = {};
+  for (const f of list) rang[f.theme] = Math.min(rang[f.theme] ?? 999, f.num ?? 999);
+  return list.sort((a, b) => rang[a.theme] - rang[b.theme] || (a.num ?? 999) - (b.num ?? 999) || a.title.localeCompare(b.title));
+};
 
 /* Une fiche compte comme faite si la case « maîtrisée » est cochée ou si on a terminé au moins un de ses quiz. */
 function fait(path) {
