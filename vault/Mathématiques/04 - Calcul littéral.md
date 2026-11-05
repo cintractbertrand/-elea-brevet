@@ -279,6 +279,35 @@ Pour prouver qu'une propriété est **toujours vraie**, on utilise une lettre ($
 
 ## Quiz
 
+### ⚡ Échauffement express
+
+Cinq petites questions à réponse tapée pour vérifier que les bases sont là.
+
+```quiz Échauffement express
+? Développe $3(x + 4)$ (écris par exemple 3x+12)
+= 3x+12
+= 12+3x
+> On distribue le 3 : $3 \times x + 3 \times 4 = 3x + 12$.
+
+? Réduis $5x + 2x - x$
+= 6x
+> $5 + 2 - 1 = 6$, donc $6x$.
+
+? Calcule $2x + 5$ pour $x = 3$
+= 11
+> $2 \times 3 + 5 = 6 + 5 = 11$.
+
+? Factorise $4x + 8$
+= 4(x+2)
+= 4(2+x)
+> 4 est un facteur commun : $4 \times x + 4 \times 2 = 4(x + 2)$.
+
+? Développe $x(x - 2)$
+= x^2-2x
+= x²-2x
+> $x \times x - x \times 2 = x^2 - 2x$.
+```
+
 ```quiz
 ? Développer $5(x - 2)$ donne…
 - $5x - 2$
@@ -355,6 +384,188 @@ Questions dans le style des sujets récents du brevet.
 - 2(x + 3)
 - 3x(x + 2)
 > On met 3 en facteur commun : 3x + 6 = 3(x + 2).
+```
+
+### 🎲 Entraînement sans fin
+
+Une banque de 30 questions : 10 sont tirées au hasard à chaque essai, sans répétition tant que la banque n'est pas épuisée. Recommence autant que tu veux !
+
+```quiz Entraînement sans fin ~10
+? Que vaut $-2(x - 5)$ développé ?
+- $-2x - 10$
++ $-2x + 10$
+- $2x + 10$
+> $-2 \times x = -2x$ et $-2 \times (-5) = +10$.
+
+? Que vaut $(x + 3)(x + 2)$ développé ?
+- $x^2 + 6$
++ $x^2 + 5x + 6$
+- $2x + 5$
+> Double distributivité : $x^2 + 2x + 3x + 6 = x^2 + 5x + 6$.
+
+? Que vaut $(2x - 1)(x + 4)$ développé ?
++ $2x^2 + 7x - 4$
+- $2x^2 - 4$
+- $2x^2 + 9x - 4$
+> $2x^2 + 8x - x - 4 = 2x^2 + 7x - 4$.
+
+? Que vaut $(x + 5)^2$ ?
+- $x^2 + 25$
++ $x^2 + 10x + 25$
+- $x^2 + 5x + 25$
+> $(a+b)^2 = a^2 + 2ab + b^2$ : le double produit est $2 \times x \times 5 = 10x$.
+
+? Que vaut $(x - 3)^2$ ?
++ $x^2 - 6x + 9$
+- $x^2 - 9$
+- $x^2 + 6x - 9$
+> $(a-b)^2 = a^2 - 2ab + b^2$.
+
+? Que vaut $(x + 4)(x - 4)$ ?
+- $x^2 + 16$
++ $x^2 - 16$
+- $x^2 - 8x - 16$
+> $(a+b)(a-b) = a^2 - b^2$.
+
+? Factorise $x^2 - 25$
++ $(x - 5)(x + 5)$
+- $(x - 5)^2$
+- $(x - 25)(x + 1)$
+> C'est $a^2 - b^2$ avec $a = x$ et $b = 5$.
+
+? Factorise $6x^2 + 9x$
+- $3(2x^2 + 9x)$
++ $3x(2x + 3)$
+- $x(6x + 9x)$
+> Facteur commun $3x$ : $3x \times 2x + 3x \times 3$.
+
+? Factorise $(x + 1)(2x + 3) + (x + 1)(x - 5)$
++ $(x + 1)(3x - 2)$
+- $(x + 1)(x - 2)$
+- $2(x+1)(3x - 2)$
+> Facteur commun $(x+1)$ : $(x+1)[(2x+3) + (x-5)] = (x+1)(3x - 2)$.
+
+? Réduis $3x^2 + 2x - x^2 + 5x$
+- $9x^2$
++ $2x^2 + 7x$
+- $2x^2 + 7x^2$
+> On regroupe les termes de même nature : $(3 - 1)x^2 + (2 + 5)x$.
+
+? Que vaut $-(x - 7)$ ?
++ $-x + 7$
+- $-x - 7$
+- $x - 7$
+> Un signe moins devant une parenthèse change tous les signes à l'intérieur.
+
+? Que vaut $5 - (2x + 3)$ ?
+- $2x + 2$
++ $2 - 2x$
+- $8 - 2x$
+> $5 - 2x - 3 = 2 - 2x$.
+
+? Calcule $x^2 - 3x$ pour $x = -2$
+- $-2$
++ $10$
+- $-10$
+> $(-2)^2 - 3 \times (-2) = 4 + 6 = 10$.
+
+? Calcule $3x^2$ pour $x = 2$
++ $12$
+- $36$
+- $6$
+> Le carré d'abord : $2^2 = 4$, puis $3 \times 4 = 12$.
+
+? Que signifie « développer » ?
++ transformer un produit en somme
+- transformer une somme en produit
+- calculer la valeur pour un $x$ donné
+> Développer : $3(x+2) \to 3x + 6$. Factoriser fait l'inverse.
+
+? Que signifie « factoriser » ?
+- transformer un produit en somme
++ transformer une somme en produit
+- supprimer les $x$
+> Factoriser : $3x + 6 \to 3(x+2)$.
+
+? Laquelle de ces expressions est factorisée ?
+- $x^2 + 2x + 1$
++ $(x + 1)^2$
+- $x(x + 2) + 1$
+> Une expression factorisée est un produit (ici $(x+1) \times (x+1)$).
+
+? Pour prouver que $(n+1)^2 - n^2 = 2n + 1$, on…
++ développe $(n+1)^2$ et on réduit
+- remplace $n$ par 3
+- factorise $2n + 1$
+> $(n+1)^2 - n^2 = n^2 + 2n + 1 - n^2 = 2n + 1$. Un exemple ne prouve rien.
+
+? Vrai ou faux : $(a + b)^2 = a^2 + b^2$
+- Vrai
++ Faux
+> Il manque le double produit : $(a+b)^2 = a^2 + 2ab + b^2$. Essaie $a = b = 1$ : $4 \neq 2$.
+
+? Vrai ou faux : $2x \times 3x = 6x^2$
++ Vrai
+- Faux
+> $2 \times 3 = 6$ et $x \times x = x^2$.
+
+? Vrai ou faux : $2x + 3x = 5x^2$
+- Vrai
++ Faux
+> On additionne des « $x$ » : $2x + 3x = 5x$.
+
+? Vrai ou faux : pour tout $x$, $(x + 1)^2 - (x - 1)^2 = 4x$.
++ Vrai
+- Faux
+> $(x^2 + 2x + 1) - (x^2 - 2x + 1) = 4x$.
+
+? Le périmètre d'un rectangle de côtés $x$ et $x + 3$ vaut…
+- $x^2 + 3x$
++ $4x + 6$
+- $2x + 3$
+> $2 \times (x + x + 3) = 2(2x + 3) = 4x + 6$.
+
+? L'aire d'un rectangle de côtés $x$ et $x + 3$ vaut…
++ $x^2 + 3x$
+- $4x + 6$
+- $2x + 3$
+> Aire = longueur × largeur $= x(x+3)$.
+
+? Programme : « choisir un nombre, ajouter 2, multiplier par 3, soustraire 6 ». Avec $x$ au départ, on obtient…
+- $3x + 2$
++ $3x$
+- $3x - 4$
+> $3(x + 2) - 6 = 3x + 6 - 6 = 3x$ : on obtient toujours le triple du nombre de départ.
+
+? Factorise $x^2 + 6x + 9$
++ $(x + 3)^2$
+- $(x + 9)(x + 1)$
+- $x(x + 6) + 9$
+> C'est $a^2 + 2ab + b^2$ avec $a = x$ et $b = 3$.
+
+? Factorise $9x^2 - 4$
+- $(9x - 2)(9x + 2)$
++ $(3x - 2)(3x + 2)$
+- $(3x - 2)^2$
+> $9x^2 = (3x)^2$ et $4 = 2^2$.
+
+? Que vaut $(3x + 1)^2$ ?
+- $9x^2 + 1$
+- $3x^2 + 6x + 1$
++ $9x^2 + 6x + 1$
+> $(3x)^2 + 2 \times 3x \times 1 + 1^2$.
+
+? Factorise $(x - 2)^2 - 9$
++ $(x - 5)(x + 1)$
+- $(x - 11)$
+- $(x - 2)(x - 11)$
+> $a^2 - b^2$ avec $a = x - 2$ et $b = 3$ : $(x - 2 - 3)(x - 2 + 3)$.
+
+? Calcule $101^2$ astucieusement avec $(a+b)^2$ :
++ $10\,201$
+- $10\,101$
+- $10\,001$
+> $(100 + 1)^2 = 10\,000 + 200 + 1 = 10\,201$.
 ```
 
 ## Vidéos

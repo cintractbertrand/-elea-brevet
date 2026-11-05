@@ -149,6 +149,32 @@ Carrés parfaits à connaître : 1, 4, 9, 16, 25, 36, 49, 64, 81, 100, 121, 144.
 
 ## Quiz
 
+### ⚡ Échauffement express
+
+Cinq petites questions à réponse tapée pour vérifier que les bases sont là.
+
+```quiz Échauffement express
+? Combien vaut $\sqrt{64}$ ?
+= 8
+> $8^2 = 64$.
+
+? $ABC$ est rectangle en $A$ avec $AB = 3$ et $AC = 4$. Que vaut $BC$ ?
+= 5
+> $BC^2 = 9 + 16 = 25$, donc $BC = 5$.
+
+? Calcule $6^2 + 8^2$
+= 100
+> $36 + 64 = 100$.
+
+? Rectangle en $B$ : $AC = 10$ et $AB = 6$. Que vaut $BC$ ?
+= 8
+> $BC^2 = 100 - 36 = 64$.
+
+? Combien vaut $\sqrt{144}$ ?
+= 12
+> $12^2 = 144$.
+```
+
 ```quiz
 ? Dans un triangle rectangle, l'hypoténuse est…
 - le plus petit côté
@@ -217,6 +243,187 @@ Questions dans le style des sujets récents du brevet.
 - 6 cm
 - √7 cm
 > Pythagore : 3² + 4² = 9 + 16 = 25, donc l'hypoténuse mesure 5 cm.
+```
+
+### 🎲 Entraînement sans fin
+
+Une banque de 30 questions : 10 sont tirées au hasard à chaque essai, sans répétition tant que la banque n'est pas épuisée. Recommence autant que tu veux !
+
+```quiz Entraînement sans fin ~10
+? Dans le triangle $DEF$ rectangle en $E$, l'hypoténuse est…
+- $[DE]$
++ $[DF]$
+- $[EF]$
+> L'hypoténuse est le côté opposé à l'angle droit, donc celui qui ne contient pas $E$.
+
+? $MNP$ est rectangle en $N$. Quelle égalité est vraie ?
++ $MP^2 = MN^2 + NP^2$
+- $MN^2 = MP^2 + NP^2$
+- $NP^2 = MN^2 + MP^2$
+> L'hypoténuse est $[MP]$, opposée à $N$.
+
+? Un triangle a des côtés 7 ; 24 ; 25. Est-il rectangle ?
++ Oui
+- Non
+> $25^2 = 625$ et $7^2 + 24^2 = 49 + 576 = 625$.
+
+? Un triangle a des côtés 5 ; 6 ; 8. Est-il rectangle ?
+- Oui
++ Non
+> $8^2 = 64$ et $5^2 + 6^2 = 61 \neq 64$.
+
+? Pour vérifier si un triangle est rectangle, on compare le carré du plus grand côté…
++ à la somme des carrés des deux autres
+- au produit des deux autres
+- à la somme des deux autres côtés
+> Si c'est égal, la réciproque permet de conclure qu'il est rectangle.
+
+? Rectangle en $A$ : $AB = 5$ cm et $AC = 12$ cm. Que vaut $BC$ ?
+- 17 cm
++ 13 cm
+- 7 cm
+> $BC^2 = 25 + 144 = 169$, donc $BC = 13$ cm. On n'additionne pas les longueurs !
+
+? Rectangle en $C$ : $AB = 15$ et $BC = 9$. Que vaut $AC$ ?
++ $12$
+- $17{,}5$
+- $6$
+> $AC^2 = 15^2 - 9^2 = 225 - 81 = 144$.
+
+? Rectangle en $A$ : $AB = 4$ et $AC = 6$. $BC$ vaut environ…
+- $10$
++ $7{,}2$
+- $5$
+> $BC^2 = 16 + 36 = 52$, donc $BC = \sqrt{52} \approx 7{,}2$.
+
+? La diagonale d'un carré de côté 5 cm mesure environ…
++ 7,1 cm
+- 10 cm
+- 25 cm
+> $d^2 = 25 + 25 = 50$, $d = \sqrt{50} \approx 7{,}1$ cm.
+
+? La diagonale d'un écran de 40 cm sur 30 cm mesure…
+- 70 cm
++ 50 cm
+- 35 cm
+> $40^2 + 30^2 = 1\,600 + 900 = 2\,500$.
+
+? Une échelle de 5 m est posée contre un mur, son pied à 3 m du mur. À quelle hauteur touche-t-elle le mur ?
++ 4 m
+- 2 m
+- 5,8 m
+> Le mur est perpendiculaire au sol : $h^2 = 25 - 9 = 16$.
+
+? Quand utilise-t-on le théorème de Pythagore ?
++ pour calculer une longueur dans un triangle rectangle
+- pour calculer un angle
+- pour prouver que des droites sont parallèles
+> Pour les angles, on utilise la trigonométrie ; pour le parallélisme, Thalès.
+
+? Quand utilise-t-on la réciproque du théorème de Pythagore ?
++ pour prouver qu'un triangle est rectangle
+- pour calculer l'hypoténuse
+- pour prouver qu'un triangle n'est pas rectangle
+> La contraposée, elle, prouve qu'il ne l'est pas.
+
+? $\sqrt{a}$ est…
++ le nombre positif dont le carré vaut $a$
+- la moitié de $a$
+- $a$ au carré
+> Exemple : $\sqrt{49} = 7$.
+
+? Entre quels entiers se trouve $\sqrt{30}$ ?
+- 4 et 5
++ 5 et 6
+- 15 et 16
+> $5^2 = 25 < 30 < 36 = 6^2$.
+
+? Vrai ou faux : $\sqrt{9 + 16} = 3 + 4$
+- Vrai
++ Faux
+> $\sqrt{25} = 5$, mais $3 + 4 = 7$.
+
+? Vrai ou faux : dans un triangle rectangle, l'hypoténuse est le plus grand côté.
++ Vrai
+- Faux
+> Son carré est la somme de deux carrés positifs.
+
+? Vrai ou faux : le théorème de Pythagore s'applique à tous les triangles.
+- Vrai
++ Faux
+> Seulement aux triangles rectangles.
+
+? Rédaction : avant d'écrire $BC^2 = AB^2 + AC^2$, il faut écrire…
++ « Le triangle $ABC$ est rectangle en $A$, donc d'après le théorème de Pythagore… »
+- « On sait que $BC$ est grand… »
+- rien, le calcul suffit
+> On cite toujours l'hypothèse (rectangle en…) et la propriété utilisée.
+
+? Un triangle $ABC$ a $AB = 6$, $AC = 8$, $BC = 10$. Il est rectangle en…
++ $A$
+- $B$
+- $C$
+> Le plus grand côté est $[BC]$ ; l'angle droit est en face, en $A$.
+
+? Un terrain rectangulaire de 60 m sur 80 m. Combien mesure le chemin en diagonale ?
+- 140 m
++ 100 m
+- 70 m
+> $3\,600 + 6\,400 = 10\,000$.
+
+? Un triangle isocèle a deux côtés de 10 cm et une base de 12 cm. Sa hauteur mesure…
++ 8 cm
+- 6 cm
+- 14 cm
+> La hauteur coupe la base en deux : $h^2 = 10^2 - 6^2 = 64$.
+
+? Calcule $\sqrt{2{,}25}$
++ $1{,}5$
+- $1{,}125$
+- $0{,}15$
+> $1{,}5^2 = 2{,}25$.
+
+? Dans un repère, la distance entre $O(0 ; 0)$ et $A(3 ; 4)$ vaut…
+- 7
++ 5
+- 12
+> On forme un triangle rectangle de côtés 3 et 4.
+
+? Quels nombres sont des carrés parfaits ?
++ 49
++ 81
+- 50
+> $7^2 = 49$, $9^2 = 81$. 50 n'est pas le carré d'un entier.
+
+? Un rectangle a une diagonale de 13 cm et une largeur de 5 cm. Sa longueur est…
++ 12 cm
+- 8 cm
+- 18 cm
+> $13^2 - 5^2 = 144$.
+
+? Un triangle rectangle a des côtés de l'angle droit de 1 et 1. L'hypoténuse vaut…
++ $\sqrt{2}$
+- $2$
+- $1$
+> $1 + 1 = 2$, donc $\sqrt{2} \approx 1{,}41$.
+
+? Pour arrondir $\sqrt{40}$ au dixième, on trouve…
+- $6{,}4$
++ $6{,}3$
+- $20$
+> $\sqrt{40} \approx 6{,}32$.
+
+? Un triangle a des côtés 9 ; 12 ; 16. On calcule $16^2 = 256$ et $9^2 + 12^2 = 225$. On conclut avec…
+- le théorème de Pythagore
+- la réciproque
++ la contraposée : il n'est pas rectangle
+> L'égalité n'est pas vérifiée.
+
+? Le cube a des arêtes de 3 cm. La diagonale d'une face mesure environ…
++ 4,2 cm
+- 6 cm
+- 9 cm
+> $\sqrt{9 + 9} = \sqrt{18} \approx 4{,}2$ cm.
 ```
 
 ## Vidéos

@@ -141,6 +141,33 @@ Exemples : $f(x) = 3x - 2$ est affine ($a = 3$, $b = -2$) ; $g(x) = -0{,}5x$ est
 
 ## Quiz
 
+### ⚡ Échauffement express
+
+Cinq petites questions à réponse tapée pour vérifier que les bases sont là.
+
+```quiz Échauffement express
+? Pour $f(x) = 3x - 2$, quel est le coefficient directeur ?
+= 3
+> Dans $f(x) = ax + b$, le coefficient directeur est $a$.
+
+? Pour $f(x) = 3x - 2$, quelle est l'ordonnée à l'origine ?
+= -2
+> C'est $b$, la valeur de $f(0)$.
+
+? Pour $g(x) = -2x + 5$, que vaut $g(2)$ ?
+= 1
+> $-4 + 5 = 1$.
+
+? Une fonction linéaire vérifie $f(2) = 10$. Que vaut $f(1)$ ?
+= 5
+> $f(x) = ax$ avec $2a = 10$, donc $a = 5$.
+
+? $f(x) = 4x$ : quel nombre a pour image 2 ?
+= 0,5
+= 1/2
+> $4x = 2$ donne $x = 0{,}5$.
+```
+
 ```quiz
 ? Quelle fonction est linéaire ?
 - $f(x) = 2x + 1$
@@ -203,6 +230,187 @@ Questions dans le style des sujets récents du brevet.
 - 2
 - −5
 > Une fonction affine s'écrit f(x) = ax + b : a est le coefficient directeur, ici −2.
+```
+
+### 🎲 Entraînement sans fin
+
+Une banque de 30 questions : 10 sont tirées au hasard à chaque essai, sans répétition tant que la banque n'est pas épuisée. Recommence autant que tu veux !
+
+```quiz Entraînement sans fin ~10
+? Laquelle est une fonction linéaire ?
++ $f(x) = -5x$
+- $f(x) = 5x + 1$
+- $f(x) = x^2$
+> Une fonction linéaire s'écrit $f(x) = ax$ (pas de $+b$).
+
+? Laquelle est une fonction affine ?
++ $f(x) = 2x - 7$
+- $f(x) = \dfrac{2}{x}$
+- $f(x) = x^2 + 1$
+> Une fonction affine s'écrit $ax + b$.
+
+? Une fonction linéaire est-elle aussi affine ?
++ Oui, avec $b = 0$
+- Non, jamais
+> $f(x) = ax = ax + 0$.
+
+? La représentation graphique d'une fonction affine est…
++ une droite
+- une parabole
+- une droite passant toujours par l'origine
+> Seules les fonctions linéaires passent par l'origine.
+
+? La droite de $f(x) = 2x + 3$ coupe l'axe des ordonnées en…
+- $(3 ; 0)$
++ $(0 ; 3)$
+- $(0 ; 2)$
+> $f(0) = 3$.
+
+? Si le coefficient directeur est négatif, la droite…
+- monte
++ descend
+- est horizontale
+> Quand $x$ augmente de 1, $f(x)$ diminue de $|a|$.
+
+? La droite de $f(x) = 4$ est…
++ horizontale
+- verticale
+- passe par l'origine
+> $a = 0$ : la fonction est constante.
+
+? $f$ est affine avec $f(0) = 1$ et $f(2) = 7$. Que vaut $a$ ?
+- $2$
++ $3$
+- $4$
+> $a = \dfrac{f(2) - f(0)}{2 - 0} = \dfrac{6}{2} = 3$.
+
+? $f$ est affine avec $f(1) = 5$ et $f(3) = 1$. Quelle est son expression ?
++ $f(x) = -2x + 7$
+- $f(x) = 2x + 3$
+- $f(x) = -2x + 5$
+> $a = \dfrac{1 - 5}{3 - 1} = -2$, puis $5 = -2 \times 1 + b$ donc $b = 7$.
+
+? Une fonction linéaire de coefficient $1{,}2$ traduit…
++ une hausse de 20 %
+- une baisse de 20 %
+- une hausse de 1,2 %
+> $f(x) = 1{,}2x$ : on multiplie par 1,2.
+
+? Une baisse de 15 % est traduite par la fonction…
+- $f(x) = 0{,}15x$
++ $f(x) = 0{,}85x$
+- $f(x) = x - 15$
+> $1 - 0{,}15 = 0{,}85$.
+
+? Un abonnement coûte 10 € par mois plus 2 € par séance. Le prix pour $x$ séances est…
++ $P(x) = 2x + 10$
+- $P(x) = 10x + 2$
+- $P(x) = 12x$
+> 10 € fixes (ordonnée à l'origine) + 2 € par séance (coefficient directeur).
+
+? Avec $P(x) = 2x + 10$, combien de séances pour payer 30 € ?
+- 15
++ 10
+- 20
+> $2x + 10 = 30$ donne $x = 10$.
+
+? Tarif A : 5 € par séance. Tarif B : 20 € + 3 € par séance. À partir de combien de séances B est-il plus avantageux ?
+- 8
+- 10
++ 11
+> Égalité : $5x = 20 + 3x$ donne $x = 10$. À partir de 11 séances, B coûte moins cher.
+
+? La droite d'une fonction linéaire passe par $(2 ; 6)$. Son coefficient est…
++ $3$
+- $\dfrac{1}{3}$
+- $12$
+> $f(x) = ax$ avec $2a = 6$.
+
+? Le point $(1 ; 4)$ est-il sur la droite de $f(x) = 3x + 1$ ?
++ Oui
+- Non
+> $f(1) = 3 + 1 = 4$.
+
+? Deux droites de même coefficient directeur sont…
++ parallèles
+- perpendiculaires
+- confondues forcément
+> Elles ont la même « pente ».
+
+? $f(x) = -x + 4$. Pour quel $x$ a-t-on $f(x) = 0$ ?
+- $-4$
++ $4$
+- $0$
+> $-x + 4 = 0$ donne $x = 4$.
+
+? $f(x) = 0{,}5x - 1$. Que vaut $f(6)$ ?
+- $-0{,}5$
++ $2$
+- $5$
+> $0{,}5 \times 6 - 1 = 3 - 1 = 2$.
+
+? Quand $x$ augmente de 1, $f(x) = 3x + 2$ augmente de…
++ $3$
+- $2$
+- $5$
+> C'est la signification du coefficient directeur.
+
+? Quand $x$ augmente de 4, $f(x) = -2x + 1$…
+- augmente de 8
++ diminue de 8
+- diminue de 2
+> $4 \times (-2) = -8$.
+
+? Vrai ou faux : la droite d'équation $y = 2x$ passe par l'origine.
++ Vrai
+- Faux
+> C'est une fonction linéaire : $f(0) = 0$.
+
+? Vrai ou faux : $f(x) = 3(x + 2)$ est une fonction linéaire.
+- Vrai
++ Faux
+> $3(x + 2) = 3x + 6$ : elle est affine, pas linéaire.
+
+? Vrai ou faux : pour une fonction linéaire, $f(a + b) = f(a) + f(b)$.
++ Vrai
+- Faux
+> $k(a + b) = ka + kb$.
+
+? Un taxi facture 3 € puis 1,20 € par km. Quel est le prix d'une course de 10 km ?
+- 13 €
++ 15 €
+- 42 €
+> $3 + 1{,}20 \times 10 = 15$ €.
+
+? Sur un graphique, la droite de $f$ passe par $(0 ; -2)$ et $(1 ; 1)$. Donc…
++ $f(x) = 3x - 2$
+- $f(x) = -2x + 1$
+- $f(x) = x - 2$
+> $b = -2$ et $a = 1 - (-2) = 3$.
+
+? Laquelle de ces droites monte le plus vite ?
+- $y = x + 10$
++ $y = 5x - 1$
+- $y = -6x$
+> Le plus grand coefficient directeur positif : 5.
+
+? Une bougie de 20 cm diminue de 2 cm par heure. Sa hauteur après $t$ heures est…
++ $h(t) = 20 - 2t$
+- $h(t) = 2t - 20$
+- $h(t) = 20t - 2$
+> Départ 20 cm, puis $-2$ cm par heure.
+
+? Avec $h(t) = 20 - 2t$, au bout de combien d'heures la bougie est-elle consumée ?
+- 2 h
++ 10 h
+- 18 h
+> $20 - 2t = 0$ donne $t = 10$.
+
+? Le prix de $x$ kg de cerises est $P(x) = 6x$. Que représente 6 ?
++ le prix d'un kilo
+- le nombre de kilos
+- le prix total
+> Le coefficient d'une fonction linéaire est le prix unitaire.
 ```
 
 ## Vidéos

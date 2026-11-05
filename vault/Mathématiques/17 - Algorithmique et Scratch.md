@@ -161,6 +161,32 @@ Ce script affiche les nombres **pairs** de 2 à 10 (« $n$ modulo 2 » = reste d
 
 ## Quiz
 
+### ⚡ Échauffement express
+
+Cinq petites questions à réponse tapée pour vérifier que les bases sont là.
+
+```quiz Échauffement express
+? Dans Scratch, « répéter 4 fois : avancer de 50, tourner de 90° » trace un carré de côté…
+= 50
+> Chaque côté mesure 50 pas.
+
+? Une variable « score » vaut 3. On exécute « ajouter 2 à score ». Que vaut score ?
+= 5
+> $3 + 2 = 5$.
+
+? Programme : « mettre x à 4 ; mettre x à x × 3 ». Que vaut x ?
+= 12
+> $4 \times 3 = 12$.
+
+? Pour tracer un triangle équilatéral, de combien de degrés doit tourner le lutin à chaque angle ?
+= 120
+> L'angle extérieur vaut $180° - 60° = 120°$.
+
+? Combien de fois faut-il répéter « avancer, tourner de 60° » pour un hexagone régulier ?
+= 6
+> Un hexagone a 6 côtés ; $6 \times 60° = 360°$.
+```
+
 ```quiz
 ? Pour tracer un carré, le lutin doit tourner à chaque sommet de…
 - 45°
@@ -210,6 +236,189 @@ Ce script affiche les nombres **pairs** de 2 à 10 (« $n$ modulo 2 » = reste d
 + $60^\circ$
 - $30^\circ$
 > $360 \div 6 = 60^\circ$.
+```
+
+### 🎲 Entraînement sans fin
+
+Une banque de 30 questions : 10 sont tirées au hasard à chaque essai, sans répétition tant que la banque n'est pas épuisée. Recommence autant que tu veux !
+
+```quiz Entraînement sans fin ~10
+? Qu'est-ce qu'un algorithme ?
++ une suite d'instructions qui résout un problème
+- un langage de programmation
+- un ordinateur
+> Une recette de cuisine est un algorithme.
+
+? Qu'est-ce qu'une variable ?
++ une « boîte » qui contient une valeur pouvant changer
+- une instruction de déplacement
+- un bloc qui répète
+> Ex. score, compteur, x…
+
+? Le bloc « répéter 10 fois » est…
++ une boucle
+- une condition
+- une variable
+> Il exécute plusieurs fois les mêmes instructions.
+
+? Le bloc « si … alors … sinon » est…
+- une boucle
++ une instruction conditionnelle
+- un événement
+> On fait une action ou une autre selon un test.
+
+? Le bloc « quand drapeau vert cliqué » est…
++ un événement qui lance le script
+- une boucle
+- une variable
+> Il démarre le programme.
+
+? Pour tracer un carré, le lutin doit tourner à chaque coin de…
++ 90°
+- 45°
+- 360°
+> $4 \times 90° = 360°$.
+
+? Pour tracer un polygone régulier à $n$ côtés, le lutin tourne de…
++ $\dfrac{360°}{n}$
+- $\dfrac{180°}{n}$
+- $n \times 360°$
+> Un tour complet est réparti entre les $n$ angles.
+
+? Pour tracer un pentagone régulier, l'angle de rotation est…
+- 60°
++ 72°
+- 108°
+> $360 \div 5 = 72°$.
+
+? En Scratch, l'orientation « 90 » signifie que le lutin regarde…
++ vers la droite
+- vers le haut
+- vers la gauche
+> 0 = haut, 90 = droite, 180 = bas, −90 = gauche.
+
+? Le bloc « stylo en position d'écriture » sert à…
++ laisser une trace quand le lutin se déplace
+- effacer l'écran
+- changer de costume
+> « Relever le stylo » arrête le tracé.
+
+? Le programme : « mettre n à 1 ; répéter 3 fois : mettre n à n × 2 ». Que vaut n à la fin ?
+- 6
++ 8
+- 3
+> $1 \to 2 \to 4 \to 8$.
+
+? Le programme : « mettre s à 0 ; pour i de 1 à 4 : ajouter i à s ». Que vaut s ?
++ 10
+- 4
+- 24
+> $1 + 2 + 3 + 4 = 10$.
+
+? « si x > 5 alors dire Grand sinon dire Petit ». Avec x = 5, le lutin dit…
+- Grand
++ Petit
+> 5 n'est pas strictement supérieur à 5.
+
+? Quel bloc permet de répéter jusqu'à ce qu'une condition soit vraie ?
++ « répéter jusqu'à »
+- « répéter 10 fois »
+- « attendre 1 seconde »
+> Il s'arrête dès que la condition est vraie.
+
+? « nombre aléatoire entre 1 et 6 » simule…
++ un lancer de dé
+- une pièce
+- un compteur
+> Chaque entier de 1 à 6 peut sortir.
+
+? Pour que le lutin dise si un nombre est pair, on teste…
++ si le reste de n ÷ 2 vaut 0
+- si n > 2
+- si n = 2
+> Bloc « n modulo 2 = 0 ».
+
+? Un bloc personnalisé (« créer un bloc ») sert à…
++ réutiliser une suite d'instructions avec un nom
+- changer l'arrière-plan
+- supprimer une variable
+> Ex. un bloc « carré » qu'on appelle plusieurs fois.
+
+? Les coordonnées du centre de la scène Scratch sont…
++ $(0 ; 0)$
+- $(240 ; 180)$
+- $(100 ; 100)$
+> x va de −240 à 240, y de −180 à 180.
+
+? « aller à x : 100 y : −50 » place le lutin…
++ à droite et en bas du centre
+- à gauche et en haut
+- au centre
+> x positif = droite, y négatif = bas.
+
+? Programme de calcul : « choisir x ; multiplier par 3 ; soustraire 4 ». Avec x = 2, on obtient…
++ 2
+- 10
+- −2
+> $2 \times 3 - 4 = 2$.
+
+? Même programme, quel nombre de départ donne 11 ?
++ 5
+- 3
+- 7
+> $3x - 4 = 11$ donne $x = 5$.
+
+? Vrai ou faux : les instructions d'un script s'exécutent de haut en bas.
++ Vrai
+- Faux
+> Sauf dans les boucles qui font revenir en arrière.
+
+? Vrai ou faux : une boucle « répéter indéfiniment » s'arrête seule.
+- Vrai
++ Faux
+> Il faut cliquer sur le panneau stop.
+
+? Deux lutins doivent agir en même temps. On utilise…
++ deux scripts lancés par le même événement
+- une seule variable
+- un bloc « attendre »
+> Les scripts s'exécutent en parallèle.
+
+? « envoyer à tous message1 » sert à…
++ faire communiquer des lutins
+- afficher un texte
+- créer une variable
+> Les lutins qui reçoivent message1 lancent leur script.
+
+? Pour dessiner 3 carrés côte à côte, le mieux est…
++ une boucle qui répète un bloc « carré » puis un déplacement
+- écrire 12 fois avancer et tourner sans boucle
+- un seul « avancer de 300 »
+> Les boucles rendent le programme court et lisible.
+
+? Le programme « avancer de 100 ; tourner de 120° » répété 3 fois trace…
++ un triangle équilatéral
+- un carré
+- un hexagone
+> $3 \times 120° = 360°$.
+
+? Dans « si (score > 10) et (vies > 0) alors… », le test est vrai si…
++ les deux conditions sont vraies
+- une seule est vraie
+- aucune n'est vraie
+> « et » exige les deux ; « ou » en demande au moins une.
+
+? Un « bug » est…
++ une erreur dans un programme
+- un type de boucle
+- un lutin
+> On corrige en testant pas à pas.
+
+? Une variable compteur part de 10 et on lui ajoute −1 cinq fois. Elle vaut…
++ 5
+- 15
+- −5
+> $10 - 5 = 5$.
 ```
 
 ## Vidéos

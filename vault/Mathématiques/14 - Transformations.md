@@ -138,6 +138,32 @@ Une homothétie de centre $O$ et de rapport $k$ transforme $M$ en $M'$ tel que :
 
 ## Quiz
 
+### ⚡ Échauffement express
+
+Cinq petites questions à réponse tapée pour vérifier que les bases sont là.
+
+```quiz Échauffement express
+? Une rotation de centre $O$ et d'angle 90° conserve-t-elle les longueurs ? (oui/non)
+= oui
+> Symétries, translations et rotations conservent longueurs, angles et aires.
+
+? Une homothétie de rapport 2 multiplie les longueurs par…
+= 2
+> Et les aires par 4.
+
+? Une homothétie de rapport 3 multiplie les aires par…
+= 9
+> $3^2 = 9$.
+
+? Combien d'axes de symétrie a un carré ?
+= 4
+> 2 diagonales et 2 médiatrices des côtés.
+
+? Combien d'axes de symétrie a un rectangle (non carré) ?
+= 2
+> Les deux médiatrices des côtés ; pas les diagonales.
+```
+
 ```quiz
 ? Quelle transformation ne conserve PAS les longueurs ?
 - la rotation
@@ -186,6 +212,189 @@ Une homothétie de centre $O$ et de rapport $k$ transforme $M$ en $M'$ tel que :
 - $4$
 + $8$
 > Volumes : $k^3 = 2^3 = 8$.
+```
+
+### 🎲 Entraînement sans fin
+
+Une banque de 30 questions : 10 sont tirées au hasard à chaque essai, sans répétition tant que la banque n'est pas épuisée. Recommence autant que tu veux !
+
+```quiz Entraînement sans fin ~10
+? La symétrie axiale est aussi appelée…
++ réflexion
+- translation
+- rotation
+> On « retourne » la figure comme dans un miroir.
+
+? Dans une symétrie axiale d'axe $(d)$, la droite $(d)$ est…
++ la médiatrice du segment $[MM']$
+- parallèle à $[MM']$
+- égale à $[MM']$
+> $M'$ est le symétrique de $M$.
+
+? La symétrie centrale de centre $O$ revient à une rotation de…
+- 90°
++ 180°
+- 360°
+> Un demi-tour autour de $O$.
+
+? Dans une symétrie centrale de centre $O$, $O$ est…
++ le milieu de $[MM']$
+- sur la médiatrice de $[MM']$
+- à l'extérieur de $[MM']$
+> $M$ et $M'$ sont de part et d'autre de $O$, à égale distance.
+
+? Une translation fait glisser une figure…
++ selon une direction, un sens et une longueur donnés
+- autour d'un point
+- par rapport à une droite
+> On la décrit par un vecteur ou « la translation qui transforme $A$ en $B$ ».
+
+? Une rotation est définie par…
++ un centre, un angle et un sens
+- une droite
+- un vecteur
+> Ex. rotation de centre $O$, d'angle 90° dans le sens inverse des aiguilles d'une montre.
+
+? Quelle transformation ne conserve pas les longueurs (si $k \neq 1$ et $k \neq -1$) ?
+- la translation
+- la rotation
++ l'homothétie
+> Elle agrandit ou réduit.
+
+? Une homothétie de rapport $-1$ est…
++ une symétrie centrale
+- une translation
+- une réduction
+> Même longueur, mais de l'autre côté du centre.
+
+? Une homothétie de rapport 0,5 est…
++ une réduction
+- un agrandissement
+- une symétrie
+> $0 < k < 1$ : réduction.
+
+? Avec une homothétie de centre $O$ et de rapport 3, si $OA = 2$ cm, alors $OA'$ vaut…
+- 5 cm
++ 6 cm
+- 1,5 cm
+> $OA' = 3 \times OA$.
+
+? Avec une homothétie de rapport négatif, l'image est…
++ de l'autre côté du centre
+- du même côté du centre
+- confondue avec la figure
+> Le signe moins inverse le sens.
+
+? Quelles transformations conservent les angles ?
++ toutes (symétries, translation, rotation, homothétie)
+- seulement les symétries
+- aucune
+> Même l'homothétie conserve les angles et la forme.
+
+? Une figure et son image par une homothétie sont…
++ semblables
+- toujours superposables
+- sans rapport
+> Même forme, taille multipliée par $|k|$.
+
+? Une frise est construite en répétant un motif par…
++ translation
+- rotation de 180°
+- homothétie
+> Le motif glisse toujours dans la même direction.
+
+? Une rosace est souvent construite par…
+- translation
++ rotation
+- homothétie
+> Le motif tourne autour d'un centre.
+
+? Un pavage de carrés peut être obtenu par…
++ des translations
+- une seule symétrie
+- une homothétie
+> On fait glisser le carré dans deux directions.
+
+? Combien d'axes de symétrie a un triangle équilatéral ?
+- 1
++ 3
+- 6
+> Les trois médiatrices (qui sont aussi les hauteurs).
+
+? Combien d'axes de symétrie a un cercle ?
+- 2
+- 4
++ une infinité
+> Toute droite passant par le centre.
+
+? Un losange (non carré) a…
++ 2 axes de symétrie et un centre de symétrie
+- 4 axes de symétrie
+- aucun axe
+> Ses deux diagonales.
+
+? Un parallélogramme quelconque a…
+- 2 axes de symétrie
++ un centre de symétrie mais aucun axe
+- 1 axe de symétrie
+> Son centre est l'intersection des diagonales.
+
+? Vrai ou faux : une translation conserve le sens de rotation de la figure.
++ Vrai
+- Faux
+> La figure glisse sans se retourner.
+
+? Vrai ou faux : la symétrie axiale retourne la figure.
++ Vrai
+- Faux
+> Comme un reflet dans un miroir.
+
+? Vrai ou faux : une homothétie de rapport 2 double l'aire.
+- Vrai
++ Faux
+> Elle multiplie l'aire par $2^2 = 4$.
+
+? Une figure d'aire 5 cm² subit une homothétie de rapport $-3$. Aire de l'image ?
+- 15 cm²
++ 45 cm²
+- −45 cm²
+> L'aire est multipliée par $(-3)^2 = 9$.
+
+? Une rotation de 360° …
++ ne change rien
+- retourne la figure
+- double la figure
+> Un tour complet ramène la figure à sa place.
+
+? Dans Scratch, « tourner de 90 degrés » puis répéter 4 fois avancer et tourner trace…
++ un carré
+- un triangle
+- un cercle
+> 4 côtés égaux et 4 angles droits.
+
+? Le point $A(2 ; 3)$ a pour symétrique par rapport à l'origine…
++ $(-2 ; -3)$
+- $(2 ; -3)$
+- $(-2 ; 3)$
+> La symétrie centrale de centre $O$ change les signes des deux coordonnées.
+
+? Le point $A(2 ; 3)$ par la translation qui ajoute 4 à l'abscisse devient…
++ $(6 ; 3)$
+- $(2 ; 7)$
+- $(8 ; 12)$
+> Seule l'abscisse change.
+
+? Le point $A(2 ; 3)$ par l'homothétie de centre $O$ et de rapport 2 devient…
++ $(4 ; 6)$
+- $(4 ; 3)$
+- $(1 ; 1{,}5)$
+> On multiplie les coordonnées par 2.
+
+? Pour identifier une homothétie sur une figure, on cherche…
++ un centre aligné avec chaque point et son image
+- une droite médiatrice
+- un vecteur
+> Le centre, un point et son image sont toujours alignés.
 ```
 
 ## Vidéos

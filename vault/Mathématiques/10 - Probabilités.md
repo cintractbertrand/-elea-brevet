@@ -135,6 +135,35 @@ Quand on répète **un très grand nombre de fois** une expérience, la fréquen
 
 ## Quiz
 
+### ⚡ Échauffement express
+
+Cinq petites questions à réponse tapée pour vérifier que les bases sont là.
+
+```quiz Échauffement express
+? On lance un dé équilibré à 6 faces. Probabilité d'obtenir 4 (écris une fraction, par exemple 1/6) ?
+= 1/6
+> 1 issue favorable sur 6 issues équiprobables.
+
+? Même dé : probabilité d'obtenir un nombre pair ?
+= 3/6
+= 1/2
+= 0,5
+> 2, 4 et 6 : 3 issues sur 6.
+
+? Une urne contient 3 boules rouges et 7 bleues. Probabilité de tirer une rouge ?
+= 3/10
+= 0,3
+> 3 rouges sur 10 boules.
+
+? Probabilité d'un événement certain ?
+= 1
+> Un événement certain se réalise toujours.
+
+? Si $P(A) = 0{,}35$, que vaut la probabilité de « non A » ?
+= 0,65
+> $1 - 0{,}35 = 0{,}65$.
+```
+
 ```quiz
 ? On lance un dé équilibré à 6 faces. Quelle est la probabilité d'obtenir un nombre supérieur à 4 ?
 - $\dfrac{1}{2}$
@@ -210,6 +239,189 @@ Questions dans le style des sujets récents du brevet.
 - Obtenir un nombre pair
 - Obtenir 6 ou 5
 > L'événement contraire réunit toutes les issues qui ne sont pas un 6.
+```
+
+### 🎲 Entraînement sans fin
+
+Une banque de 30 questions : 10 sont tirées au hasard à chaque essai, sans répétition tant que la banque n'est pas épuisée. Recommence autant que tu veux !
+
+```quiz Entraînement sans fin ~10
+? Une probabilité est toujours…
++ comprise entre 0 et 1
+- comprise entre 0 et 100
+- supérieure à 1
+> 0 = impossible, 1 = certain.
+
+? Probabilité d'obtenir 7 avec un dé à 6 faces ?
++ $0$
+- $\dfrac{1}{7}$
+- $\dfrac{1}{6}$
+> C'est un événement impossible.
+
+? On lance une pièce équilibrée. Probabilité d'obtenir « pile » ?
++ $\dfrac{1}{2}$
+- $\dfrac{1}{3}$
+- $1$
+> Deux issues équiprobables.
+
+? Dé équilibré : probabilité d'obtenir un multiple de 3 ?
+- $\dfrac{1}{6}$
++ $\dfrac{1}{3}$
+- $\dfrac{1}{2}$
+> 3 et 6 : 2 issues sur 6.
+
+? Dé équilibré : probabilité d'obtenir un nombre premier ?
++ $\dfrac{1}{2}$
+- $\dfrac{1}{3}$
+- $\dfrac{2}{3}$
+> 2, 3 et 5 : 3 issues sur 6. (1 n'est pas premier.)
+
+? Dé équilibré : probabilité d'obtenir au moins 5 ?
+- $\dfrac{1}{6}$
++ $\dfrac{1}{3}$
+- $\dfrac{5}{6}$
+> 5 et 6 : 2 issues sur 6.
+
+? Un sac contient 4 boules vertes, 5 jaunes et 1 noire. Probabilité de ne pas tirer une jaune ?
++ $\dfrac{1}{2}$
+- $\dfrac{1}{10}$
+- $\dfrac{4}{10}$
+> 5 boules ne sont pas jaunes sur 10.
+
+? Dans un jeu de 32 cartes, probabilité de tirer un as ?
++ $\dfrac{1}{8}$
+- $\dfrac{1}{32}$
+- $\dfrac{1}{4}$
+> 4 as sur 32 cartes : $\dfrac{4}{32} = \dfrac{1}{8}$.
+
+? Dans un jeu de 32 cartes, probabilité de tirer un cœur ?
+- $\dfrac{1}{8}$
++ $\dfrac{1}{4}$
+- $\dfrac{1}{2}$
+> 8 cœurs sur 32 cartes.
+
+? Les lettres du mot MATHS sont dans un sac. Probabilité de tirer une voyelle ?
++ $\dfrac{1}{5}$
+- $\dfrac{2}{5}$
+- $\dfrac{1}{2}$
+> Une seule voyelle (A) sur 5 lettres.
+
+? On lance deux pièces. Probabilité d'obtenir deux « pile » ?
+- $\dfrac{1}{2}$
+- $\dfrac{1}{3}$
++ $\dfrac{1}{4}$
+> Issues : PP, PF, FP, FF. Une seule favorable sur 4.
+
+? On lance deux pièces. Probabilité d'obtenir une pile et une face ?
++ $\dfrac{1}{2}$
+- $\dfrac{1}{4}$
+- $\dfrac{1}{3}$
+> PF et FP : 2 issues sur 4.
+
+? On lance deux dés et on additionne. Combien d'issues possibles (couples) ?
+- 12
++ 36
+- 11
+> $6 \times 6 = 36$ couples.
+
+? On lance deux dés. Probabilité que la somme fasse 12 ?
++ $\dfrac{1}{36}$
+- $\dfrac{1}{12}$
+- $\dfrac{1}{11}$
+> Seul le couple (6 ; 6) donne 12.
+
+? On lance deux dés. Probabilité que la somme fasse 7 ?
+- $\dfrac{1}{12}$
++ $\dfrac{1}{6}$
+- $\dfrac{7}{36}$
+> (1;6), (2;5), (3;4), (4;3), (5;2), (6;1) : 6 issues sur 36.
+
+? Une roue a 8 secteurs égaux : 3 rouges, 4 bleus, 1 vert. Probabilité de « bleu » ?
++ $\dfrac{1}{2}$
+- $\dfrac{4}{7}$
+- $\dfrac{1}{4}$
+> 4 secteurs sur 8.
+
+? Événements incompatibles : cela veut dire qu'ils…
++ ne peuvent pas se réaliser en même temps
+- ont la même probabilité
+- sont contraires
+> Ex. avec un dé : « obtenir 1 » et « obtenir 6 ».
+
+? L'événement contraire de « obtenir un nombre pair » est…
++ obtenir un nombre impair
+- obtenir 1
+- obtenir 6
+> Il regroupe toutes les autres issues.
+
+? On a lancé une pièce 5 fois : 5 fois face. Au 6e lancer, la probabilité de « pile » est…
+- plus grande que $\dfrac{1}{2}$
++ toujours $\dfrac{1}{2}$
+- plus petite que $\dfrac{1}{2}$
+> La pièce n'a pas de mémoire : chaque lancer est indépendant.
+
+? Sur 1 000 lancers d'un dé truqué, le 6 sort 400 fois. Une estimation de $P(6)$ est…
++ $0{,}4$
+- $\dfrac{1}{6}$
+- $400$
+> La fréquence observée sur beaucoup d'essais approche la probabilité.
+
+? Quand on répète une expérience un très grand nombre de fois, la fréquence d'un événement…
++ se rapproche de sa probabilité
+- devient égale à 1
+- s'éloigne de sa probabilité
+> C'est la loi des grands nombres.
+
+? Une urne contient des boules rouges et bleues. $P(\text{rouge}) = \dfrac{2}{5}$ et il y a 6 bleues. Combien de rouges ?
+- 2
++ 4
+- 6
+> Les bleues font $\dfrac{3}{5}$ du total, donc 6 = $\dfrac{3}{5}$ de 10. Il y a 4 rouges.
+
+? Vrai ou faux : une probabilité peut valoir 1,2.
+- Vrai
++ Faux
+> Une probabilité est toujours entre 0 et 1.
+
+? Vrai ou faux : $P(A) + P(\text{non }A) = 1$.
++ Vrai
+- Faux
+> L'un ou l'autre se réalise forcément.
+
+? Vrai ou faux : avec deux dés, obtenir une somme de 2 est aussi probable qu'une somme de 7.
+- Vrai
++ Faux
+> Somme 2 : 1 issue ; somme 7 : 6 issues.
+
+? Probabilité de tirer une boule blanche dans une urne qui ne contient que des boules blanches ?
++ $1$
+- $0$
+- $\dfrac{1}{2}$
+> Événement certain.
+
+? Un code à un chiffre (0 à 9) est choisi au hasard. Probabilité qu'il soit 7 ?
++ $\dfrac{1}{10}$
+- $\dfrac{1}{9}$
+- $\dfrac{7}{10}$
+> 10 chiffres possibles.
+
+? On tire une carte dans un jeu de 52. Probabilité d'avoir une figure (valet, dame, roi) ?
++ $\dfrac{3}{13}$
+- $\dfrac{1}{13}$
+- $\dfrac{3}{52}$
+> 12 figures sur 52 : $\dfrac{12}{52} = \dfrac{3}{13}$.
+
+? $\dfrac{3}{20}$ en pourcentage vaut…
+- 3 %
++ 15 %
+- 20 %
+> $\dfrac{3}{20} = \dfrac{15}{100}$.
+
+? On tire une boule, on la remet, on en tire une autre. Urne : 1 rouge, 1 bleue. Probabilité de deux rouges ?
++ $\dfrac{1}{4}$
+- $\dfrac{1}{2}$
+- $\dfrac{1}{3}$
+> $\dfrac{1}{2} \times \dfrac{1}{2} = \dfrac{1}{4}$ (arbre à 4 branches).
 ```
 
 ## Vidéos
