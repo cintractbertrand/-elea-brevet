@@ -150,6 +150,35 @@ Dans le triangle $ABC$ rectangle en $A$, pour l'angle $\widehat{B}$ :
 
 ## Quiz
 
+### ⚡ Échauffement express
+
+Cinq petites questions à réponse tapée pour vérifier que les bases sont là.
+
+```quiz Échauffement express
+? Complète : dans un triangle rectangle, $\cos(\hat{A}) = \dfrac{\text{adjacent}}{?}$
+= hypoténuse
+= hypotenuse
+> CAH : Cosinus = Adjacent / Hypoténuse.
+
+? Que vaut $\cos(60°)$ ?
+= 0,5
+= 1/2
+> Valeur à connaître : $\cos 60° = 0{,}5$.
+
+? Que vaut $\sin(30°)$ ?
+= 0,5
+= 1/2
+> $\sin 30° = 0{,}5$.
+
+? Que vaut $\tan(45°)$ ?
+= 1
+> Dans un triangle rectangle isocèle, côté opposé = côté adjacent.
+
+? Dans un triangle rectangle, la somme des deux angles aigus vaut (en degrés)…
+= 90
+> $180° - 90° = 90°$.
+```
+
 ```quiz
 ? Dans un triangle rectangle, $\cos = \ldots$
 + $\dfrac{\text{adjacent}}{\text{hypoténuse}}$
@@ -225,6 +254,176 @@ Questions dans le style des sujets récents du brevet.
 - 3 cm
 - 10 cm
 > sin 30° = côté opposé / hypoténuse = 1/2, donc le côté opposé mesure 10 × 1/2 = 5 cm.
+```
+
+### 🎲 Entraînement sans fin
+
+Une banque de 28 questions : 10 sont tirées au hasard à chaque essai, sans répétition tant que la banque n'est pas épuisée. Recommence autant que tu veux !
+
+```quiz Entraînement sans fin ~10
+? Que signifie le moyen mnémotechnique « SOH CAH TOA » ?
++ Sinus = Opposé/Hypoténuse, Cosinus = Adjacent/Hypoténuse, Tangente = Opposé/Adjacent
+- Sinus = Adjacent/Hypoténuse, Cosinus = Opposé/Hypoténuse
+- Tangente = Hypoténuse/Opposé
+> À connaître par cœur.
+
+? $ABC$ rectangle en $B$. Le côté adjacent à l'angle $\hat{A}$ est…
++ $[AB]$
+- $[BC]$
+- $[AC]$
+> Adjacent = le côté de l'angle droit qui touche $A$. $[AC]$ est l'hypoténuse.
+
+? $ABC$ rectangle en $B$. Le côté opposé à l'angle $\hat{A}$ est…
+- $[AB]$
++ $[BC]$
+- $[AC]$
+> Le côté opposé est en face de l'angle.
+
+? Rectangle en $B$ : $\cos(\hat{A})$ vaut…
++ $\dfrac{AB}{AC}$
+- $\dfrac{BC}{AC}$
+- $\dfrac{AB}{BC}$
+> Adjacent sur hypoténuse.
+
+? Rectangle en $B$ : $\tan(\hat{A})$ vaut…
+- $\dfrac{AB}{BC}$
++ $\dfrac{BC}{AB}$
+- $\dfrac{BC}{AC}$
+> Opposé sur adjacent.
+
+? Rectangle en $A$, $BC = 10$ cm et $\hat{B} = 30°$. Que vaut $AC$ ?
++ 5 cm
+- 8,7 cm
+- 20 cm
+> $AC$ est opposé à $\hat{B}$ : $AC = 10 \times \sin 30° = 5$ cm.
+
+? Rectangle en $A$, $BC = 10$ cm et $\hat{B} = 60°$. Que vaut $AB$ ?
++ 5 cm
+- 8,7 cm
+- 17,3 cm
+> $AB$ est adjacent à $\hat{B}$ : $AB = 10 \times \cos 60° = 5$ cm.
+
+? Rectangle en $A$, $AB = 4$ et $AC = 4$. Que vaut $\hat{B}$ ?
++ $45°$
+- $30°$
+- $60°$
+> $\tan \hat{B} = \dfrac{4}{4} = 1$, donc $\hat{B} = 45°$.
+
+? Pour trouver un angle quand on connaît $\cos(\hat{A}) = 0{,}8$, on utilise la touche…
++ $\arccos$ (ou $\cos^{-1}$)
+- $\cos$
+- $\sqrt{}$
+> $\hat{A} = \arccos(0{,}8) \approx 36{,}9°$.
+
+? La calculatrice doit être réglée en…
++ degrés
+- radians
+- grades
+> Au collège, les angles sont en degrés.
+
+? Le cosinus d'un angle aigu est toujours…
++ compris entre 0 et 1
+- supérieur à 1
+- négatif
+> L'adjacent est plus court que l'hypoténuse.
+
+? Laquelle de ces valeurs ne peut pas être un sinus ?
+- $0{,}3$
+- $0{,}99$
++ $1{,}2$
+> Le sinus d'un angle aigu est inférieur à 1.
+
+? Rectangle en $C$ : $AC = 6$, $\hat{A} = 40°$. Pour calculer $BC$, on utilise…
++ la tangente
+- le cosinus
+- le sinus
+> On connaît l'adjacent ($AC$) et on cherche l'opposé ($BC$) : TOA.
+
+? Rectangle en $C$ : $AB = 12$, $\hat{A} = 25°$. Pour calculer $AC$, on utilise…
++ le cosinus
+- la tangente
+- le sinus
+> On connaît l'hypoténuse et on cherche l'adjacent : CAH.
+
+? Une échelle de 4 m fait un angle de 70° avec le sol. À quelle hauteur touche-t-elle le mur (au dixième) ?
++ 3,8 m
+- 1,4 m
+- 11 m
+> Hauteur = côté opposé à l'angle au sol : $4 \times \sin 70° \approx 3{,}76$ m.
+
+? Une rampe monte de 1 m sur une distance horizontale de 10 m. L'angle avec le sol est environ…
++ $5{,}7°$
+- $10°$
+- $84°$
+> $\tan \alpha = \dfrac{1}{10}$, donc $\alpha \approx 5{,}7°$.
+
+? Rectangle en $A$ : $AB = 3$, $BC = 5$. Que vaut $\cos \hat{B}$ ?
++ $0{,}6$
+- $0{,}8$
+- $\dfrac{5}{3}$
+> $\cos \hat{B} = \dfrac{AB}{BC} = \dfrac{3}{5}$.
+
+? Rectangle en $A$ : $AB = 3$, $BC = 5$. Que vaut $\sin \hat{B}$ ?
+- $0{,}6$
++ $0{,}8$
+- $\dfrac{3}{4}$
+> $AC = 4$ (Pythagore), donc $\sin \hat{B} = \dfrac{4}{5}$.
+
+? Vrai ou faux : la trigonométrie s'utilise dans n'importe quel triangle.
+- Vrai
++ Faux
+> Au collège, seulement dans un triangle rectangle.
+
+? Vrai ou faux : $\cos(\hat{A})$ peut se calculer avec deux longueurs du triangle rectangle.
++ Vrai
+- Faux
+> Il suffit de l'adjacent et de l'hypoténuse.
+
+? Vrai ou faux : si $\hat{A} = 30°$ dans un triangle rectangle, l'autre angle aigu vaut 60°.
++ Vrai
+- Faux
+> $90° - 30° = 60°$.
+
+? $\cos(\hat{A}) = \dfrac{5}{x}$ avec $\cos(\hat{A}) = 0{,}5$. Que vaut $x$ ?
++ $10$
+- $2{,}5$
+- $5{,}5$
+> $x = \dfrac{5}{0{,}5} = 10$.
+
+? Depuis 50 m du pied d'une tour, on voit son sommet sous un angle de 40°. La hauteur est environ…
++ 42 m
+- 32 m
+- 38 m
+> $h = 50 \times \tan 40° \approx 41{,}95$ m.
+
+? Pour calculer l'hypoténuse connaissant l'adjacent $AB = 7$ et $\hat{A} = 50°$, on écrit…
++ $AC = \dfrac{7}{\cos 50°}$
+- $AC = 7 \times \cos 50°$
+- $AC = 7 \times \tan 50°$
+> De $\cos 50° = \dfrac{7}{AC}$ on tire $AC = \dfrac{7}{\cos 50°} \approx 10{,}9$.
+
+? Quand l'angle augmente (de 0° à 90°), le cosinus…
+- augmente
++ diminue
+- reste constant
+> $\cos 0° = 1$ et $\cos 90° = 0$.
+
+? Quand l'angle augmente (de 0° à 90°), la tangente…
++ augmente
+- diminue
+> $\tan 45° = 1$, $\tan 80° \approx 5{,}7$.
+
+? Un avion décolle avec un angle de 15° et parcourt 2 km en ligne droite. Il est monté d'environ…
++ 518 m
+- 1 932 m
+- 30 m
+> $2\,000 \times \sin 15° \approx 518$ m.
+
+? $\arctan(1)$ vaut…
++ $45°$
+- $1°$
+- $90°$
+> C'est l'angle dont la tangente vaut 1.
 ```
 
 ## Vidéos

@@ -134,6 +134,32 @@ Partager 60 € dans le **ratio 2 : 3**, c'est faire $2 + 3 = 5$ parts égales d
 
 ## Quiz
 
+### ⚡ Échauffement express
+
+Cinq petites questions à réponse tapée pour vérifier que les bases sont là.
+
+```quiz Échauffement express
+? 3 cahiers coûtent 6 €. Combien coûtent 5 cahiers (en €) ?
+= 10
+> Un cahier coûte $6 \div 3 = 2$ €, donc 5 cahiers coûtent 10 €.
+
+? Combien font 10 % de 250 ?
+= 25
+> 10 %, c'est diviser par 10.
+
+? Combien font 25 % de 80 ?
+= 20
+> 25 %, c'est le quart : $80 \div 4 = 20$.
+
+? Un pull à 40 € est soldé de 30 %. Quel est son nouveau prix (en €) ?
+= 28
+> $40 \times 0{,}7 = 28$ €.
+
+? Une voiture roule à 90 km/h pendant 2 h. Quelle distance parcourt-elle (en km) ?
+= 180
+> $d = v \times t = 90 \times 2 = 180$ km.
+```
+
 ```quiz
 ? $25\,\%$ de $48$, c'est…
 - $4{,}8$
@@ -210,6 +236,188 @@ Questions dans le style des sujets récents du brevet.
 - +12 %
 - +50 %
 > (60 − 50) / 50 = 0,20, soit +20 %.
+```
+
+### 🎲 Entraînement sans fin
+
+Une banque de 30 questions : 10 sont tirées au hasard à chaque essai, sans répétition tant que la banque n'est pas épuisée. Recommence autant que tu veux !
+
+```quiz Entraînement sans fin ~10
+? Quel tableau est un tableau de proportionnalité ? (ligne 1 → ligne 2)
++ $2 ; 5 ; 8 \to 6 ; 15 ; 24$
+- $2 ; 5 ; 8 \to 4 ; 7 ; 10$
+- $1 ; 2 ; 3 \to 1 ; 4 ; 9$
+> On multiplie toujours par le même nombre (ici 3). Dans le 2e tableau on ajoute 2 : ce n'est pas de la proportionnalité.
+
+? Avec la quatrième proportionnelle : $\dfrac{4}{10} = \dfrac{6}{x}$. Que vaut $x$ ?
+- $2{,}4$
++ $15$
+- $12$
+> Produit en croix : $x = \dfrac{10 \times 6}{4} = 15$.
+
+? Une recette pour 4 personnes demande 300 g de farine. Combien pour 6 personnes ?
+- 400 g
++ 450 g
+- 500 g
+> 75 g par personne, donc $75 \times 6 = 450$ g.
+
+? Multiplier un prix par 1,15 revient à…
++ l'augmenter de 15 %
+- le diminuer de 15 %
+- l'augmenter de 1,15 %
+> $1 + \dfrac{15}{100} = 1{,}15$.
+
+? Diminuer de 20 %, c'est multiplier par…
+- $0{,}2$
++ $0{,}8$
+- $1{,}2$
+> $1 - \dfrac{20}{100} = 0{,}8$.
+
+? Un prix passe de 50 € à 60 €. Quel est le pourcentage d'augmentation ?
+- 10 %
++ 20 %
+- 16,7 %
+> Hausse de 10 € sur 50 € : $\dfrac{10}{50} = 0{,}2 = 20$ %.
+
+? Un prix passe de 80 € à 60 €. Quel est le pourcentage de baisse ?
++ 25 %
+- 20 %
+- 33 %
+> Baisse de 20 € sur 80 € : $\dfrac{20}{80} = 25$ %.
+
+? Un prix augmente de 10 % puis baisse de 10 %. Au final, il a…
+- retrouvé sa valeur
++ baissé de 1 %
+- augmenté de 1 %
+> $1{,}1 \times 0{,}9 = 0{,}99$ : c'est une baisse de 1 %.
+
+? Dans une classe de 25 élèves, 15 sont des filles. Quel pourcentage cela représente-t-il ?
+- 15 %
++ 60 %
+- 40 %
+> $\dfrac{15}{25} = 0{,}6 = 60$ %.
+
+? Sur une carte à l'échelle $1/25\,000$, 4 cm représentent…
+- 100 m
++ 1 km
+- 10 km
+> $4 \times 25\,000 = 100\,000$ cm $= 1$ km.
+
+? Une échelle de $1/100$ signifie que…
++ 1 cm sur le plan = 100 cm en réalité
+- 100 cm sur le plan = 1 cm en réalité
+- 1 cm = 100 km
+> Le plan est 100 fois plus petit que la réalité.
+
+? Un cycliste parcourt 45 km en 1 h 30 min. Quelle est sa vitesse moyenne ?
+- 45 km/h
++ 30 km/h
+- 35 km/h
+> 1 h 30 min = 1,5 h, et $45 \div 1{,}5 = 30$ km/h.
+
+? Combien de temps faut-il pour parcourir 150 km à 100 km/h ?
+- 1 h 50 min
++ 1 h 30 min
+- 1 h 15 min
+> $t = 150 \div 100 = 1{,}5$ h = 1 h 30 min (0,5 h = 30 min).
+
+? 0,25 h correspond à…
+- 25 min
++ 15 min
+- 2 min 30 s
+> $0{,}25 \times 60 = 15$ min.
+
+? 36 km/h correspond à…
++ 10 m/s
+- 36 m/s
+- 3,6 m/s
+> 36 km/h = 36 000 m en 3 600 s, donc 10 m/s.
+
+? Un ratio de 2 : 3 entre filles et garçons dans un groupe de 30 donne…
++ 12 filles et 18 garçons
+- 20 filles et 10 garçons
+- 2 filles et 3 garçons
+> 5 parts en tout, une part = 6 personnes : $2 \times 6 = 12$ et $3 \times 6 = 18$.
+
+? Le graphique d'une situation de proportionnalité est…
++ une droite qui passe par l'origine
+- une droite qui ne passe pas par l'origine
+- une courbe
+> Exemple : le prix en fonction de la quantité.
+
+? Le prix du taxi est 2 € de prise en charge + 1,50 € par km. Est-ce proportionnel à la distance ?
+- Oui
++ Non
+> Pour 0 km on paie déjà 2 € : ce n'est pas proportionnel.
+
+? Un article coûte 120 € TTC avec une TVA de 20 %. Son prix hors taxe est…
+- 96 €
++ 100 €
+- 144 €
+> $HT \times 1{,}2 = 120$, donc $HT = 100$ €. Enlever 20 % de 120 donnerait 96 €, faux.
+
+? Une population de 2 000 habitants augmente de 5 % par an. Combien d'habitants après 1 an ?
++ 2 100
+- 2 005
+- 2 500
+> $2\,000 \times 1{,}05 = 2\,100$.
+
+? Calculer 15 % de 60, c'est…
++ $0{,}15 \times 60 = 9$
+- $60 \div 15 = 4$
+- $15 \times 60 = 900$
+> Prendre $t$ % d'un nombre, c'est le multiplier par $\dfrac{t}{100}$.
+
+? Vrai ou faux : l'âge et la taille d'un enfant sont proportionnels.
+- Vrai
++ Faux
+> Doubler l'âge ne double pas la taille.
+
+? Vrai ou faux : le périmètre d'un carré est proportionnel à la longueur de son côté.
++ Vrai
+- Faux
+> $P = 4 \times c$, on multiplie toujours par 4.
+
+? Vrai ou faux : l'aire d'un carré est proportionnelle à la longueur de son côté.
+- Vrai
++ Faux
+> $A = c^2$ : si le côté double, l'aire est multipliée par 4.
+
+? Un jus contient 12 % de sucre. Combien de grammes de sucre dans 250 g de jus ?
+- 12 g
++ 30 g
+- 20,8 g
+> $0{,}12 \times 250 = 30$ g.
+
+? Un téléphone soldé à 30 % coûte 210 €. Quel était son prix avant les soldes ?
++ 300 €
+- 273 €
+- 240 €
+> $0{,}7 \times p = 210$, donc $p = 300$ €.
+
+? 3 kg de pommes coûtent 4,50 €. Quel est le prix au kg ?
+- 1,35 €
++ 1,50 €
+- 13,50 €
+> $4{,}50 \div 3 = 1{,}50$ €.
+
+? Une imprimante imprime 18 pages en 3 minutes. Combien en 10 minutes ?
++ 60 pages
+- 54 pages
+- 30 pages
+> 6 pages par minute.
+
+? Le débit d'un robinet est 12 L/min. Combien de temps pour remplir 90 L ?
+- 8 min
++ 7 min 30 s
+- 7 min 50 s
+> $90 \div 12 = 7{,}5$ min = 7 min 30 s.
+
+? Un coefficient multiplicateur de 0,6 correspond à…
+- une hausse de 60 %
++ une baisse de 40 %
+- une baisse de 60 %
+> $0{,}6 = 1 - 0{,}4$.
 ```
 
 ## Vidéos

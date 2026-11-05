@@ -154,6 +154,33 @@ Au brevet, on trouve souvent des formules comme `=SOMME(B2:F2)` ou `=MOYENNE(B2:
 
 ## Quiz
 
+### ⚡ Échauffement express
+
+Cinq petites questions à réponse tapée pour vérifier que les bases sont là.
+
+```quiz Échauffement express
+? Quelle est la moyenne de 8 ; 12 ; 10 ?
+= 10
+> $(8 + 12 + 10) \div 3 = 30 \div 3 = 10$.
+
+? Quelle est l'étendue de la série 3 ; 9 ; 5 ; 14 ?
+= 11
+> Étendue = plus grande valeur − plus petite : $14 - 3 = 11$.
+
+? Quelle est la médiane de 2 ; 5 ; 7 ; 9 ; 11 ?
+= 7
+> 5 valeurs rangées : la 3e est au milieu.
+
+? Quelle est la médiane de 4 ; 6 ; 8 ; 10 ?
+= 7
+> Nombre pair de valeurs : moyenne des deux du milieu, $(6 + 8) \div 2 = 7$.
+
+? Sur 20 élèves, 5 ont un chat. Quelle est la fréquence en % ?
+= 25
+= 25%
+> $5 \div 20 = 0{,}25 = 25$ %.
+```
+
 ```quiz
 ? Quelle est la médiane de la série 4 ; 9 ; 1 ; 7 ; 3 ?
 - $1$
@@ -215,6 +242,189 @@ Questions dans le style des sujets récents du brevet.
 - 8,6
 - 20
 > La médiane est la valeur du milieu de la série rangée : 7. La moyenne, elle, vaut 8,6.
+```
+
+### 🎲 Entraînement sans fin
+
+Une banque de 30 questions : 10 sont tirées au hasard à chaque essai, sans répétition tant que la banque n'est pas épuisée. Recommence autant que tu veux !
+
+```quiz Entraînement sans fin ~10
+? Quelle est la moyenne de 12 ; 15 ; 9 ; 14 ?
+- $12$
++ $12{,}5$
+- $13$
+> $(12 + 15 + 9 + 14) \div 4 = 50 \div 4 = 12{,}5$.
+
+? Quelle est la médiane de 3 ; 8 ; 1 ; 6 ; 4 ?
+- $6$
++ $4$
+- $8$
+> Il faut ranger d'abord : 1 ; 3 ; 4 ; 6 ; 8. La médiane est 4.
+
+? Quelle est la médiane de 5 ; 2 ; 9 ; 7 ; 3 ; 10 ?
+- $7$
++ $6$
+- $5$
+> Rangée : 2 ; 3 ; 5 ; 7 ; 9 ; 10. Médiane $= (5 + 7) \div 2 = 6$.
+
+? Que signifie « la médiane des notes est 11 » ?
++ au moins la moitié des notes sont inférieures ou égales à 11
+- la moyenne vaut 11
+- 11 est la note la plus fréquente
+> La médiane partage la série en deux groupes de même effectif.
+
+? Notes : 10 (coef 1) et 16 (coef 2). Quelle est la moyenne ?
+- $13$
++ $14$
+- $15$
+> $(10 \times 1 + 16 \times 2) \div 3 = 42 \div 3 = 14$.
+
+? Tableau : note 8 (effectif 2), 12 (effectif 3), 15 (effectif 5). Quel est l'effectif total ?
++ 10
+- 35
+- 3
+> $2 + 3 + 5 = 10$.
+
+? Même tableau : quelle est la moyenne ?
+- $11{,}7$
++ $12{,}7$
+- $13$
+> $(8 \times 2 + 12 \times 3 + 15 \times 5) \div 10 = (16 + 36 + 75) \div 10 = 12{,}7$.
+
+? Même tableau : quelle est la médiane ?
+- $12$
++ $13{,}5$
+- $15$
+> 10 valeurs : la 5e et la 6e. La 5e vaut 12 et la 6e vaut 15, donc médiane $= 13{,}5$.
+
+? Une valeur très grande ajoutée à une série modifie beaucoup…
++ la moyenne
+- la médiane
+> La médiane résiste aux valeurs extrêmes, la moyenne non.
+
+? Quelle est l'étendue de 15 ; 22 ; 8 ; 30 ; 19 ?
+- $15$
++ $22$
+- $30$
+> $30 - 8 = 22$.
+
+? À quoi sert l'étendue ?
++ à mesurer la dispersion des valeurs
+- à trouver la valeur du milieu
+- à calculer la moyenne
+> Plus l'étendue est grande, plus les valeurs sont dispersées.
+
+? 12 élèves sur 30 viennent à vélo. La fréquence est…
+- $12$ %
++ $40$ %
+- $0{,}12$
+> $12 \div 30 = 0{,}4 = 40$ %.
+
+? Dans un diagramme circulaire, une catégorie représente 25 %. Quel est l'angle ?
++ $90°$
+- $25°$
+- $45°$
+> $25$ % de $360° = 90°$.
+
+? La somme des fréquences d'une série vaut…
++ $1$ (ou 100 %)
+- l'effectif total
+- la moyenne
+> Toutes les catégories réunies font 100 %.
+
+? Moyenne de 5 notes : 12. Quelle est la somme des notes ?
+- $12$
++ $60$
+- $17$
+> Somme = moyenne × effectif.
+
+? Lucas a 11, 13 et 9. Quelle note doit-il avoir au 4e devoir pour avoir 12 de moyenne ?
+- $12$
++ $15$
+- $13$
+> Il faut un total de $4 \times 12 = 48$ ; il a déjà 33, il lui faut 15.
+
+? Un tableur : en A1 à A5 il y a des notes. Quelle formule donne la moyenne ?
++ =MOYENNE(A1:A5)
+- =SOMME(A1:A5)
+- =A1+A5/2
+> SOMME donnerait le total, pas la moyenne.
+
+? Températures : −2 ; 3 ; 0 ; 5 ; −1. Quelle est la moyenne ?
++ $1$
+- $2{,}2$
+- $0$
+> $(-2 + 3 + 0 + 5 - 1) \div 5 = 5 \div 5 = 1$.
+
+? Si on ajoute 2 points à toutes les notes, la moyenne…
++ augmente de 2
+- ne change pas
+- double
+> Chaque valeur augmente de 2, donc la moyenne aussi.
+
+? Si on ajoute 2 points à toutes les notes, l'étendue…
+- augmente de 2
++ ne change pas
+- double
+> Le max et le min augmentent tous deux de 2 : l'écart est le même.
+
+? Vrai ou faux : la médiane est toujours une valeur de la série.
+- Vrai
++ Faux
+> Pour un nombre pair de valeurs, elle peut tomber entre deux valeurs (ex. 6 pour 5 et 7).
+
+? Vrai ou faux : moyenne et médiane sont toujours égales.
+- Vrai
++ Faux
+> Série 1 ; 2 ; 9 : médiane 2, moyenne 4.
+
+? Pour trouver la médiane d'une série de 25 valeurs rangées, on prend…
+- la 12e valeur
++ la 13e valeur
+- la moyenne de la 12e et de la 13e
+> 12 valeurs avant, 12 après : la 13e est au milieu.
+
+? Pour une série de 40 valeurs rangées, la médiane est…
++ la moyenne de la 20e et de la 21e valeur
+- la 20e valeur
+- la 21e valeur
+> Nombre pair : on prend les deux valeurs du milieu.
+
+? Un diagramme en barres est adapté pour…
++ comparer des effectifs par catégorie
+- montrer une évolution continue dans le temps
+- représenter des fractions d'un tout uniquement
+> Pour une évolution, on préfère une courbe ; pour des parts, un diagramme circulaire.
+
+? Une classe A a une moyenne de 12 (20 élèves), une classe B de 14 (30 élèves). Moyenne des 50 élèves ?
+- $13$
++ $13{,}2$
+- $12{,}8$
+> $(12 \times 20 + 14 \times 30) \div 50 = (240 + 420) \div 50 = 13{,}2$.
+
+? Série : 4 ; 4 ; 5 ; 7 ; 10. Quelle est la moyenne ?
++ $6$
+- $5$
+- $7$
+> $30 \div 5 = 6$.
+
+? Même série : quelle est la médiane ?
+- $6$
++ $5$
+- $4$
+> La 3e valeur sur 5.
+
+? « 50 % des salariés gagnent moins de 2 000 € ». 2 000 € est…
++ le salaire médian
+- le salaire moyen
+- l'étendue
+> C'est la définition de la médiane.
+
+? Effectifs : 3 garçons et 7 filles. La fréquence des garçons est…
+- $3$ %
++ $30$ %
+- $43$ %
+> $3 \div 10 = 0{,}3$.
 ```
 
 ## Vidéos

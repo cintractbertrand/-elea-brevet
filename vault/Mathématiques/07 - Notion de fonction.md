@@ -135,6 +135,32 @@ Ex : $f(x) = 3x - 2$. Antécédent de 10 : $3x - 2 = 10 \iff 3x = 12 \iff x = 4$
 
 ## Quiz
 
+### ⚡ Échauffement express
+
+Cinq petites questions à réponse tapée pour vérifier que les bases sont là.
+
+```quiz Échauffement express
+? Si $f(x) = 2x + 1$, que vaut $f(3)$ ?
+= 7
+> $2 \times 3 + 1 = 7$.
+
+? Si $f(x) = x^2$, que vaut $f(-4)$ ?
+= 16
+> $(-4)^2 = 16$.
+
+? Si $g(x) = 5 - x$, que vaut $g(5)$ ?
+= 0
+> $5 - 5 = 0$.
+
+? Si $f(x) = 3x$, quel nombre a pour image 12 ?
+= 4
+> On résout $3x = 12$, donc $x = 4$.
+
+? Si $h(x) = x^2 + 1$, que vaut $h(0)$ ?
+= 1
+> $0^2 + 1 = 1$.
+```
+
 ```quiz
 ? Si $f(5) = 2$, alors…
 + $2$ est l'image de $5$
@@ -196,6 +222,185 @@ Questions dans le style des sujets récents du brevet.
 - 8/3
 - 9
 > On résout 3x − 1 = 8, donc 3x = 9 et x = 3.
+```
+
+### 🎲 Entraînement sans fin
+
+Une banque de 30 questions : 10 sont tirées au hasard à chaque essai, sans répétition tant que la banque n'est pas épuisée. Recommence autant que tu veux !
+
+```quiz Entraînement sans fin ~10
+? Dans $f(2) = 7$, le nombre 7 est…
++ l'image de 2
+- l'antécédent de 2
+- la fonction
+> On lit « l'image de 2 par $f$ est 7 ».
+
+? Dans $f(2) = 7$, le nombre 2 est…
+- l'image de 7
++ un antécédent de 7
+- la valeur de $f$
+> 2 est un antécédent de 7 par $f$.
+
+? Un nombre peut-il avoir deux images par une fonction ?
+- Oui
++ Non
+> Une fonction associe à chaque nombre une seule image.
+
+? Un nombre peut-il avoir plusieurs antécédents ?
++ Oui
+- Non
+> Avec $f(x) = x^2$, 9 a deux antécédents : 3 et $-3$.
+
+? Avec $f(x) = x^2$, quels sont les antécédents de 25 ?
+- 5 seulement
++ 5 et $-5$
+- 625
+> $5^2 = 25$ et $(-5)^2 = 25$.
+
+? Sur une courbe, pour lire l'image de 3, on…
++ part de 3 sur l'axe des abscisses, monte jusqu'à la courbe et lit l'ordonnée
+- part de 3 sur l'axe des ordonnées et lit l'abscisse
+- lit le point le plus haut
+> Image : on part de l'axe horizontal (abscisses).
+
+? Sur une courbe, pour lire les antécédents de 2, on…
+- part de 2 sur l'axe des abscisses
++ trace la droite horizontale d'ordonnée 2 et lit les abscisses des points d'intersection
+- lit l'ordonnée à l'origine
+> Antécédents : on part de l'axe vertical (ordonnées).
+
+? Le point $A(3 ; 5)$ est sur la courbe de $f$. Cela signifie que…
++ $f(3) = 5$
+- $f(5) = 3$
+- $f(3) = f(5)$
+> Abscisse = antécédent, ordonnée = image.
+
+? $f(x) = 2x - 3$. Le point $(4 ; 5)$ est-il sur la courbe de $f$ ?
++ Oui
+- Non
+> $f(4) = 8 - 3 = 5$. Oui.
+
+? $f(x) = x^2 - 1$. Le point $(2 ; 4)$ est-il sur la courbe ?
+- Oui
++ Non
+> $f(2) = 4 - 1 = 3 \neq 4$.
+
+? $f(x) = -3x + 2$. Que vaut $f(-1)$ ?
++ $5$
+- $-1$
+- $1$
+> $-3 \times (-1) + 2 = 3 + 2 = 5$.
+
+? $f(x) = x^2 - 2x$. Que vaut $f(-3)$ ?
+- $3$
++ $15$
+- $-15$
+> $(-3)^2 - 2 \times (-3) = 9 + 6 = 15$.
+
+? Dans un tableur, la cellule B2 contient « =3*A2+1 » et A2 contient 4. B2 affiche…
+- 7
++ 13
+- 34
+> $3 \times 4 + 1 = 13$.
+
+? La notation $f : x \mapsto 4x - 1$ signifie…
++ $f(x) = 4x - 1$
+- $f$ vaut 4
+- $x$ vaut $4x - 1$
+> C'est une autre façon d'écrire la même fonction.
+
+? Un programme de calcul : « multiplier par 2 puis ajouter 5 ». Quelle fonction le traduit ?
++ $f(x) = 2x + 5$
+- $f(x) = 2(x + 5)$
+- $f(x) = 7x$
+> On multiplie d'abord, puis on ajoute.
+
+? Un programme : « ajouter 3 puis élever au carré ». Quelle fonction ?
+- $f(x) = x^2 + 3$
++ $f(x) = (x + 3)^2$
+- $f(x) = 3x^2$
+> L'ordre des étapes compte : on ajoute 3 avant d'élever au carré.
+
+? Le prix à payer $P$ pour $x$ places de cinéma à 8 € est…
++ $P(x) = 8x$
+- $P(x) = x + 8$
+- $P(x) = \dfrac{8}{x}$
+> Chaque place coûte 8 €.
+
+? Sur une courbe de température, la valeur maximale se lit…
++ au point le plus haut de la courbe
+- au point le plus à droite
+- à l'origine
+> Le maximum est la plus grande ordonnée.
+
+? Une fonction est croissante sur un intervalle si…
++ sa courbe monte quand on va vers la droite
+- sa courbe descend
+- elle passe par l'origine
+> Quand $x$ augmente, $f(x)$ augmente.
+
+? $f(x) = 10 - x^2$. Que vaut $f(3)$ ?
++ $1$
+- $49$
+- $-19$
+> $10 - 9 = 1$.
+
+? $f(x) = \dfrac{x + 4}{2}$. Quel est l'antécédent de 5 ?
+- $4{,}5$
++ $6$
+- $14$
+> $\dfrac{x + 4}{2} = 5$ donne $x + 4 = 10$, donc $x = 6$.
+
+? Vrai ou faux : si $f(2) = f(5)$, alors $f$ n'est pas une fonction.
+- Vrai
++ Faux
+> Deux nombres différents peuvent avoir la même image (c'est l'inverse qui est interdit).
+
+? Vrai ou faux : $f(x) = 3x$ et $g(x) = x + 3$ ont la même image en 1.
+- Vrai
++ Faux
+> $f(1) = 3$ et $g(1) = 4$.
+
+? Vrai ou faux : $f(x) = 3x$ et $g(x) = x + 3$ ont la même image en 1,5.
++ Vrai
+- Faux
+> $f(1{,}5) = 4{,}5$ et $g(1{,}5) = 4{,}5$.
+
+? L'aire d'un carré de côté $x$ est la fonction…
+- $A(x) = 4x$
++ $A(x) = x^2$
+- $A(x) = 2x$
+> Aire = côté × côté.
+
+? Pour quel $x$ a-t-on $f(x) = 0$ si $f(x) = 2x - 8$ ?
++ $4$
+- $-4$
+- $8$
+> $2x - 8 = 0$, donc $x = 4$.
+
+? Dans un tableau de valeurs de $f$ : $x = 0 ; 1 ; 2$ et $f(x) = 3 ; 5 ; 7$. Que vaut $f(1)$ ?
+- 3
++ 5
+- 7
+> On lit sous le 1 : 5.
+
+? Dans ce même tableau, quel est l'antécédent de 7 ?
+- 0
+- 1
++ 2
+> 7 est dans la colonne de 2.
+
+? Une courbe coupe l'axe des ordonnées au point $(0 ; 4)$. Donc…
++ $f(0) = 4$
+- $f(4) = 0$
+- 4 n'a pas d'antécédent
+> Sur l'axe des ordonnées, l'abscisse vaut 0.
+
+? $f(x) = x^3$. Que vaut $f(-2)$ ?
++ $-8$
+- $8$
+- $-6$
+> $(-2)^3 = (-2) \times (-2) \times (-2) = -8$.
 ```
 
 ## Vidéos
