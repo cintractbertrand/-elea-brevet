@@ -116,6 +116,38 @@ tags: [EMC, opinion publique, information, désinformation, complotisme, médias
 
 ## Quiz
 
+### ⚡ Échauffement express
+
+Cinq petites questions à réponse tapée pour vérifier que les bases sont là.
+
+```quiz Échauffement express
+? Comment appelle-t-on une fausse information diffusée volontairement (en anglais) ?
+= fake news
+= fakenews
+= infox
+> En français, on dit « infox ».
+
+? Quelle liberté permet aux journalistes d'informer sans censure ?
+= liberté de la presse
+= la liberté de la presse
+> Garantie par la loi du 29 juillet 1881.
+
+? Comment s'appelle l'enquête qui mesure l'opinion sur un échantillon de personnes ?
+= sondage
+= un sondage
+> Il donne une estimation, pas une certitude.
+
+? En quelle année est votée la grande loi sur la liberté de la presse ?
+= 1881
+> Loi du 29 juillet 1881.
+
+? Comment appelle-t-on la vérification des faits par des journalistes (en anglais) ?
+= fact-checking
+= fact checking
+= factchecking
+> Ex. les rubriques de vérification des grands médias.
+```
+
 ```quiz
 ? Délibérer, c'est…
 + débattre en échangeant des arguments avant de décider
@@ -170,6 +202,160 @@ tags: [EMC, opinion publique, information, désinformation, complotisme, médias
 - voter une loi
 - juger un coupable
 > Il donne une photographie de l'opinion à un moment donné.
+```
+
+### 🎲 Entraînement sans fin
+
+Une banque de 25 questions : 10 sont tirées au hasard à chaque essai, sans répétition tant que la banque n'est pas épuisée. Recommence autant que tu veux !
+
+```quiz Entraînement sans fin ~10
+? L'opinion publique, c'est…
++ l'ensemble des avis partagés par une partie importante de la population
+- l'avis du président
+- un journal
+> Elle se mesure notamment par les sondages.
+
+? Un sondage est fiable s'il…
++ interroge un échantillon représentatif de la population
+- interroge uniquement ses amis
+- interroge 10 personnes au hasard dans la rue
+> Il comporte toujours une marge d'erreur.
+
+? La liberté de la presse est importante en démocratie car…
++ les citoyens ont besoin d'informations libres pour se forger une opinion
+- elle permet d'insulter sans limite
+- elle est inutile
+> Elle a des limites (diffamation, incitation à la haine).
+
+? La diffamation, c'est…
++ accuser publiquement quelqu'un d'un fait qui porte atteinte à son honneur
+- critiquer une idée
+- publier une recette
+> Elle est punie par la loi.
+
+? Pour vérifier une information trouvée sur Internet, il faut…
++ chercher la source, la date et comparer avec d'autres médias fiables
+- la partager immédiatement
+- croire tout ce qui a beaucoup de « likes »
+> Méthode de recoupement.
+
+? Une source fiable est souvent…
++ un média reconnu qui cite ses sources et a des journalistes identifiés
+- un compte anonyme
+- une rumeur
+> On vérifie aussi l'auteur.
+
+? Une image peut être trompeuse car elle peut être…
++ retouchée, sortie de son contexte ou générée par IA
+- toujours vraie
+- impossible à modifier
+> La recherche d'image inversée aide à vérifier.
+
+? Le complotisme consiste à…
++ expliquer des événements par un complot secret, sans preuves solides
+- vérifier les faits
+- lire plusieurs journaux
+> Il rejette souvent les explications scientifiques.
+
+? Les algorithmes des réseaux sociaux…
++ mettent en avant des contenus qui nous ressemblent (bulle de filtre)
+- montrent toutes les opinions de manière égale
+- n'existent pas
+> On risque de ne voir qu'un seul point de vue.
+
+? Un éditorial dans un journal est…
++ un article d'opinion qui engage la rédaction
+- une information neutre
+- une publicité
+> On distingue faits et opinions.
+
+? Le pluralisme des médias signifie…
++ qu'il existe de nombreux médias aux opinions différentes
+- qu'il n'y a qu'une seule chaîne
+- que tous les médias appartiennent à l'État
+> Il protège la démocratie.
+
+? L'Arcom (ex-CSA) est…
++ l'autorité qui régule l'audiovisuel et le numérique en France
+- une chaîne de télé
+- un parti politique
+> Elle veille par exemple au temps de parole des candidats.
+
+? L'éducation aux médias (EMI) sert à…
++ apprendre à analyser et vérifier les informations
+- interdire les réseaux sociaux
+- devenir influenceur
+> Semaine de la presse à l'école.
+
+? Les lanceurs d'alerte sont…
++ des personnes qui révèlent des faits graves d'intérêt général
+- des pompiers
+- des publicitaires
+> Ils sont protégés par la loi en France.
+
+? Une manifestation est…
++ un moyen d'exprimer collectivement une opinion dans la rue
+- un sondage
+- un vote
+> Elle est déclarée en préfecture.
+
+? Une pétition est…
++ un texte signé par de nombreuses personnes pour demander quelque chose
+- un article de loi
+- un bulletin de vote
+> On peut en signer en ligne.
+
+? Les « deepfakes » sont…
++ des vidéos truquées par intelligence artificielle
+- des vidéos de plongée
+- des films historiques
+> Elles peuvent faire dire n'importe quoi à quelqu'un.
+
+? Vrai ou faux : une information très partagée est forcément vraie.
+- Vrai
++ Faux
+> Les fausses informations circulent souvent plus vite que les vraies.
+
+? Vrai ou faux : la liberté d'expression permet de tout dire, même d'appeler à la haine.
+- Vrai
++ Faux
+> L'incitation à la haine et la diffamation sont punies.
+
+? La séparation entre faits et opinions est…
++ une règle de base du journalisme
+- interdite
+- inutile
+> Les faits sont vérifiables, les opinions se discutent.
+
+? Le droit de réponse permet…
++ à une personne mise en cause dans un média de répondre
+- de supprimer un journal
+- de voter deux fois
+> Prévu par la loi de 1881.
+
+? En période électorale, les sondages…
++ sont interdits la veille et le jour du vote
+- sont obligatoires tous les jours
+- n'existent pas
+> Pour ne pas influencer les électeurs au dernier moment.
+
+? Un influenceur qui fait de la publicité doit…
++ le signaler clairement
+- la cacher
+- ne rien dire
+> Loi de 2023 sur les influenceurs.
+
+? Charlie Hebdo est un journal…
++ satirique, victime d'un attentat en 2015
+- officiel du gouvernement
+- sportif
+> Symbole de la liberté d'expression.
+
+? La première chose à faire face à une information choquante est…
++ vérifier avant de la partager
+- la partager tout de suite
+- l'envoyer à tous ses contacts
+> On prend un temps de recul.
 ```
 
 ## Voir aussi

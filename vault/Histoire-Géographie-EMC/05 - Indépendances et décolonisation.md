@@ -127,6 +127,33 @@ tags: [histoire, décolonisation, Inde, Algérie, tiers-monde]
 
 ## Quiz
 
+### ⚡ Échauffement express
+
+Cinq petites questions à réponse tapée pour vérifier que les bases sont là.
+
+```quiz Échauffement express
+? En quelle année l'Inde devient-elle indépendante ?
+= 1947
+> Le 15 août 1947, partagée avec le Pakistan.
+
+? Qui mène la lutte non violente pour l'indépendance de l'Inde ?
+= Gandhi
+= Mahatma Gandhi
+> Il prône la désobéissance civile.
+
+? En quelle année l'Algérie devient-elle indépendante ?
+= 1962
+> Après les accords d'Évian (mars 1962).
+
+? Comment s'appelle le mouvement indépendantiste algérien (sigle) ?
+= FLN
+> Front de libération nationale.
+
+? En quelle année commence la guerre d'Algérie ?
+= 1954
+> Le 1er novembre 1954, « Toussaint rouge ».
+```
+
 ```quiz
 ? En quelle année l'Inde devient-elle indépendante ?
 + 1947
@@ -188,6 +215,166 @@ tags: [histoire, décolonisation, Inde, Algérie, tiers-monde]
 + Les pays pauvres, souvent anciennement colonisés
 - Le troisième bloc militaire
 > Il est surtout en Afrique, Asie et Amérique latine.
+```
+
+### 🎲 Entraînement sans fin
+
+Une banque de 26 questions : 10 sont tirées au hasard à chaque essai, sans répétition tant que la banque n'est pas épuisée. Recommence autant que tu veux !
+
+```quiz Entraînement sans fin ~10
+? La décolonisation est…
++ le processus par lequel les colonies obtiennent leur indépendance
+- la conquête de nouvelles colonies
+- une guerre mondiale
+> Elle se déroule surtout de 1945 aux années 1970.
+
+? Après 1945, les empires coloniaux sont affaiblis car…
++ les métropoles sont ruinées et les colonisés réclament les droits promis
+- les colonies sont plus riches
+- personne ne réclame rien
+> L'ONU, les États-Unis et l'URSS soutiennent aussi la décolonisation.
+
+? L'indépendance de l'Inde est obtenue face…
++ au Royaume-Uni
+- à la France
+- au Portugal
+> Le pays est partagé entre l'Inde et le Pakistan.
+
+? Le partage de l'Inde en 1947 provoque…
++ de grands déplacements de populations et des violences
+- une paix totale
+- l'union avec le Pakistan
+> Hindous et musulmans fuient vers l'un ou l'autre pays.
+
+? La guerre d'Indochine (1946-1954) se termine par…
++ la défaite française à Diên Biên Phu
+- une victoire française
+- l'annexion par la Chine
+> Les accords de Genève coupent le Vietnam en deux.
+
+? La guerre d'Algérie oppose…
++ l'armée française au FLN
+- l'Algérie au Maroc
+- la France à l'Allemagne
+> Elle dure de 1954 à 1962.
+
+? Les « pieds-noirs » sont…
++ les Européens d'Algérie
+- les soldats du FLN
+- les harkis
+> Environ 800 000 quittent l'Algérie en 1962.
+
+? Les harkis sont…
++ des Algériens qui ont combattu aux côtés de l'armée française
+- des chefs du FLN
+- des colons européens
+> Beaucoup ont été massacrés ou abandonnés en 1962.
+
+? Le retour de De Gaulle au pouvoir en 1958 est lié…
++ à la crise de la guerre d'Algérie
+- à la guerre froide
+- à la construction européenne
+> Il fonde la Ve République.
+
+? Les accords d'Évian (1962)…
++ mettent fin à la guerre d'Algérie
+- créent l'Union européenne
+- partagent l'Inde
+> L'Algérie devient indépendante le 5 juillet 1962.
+
+? La conférence de Bandung (1955) réunit…
++ des pays d'Asie et d'Afrique nouvellement indépendants
+- les pays européens
+- les États-Unis et l'URSS
+> Ils dénoncent le colonialisme.
+
+? Le « tiers-monde » désigne alors…
++ les pays pauvres, souvent anciennement colonisés
+- les pays communistes
+- les pays riches
+> Expression d'Alfred Sauvy (1952).
+
+? Le non-alignement signifie…
++ refuser de choisir entre les États-Unis et l'URSS
+- s'allier aux États-Unis
+- s'allier à l'URSS
+> Ex. Inde de Nehru, Égypte de Nasser.
+
+? La plupart des colonies françaises d'Afrique noire deviennent indépendantes en…
++ 1960
+- 1945
+- 1975
+> De façon plutôt pacifique.
+
+? La torture pendant la guerre d'Algérie…
++ a été pratiquée par l'armée française et dénoncée par certains
+- n'a jamais existé
+- était interdite et jamais utilisée
+> Ex. les témoignages d'Henri Alleg.
+
+? Le 17 octobre 1961 à Paris…
++ une manifestation d'Algériens est violemment réprimée par la police
+- l'Algérie devient indépendante
+- de Gaulle démissionne
+> Des dizaines de morts.
+
+? L'OAS est…
++ une organisation armée qui refuse l'indépendance de l'Algérie
+- le mouvement indépendantiste
+- l'ONU
+> Organisation de l'armée secrète, elle commet des attentats.
+
+? Vrai ou faux : toutes les décolonisations se sont faites par la guerre.
+- Vrai
++ Faux
+> L'Inde par la non-violence, beaucoup d'États africains par la négociation.
+
+? Vrai ou faux : l'indépendance politique a résolu tous les problèmes des nouveaux États.
+- Vrai
++ Faux
+> Pauvreté, dépendance économique, conflits frontaliers…
+
+? Hô Chi Minh est…
++ le chef indépendantiste et communiste du Vietnam
+- un général français
+- le dirigeant de l'Inde
+> Il proclame l'indépendance du Vietnam en 1945.
+
+? Le droit des peuples à disposer d'eux-mêmes est affirmé par…
++ la Charte de l'ONU (1945)
+- le traité de Versailles seul
+- le régime de Vichy
+> Il légitime les revendications d'indépendance.
+
+? La crise de Suez (1956) montre que…
++ la France et le Royaume-Uni ne peuvent plus agir sans l'accord des deux Grands
+- l'Égypte est une colonie
+- l'URSS a perdu la guerre froide
+> Ils doivent se retirer sous la pression américaine et soviétique.
+
+? Le Maroc et la Tunisie obtiennent leur indépendance en…
++ 1956
+- 1962
+- 1947
+> Après des négociations avec la France.
+
+? Les mémoires de la guerre d'Algérie sont…
++ multiples et parfois conflictuelles (appelés, pieds-noirs, harkis, Algériens)
+- toutes identiques
+- oubliées
+> Le travail des historiens aide à les comprendre.
+
+? Nelson Mandela lutte en Afrique du Sud contre…
++ l'apartheid
+- la colonisation française
+- le communisme
+> L'apartheid (ségrégation raciale) prend fin en 1991.
+
+? Le Ghana devient indépendant en 1957, premier pays d'Afrique noire, face…
++ au Royaume-Uni
+- à la France
+- à la Belgique
+> Sous la direction de Kwame Nkrumah.
 ```
 
 ## Vidéos

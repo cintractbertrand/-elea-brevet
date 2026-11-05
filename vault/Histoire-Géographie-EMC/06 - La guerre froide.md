@@ -128,6 +128,33 @@ tags: [histoire, guerre froide, Berlin, Cuba, États-Unis, URSS]
 
 ## Quiz
 
+### ⚡ Échauffement express
+
+Cinq petites questions à réponse tapée pour vérifier que les bases sont là.
+
+```quiz Échauffement express
+? En quelle année le mur de Berlin est-il construit ?
+= 1961
+> Pour empêcher les Allemands de l'Est de fuir à l'Ouest.
+
+? En quelle année le mur de Berlin tombe-t-il ?
+= 1989
+> Le 9 novembre 1989.
+
+? En quelle année l'URSS disparaît-elle ?
+= 1991
+> En décembre 1991.
+
+? Quelle alliance militaire est créée par les États-Unis et l'Europe de l'Ouest en 1949 ? (sigle)
+= OTAN
+= l'OTAN
+> Organisation du traité de l'Atlantique Nord.
+
+? En quelle année a lieu la crise des missiles de Cuba ?
+= 1962
+> Le monde est au bord de la guerre nucléaire.
+```
+
 ```quiz
 ? Quelles sont les deux superpuissances de la guerre froide ?
 + Les États-Unis et l'URSS
@@ -189,6 +216,166 @@ tags: [histoire, guerre froide, Berlin, Cuba, États-Unis, URSS]
 + À cause de la menace nucléaire
 - Parce qu'ils n'ont pas d'armée
 > C'est l'« équilibre de la terreur ».
+```
+
+### 🎲 Entraînement sans fin
+
+Une banque de 26 questions : 10 sont tirées au hasard à chaque essai, sans répétition tant que la banque n'est pas épuisée. Recommence autant que tu veux !
+
+```quiz Entraînement sans fin ~10
+? La guerre froide oppose…
++ les États-Unis et l'URSS
+- la France et l'Allemagne
+- la Chine et le Japon
+> 1947-1991.
+
+? Pourquoi parle-t-on de guerre « froide » ?
++ les deux Grands ne s'affrontent jamais directement
+- elle a lieu en hiver
+- elle se déroule en Sibérie
+> L'arme nucléaire rend un affrontement direct trop dangereux.
+
+? Le modèle américain repose sur…
++ la démocratie libérale et l'économie de marché
+- le parti unique et l'économie planifiée
+- la monarchie
+> Le modèle soviétique : communisme, parti unique, économie planifiée.
+
+? Le plan Marshall (1947) est…
++ une aide économique américaine pour reconstruire l'Europe
+- un plan militaire soviétique
+- un traité de paix
+> L'URSS le refuse pour elle et ses satellites.
+
+? Le « rideau de fer » désigne…
++ la frontière qui coupe l'Europe entre l'Ouest et l'Est
+- un mur à Paris
+- une arme
+> Expression de Churchill (1946).
+
+? Le blocus de Berlin (1948-1949) est…
++ la fermeture par l'URSS des accès terrestres à Berlin-Ouest
+- la construction du mur
+- la chute du mur
+> Les Américains organisent un pont aérien.
+
+? En 1949, l'Allemagne est divisée en…
++ RFA (Ouest) et RDA (Est)
+- quatre pays
+- trois pays
+> Elle est réunifiée en 1990.
+
+? Le pacte de Varsovie (1955) est…
++ l'alliance militaire des pays communistes autour de l'URSS
+- un traité de paix
+- l'OTAN
+> Il répond à l'entrée de la RFA dans l'OTAN.
+
+? La guerre de Corée (1950-1953) est…
++ un conflit indirect entre les deux blocs
+- une guerre entre la France et l'Allemagne
+- une guerre coloniale française
+> La Corée reste divisée.
+
+? La crise de Cuba (1962) éclate quand…
++ l'URSS installe des missiles nucléaires à Cuba
+- les États-Unis envahissent l'URSS
+- Berlin est bloqué
+> Kennedy et Khrouchtchev finissent par négocier.
+
+? Après la crise de Cuba, les deux Grands…
++ installent un « téléphone rouge » et entrent dans la détente
+- se font la guerre directement
+- arrêtent tout contact
+> Ils limitent ensuite les armes nucléaires.
+
+? La guerre du Vietnam se termine par…
++ la défaite des États-Unis
+- la victoire américaine
+- une paix franco-vietnamienne
+> Saigon tombe en 1975.
+
+? La course aux armements nucléaires crée…
++ un « équilibre de la terreur »
+- la paix totale
+- un désarmement immédiat
+> Chacun peut détruire l'autre.
+
+? La conquête spatiale est un enjeu de la guerre froide car…
++ chaque Grand veut prouver sa supériorité
+- elle est inutile
+- seuls les Français y participent
+> Spoutnik (URSS, 1957), premier homme sur la Lune (États-Unis, 1969).
+
+? Le premier homme dans l'espace est…
++ Youri Gagarine (URSS, 1961)
+- Neil Armstrong
+- Buzz Aldrin
+> Armstrong marche sur la Lune en 1969.
+
+? Gorbatchev, au pouvoir en URSS dès 1985, lance…
++ des réformes (glasnost, perestroïka)
+- une nouvelle guerre
+- la construction du mur
+> Il ne parvient pas à sauver l'URSS.
+
+? Après la chute du mur, l'Allemagne est réunifiée en…
++ 1990
+- 1945
+- 2000
+> Le 3 octobre 1990.
+
+? La chute de l'URSS en 1991 marque…
++ la fin de la guerre froide
+- le début de la guerre froide
+- la Seconde Guerre mondiale
+> Les États-Unis restent la seule superpuissance.
+
+? En 1956, l'URSS écrase…
++ l'insurrection de Budapest (Hongrie)
+- le débarquement en Normandie
+- la révolution cubaine
+> En 1968, elle réprime aussi le printemps de Prague.
+
+? Vrai ou faux : la guerre froide n'a fait aucune victime.
+- Vrai
++ Faux
+> Les conflits indirects (Corée, Vietnam, Afghanistan) ont fait des millions de morts.
+
+? Vrai ou faux : la France faisait partie du bloc de l'Ouest.
++ Vrai
+- Faux
+> Même si de Gaulle quitte le commandement intégré de l'OTAN en 1966.
+
+? La propagande de la guerre froide passe par…
++ le cinéma, les affiches, le sport
+- uniquement les journaux
+- rien du tout
+> Ex. les Jeux olympiques, les films d'espionnage.
+
+? En Afghanistan (1979-1989), l'URSS…
++ intervient militairement et finit par se retirer
+- gagne rapidement
+- n'intervient pas
+> Un « Vietnam soviétique ».
+
+? La Chine devient communiste en…
++ 1949
+- 1917
+- 1989
+> Avec Mao Zedong.
+
+? Le monde bipolaire désigne…
++ un monde organisé autour de deux superpuissances
+- un monde sans pays
+- le pôle Nord et le pôle Sud
+> États-Unis et URSS.
+
+? Berlin-Ouest pendant la guerre froide est…
++ une enclave occidentale au cœur de la RDA
+- la capitale de la RDA
+- une ville soviétique
+> Vitrine du monde libre.
 ```
 
 ## Vidéos

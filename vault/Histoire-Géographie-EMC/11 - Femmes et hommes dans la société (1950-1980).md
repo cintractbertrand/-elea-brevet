@@ -123,6 +123,33 @@ tags: [histoire, Trente Glorieuses, consommation, femmes, loi Veil, immigration]
 
 ## Quiz
 
+### ⚡ Échauffement express
+
+Cinq petites questions à réponse tapée pour vérifier que les bases sont là.
+
+```quiz Échauffement express
+? En quelle année la loi Neuwirth autorise-t-elle la contraception ?
+= 1967
+> La pilule devient légale.
+
+? En quelle année la loi Veil autorise-t-elle l'IVG ?
+= 1975
+> Défendue par Simone Veil.
+
+? Comment s'appelle la période de forte croissance de 1945 à 1975 ?
+= Trente Glorieuses
+= les Trente Glorieuses
+> Expression de Jean Fourastié.
+
+? En quelle année les femmes peuvent-elles ouvrir un compte en banque sans l'autorisation de leur mari ?
+= 1965
+> Loi du 13 juillet 1965.
+
+? Quel mouvement de contestation a lieu en mai d'une année célèbre ? (année)
+= 1968
+> Mai 68.
+```
+
 ```quiz
 ? Que désigne l'expression « Trente Glorieuses » ?
 + La période de forte croissance de 1945 à 1975
@@ -178,6 +205,166 @@ tags: [histoire, Trente Glorieuses, consommation, femmes, loi Veil, immigration]
 + Le MLF
 - Le GPRF
 > Le Mouvement de libération des femmes.
+```
+
+### 🎲 Entraînement sans fin
+
+Une banque de 26 questions : 10 sont tirées au hasard à chaque essai, sans répétition tant que la banque n'est pas épuisée. Recommence autant que tu veux !
+
+```quiz Entraînement sans fin ~10
+? Pendant les Trente Glorieuses, la société française…
++ s'enrichit, s'urbanise et se modernise
+- s'appauvrit
+- redevient agricole
+> Électroménager, voiture, télévision se diffusent.
+
+? Le « baby-boom » désigne…
++ la forte hausse des naissances après 1945
+- une explosion
+- une baisse des naissances
+> Il dure jusqu'au milieu des années 1960.
+
+? L'exode rural est…
++ le départ des habitants des campagnes vers les villes
+- l'arrivée de citadins à la campagne
+- un voyage touristique
+> Les agriculteurs sont de moins en moins nombreux.
+
+? La société de consommation se caractérise par…
++ l'achat massif de biens (voiture, télé, électroménager)
+- les tickets de rationnement
+- l'absence de publicité
+> Les supermarchés se développent (premier hypermarché en 1963).
+
+? Le secteur qui emploie le plus d'actifs à la fin du XXe siècle est…
++ le secteur tertiaire (services)
+- le secteur primaire (agriculture)
+- le secteur secondaire (industrie)
+> La France devient une société de services.
+
+? Dans les années 1960, de nombreux travailleurs immigrés viennent…
++ travailler dans l'industrie et le bâtiment
+- étudier uniquement
+- en vacances
+> Venus du Maghreb, du Portugal, d'Espagne…
+
+? Les bidonvilles des années 1950-1960 (ex. Nanterre) logeaient…
++ beaucoup de travailleurs immigrés
+- les plus riches
+- les étudiants de Sorbonne
+> Ils sont progressivement remplacés par des cités.
+
+? Mai 68 réclame notamment…
++ plus de libertés et une société moins autoritaire
+- le retour de Pétain
+- la fin des congés payés
+> Les accords de Grenelle augmentent les salaires.
+
+? Les accords de Grenelle (1968) prévoient…
++ une hausse du SMIG de 35 %
+- la fin de la Sécurité sociale
+- la semaine de 50 heures
+> Négociés entre gouvernement, patronat et syndicats.
+
+? Les mouvements féministes des années 1970 (MLF)…
++ luttent pour l'égalité et le droit des femmes à disposer de leur corps
+- veulent supprimer le droit de vote des femmes
+- n'existent pas
+> Ex. le « Manifeste des 343 » (1971).
+
+? Avant 1965, une femme mariée…
++ devait avoir l'accord de son mari pour travailler
+- pouvait tout faire seule
+- ne pouvait pas voter
+> Elle vote depuis 1944-1945.
+
+? La loi de 1972 affirme le principe…
++ « à travail égal, salaire égal » entre femmes et hommes
+- de la retraite à 50 ans
+- de l'interdiction du divorce
+> L'écart de salaire persiste pourtant.
+
+? Le divorce par consentement mutuel est autorisé en…
++ 1975
+- 1945
+- 2000
+> Réforme du divorce.
+
+? L'autorité parentale remplace la « puissance paternelle » en…
++ 1970
+- 1800
+- 2010
+> Le père et la mère ont les mêmes droits.
+
+? La mixité devient obligatoire dans les écoles publiques en…
++ 1975
+- 1882
+- 1945
+> Loi Haby.
+
+? Simone Veil est…
++ une rescapée de la Shoah devenue ministre de la Santé
+- une résistante exécutée
+- une présidente de la République
+> Elle entre au Panthéon en 2018.
+
+? Le premier choc pétrolier (1973) provoque…
++ la fin des Trente Glorieuses et la montée du chômage
+- une forte croissance
+- la fin de l'immigration en Europe
+> Le prix du pétrole est multiplié par 4.
+
+? En 1974, l'État décide…
++ de suspendre l'immigration de travail
+- d'encourager l'immigration de travail
+- de fermer les frontières de l'UE
+> Le regroupement familial est autorisé en 1976.
+
+? Les jeunes des années 1960 développent une culture propre avec…
++ la musique yéyé, le rock, les magazines comme « Salut les copains »
+- les chants militaires
+- l'interdiction de la radio
+> On parle de « culture jeune ».
+
+? La télévision se diffuse massivement dans les foyers…
++ dans les années 1960
+- en 1900
+- en 2000
+> En 1970, environ 70 % des foyers en ont une.
+
+? Vrai ou faux : en 1980, il y a plus d'agriculteurs qu'en 1950.
+- Vrai
++ Faux
+> Leur nombre baisse fortement avec l'exode rural et la mécanisation.
+
+? Vrai ou faux : les femmes ont obtenu l'égalité salariale totale dès 1972.
+- Vrai
++ Faux
+> La loi existe, mais les écarts persistent aujourd'hui.
+
+? Les grands ensembles sont…
++ des immeubles construits en périphérie des villes pour loger rapidement les habitants
+- des châteaux
+- des fermes
+> Ex. Sarcelles.
+
+? Gisèle Halimi est…
++ une avocate qui a défendu le droit à l'avortement (procès de Bobigny, 1972)
+- une chanteuse
+- une ministre de Vichy
+> Ce procès fait avancer le débat.
+
+? Une évolution de la place des femmes est…
++ leur accès croissant aux études supérieures et au travail salarié
+- leur exclusion de l'école
+- l'interdiction de travailler
+> Elles deviennent plus nombreuses que les hommes à l'université.
+
+? La loi Pleven (1972) lutte contre…
++ le racisme
+- la pollution
+- le chômage
+> Elle punit les propos et discriminations racistes.
 ```
 
 ## Voir aussi

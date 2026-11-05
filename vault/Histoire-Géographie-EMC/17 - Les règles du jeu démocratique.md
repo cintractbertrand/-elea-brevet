@@ -127,6 +127,35 @@ tags: [EMC, Constitution, séparation des pouvoirs, laïcité, institutions]
 
 ## Quiz
 
+### ⚡ Échauffement express
+
+Cinq petites questions à réponse tapée pour vérifier que les bases sont là.
+
+```quiz Échauffement express
+? À partir de quel âge peut-on voter en France ?
+= 18
+= 18 ans
+> Il faut aussi être de nationalité française et inscrit sur les listes électorales.
+
+? Pour combien d'années le président de la République est-il élu ?
+= 5
+> Le quinquennat.
+
+? Quelle assemblée, avec le Sénat, forme le Parlement ?
+= Assemblée nationale
+= l'Assemblée nationale
+> 577 députés.
+
+? Combien de députés siègent à l'Assemblée nationale ?
+= 577
+> Élus pour 5 ans.
+
+? Quelle est la devise de la République française ?
+= Liberté, Égalité, Fraternité
+= liberté égalité fraternité
+> Inscrite dans la Constitution.
+```
+
 ```quiz
 ? Qui vote les lois en France ?
 - le président de la République
@@ -182,6 +211,166 @@ tags: [EMC, Constitution, séparation des pouvoirs, laïcité, institutions]
 - Le Sénat
 - Le Conseil constitutionnel
 > Après la navette parlementaire, l'Assemblée tranche.
+```
+
+### 🎲 Entraînement sans fin
+
+Une banque de 26 questions : 10 sont tirées au hasard à chaque essai, sans répétition tant que la banque n'est pas épuisée. Recommence autant que tu veux !
+
+```quiz Entraînement sans fin ~10
+? La démocratie est un régime où…
++ le pouvoir appartient au peuple, qui l'exerce par ses représentants ou directement
+- un seul chef décide de tout
+- seuls les riches votent
+> « Gouvernement du peuple, par le peuple, pour le peuple. »
+
+? La séparation des pouvoirs distingue…
++ les pouvoirs législatif, exécutif et judiciaire
+- la ville et la campagne
+- les partis de gauche et de droite
+> Idée de Montesquieu, pour éviter les abus.
+
+? Le pouvoir législatif (voter les lois) appartient…
++ au Parlement
+- au président seul
+- aux juges
+> Assemblée nationale et Sénat.
+
+? Le pouvoir exécutif appartient…
++ au président et au gouvernement
+- aux sénateurs
+- aux juges
+> Il fait appliquer les lois.
+
+? Le pouvoir judiciaire appartient…
++ aux juges et aux tribunaux
+- au Premier ministre
+- aux maires
+> Il doit être indépendant.
+
+? Le suffrage universel signifie que…
++ tous les citoyens majeurs peuvent voter
+- seuls les hommes votent
+- seuls les propriétaires votent
+> En France, universel masculin en 1848, réellement universel en 1944.
+
+? Le vote en France est…
++ secret, libre et personnel
+- public et obligatoire
+- réservé aux plus de 25 ans
+> On passe par l'isoloir.
+
+? L'abstention, c'est…
++ le fait de ne pas aller voter
+- voter blanc
+- voter pour un parti
+> Elle est souvent élevée aux élections européennes.
+
+? Les sénateurs sont élus…
++ au suffrage universel indirect, par des grands électeurs
+- directement par tous les citoyens
+- par le président
+> Surtout des élus locaux.
+
+? Une loi est votée par…
++ le Parlement (Assemblée nationale et Sénat)
+- le président seul
+- le Conseil constitutionnel
+> L'Assemblée a le dernier mot en cas de désaccord.
+
+? La Constitution est…
++ le texte fondamental qui organise les pouvoirs et garantit les droits
+- une loi ordinaire
+- un règlement intérieur de collège
+> Celle de la Ve République date de 1958.
+
+? La laïcité garantit…
++ la liberté de conscience et la neutralité de l'État vis-à-vis des religions
+- l'interdiction des religions
+- une religion officielle
+> Loi de séparation des Églises et de l'État (1905).
+
+? La loi de 1905 sépare…
++ les Églises et l'État
+- la France et l'Allemagne
+- la police et la justice
+> L'État ne reconnaît ni ne finance aucun culte.
+
+? Un État de droit est un État où…
++ tout le monde, y compris les gouvernants, doit respecter la loi
+- le chef est au-dessus des lois
+- il n'y a pas de lois
+> Les droits fondamentaux sont protégés par des juges.
+
+? Le pluralisme politique signifie…
++ l'existence de plusieurs partis et opinions librement exprimés
+- un parti unique
+- l'interdiction des élections
+> C'est une condition de la démocratie.
+
+? Le référendum est…
++ une consultation où les citoyens répondent par oui ou non à une question
+- une élection des députés
+- un sondage
+> Exemple de démocratie directe.
+
+? Le maire est élu par…
++ le conseil municipal, lui-même élu par les habitants
+- le président
+- le préfet
+> Élections municipales tous les 6 ans.
+
+? Le préfet représente…
++ l'État dans le département
+- les habitants de la commune
+- l'Union européenne
+> Il est nommé par le gouvernement.
+
+? Les symboles de la République sont…
++ le drapeau tricolore, La Marseillaise, Marianne, la devise, le 14 juillet
+- la couronne et le sceptre
+- l'aigle impérial
+> Inscrits dans la Constitution pour certains.
+
+? Vrai ou faux : voter est obligatoire en France.
+- Vrai
++ Faux
+> C'est un droit et un devoir civique, mais pas une obligation légale.
+
+? Vrai ou faux : un citoyen européen peut voter aux élections municipales en France.
++ Vrai
+- Faux
+> Depuis le traité de Maastricht, s'il réside en France.
+
+? Le Défenseur des droits…
++ protège les droits des citoyens face aux administrations et contre les discriminations
+- dirige l'armée
+- vote les lois
+> On peut le saisir gratuitement.
+
+? La Déclaration des droits de l'homme et du citoyen date de…
++ 1789
+- 1958
+- 1905
+> Son article 1 : « Les hommes naissent et demeurent libres et égaux en droits. »
+
+? Le vote blanc consiste à…
++ mettre un bulletin vide pour signaler qu'on ne choisit aucun candidat
+- ne pas voter
+- voter deux fois
+> Il est compté à part depuis 2014.
+
+? Le Conseil constitutionnel peut…
++ censurer une loi contraire à la Constitution
+- voter le budget
+- élire le président
+> Il garantit le respect de la Constitution.
+
+? Les élections législatives servent à élire…
++ les députés
+- le président
+- les maires
+> Tous les 5 ans (ou après une dissolution).
 ```
 
 ## Voir aussi

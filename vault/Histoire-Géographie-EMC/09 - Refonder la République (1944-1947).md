@@ -116,6 +116,39 @@ Ces réformes appliquent en grande partie le **programme du Conseil national de 
 
 ## Quiz
 
+### ⚡ Échauffement express
+
+Cinq petites questions à réponse tapée pour vérifier que les bases sont là.
+
+```quiz Échauffement express
+? En quelle année les Françaises votent-elles pour la première fois ?
+= 1945
+> Aux élections municipales d'avril 1945.
+
+? En quelle année est créée la Sécurité sociale ?
+= 1945
+> Par les ordonnances d'octobre 1945.
+
+? Quelle République est fondée en 1946 ?
+= IVe
+= IVe République
+= la IVe République
+= 4e
+= quatrième
+> Elle dure jusqu'en 1958.
+
+? Quel ministre communiste a mis en place la Sécurité sociale (nom) ?
+= Ambroise Croizat
+= Croizat
+> Avec le haut fonctionnaire Pierre Laroque.
+
+? Qui dirige le Gouvernement provisoire en 1944-1946 ?
+= de Gaulle
+= Charles de Gaulle
+= De Gaulle
+> Il démissionne en janvier 1946.
+```
+
 ```quiz
 ? Qui dirige le GPRF à la Libération ?
 + Le général de Gaulle
@@ -171,6 +204,166 @@ Ces réformes appliquent en grande partie le **programme du Conseil national de 
 - De garder Pétain
 - D'adopter la Ve République
 > Une nouvelle Constitution est ensuite adoptée en 1946.
+```
+
+### 🎲 Entraînement sans fin
+
+Une banque de 26 questions : 10 sont tirées au hasard à chaque essai, sans répétition tant que la banque n'est pas épuisée. Recommence autant que tu veux !
+
+```quiz Entraînement sans fin ~10
+? À la Libération, la France doit…
++ rétablir la République et se reconstruire
+- garder le régime de Vichy
+- devenir une monarchie
+> Le pays est ruiné et divisé.
+
+? Le programme du CNR prévoit…
++ des réformes sociales et économiques (Sécurité sociale, nationalisations)
+- le maintien de l'occupation
+- la suppression du vote
+> Il a été rédigé dans la clandestinité en 1944.
+
+? La Sécurité sociale protège contre…
++ la maladie, la vieillesse, les accidents du travail
+- les impôts
+- les guerres
+> Elle repose sur la solidarité.
+
+? Les nationalisations de 1944-1946 font passer sous contrôle de l'État…
++ des entreprises comme Renault, les banques, l'électricité (EDF)
+- toutes les boulangeries
+- les écoles privées
+> Renault est nationalisé pour collaboration.
+
+? L'ordonnance du 21 avril 1944 accorde…
++ le droit de vote et d'éligibilité aux femmes
+- la retraite à 60 ans
+- les congés payés
+> Une revendication ancienne enfin satisfaite.
+
+? L'épuration désigne…
++ la punition des collaborateurs après la Libération
+- le nettoyage des rues
+- une loi économique
+> Elle est d'abord sauvage puis judiciaire.
+
+? La IVe République est un régime…
++ parlementaire, où l'Assemblée a beaucoup de pouvoir
+- présidentiel
+- autoritaire
+> Les gouvernements y sont instables.
+
+? Une faiblesse de la IVe République est…
++ l'instabilité gouvernementale
+- un président trop puissant
+- l'absence d'élections
+> Plus de 20 gouvernements en 12 ans.
+
+? La IVe République tombe en 1958 à cause…
++ de la crise de la guerre d'Algérie
+- d'une défaite contre l'Allemagne
+- de la chute du mur de Berlin
+> De Gaulle est rappelé au pouvoir.
+
+? Le préambule de la Constitution de 1946 affirme…
++ des droits sociaux (travail, grève, santé, éducation)
+- le droit des rois
+- la fin du suffrage universel
+> Il fait toujours partie de notre bloc de constitutionnalité.
+
+? Le Commissariat général au Plan (1946), dirigé par Jean Monnet, sert à…
++ organiser la reconstruction et la modernisation de l'économie
+- préparer la guerre
+- gérer l'école
+> Plan Monnet.
+
+? Le plan Marshall aide aussi la France à…
++ se reconstruire grâce à des crédits américains
+- payer l'Allemagne
+- quitter l'Europe
+> À partir de 1948.
+
+? Les ordonnances de 1945 créent aussi…
++ les comités d'entreprise
+- l'euro
+- l'ONU
+> Les salariés participent davantage à la vie de l'entreprise.
+
+? L'ENA (École nationale d'administration) est créée en 1945 pour…
++ former les hauts fonctionnaires
+- former les militaires
+- former les médecins
+> Remplacée par l'INSP en 2022.
+
+? Vrai ou faux : en 1945, la France est un pays ruiné par la guerre.
++ Vrai
+- Faux
+> Villes détruites, pénuries, tickets de rationnement jusqu'en 1949.
+
+? Vrai ou faux : la Sécurité sociale existe toujours aujourd'hui.
++ Vrai
+- Faux
+> C'est un pilier du modèle social français.
+
+? Les principaux partis à la Libération sont…
++ le PCF, la SFIO et le MRP
+- le RN et LREM
+- le parti nazi
+> Ils gouvernent ensemble au début (tripartisme).
+
+? « Refonder la République », c'est…
++ rétablir la démocratie et renforcer les droits sociaux
+- revenir à Vichy
+- supprimer la Constitution
+> On s'appuie sur l'héritage de la Résistance.
+
+? Le droit de grève est reconnu par…
++ le préambule de la Constitution de 1946
+- le régime de Vichy
+- le traité de Rome
+> Il était interdit sous Vichy.
+
+? La création d'EDF-GDF date de…
++ 1946
+- 1990
+- 1918
+> Nationalisation de l'électricité et du gaz.
+
+? Les tickets de rationnement après la guerre montrent…
++ les pénuries alimentaires
+- l'abondance
+- la fin de la guerre froide
+> Ils durent jusqu'en 1949.
+
+? Le référendum d'octobre 1945 décide…
++ de ne pas revenir à la IIIe République
+- de garder Pétain
+- d'entrer dans la CEE
+> Les Français choisissent une nouvelle Constitution.
+
+? Les allocations familiales soutiennent…
++ les familles avec enfants
+- les entreprises
+- l'armée
+> Une des branches de la Sécurité sociale.
+
+? Qui est président de la République de 1947 à 1954 ?
++ Vincent Auriol
+- Charles de Gaulle
+- François Mitterrand
+> Premier président de la IVe République.
+
+? Le statut de la fonction publique (1946)…
++ définit les droits et devoirs des fonctionnaires
+- supprime les fonctionnaires
+- crée l'euro
+> Porté par Maurice Thorez.
+
+? La Libération voit aussi des violences comme…
++ les femmes tondues accusées de « collaboration horizontale »
+- l'arrêt de toute justice
+- le retour de Pétain
+> Une épuration « sauvage » avant les tribunaux.
 ```
 
 ## Vidéos

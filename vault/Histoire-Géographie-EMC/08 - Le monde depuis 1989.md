@@ -115,6 +115,37 @@ tags: [histoire, monde actuel, terrorisme, multipolaire, 11 septembre]
 
 ## Quiz
 
+### ⚡ Échauffement express
+
+Cinq petites questions à réponse tapée pour vérifier que les bases sont là.
+
+```quiz Échauffement express
+? En quelle année ont lieu les attentats du World Trade Center ?
+= 2001
+> Le 11 septembre 2001, revendiqués par Al-Qaïda.
+
+? Quelle organisation internationale créée en 1945 cherche à maintenir la paix ? (sigle)
+= ONU
+= l'ONU
+> Elle compte 193 États membres.
+
+? Quelle superpuissance domine le monde après 1991 ? (pays)
+= États-Unis
+= les États-Unis
+= USA
+= Etats-Unis
+> On parle d'« hyperpuissance ».
+
+? Combien de membres permanents compte le Conseil de sécurité de l'ONU ?
+= 5
+> États-Unis, Russie, Chine, Royaume-Uni, France.
+
+? Quel pays a envahi l'Ukraine en février 2022 ?
+= Russie
+= la Russie
+> Le conflit dure depuis.
+```
+
 ```quiz
 ? Après 1991, les États-Unis sont qualifiés…
 + d'hyperpuissance
@@ -164,6 +195,165 @@ tags: [histoire, monde actuel, terrorisme, multipolaire, 11 septembre]
 + peine à régler certains conflits
 - disparaît
 > Les divisions entre grandes puissances la paralysent parfois.
+```
+
+### 🎲 Entraînement sans fin
+
+Une banque de 26 questions : 10 sont tirées au hasard à chaque essai, sans répétition tant que la banque n'est pas épuisée. Recommence autant que tu veux !
+
+```quiz Entraînement sans fin ~10
+? Après 1991, on espère un « nouvel ordre mondial »…
++ fondé sur la paix et le droit international
+- dominé par l'URSS
+- sans aucune organisation internationale
+> Mais les conflits continuent.
+
+? La guerre du Golfe (1991) est menée…
++ par une coalition sous mandat de l'ONU contre l'Irak qui avait envahi le Koweït
+- par l'URSS contre les États-Unis
+- par la France seule
+> Les États-Unis en prennent la tête.
+
+? Les guerres en ex-Yougoslavie (années 1990) sont marquées par…
++ des massacres et un « nettoyage ethnique »
+- une réunification pacifique
+- l'absence de victimes
+> Ex. Srebrenica (1995).
+
+? Le génocide des Tutsi au Rwanda a lieu en…
++ 1994
+- 1945
+- 2010
+> Environ 800 000 victimes en trois mois.
+
+? Après le 11 septembre 2001, les États-Unis interviennent…
++ en Afghanistan puis en Irak
+- en Chine
+- au Brésil
+> La « guerre contre le terrorisme ».
+
+? Le terrorisme djihadiste vise…
++ à semer la peur par des attentats au nom d'une lecture extrémiste de l'islam
+- à organiser des élections
+- à protéger les civils
+> En France : attentats de 2015 (Charlie Hebdo, Bataclan).
+
+? Le monde actuel est souvent qualifié de…
++ multipolaire
+- bipolaire
+- sans puissance
+> Plusieurs puissances : États-Unis, Chine, UE, Russie, Inde…
+
+? La Chine est aujourd'hui…
++ une grande puissance économique qui rivalise avec les États-Unis
+- un pays pauvre et isolé
+- membre de l'UE
+> Elle est la « deuxième économie » du monde.
+
+? En 2014, la Russie annexe…
++ la Crimée
+- la Pologne
+- la Finlande
+> Une partie de l'Ukraine.
+
+? La CPI (Cour pénale internationale) juge…
++ les auteurs de génocides, crimes contre l'humanité et crimes de guerre
+- les conflits entre voisins
+- les matchs de football
+> Elle siège à La Haye.
+
+? Les casques bleus sont…
++ les soldats de l'ONU chargés du maintien de la paix
+- l'armée américaine
+- les pompiers
+> Ils viennent de nombreux pays.
+
+? Le droit de veto au Conseil de sécurité permet…
++ à un membre permanent de bloquer une décision
+- à tous les pays de voter deux fois
+- d'élire le secrétaire général seul
+> Il paralyse parfois l'ONU.
+
+? Les printemps arabes (2011) sont…
++ des soulèvements populaires contre des régimes autoritaires
+- des fêtes religieuses
+- des accords de paix
+> Ils commencent en Tunisie.
+
+? La guerre en Syrie (depuis 2011) provoque…
++ des centaines de milliers de morts et des millions de réfugiés
+- une démocratie rapide
+- aucune victime
+> Une des pires crises humanitaires du XXIe siècle.
+
+? Le G20 réunit…
++ les principales économies du monde
+- 20 pays africains
+- les 20 pays les plus pauvres
+> Il discute des grandes questions économiques.
+
+? La mondialisation favorise…
++ les échanges de marchandises, d'informations et de personnes
+- la fermeture des frontières
+- la fin du commerce
+> Elle crée aussi des inégalités.
+
+? Vrai ou faux : la fin de la guerre froide a mis fin à tous les conflits.
+- Vrai
++ Faux
+> De nombreux conflits régionaux éclatent.
+
+? Vrai ou faux : la France est membre permanent du Conseil de sécurité de l'ONU.
++ Vrai
+- Faux
+> Elle dispose donc du droit de veto.
+
+? Les ONG (organisations non gouvernementales)…
++ sont des associations indépendantes des États qui agissent (humanitaire, environnement…)
+- sont des armées
+- sont des partis politiques
+> Ex. Médecins sans frontières, Amnesty International.
+
+? Le conflit israélo-palestinien porte notamment sur…
++ le partage d'un territoire et la question d'un État palestinien
+- une frontière avec la Chine
+- le partage de l'Antarctique
+> Il dure depuis 1948.
+
+? Le réchauffement climatique est devenu un enjeu…
++ géopolitique mondial
+- seulement local
+- sans importance
+> Ex. l'accord de Paris (COP21, 2015).
+
+? Les cyberattaques sont…
++ de nouvelles menaces dans les relations internationales
+- des jeux vidéo
+- interdites par la nature
+> Elles visent des États, des hôpitaux, des entreprises.
+
+? Vrai ou faux : l'ONU dispose de sa propre armée permanente.
+- Vrai
++ Faux
+> Les casques bleus sont fournis par les États membres.
+
+? L'OTAN, après la guerre froide…
++ continue d'exister et accueille d'anciens pays communistes
+- est dissoute en 1991
+- s'allie à la Russie
+> Ex. la Pologne en 1999, la Finlande en 2023.
+
+? Le « 11 septembre » a fait environ…
++ 3 000 morts
+- 300 morts
+- 30 000 morts
+> L'attentat le plus meurtrier de l'histoire.
+
+? Les flux de réfugiés sont souvent liés…
++ aux guerres et aux persécutions
+- aux vacances
+- aux Jeux olympiques
+> Le HCR de l'ONU les aide.
 ```
 
 ## Vidéos

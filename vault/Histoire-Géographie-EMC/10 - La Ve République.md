@@ -119,6 +119,34 @@ tags: [histoire, Ve République, de Gaulle, Mitterrand, alternance, cohabitation
 
 ## Quiz
 
+### ⚡ Échauffement express
+
+Cinq petites questions à réponse tapée pour vérifier que les bases sont là.
+
+```quiz Échauffement express
+? En quelle année est fondée la Ve République ?
+= 1958
+> Par la Constitution du 4 octobre 1958.
+
+? Qui est le premier président de la Ve République ?
+= de Gaulle
+= Charles de Gaulle
+= De Gaulle
+> De 1959 à 1969.
+
+? Depuis 1962, le président est élu au suffrage universel…
+= direct
+> Par tous les citoyens, après un référendum.
+
+? Quelle est la durée du mandat présidentiel depuis 2000 (en années) ?
+= 5
+> Le quinquennat, auparavant le septennat (7 ans).
+
+? En quelle année François Mitterrand est-il élu président ?
+= 1981
+> Première alternance de gauche sous la Ve République.
+```
+
 ```quiz
 ? En quelle année naît la Ve République ?
 - 1946
@@ -174,6 +202,166 @@ tags: [histoire, Ve République, de Gaulle, Mitterrand, alternance, cohabitation
 + Jacques Chirac
 - Georges Pompidou
 > Mitterrand reste président.
+```
+
+### 🎲 Entraînement sans fin
+
+Une banque de 26 questions : 10 sont tirées au hasard à chaque essai, sans répétition tant que la banque n'est pas épuisée. Recommence autant que tu veux !
+
+```quiz Entraînement sans fin ~10
+? La Constitution de 1958 renforce…
++ le pouvoir exécutif, surtout celui du président
+- le pouvoir du Parlement seul
+- le pouvoir du roi
+> De Gaulle voulait un exécutif fort.
+
+? Le président de la République peut…
++ dissoudre l'Assemblée nationale
+- voter les lois seul
+- juger les procès
+> Article 12 de la Constitution.
+
+? Le Premier ministre est…
++ nommé par le président et responsable devant l'Assemblée
+- élu par le peuple
+- nommé par le Sénat
+> Il dirige l'action du gouvernement.
+
+? Le Parlement est composé…
++ de l'Assemblée nationale et du Sénat
+- du gouvernement et du président
+- des maires
+> Il vote les lois et contrôle le gouvernement.
+
+? L'article 16 permet au président…
++ de prendre des pouvoirs exceptionnels en cas de crise grave
+- de changer de nom
+- de supprimer les élections
+> Utilisé une seule fois, en 1961.
+
+? Le référendum permet…
++ aux citoyens de voter directement sur une question
+- au président d'être réélu
+- de nommer les ministres
+> Ex. 1962, élection du président au suffrage universel direct.
+
+? Mai 1968 est…
++ un grand mouvement étudiant et ouvrier de contestation
+- une guerre
+- une élection présidentielle
+> Grèves massives, revendications de liberté.
+
+? De Gaulle quitte le pouvoir en 1969 après…
++ l'échec d'un référendum
+- une défaite militaire
+- un coup d'État
+> Il avait annoncé qu'il partirait en cas de « non ».
+
+? L'alternance, c'est…
++ le passage du pouvoir d'une majorité à une autre
+- le maintien du même parti
+- une dictature
+> Ex. 1981 : la gauche arrive au pouvoir.
+
+? La cohabitation, c'est…
++ un président et une majorité à l'Assemblée de bords politiques opposés
+- deux présidents en même temps
+- un gouvernement sans ministre
+> Ex. 1986, 1993, 1997.
+
+? En 1981, le gouvernement abolit…
++ la peine de mort
+- le droit de vote
+- la Sécurité sociale
+> Loi portée par Robert Badinter.
+
+? La loi Veil de 1975 autorise…
++ l'interruption volontaire de grossesse (IVG)
+- le divorce
+- le vote des femmes
+> Simone Veil la défend à l'Assemblée.
+
+? En 1974, la majorité passe de 21 à…
++ 18 ans
+- 16 ans
+- 20 ans
+> Sous Valéry Giscard d'Estaing.
+
+? Les lois de décentralisation (1982) donnent plus de pouvoir…
++ aux collectivités locales (régions, départements, communes)
+- à l'État central
+- à l'UE seule
+> Lois Defferre.
+
+? Le Conseil constitutionnel vérifie…
++ que les lois respectent la Constitution
+- les comptes des entreprises
+- les résultats sportifs
+> Il compte 9 membres nommés.
+
+? Depuis 2008, un citoyen peut contester une loi devant le Conseil constitutionnel grâce à…
++ la QPC (question prioritaire de constitutionnalité)
+- une pétition en ligne
+- une grève
+> Lors d'un procès.
+
+? En 2000, un référendum adopte…
++ le quinquennat
+- l'euro
+- la peine de mort
+> Le mandat du président passe à 5 ans.
+
+? Le président est le chef…
++ des armées
+- des juges
+- des maires
+> Il dispose aussi de la force de dissuasion nucléaire.
+
+? Vrai ou faux : la Ve République est toujours en vigueur aujourd'hui.
++ Vrai
+- Faux
+> La Constitution a été révisée plus de 20 fois.
+
+? Vrai ou faux : le président de la Ve République est élu par les députés depuis 1962.
+- Vrai
++ Faux
+> Il est élu au suffrage universel direct.
+
+? La loi sur la parité (2000) vise…
++ l'égal accès des femmes et des hommes aux mandats électoraux
+- l'égalité des salaires uniquement
+- à supprimer le Sénat
+> Les listes doivent alterner femmes et hommes.
+
+? Les « Trente Glorieuses » (1945-1975) sont…
++ une période de forte croissance économique
+- une guerre
+- une crise
+> Expression de Jean Fourastié.
+
+? La crise économique à partir de 1973 entraîne…
++ la montée du chômage
+- le plein emploi
+- la fin des usines automobiles
+> Après le choc pétrolier.
+
+? Les premières années de la présidence Mitterrand ont aussi…
++ dépénalisé l'homosexualité en 1982
+- interdit le divorce
+- rétabli la peine de mort
+> Sous la présidence de Mitterrand.
+
+? En 1958, les Français approuvent la nouvelle Constitution…
++ par référendum, à environ 80 % de oui
+- sans vote
+- à une voix près
+> Le 28 septembre 1958.
+
+? Qui est président de 1995 à 2007 ?
++ Jacques Chirac
+- Nicolas Sarkozy
+- François Hollande
+> Il reconnaît la responsabilité de l'État dans la rafle du Vél' d'Hiv.
 ```
 
 ## Vidéos

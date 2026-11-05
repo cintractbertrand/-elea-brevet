@@ -139,6 +139,32 @@ Ses caractéristiques :
 
 ## Quiz
 
+### ⚡ Échauffement express
+
+Cinq petites questions à réponse tapée pour vérifier que les bases sont là.
+
+```quiz Échauffement express
+? En quelle année Hitler devient-il chancelier ?
+= 1933
+> Le 30 janvier 1933.
+
+? Qui dirige l'URSS à partir de la fin des années 1920 ?
+= Staline
+> Il impose une dictature totalitaire.
+
+? En quelle année éclate la crise économique à Wall Street ?
+= 1929
+> Le krach boursier d'octobre 1929.
+
+? Qui dirige l'Italie fasciste ?
+= Mussolini
+> Au pouvoir dès 1922.
+
+? En quelle année le Front populaire gagne-t-il les élections en France ?
+= 1936
+> Léon Blum devient président du Conseil.
+```
+
 ```quiz
 ? En quelle année Hitler devient-il chancelier ?
 - 1929
@@ -200,6 +226,166 @@ Ses caractéristiques :
 - La privatisation des usines
 - Le partage des terres entre paysans
 > Elle provoque de graves famines, notamment en Ukraine (1932-1933).
+```
+
+### 🎲 Entraînement sans fin
+
+Une banque de 26 questions : 10 sont tirées au hasard à chaque essai, sans répétition tant que la banque n'est pas épuisée. Recommence autant que tu veux !
+
+```quiz Entraînement sans fin ~10
+? Un régime totalitaire se caractérise par…
++ un parti unique, un chef tout-puissant, la terreur et l'embrigadement
+- des élections libres
+- la liberté de la presse
+> L'État veut contrôler tous les aspects de la vie.
+
+? La crise de 1929 provoque surtout…
++ un chômage massif
+- une forte croissance
+- la fin du capitalisme
+> Elle touche l'Europe au début des années 1930.
+
+? Le parti d'Hitler est…
++ le parti nazi (NSDAP)
+- le parti communiste
+- le parti fasciste italien
+> National-socialiste.
+
+? Hitler arrive au pouvoir…
++ légalement, nommé chancelier après des élections
+- par un coup d'État réussi
+- grâce à une révolution
+> Il installe ensuite une dictature en quelques mois.
+
+? Les lois de Nuremberg (1935)…
++ excluent les Juifs de la citoyenneté allemande
+- donnent le droit de vote aux femmes
+- créent la SDN
+> Début d'une persécution qui mène à la Shoah.
+
+? La « Nuit de cristal » (novembre 1938) est…
++ un pogrom organisé contre les Juifs en Allemagne
+- une fête nationale
+- une bataille
+> Synagogues et magasins détruits.
+
+? Les camps de concentration nazis, dès 1933, servent d'abord à…
++ enfermer les opposants politiques
+- loger les touristes
+- produire de l'électricité
+> Ex. Dachau.
+
+? En URSS, le goulag est…
++ un système de camps de travail forcé
+- une ferme collective
+- un parti politique
+> Des millions de personnes y sont déportées.
+
+? Les kolkhozes sont…
++ des fermes collectives imposées par Staline
+- des usines privées
+- des écoles
+> La collectivisation provoque des famines (Ukraine, 1932-1933).
+
+? Les Grandes Purges (1936-1938) en URSS sont…
++ une vague de terreur qui élimine des opposants réels ou supposés
+- des élections
+- une réforme scolaire
+> Des centaines de milliers d'exécutions.
+
+? Le culte de la personnalité consiste à…
++ présenter le chef comme un être exceptionnel, partout dans la propagande
+- critiquer le chef
+- élire le chef tous les ans
+> Portraits, statues, films à la gloire de Staline ou d'Hitler.
+
+? L'embrigadement de la jeunesse en Allemagne passe par…
++ les Jeunesses hitlériennes
+- le scoutisme libre
+- les syndicats
+> Les jeunes sont formés à l'idéologie nazie.
+
+? Le 6 février 1934 en France, …
++ des ligues d'extrême droite manifestent violemment à Paris
+- le Front populaire gagne les élections
+- la guerre est déclarée
+> La République se sent menacée.
+
+? Le Front populaire est une alliance…
++ des partis de gauche (socialistes, communistes, radicaux)
+- de l'extrême droite
+- des monarchistes
+> Il gagne les élections en 1936.
+
+? Les accords de Matignon (1936) accordent…
++ deux semaines de congés payés et la semaine de 40 heures
+- le droit de vote aux femmes
+- la retraite à 50 ans
+> Après de grandes grèves.
+
+? Vrai ou faux : la France est devenue un régime totalitaire dans les années 1930.
+- Vrai
++ Faux
+> La démocratie est fragilisée mais résiste.
+
+? Vrai ou faux : dans un régime totalitaire, la propagande et la terreur vont ensemble.
++ Vrai
+- Faux
+> On convainc et on fait peur à la fois.
+
+? L'idéologie nazie repose sur…
++ le racisme, l'antisémitisme et la conquête d'un « espace vital »
+- l'égalité de tous
+- la paix universelle
+> Exposée dans « Mein Kampf ».
+
+? L'idéologie communiste stalinienne veut…
++ construire une société sans classes, sous le contrôle du parti
+- rétablir le tsar
+- développer les entreprises privées
+> Les « ennemis de classe » (koulaks) sont persécutés.
+
+? La Gestapo est…
++ la police politique nazie
+- l'armée de l'air
+- un journal
+> En URSS, c'est le NKVD.
+
+? L'autodafé de 1933 en Allemagne consiste à…
++ brûler publiquement des livres jugés contraires au nazisme
+- construire des écoles
+- voter une loi
+> Symbole de la fin de la liberté de pensée.
+
+? Hitler prend le titre de…
++ Führer
+- Duce
+- Tsar
+> Mussolini était appelé le Duce.
+
+? Les démocraties européennes des années 1930 sont fragilisées par…
++ la crise économique et la montée des extrêmes
+- la paix et la prospérité
+- l'absence de chômage
+> Beaucoup cherchent des solutions radicales.
+
+? La « solution » des nazis à la crise passe par…
++ les grands travaux et le réarmement
+- la baisse des dépenses militaires
+- l'ouverture des frontières
+> Le chômage baisse mais au service de la guerre.
+
+? En 1936, l'Allemagne remilitarise…
++ la Rhénanie
+- la Bretagne
+- la Pologne
+> En violation du traité de Versailles.
+
+? La guerre d'Espagne (1936-1939) oppose…
++ les républicains aux nationalistes de Franco
+- la France à l'Allemagne
+- l'URSS au Japon
+> Hitler et Mussolini aident Franco.
 ```
 
 ## Vidéos
