@@ -527,7 +527,7 @@ function renderSidebar() {
     const chs = chaptersOf(s);
     const isOpen = s === state.cur, pr = progressOf(s);
     html += `<details class="side-subject" data-s="${esc(s)}" style="--sc:${info.color || 'var(--accent)'}"${isOpen ? ' open' : ''}><summary>${info.emoji} ${esc(s)}<span class="side-prog">${pr.done}/${pr.total}</span></summary>`;
-    html += `<a class="side-link" href="#/m/${encodeURIComponent(s)}">📋 Vue d'ensemble</a>`;
+    html += `<a class="side-link" href="#/m/${encodeURIComponent(s)}">📋 Vue d'ensemble</a><a class="side-link" href="#/express/${encodeURIComponent(s)}">⚡ Révision express</a>`;
     if (!chs.length) html += '<div class="side-empty">Fiches à venir</div>';
     let theme = null;
     for (const f of chs) {
@@ -562,6 +562,8 @@ function matieresNav() {
     const info = SUBJECTS[s] || { emoji: '📁' }, p = progressOf(s), pct = p.total ? Math.round((100 * p.done) / p.total) : 0;
     return `<a class="mat-chip${s === state.cur ? ' on' : ''}" href="#/m/${encodeURIComponent(s)}" style="--sc:${info.color || 'var(--accent)'}"><span class="mat-emoji">${info.emoji}</span><span class="mat-nom">${esc(SHORT[s] || s)}</span><span class="mat-pct">${pct}%</span></a>`;
   }).join('');
+  // sur téléphone, la barre défile : on amène la matière en cours à l'écran
+  setTimeout(() => { const on = document.querySelector('.matieres-nav .mat-chip.on'); if (on) on.parentElement.scrollLeft = on.offsetLeft - 16; }, 0);
   return `<nav class="matieres-nav" aria-label="Matières">${chips}</nav>`;
 }
 
@@ -587,6 +589,70 @@ function statutFiche(f) {
   return { cls: '', ico: '○', txt: 'À faire' };
 }
 
+/* Extrait un encadré Obsidian (> [!type] Titre ...) d'une fiche, avec son contenu */
+function calloutBlock(body, re) {
+  const lines = body.split('\n');
+  const i = lines.findIndex((l) => re.test(l));
+  if (i < 0) return '';
+  let j = i + 1;
+  while (j < lines.length && /^>/.test(lines[j])) j++;
+  return lines.slice(i, j).join('\n');
+}
+
+/* Révision express : les « L'essentiel » de toutes les fiches d'une matière, en lecture rapide ou en cartes à retourner */
+function pageExpress(subject) {
+  _current = '';
+  const info = SUBJECTS[subject] || { emoji: '📁' };
+  const chs = chaptersOf(subject).filter((f) => f.type === 'fiche' && !isAnnale(f));
+  const cartes = chs.map((f) => ({
+    f,
+    ess: calloutBlock(f.body, /^> \[!abstract\]/),
+    retenir: calloutBlock(f.body, /^> \[!tip\] Pour retenir/i),
+    pieges: calloutBlock(f.body, /^> \[!warning\] Les pièges/i),
+  })).filter((c) => c.ess);
+  const su = store.get('express:' + subject, {});
+  const nbSu = cartes.filter((c) => su[c.f.path]).length;
+  let html = matieresNav() + `<div class="breadcrumb"><a href="#/">Accueil</a> › <a href="#/m/${encodeURIComponent(subject)}">${esc(subject)}</a> › Révision express</div>`;
+  html += `<div class="hero"><h1>⚡ Révision express : ${info.emoji} ${esc(SHORT[subject] || subject)}</h1><p class="muted">L'essentiel de chaque chapitre sur une seule page. En mode « cartes », essaie de te rappeler le chapitre avant de retourner la carte, puis dis si tu le savais.</p>`;
+  html += `<p class="express-score"><strong id="nb-su">${nbSu}</strong> / ${cartes.length} chapitres que je sais déjà</p></div>`;
+  html += `<div class="express-outils" role="group" aria-label="Mode"><button type="button" class="btn ghost small on" data-mode="lire">📖 Tout lire</button><button type="button" class="btn ghost small" data-mode="cartes">🃏 Cartes à retourner</button><button type="button" class="btn ghost small" data-mode="revoir">🔁 Seulement à revoir</button><button type="button" class="btn ghost small" id="express-print">🖨️ Imprimer</button></div>`;
+  html += '<div class="express mode-lire">';
+  for (const { f, ess, retenir, pieges } of cartes) {
+    const ok = !!su[f.path];
+    html += `<section class="carte${ok ? ' sue' : ''}" data-path="${esc(f.path)}" style="--sc:${info.color || 'var(--accent)'}">`;
+    html += `<button type="button" class="carte-face"><span class="carte-num">${f.num ?? ''}</span><span class="carte-titre">${esc(f.title)}</span><span class="carte-aide">${f.meta.resume ? esc(f.meta.resume) + ' · ' : ''}Touche pour retourner</span></button>`;
+    html += '<div class="carte-dos">' + markdown(ess.replace(/^> \[!abstract\][^\n]*/, `> [!abstract] ${f.num != null ? f.num + '. ' : ''}${f.title}`));
+    if (retenir) html += markdown(retenir);
+    if (pieges) html += markdown(pieges.replace(/^> \[!warning\]/, '> [!warning]-'));
+    html += `<div class="carte-actions"><button type="button" class="btn small" data-su="1">✅ Je savais</button><button type="button" class="btn ghost small" data-su="0">🔁 À revoir</button><a class="btn ghost small" href="${ficheUrl(f.path)}">Ouvrir la fiche →</a></div></div></section>`;
+  }
+  html += '</div>';
+  if (!cartes.length) html += '<p class="muted">Pas encore de résumé pour cette matière.</p>';
+  app.innerHTML = html;
+  app.className = 'content';
+  document.title = 'Révision express · ' + subject;
+  const box = app.querySelector('.express');
+  app.querySelectorAll('[data-mode]').forEach((b) => b.addEventListener('click', () => {
+    app.querySelectorAll('[data-mode]').forEach((x) => x.classList.toggle('on', x === b));
+    box.className = 'express mode-' + b.dataset.mode;
+    box.querySelectorAll('.carte.retournee').forEach((c) => c.classList.remove('retournee'));
+  }));
+  $('#express-print').addEventListener('click', () => { box.className = 'express mode-lire'; window.print(); });
+  box.addEventListener('click', (e) => {
+    const carte = e.target.closest('.carte'); if (!carte) return;
+    if (e.target.closest('.carte-face')) { carte.classList.toggle('retournee'); return; }
+    const b = e.target.closest('[data-su]'); if (!b) return;
+    const v = store.get('express:' + subject, {});
+    if (b.dataset.su === '1') { v[carte.dataset.path] = 1; carte.classList.add('sue'); if (window.chatReagit) window.chatReagit('bravo'); }
+    else { delete v[carte.dataset.path]; carte.classList.remove('sue'); }
+    store.set('express:' + subject, v);
+    $('#nb-su').textContent = Object.keys(v).filter((k) => cartes.some((c) => c.f.path === k)).length;
+    if (!box.classList.contains('mode-lire')) { carte.classList.remove('retournee'); const n = carte.nextElementSibling; if (n) n.scrollIntoView({ behavior: 'smooth', block: 'start' }); }
+  });
+  renderMath(app);
+  highlightSidebar();
+}
+
 /* Mon année de 3e : tout le programme sur une seule page, matière par matière */
 function pageAnnee() {
   _current = '';
@@ -601,6 +667,7 @@ function pageAnnee() {
     html += `<section class="annee-mat" style="--sc:${info.color || 'var(--accent)'}"><h2><a href="#/m/${encodeURIComponent(s)}">${info.emoji} ${esc(s)}</a><small>${p.done}/${p.total}</small></h2>`;
     html += `<div class="progress"><span style="width:${p.total ? Math.round((100 * p.done) / p.total) : 0}%"></span></div>`;
     if (nxt) html += `<a class="annee-next" href="${ficheUrl(nxt.path)}">▶ Prochaine : ${esc(nxt.title)}</a>`;
+    html += ` <a class="annee-next" href="#/express/${encodeURIComponent(s)}">⚡ Express</a>`;
     let theme = null;
     for (const f of chaptersOf(s)) {
       if (f.theme !== theme) { if (theme !== null) html += '</ul>'; theme = f.theme; html += `<h3>${esc(theme || 'Fiches')}</h3><ul>`; }
@@ -679,6 +746,7 @@ function pageSubject(subject) {
   const nxt = prochaineFiche(subject);
   html += '<div class="actions">';
   if (nxt) html += `<a class="btn" href="${ficheUrl(nxt.path)}">▶ ${p.done ? 'Continuer' : 'Commencer'} : ${nxt.num != null ? nxt.num + '. ' : ''}${esc(nxt.title)}</a>`;
+  html += `<a class="btn ghost" href="#/express/${encodeURIComponent(subject)}">⚡ Révision express</a>`;
   if (nbQ) html += `<a class="btn ghost" href="#/quiz/${encodeURIComponent(subject)}">🎲 Quiz mélangé (10 questions)</a>`;
   html += '</div>';
   let theme = null;
@@ -884,11 +952,12 @@ function route() {
   const parts = location.hash.replace(/^#\/?/, '').split('/').map((p) => { try { return decodeURIComponent(p); } catch { return p; } });
   const [page, a, b] = parts;
   setEspace(page === 'monde' || page === 'minijeux' ? 'jeux' : 'brevet');
-  state.cur = page === 'm' ? a : page === 'f' && a ? (state.byPath.get(a) || {}).subject || null : page === 'quiz' && a ? a : null;
+  state.cur = page === 'm' || page === 'express' ? a : page === 'f' && a ? (state.byPath.get(a) || {}).subject || null : page === 'quiz' && a ? a : null;
   if (page === 'f' && a) return pageFiche(a, b);
   if (page === 'm' && a) { pageSubject(a); renderMath(app); highlightSidebar(); return; }
   if (page === 'quiz') return pageQuiz(a);
   if (page === 'annee') return pageAnnee();
+  if (page === 'express' && a) return pageExpress(a);
   if (page === 'recherche') return pageSearch(parts.slice(1).join('/'));
   if (page === 'monde' && window.pageMonde) return pageMonde(a, b);
   if (page === 'minijeux' && window.pageMiniJeux) { document.querySelectorAll('.side-m').forEach((l) => l.classList.toggle('active', l.dataset.k === 'minijeux')); return pageMiniJeux(a); }

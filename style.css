@@ -394,3 +394,24 @@ details.toc > summary strong { font-size: .8rem; text-transform: uppercase; lett
   body.menu-open::after { content: ""; position: fixed; inset: 60px 0 0 0; z-index: 14; background: rgba(120, 90, 110, .18); }
 }
 @media (max-width: 420px) { .espaces a span { display: none; } .espaces a { padding: 5px 10px; } }
+
+/* ---------- Révision express (cartes) ---------- */
+.express-score { margin: 8px 0 0; }
+.express-outils { display: flex; flex-wrap: wrap; gap: 8px; margin: 4px 0 18px; }
+.express-outils .on { background: var(--accent-soft); border-color: var(--accent); }
+.express { display: flex; flex-direction: column; gap: 14px; }
+.carte { border-radius: var(--radius); background: var(--panel); border: 1px solid var(--border); border-left: 5px solid var(--sc); box-shadow: var(--shadow); padding: 4px 16px 12px; scroll-margin-top: 80px; }
+.carte.sue { border-left-color: var(--ok); }
+.carte-face { display: none; width: 100%; text-align: left; border: 0; background: none; font: inherit; color: var(--text); cursor: pointer; padding: 14px 0 6px; }
+.carte-num { display: inline-grid; place-items: center; min-width: 28px; height: 28px; border-radius: 50%; background: var(--accent-soft); font-weight: 800; font-size: .85rem; margin-right: 10px; }
+.carte-titre { font-weight: 700; font-size: 1.08rem; }
+.carte-aide { display: block; margin-top: 6px; color: var(--muted); font-size: .86rem; }
+.carte-dos .callout { margin: 10px 0; }
+.carte-actions { display: none; gap: 8px; flex-wrap: wrap; margin-top: 8px; }
+.mode-lire .carte-actions { display: flex; }
+.mode-cartes .carte-face, .mode-revoir .carte-face { display: block; }
+.mode-cartes .carte:not(.retournee) .carte-dos, .mode-revoir .carte:not(.retournee) .carte-dos { display: none; }
+.mode-cartes .carte.retournee .carte-actions, .mode-revoir .carte.retournee .carte-actions { display: flex; }
+.mode-revoir .carte.sue { display: none; }
+.carte.sue .carte-face::after { content: " ✅"; }
+@media print { .express-outils, .carte-actions, .carte-face, .express-score, .matieres-nav { display: none !important; } .carte { box-shadow: none; break-inside: avoid; } }
