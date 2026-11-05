@@ -220,3 +220,18 @@ body[data-espace="jeux"] .side-link:hover, body[data-espace="jeux"] .side-link.a
 /* Plusieurs anecdotes affichées ensemble */
 .m-facts { margin: 8px 0 0; padding-left: 20px; }
 .m-facts li { margin: 4px 0; }
+
+/* Téléphone pendant un jeu : la consigne passe au-dessus de la carte au lieu de la cacher, et tout est plus compact */
+@media (max-width: 700px) {
+  body.en-jeu .m-mapbar { display: none; }
+  .m-zoom { top: auto; bottom: 8px; right: 8px; flex-direction: row; }
+  #m-game-banner { position: static; margin: 0; padding: 8px 12px; border-radius: 0; box-shadow: none; gap: 6px 10px; font-size: .95rem; }
+  body.en-jeu .m-defi { margin: 8px 0 8px; padding: 10px 12px; }
+  body.en-jeu .m-d-top { margin-bottom: 6px; }
+  body.en-jeu .m-d-learn { gap: 12px; }
+  body.en-jeu .m-d-learn h3 { font-size: 1.2rem; }
+  body.en-jeu .m-d-flag .flag { width: 78px; }
+  body.en-jeu .m-d-foot { margin-top: 8px; gap: 8px; }
+  body.en-jeu .m-d-dots { gap: 3px; }
+  body.en-jeu .m-d-dot { width: 26px; height: 26px; font-size: .72rem; }
+}

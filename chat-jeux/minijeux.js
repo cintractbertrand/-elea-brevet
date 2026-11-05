@@ -124,7 +124,7 @@ function cadre(app, jeu, hud) {
   app.innerHTML = `<div class="mj-root">
     <div class="breadcrumb"><a href="#/">Accueil</a> › <a href="#/minijeux">Mini-jeux du chat</a> › ${jeu.nom}</div>
     <h1>${jeu.emoji} ${jeu.nom}</h1>
-    <p class="muted mj-regle">${jeu.regle}</p>
+    <details class="mj-regle ar-regle"><summary>Comment jouer ?</summary><p class="muted">${jeu.regle}</p></details>
     <div class="mj-hud">${hud}<span class="mj-best">🏆 Record : <b>${mem.get('best:' + jeu.id, 0)}</b> ${jeu.unite}</span></div>
     <div class="mj-scene mj-scene-${jeu.id}"></div>
   </div>`;
@@ -138,10 +138,16 @@ function panneau(scene, { titre, texte = '', bouton = 'Jouer', humeur = 'normal'
   d.className = 'mj-panneau';
   d.innerHTML = `<div class="mj-panneau-in"><div class="mj-panneau-chat">${chatFace(humeur)}</div><h2>${titre}</h2>${texte ? `<p>${texte}</p>` : ''}<button class="btn mj-go" type="button">${bouton}</button></div>`;
   scene.appendChild(d);
-  const go = () => { d.remove(); action(); };
+  const go = () => { d.remove(); action(); auCentre(scene); };
   d.querySelector('.mj-go').addEventListener('click', (e) => { e.stopPropagation(); go(); });
   d.addEventListener('pointerdown', (e) => e.stopPropagation());
   d.querySelector('.mj-go').focus({ preventScroll: true });
+}
+// Sur téléphone, le plateau doit être entièrement visible pendant la partie
+function auCentre(scene) {
+  if (!matchMedia('(max-width: 760px)').matches) return;
+  const r = scene.getBoundingClientRect(), haut = 64;
+  if (r.top < haut || r.bottom > innerHeight - 8) window.scrollBy({ top: r.top - haut - Math.max(0, (innerHeight - haut - r.height) / 2), behavior: 'smooth' });
 }
 
 // Petit texte qui s'envole (« Oups ! », « +10 »…)
@@ -394,8 +400,9 @@ function jeuLaser(app, jeu) {
   page.add(() => partie.stop());
   let cible = null;
   const fleches = {};
-  page.ecoute(cv, 'pointermove', (e) => { cible = pos(e); });
-  page.ecoute(cv, 'pointerdown', (e) => { cible = pos(e); });
+  const viseur = (e) => pos(e.pointerType === 'touch' ? { clientX: e.clientX, clientY: e.clientY - 48 } : e); // au doigt : un peu au-dessus, pour voir le chat
+  page.ecoute(cv, 'pointermove', (e) => { cible = viseur(e); });
+  page.ecoute(cv, 'pointerdown', (e) => { cible = viseur(e); });
   page.ecoute(document, 'keydown', (e) => { if (e.key.startsWith('Arrow')) { fleches[e.key] = true; e.preventDefault(); } });
   page.ecoute(document, 'keyup', (e) => { delete fleches[e.key]; });
 
@@ -516,7 +523,7 @@ function jeuCourse(app, jeu) {
     let dist = 0, poissons = 0, v = 270, fin = false, t = 0;
     const chat = { y: 200, vy: 0, sol: true, sauts: 0, panique: 0 };
     const toits = [{ x: -50, w: 760, y: 240, objets: [] }];
-    const majHud = () => { app.querySelector('.cr-score').textContent = score(); app.querySelector('.cr-poissons').textContent = poissons; };
+    const majHud = () => { const s = app.querySelector('.cr-score'), p = app.querySelector('.cr-poissons'); if (s) s.textContent = score(); if (p) p.textContent = poissons; };
     const score = () => Math.floor(dist / 40) + poissons * 10;
     function nouveauToit() {
       const d = toits[toits.length - 1];
@@ -748,10 +755,11 @@ function verifier() {
   const app = document.getElementById('content');
   if (!app) return;
   if (notreRoute()) {
+    if (idDeRoute() && !JEUX.some((j) => j.id === idDeRoute())) { page.stop(); page = groupe(); return; } // un jeu d'arcade a pris la page : on arrête nos boucles
     const actuel = app.querySelector('.mj-root');
     const id = JEUX.some((j) => j.id === idDeRoute()) ? idDeRoute() : '';
     if (!actuel || actuel.dataset.id !== id) pageMiniJeux(id);
-  } else if (app.querySelector('.mj-root') === null) {
+  } else if (app.querySelector('.mj-root:not(.ar-root)') === null) {
     page.stop(); page = groupe();
   }
 }

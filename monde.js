@@ -88,7 +88,7 @@ function sidebarMonde() {
 function markSideMonde(k) { document.querySelectorAll('.side-m').forEach((a) => a.classList.toggle('active', a.dataset.k === k)); }
 
 // On quitte l'espace découverte : on arrête le jeu en cours
-window.addEventListener('hashchange', () => { if (!location.hash.startsWith('#/monde')) MONDE.game = null; });
+window.addEventListener('hashchange', () => { if (!location.hash.startsWith('#/monde')) { MONDE.game = null; document.body.classList.remove('en-jeu'); } });
 
 /* ---------- Page ---------- */
 async function pageMonde(a, b) {
@@ -254,16 +254,32 @@ function bindMonde() {
     tip.style.left = e.clientX - r.left + 12 + 'px'; tip.style.top = e.clientY - r.top + 12 + 'px';
   });
   svg.addEventListener('pointerleave', () => (tip.hidden = true));
-  // Glisser pour se déplacer, clic pour ouvrir un pays
+  // Glisser pour se déplacer, clic pour ouvrir un pays, pincer à deux doigts pour zoomer
+  const doigts = new Map();
+  let pince = null;
+  const ecart = () => { const [a, b] = [...doigts.values()]; return { d: Math.hypot(a.x - b.x, a.y - b.y), cx: (a.x + b.x) / 2, cy: (a.y + b.y) / 2 }; };
   svg.addEventListener('pointerdown', (e) => {
     if (e.button !== 0) return;
-    drag = { sx: e.clientX, sy: e.clientY, v: { ...MONDE.view }, moved: false, el: e.target.closest('[data-iso]') };
+    doigts.set(e.pointerId, { x: e.clientX, y: e.clientY });
     svg.setPointerCapture(e.pointerId);
+    if (doigts.size === 2) { // deuxième doigt : on passe en zoom
+      const g = ecart();
+      pince = { d0: g.d || 1, v: { ...MONDE.view }, m: toMap({ clientX: g.cx, clientY: g.cy }) };
+      drag = null; tip.hidden = true; return;
+    }
+    if (doigts.size > 2) return;
+    drag = { sx: e.clientX, sy: e.clientY, v: { ...MONDE.view }, moved: false, el: e.target.closest('[data-iso]'), seuil: e.pointerType === 'mouse' ? 5 : 12 };
   });
   svg.addEventListener('pointermove', (e) => {
+    if (doigts.has(e.pointerId)) doigts.set(e.pointerId, { x: e.clientX, y: e.clientY });
+    if (pince && doigts.size === 2) {
+      const g = ecart(), f = Math.min(4, Math.max(0.25, pince.d0 / (g.d || 1))), v = pince.v, m = pince.m;
+      setView(clampView({ w: v.w * f, h: v.h * f, x: m.x - (m.x - v.x) * f, y: m.y - (m.y - v.y) * f }));
+      return;
+    }
     if (!drag) return;
     const dx = e.clientX - drag.sx, dy = e.clientY - drag.sy;
-    if (!drag.moved && Math.hypot(dx, dy) < 5) return;
+    if (!drag.moved && Math.hypot(dx, dy) < drag.seuil) return;
     drag.moved = true; svg.classList.add('dragging');
     const r = svg.getBoundingClientRect();
     setView(clampView({ ...drag.v, x: drag.v.x - (dx / r.width) * drag.v.w, y: drag.v.y - (dy / r.height) * drag.v.h }));
@@ -276,8 +292,9 @@ function bindMonde() {
     if (MONDE.game && MONDE.game.type === 'defi') return defiClick(el.dataset.iso, el);
     mondeSelect(el.dataset.iso, true);
   };
-  svg.addEventListener('pointerup', fin);
-  svg.addEventListener('pointercancel', () => { drag = null; svg.classList.remove('dragging'); });
+  const lacher = (e) => { doigts.delete(e.pointerId); if (doigts.size < 2) pince = null; };
+  svg.addEventListener('pointerup', (e) => { const p = pince; lacher(e); if (!p && doigts.size === 0) fin(); });
+  svg.addEventListener('pointercancel', (e) => { lacher(e); drag = null; svg.classList.remove('dragging'); });
   svg.addEventListener('wheel', (e) => {
     e.preventDefault();
     const p = toMap(e), v = MONDE.view, f = e.deltaY < 0 ? 0.8 : 1.25;
@@ -421,11 +438,12 @@ function wirePassReset(box) {
 function renderBest() {
   document.querySelectorAll('.m-best').forEach((e) => { const b = store.get('monde:best:' + e.dataset.b, null); e.textContent = b != null ? `🏆 Record : ${b}/${e.dataset.b === 'defi' ? 30 : 10}` : ''; });
 }
-function saveBest(g, score) { const b = store.get('monde:best:' + g, -1); if (score > b) store.set('monde:best:' + g, score); renderBest(); return score > b; }
+function saveBest(g, score) { document.body.classList.remove('en-jeu'); // fin de partie : Silver peut revenir féliciter
+  const b = store.get('monde:best:' + g, -1); if (score > b) store.set('monde:best:' + g, score); renderBest(); return score > b; }
 const pick = (arr, n) => shuffle([...arr]).slice(0, n);
 
 function startGame(g) {
-  stopGame();
+  stopGame(); document.body.classList.add('en-jeu');
   $('#m-fiche').innerHTML = '';
   MONDE.sel = null; refreshMapClasses();
   const souverains = MONDE.pays.filter((p) => p.statut !== 'territoire');
@@ -448,7 +466,7 @@ function startGame(g) {
 }
 
 function stopGame() {
-  MONDE.game = null;
+  MONDE.game = null; document.body.classList.remove('en-jeu');
   const svg = $('#m-svg'); if (svg) svg.classList.remove('neutre');
   const d = $('#m-defi'); if (d) d.innerHTML = '';
   const b = $('#m-game-banner'); if (b) b.hidden = true;
@@ -539,6 +557,7 @@ function startDefi(liste) {
     liste = pick(pool, 10);
   }
   MONDE.game = { type: 'defi', phase: 'learn', liste, i: 0, vu: 0 };
+  document.body.classList.add('en-jeu');
   $('#m-svg').classList.add('neutre');
   defiLearn();
   setTimeout(() => $('#m-defi').scrollIntoView({ behavior: 'smooth', block: 'start' }), 50);

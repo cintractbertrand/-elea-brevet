@@ -130,3 +130,14 @@
   .cl-gamelle { left: calc(50% + 70px); }
   .cl-jauge i { width: 90px; }
 }
+
+/* Téléphone : frotter le chat sans faire défiler la page */
+.cl-zone { touch-action: none; -webkit-user-select: none; user-select: none; }
+.mj-regle summary { cursor: pointer; color: var(--muted); font-size: .92rem; width: fit-content; }
+@media (max-width: 760px) {
+  .mj-root > .breadcrumb { display: none; }
+  .mj-root h1 { font-size: 1.45rem; margin: 0 0 2px; }
+  .mj-hud { gap: 6px; font-size: .92rem; margin: 4px 0 8px; }
+  .mj-scene-tomber { height: 330px; }
+  .tt-maitre { width: 92px; height: 130px; }
+}

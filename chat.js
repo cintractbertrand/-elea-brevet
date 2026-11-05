@@ -824,7 +824,10 @@
   }
 
   /* ---------- Silver écoute le site ---------- */
+  // Sur téléphone, Silver et le bouton ↑ s'effacent pendant un mini-jeu pour ne pas cacher le plateau (voir chat.css).
+  const majMiniJeu = () => document.body.classList.toggle('en-minijeu', /^#\/minijeux\/[^/]+/.test(location.hash));
   function ecouteSite() {
+    majMiniJeu(); window.addEventListener('hashchange', majMiniJeu);
     document.addEventListener('dblclick', (e) => { // double-clic sur la page : il vient voir
       if (el.hidden || C.occupe || C.drag || e.target.closest('.chat, .chat-panel, button, a, input, textarea, label, svg, nav, aside, .topbar, .sidebar')) return;
       const x = e.clientX - LARG() / 2;
