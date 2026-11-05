@@ -348,6 +348,49 @@
     faire(BETISES[n]);
   }
 
+  /* ---------- Silver parle anglais : petits dialogues avec la traduction ---------- */
+  const ANGLAIS = [
+    [['Hello! My name is Silver. 😺', 'Bonjour ! Je m\'appelle Silver.'], ['What\'s your name?', 'Comment tu t\'appelles ?']],
+    [['I\'m hungry… Can I have some fish, please? 🐟', 'J\'ai faim… Je peux avoir du poisson, s\'il te plaît ?'], ['Thank you! You\'re so kind. 💕', 'Merci ! C\'est trop gentil.']],
+    [['It\'s raining cats and dogs! ☔', 'Il pleut des cordes ! (mot à mot : des chats et des chiens)'], ['Hey… I\'m not a dog! 🙀', 'Hé… je ne suis pas un chien !']],
+    [['I usually sleep sixteen hours a day. 😴', 'D\'habitude, je dors seize heures par jour.'], ['Being a cat is hard work!', 'Être un chat, c\'est un travail difficile !']],
+    [['Where is my ball? 🧶', 'Où est ma balle ?'], ['Oh, it\'s under the sofa!', 'Ah, elle est sous le canapé !']],
+    [['Yesterday, I caught a butterfly. 🦋', 'Hier, j\'ai attrapé un papillon.'], ['Well… almost. 😹', 'Enfin… presque.']],
+    [['Do you like maths? 📐', 'Tu aimes les maths ?'], ['I like counting my croquettes: one, two, three… 😋', 'J\'aime compter mes croquettes : un, deux, trois…']],
+    [['I have been waiting for you for ages! ⏳', 'Ça fait une éternité que je t\'attends !'], ['Present perfect continuous: very useful! 🤓', 'Le present perfect continu : très utile !']],
+    [['If I were a lion, I would roar. 🦁', 'Si j\'étais un lion, je rugirais.'], ['But I\'m a cat, so… meow! 😸', 'Mais je suis un chat, donc… miaou !']],
+    [['How are you today?', 'Comment vas-tu aujourd\'hui ?'], ['I\'m fine, thanks. And you? 😊', 'Je vais bien, merci. Et toi ?']],
+    [['Let\'s study together! 📚', 'Révisons ensemble !'], ['You can do it! 💪', 'Tu peux y arriver !']],
+    [['I\'m taller than a mouse… 🐭', 'Je suis plus grand qu\'une souris…'], ['…but smaller than a horse. 🐴', '…mais plus petit qu\'un cheval.']],
+    [['Can you open the door, please? 🚪', 'Tu peux ouvrir la porte, s\'il te plaît ?'], ['Thanks! Oh no, I want to come back in. 😹', 'Merci ! Oh non, je veux rentrer.']],
+    [['My favourite colour is blue, like my eyes. 💙', 'Ma couleur préférée est le bleu, comme mes yeux.']],
+    [['I don\'t like Mondays. 😾', 'Je n\'aime pas les lundis.'], ['I prefer Caturdays! 😹', 'Je préfère les « samedis des chats » !']],
+    [['What time is it? ⏰', 'Quelle heure est-il ?'], ['It\'s time for a nap!', 'C\'est l\'heure de la sieste !']],
+    [['Be careful: « actually » means « en fait », not « actuellement »! ⚠️', 'Attention, faux ami !']],
+    [['I went to London last summer. 🇬🇧', 'Je suis allé à Londres l\'été dernier.'], ['I met the Queen\'s corgis! 🐶', 'J\'ai rencontré les corgis de la reine !']],
+    [['Silver is the cutest cat in the world. 😻', 'Silver est le chat le plus mignon du monde.'], ['Superlative: the + adjective + -est!', 'Superlatif : the + adjectif + -est !']],
+    [['You must drink water. 💧', 'Tu dois boire de l\'eau.'], ['And I must eat croquettes. 😋', 'Et moi, je dois manger des croquettes.']],
+    [['Knock knock! 🚪', 'Toc toc !'], ['Who\'s there? … It\'s me, Silver! 😸', 'Qui est là ? … C\'est moi, Silver !']],
+    [['I\'m going to jump on the table. 🐾', 'Je vais sauter sur la table.'], ['« going to » = a plan for the future!', '« going to » = un projet pour bientôt !']],
+    [['Have you ever seen a flying cat? 🚀', 'As-tu déjà vu un chat volant ?'], ['Not yet? Watch me! 😹', 'Pas encore ? Regarde-moi !']],
+    [['Good morning! Did you sleep well? ☀️', 'Bonjour ! Tu as bien dormi ?']],
+    [['Good luck for your test! 🍀', 'Bonne chance pour ton contrôle !'], ['I\'m crossing my paws for you. 🐾', 'Je croise les pattes pour toi.']],
+    [['Cats have nine lives. 🐈', 'Les chats ont neuf vies.'], ['I\'m on my third one… 😅', 'J\'en suis à ma troisième…']],
+    [['There are two birds in the garden. 🐦', 'Il y a deux oiseaux dans le jardin.'], ['« There are » + plural, remember!', '« There are » + pluriel, souviens-toi !']],
+    [['Could you pet me, please? 🥺', 'Tu pourrais me caresser, s\'il te plaît ?'], ['Purr… purr… 💕', 'Ronron… ronron…']],
+    [['I can\'t swim, but I can climb trees. 🌳', 'Je ne sais pas nager, mais je sais grimper aux arbres.']],
+    [['See you later, alligator! 🐊', 'À plus tard !'], ['In a while, crocodile! 😸', 'À tout à l\'heure ! (réponse rigolote qui rime)']],
+  ];
+  const BRAVO_EN = ['Well done! 🎉 <small class="chat-fr">Bien joué !</small>', 'Great job! ⭐ <small class="chat-fr">Super travail !</small>', 'Awesome! 😻 <small class="chat-fr">Génial !</small>'];
+  const OUPS_EN = ['Never mind, try again! 💪 <small class="chat-fr">Pas grave, réessaie !</small>', 'Oops! Don\'t give up! 🐾 <small class="chat-fr">Oups ! N\'abandonne pas !</small>'];
+  const pageAnglais = () => /Anglais/.test(decodeURIComponent(location.hash));
+  const ligneEn = ([en, fr]) => `<span class="chat-en">🇬🇧 ${en}</span><small class="chat-fr">${fr}</small>`;
+  async function dialogueAnglais() {
+    const d = hasard(ANGLAIS);
+    el.classList.add('heureux');
+    for (const l of d) { parle(ligneEn(l), 4200); await anim('a-hoche', 900); await wait(3300); }
+  }
+
   /* ---------- Les boutons dans les bulles ---------- */
   const BOUTONS = {
     async croquettes() {
@@ -366,6 +409,8 @@
 
   /* ---------- Les bêtises ---------- */
   const BETISES = {
+    anglais: dialogueAnglais,
+    english: dialogueAnglais, // deux entrées : il parle anglais un peu plus souvent
     async saut() { el.classList.add('miaule'); parle(hasard(['Miaou ! 😺', 'Hop ! 🐾', 'Boing ! 😸'])); await anim('a-saut', 900); },
     async roulade() { el.classList.add('heureux'); parle('Youpiii ! 😹'); await anim('a-roulade', 1200); },
     async ronron() {
@@ -790,6 +835,7 @@
       setTimeout(() => {
         if (el.hidden || C.occupe || C.drag || C.jeu) return;
         const h = location.hash;
+        if (pageAnglais()) { faire(dialogueAnglais); return; }
         const t = h.startsWith('#/monde') ? ['On voyage ? 🌍', 'Quel pays on découvre ? 🗺️'] : h.startsWith('#/minijeux') ? ['Mes jeux préférés ! 😻'] : ['Une nouvelle fiche ! 📖', 'Je lis avec toi 🤓', 'Courage, tu vas y arriver ! 💪'];
         parle(hasard(t), 2400);
       }, 700);
@@ -802,10 +848,11 @@
     const now = performance.now();
     if (now - lastReact < 2400) return;
     lastReact = now;
-    if (C.occupe) { if (!el.classList.contains('dodo')) parle(type === 'oups' ? hasard(OUPS) : hasard(BRAVO), 1800); return; }
+    const en = pageAnglais(), BR = en ? BRAVO_EN : BRAVO, OU = en ? OUPS_EN : OUPS;
+    if (C.occupe) { if (!el.classList.contains('dodo')) parle(type === 'oups' ? hasard(OU) : hasard(BR), 1800); return; }
     if (type === 'bravo') bonheur(0.5);
-    if (type === 'bravo') faire(async () => { el.classList.add('heureux'); parle(hasard(BRAVO), 1800); await anim('a-saut', 900); });
-    if (type === 'oups') faire(async () => { el.classList.add('penche'); parle(hasard(OUPS), 2200); await anim('a-hoche', 900); await wait(800); });
+    if (type === 'bravo') faire(async () => { el.classList.add('heureux'); parle(hasard(BR), 1800); await anim('a-saut', 900); });
+    if (type === 'oups') faire(async () => { el.classList.add('penche'); parle(hasard(OU), 2200); await anim('a-hoche', 900); await wait(800); });
     if (type === 'fete') faire(async () => { el.classList.add('heureux'); parle('🎉 Youpiiii ! On fait la fête ! 🎉', 2200); effet('🎉', 2); effet('✨', 2); await anim('a-danse', 2200); });
   };
   window.chatBetise = (n) => { if (BETISES[n]) { C.derniers = [n]; C.premier = false; faire(BETISES[n]); } }; // pour les tests
