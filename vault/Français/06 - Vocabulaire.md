@@ -135,6 +135,37 @@ Repérer un champ lexical aide à **interpréter** un texte : il révèle le th�
 
 ## Quiz
 
+### ⚡ Échauffement express
+
+Cinq petites questions à réponse tapée pour vérifier que les bases sont là.
+
+```quiz Échauffement express
+? Donne un synonyme de « content »
+= heureux
+= joyeux
+= ravi
+= satisfait
+> Un synonyme a un sens proche.
+
+? Donne l'antonyme (contraire) de « grand »
+= petit
+> Un antonyme a un sens opposé.
+
+? Quel préfixe signifie « contraire » dans « impossible » ?
+= im
+= im-
+> in-, im-, il-, ir- expriment le contraire.
+
+? Dans « jardinier », quel est le radical ?
+= jardin
+> Le suffixe -ier indique souvent un métier.
+
+? Comment appelle-t-on des mots qui se prononcent pareil mais s'écrivent différemment (ex. ver / verre) ?
+= homophones
+= des homophones
+> Ver, verre, vert, vers.
+```
+
 ```quiz
 ? Dans « impossible », « im- » est…
 + un préfixe de négation
@@ -188,6 +219,163 @@ Repérer un champ lexical aide à **interpréter** un texte : il révèle le th�
 - dénotation
 + connotation
 > La dénotation est le sens neutre ; la connotation est ce que le mot évoque en plus.
+```
+
+### 🎲 Entraînement sans fin
+
+Une banque de 26 questions : 10 sont tirées au hasard à chaque essai, sans répétition tant que la banque n'est pas épuisée. Recommence autant que tu veux !
+
+```quiz Entraînement sans fin ~10
+? Un champ lexical est…
++ l'ensemble des mots qui se rapportent à un même thème
+- un mot et son contraire
+- une famille de mots
+> Ex. champ lexical de la mer : vague, plage, marin…
+
+? Une famille de mots regroupe…
++ des mots formés à partir du même radical
+- des mots de même sens
+- des mots qui riment
+> Ex. terre, terrain, enterrer, territoire.
+
+? Le préfixe « re- » dans « refaire » signifie…
++ de nouveau
+- contraire
+- avant
+> Refaire = faire de nouveau.
+
+? Le préfixe « pré- » dans « prévoir » signifie…
++ avant
+- après
+- contre
+> Prévoir = voir avant.
+
+? Le suffixe « -able » dans « lavable » signifie…
++ qui peut être
+- petit
+- métier
+> Lavable = qui peut être lavé.
+
+? Le suffixe « -et / -ette » (maisonnette) exprime souvent…
++ la petitesse (diminutif)
+- le contraire
+- la répétition
+> Maisonnette = petite maison.
+
+? Le sens propre d'un mot est…
++ son sens premier, concret
+- son sens imagé
+- son sens contraire
+> « Une rose rouge » (sens propre).
+
+? « Il a un cœur de pierre » : « pierre » est employé au…
++ sens figuré
+- sens propre
+> Il est insensible.
+
+? Un mot polysémique…
++ a plusieurs sens
+- n'a qu'un sens
+- s'écrit de deux façons
+> Ex. « bouton » (fleur, vêtement, peau).
+
+? Un terme péjoratif…
++ donne une image négative
+- donne une image positive
+- est neutre
+> Ex. « bagnole », « chauffard ».
+
+? Un terme mélioratif…
++ donne une image positive
+- est toujours vulgaire
+- est négatif
+> Ex. « superbe », « héros ».
+
+? Le niveau de langue de « bagnole » est…
++ familier
+- courant
+- soutenu
+> Courant : voiture ; soutenu : automobile.
+
+? « Demeure » pour « maison » relève du langage…
++ soutenu
+- familier
+- courant
+> On l'utilise à l'écrit littéraire.
+
+? L'étymologie d'un mot, c'est…
++ son origine (souvent latine ou grecque)
+- sa définition
+- sa prononciation
+> « Télé » vient du grec « loin ».
+
+? Le radical grec « phobie » signifie…
++ la peur
+- l'amour
+- l'eau
+> Claustrophobie : peur des espaces clos.
+
+? Le radical grec « bio » signifie…
++ la vie
+- la terre
+- le livre
+> Biologie = étude du vivant.
+
+? Le radical latin « aqua » signifie…
++ l'eau
+- l'air
+- le feu
+> Aquarium, aquatique.
+
+? Un paronyme est un mot…
++ presque identique à un autre, mais de sens différent
+- qui a le même sens
+- de sens contraire
+> Ex. « éminent » / « imminent ».
+
+? « Le chirurgien est très … » (éminent / imminent)
++ éminent
+- imminent
+> Éminent = remarquable ; imminent = qui va arriver très bientôt.
+
+? « Le départ est … » (éminent / imminent)
+- éminent
++ imminent
+> Il va arriver très bientôt.
+
+? Le synonyme de « peur » le plus fort est…
++ terreur
+- inquiétude
+- souci
+> Gradation : inquiétude < crainte < peur < terreur.
+
+? L'antonyme de « optimiste » est…
++ pessimiste
+- joyeux
+- réaliste
+> Il voit tout en noir.
+
+? Un néologisme est…
++ un mot nouveau
+- un mot ancien disparu
+- un mot étranger
+> Ex. « courriel », « divulgâcher ».
+
+? Vrai ou faux : « pré » et « près » sont des homophones.
++ Vrai
+- Faux
+> Même prononciation, sens différent.
+
+? Vrai ou faux : le contexte aide à comprendre un mot inconnu.
++ Vrai
+- Faux
+> C'est souvent la clé dans les questions de vocabulaire du brevet.
+
+? « Mélancolique » signifie…
++ triste et rêveur
+- très joyeux
+- en colère
+> Le mot vient du grec « bile noire ».
 ```
 
 ## Vidéos

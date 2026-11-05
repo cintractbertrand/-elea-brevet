@@ -152,6 +152,35 @@ tags: [rédaction, réflexion, argumentation, plan, connecteurs]
 
 ## Quiz
 
+### ⚡ Échauffement express
+
+Cinq petites questions à réponse tapée pour vérifier que les bases sont là.
+
+```quiz Échauffement express
+? Comment appelle-t-on une idée qui défend une opinion ?
+= argument
+= un argument
+> L'argument est ensuite illustré par un exemple.
+
+? Qu'est-ce qui vient illustrer un argument : un fait précis, une œuvre, une expérience ?
+= exemple
+= un exemple
+> Argument + exemple = paragraphe solide.
+
+? Comment appelle-t-on la partie qui ouvre le devoir et pose la question ?
+= introduction
+= l'introduction
+> Amorce, présentation du sujet, annonce du plan.
+
+? Quel connecteur logique exprime l'opposition : « mais », « donc » ou « car » ?
+= mais
+> « Donc » = conséquence, « car » = cause.
+
+? Quel connecteur logique exprime la conséquence : « mais », « donc » ou « car » ?
+= donc
+> Aussi : c'est pourquoi, par conséquent, ainsi.
+```
+
 ```quiz
 ? Un paragraphe argumentatif contient…
 + un argument, une explication et un exemple
@@ -202,6 +231,156 @@ tags: [rédaction, réflexion, argumentation, plan, connecteurs]
 - ajoute un nouvel argument
 - recopie l'introduction
 > La conclusion répond clairement, rappelle les idées et ouvre sur une autre question.
+```
+
+### 🎲 Entraînement sans fin
+
+Une banque de 24 questions : 10 sont tirées au hasard à chaque essai, sans répétition tant que la banque n'est pas épuisée. Recommence autant que tu veux !
+
+```quiz Entraînement sans fin ~10
+? Un sujet de réflexion demande…
++ de donner son avis argumenté sur une question
+- de raconter une histoire inventée
+- de résumer le texte
+> On argumente avec des exemples.
+
+? Avant d'écrire, il faut…
++ reformuler la question et repérer les mots-clés du sujet
+- écrire la conclusion
+- choisir un titre
+> Cela évite le hors-sujet.
+
+? « Pensez-vous que la lecture rend plus libre ? » appelle souvent…
++ un plan dialectique (oui, mais…) ou un plan qui défend une thèse
+- un récit
+- une liste de livres sans explication
+> Lis bien si le sujet demande de discuter ou de défendre.
+
+? Un plan dialectique, c'est…
++ thèse, antithèse, puis éventuellement synthèse
+- trois fois le même argument
+- un seul paragraphe
+> On examine les deux points de vue avant de conclure.
+
+? Un bon paragraphe argumentatif contient…
++ un argument, une explication et un exemple
+- seulement un exemple
+- seulement une opinion
+> Méthode : j'affirme, j'explique, j'illustre.
+
+? Quel est le meilleur exemple pour « Les réseaux sociaux peuvent isoler » ?
++ Un adolescent passe des heures sur son téléphone et voit moins ses amis en vrai.
+- Les réseaux sociaux existent.
+- Mon chat aime dormir.
+> L'exemple doit être précis et en lien direct avec l'argument.
+
+? On peut prendre ses exemples…
++ dans ses lectures, l'actualité, l'histoire, les films ou son expérience
+- uniquement dans le dictionnaire
+- seulement dans sa famille
+> Les exemples culturels (livres étudiés) valorisent la copie.
+
+? L'introduction contient…
++ une amorce, la question du sujet et l'annonce du plan
+- tous les arguments détaillés
+- la réponse finale seulement
+> Elle reste courte : 4 à 6 lignes.
+
+? La conclusion…
++ fait le bilan, répond clairement à la question et peut ouvrir sur une autre réflexion
+- présente un nouvel argument
+- recopie l'introduction
+> L'ouverture élargit le sujet.
+
+? « Certes… mais… » sert à…
++ concéder un point puis le nuancer
+- donner une cause
+- conclure
+> C'est une concession.
+
+? « Car » exprime…
++ la cause
+- la conséquence
+- l'opposition
+> Comme : parce que, puisque.
+
+? « Cependant » exprime…
++ l'opposition
+- l'addition
+- la cause
+> Aussi : pourtant, néanmoins, toutefois.
+
+? « De plus » exprime…
++ l'addition d'un argument
+- l'opposition
+- la conséquence
+> Aussi : en outre, par ailleurs.
+
+? « Par exemple » sert à…
++ introduire une illustration
+- conclure
+- s'opposer
+> Aussi : ainsi, notamment, c'est le cas de…
+
+? « En conclusion » / « Finalement » sert à…
++ annoncer la fin du raisonnement
+- introduire un exemple
+- exprimer la cause
+> À placer au début de la conclusion.
+
+? « D'abord, ensuite, enfin » servent à…
++ ordonner les arguments
+- exprimer l'opposition
+- marquer la cause
+> Ce sont des connecteurs d'organisation.
+
+? Dans un sujet de réflexion, on évite…
++ les phrases familières comme « c'est trop nul »
+- les connecteurs logiques
+- les exemples
+> Le niveau de langue doit être courant ou soutenu.
+
+? Écrire « je pense que » dans un sujet de réflexion est…
++ possible si le sujet demande ton avis, sans en abuser
+- strictement interdit
+- obligatoire à chaque phrase
+> Varie : il semble que, on peut penser que…
+
+? Le hors-sujet, c'est…
++ parler d'autre chose que la question posée
+- faire trop de paragraphes
+- utiliser des connecteurs
+> Relis le sujet à la fin de chaque partie.
+
+? Combien d'arguments viser au minimum dans un sujet de réflexion ?
++ au moins deux ou trois, bien développés
+- un seul en une phrase
+- quinze sans exemple
+> Mieux vaut peu d'arguments bien développés.
+
+? On va à la ligne…
++ à chaque nouvel argument (nouveau paragraphe)
+- à chaque phrase
+- jamais
+> Le correcteur doit voir le plan.
+
+? Une transition entre deux parties sert à…
++ faire le lien entre ce qui vient d'être dit et ce qui suit
+- recommencer l'introduction
+- donner la note
+> Ex. : « Si la lecture divertit, elle permet aussi de… »
+
+? Une thèse, c'est…
++ l'opinion défendue
+- un exemple tiré d'un livre
+- un connecteur
+> L'antithèse est l'opinion opposée.
+
+? Une ouverture en conclusion…
++ élargit la réflexion vers une question proche
+- ajoute un argument oublié
+- répète le sujet
+> Ex. : « Et l'écran pourrait-il un jour remplacer le livre ? »
 ```
 
 ## Vidéos

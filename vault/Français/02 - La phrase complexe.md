@@ -145,6 +145,35 @@ tags: [grammaire, proposition, subordonnée, relative, complétive, circonstanci
 
 ## Quiz
 
+### ⚡ Échauffement express
+
+Cinq petites questions à réponse tapée pour vérifier que les bases sont là.
+
+```quiz Échauffement express
+? Combien de verbes conjugués y a-t-il dans « Je pense qu'il viendra » ?
+= 2
+> Une phrase complexe contient au moins deux verbes conjugués.
+
+? Comment appelle-t-on une phrase avec un seul verbe conjugué ?
+= simple
+= phrase simple
+= une phrase simple
+> Une phrase avec plusieurs verbes conjugués est complexe.
+
+? Dans « Il pleut, je reste à la maison », comment sont reliées les propositions ?
+= juxtaposées
+= juxtaposition
+> Par une virgule (ou point-virgule, deux-points).
+
+? Quel mot relie « Il pleut mais je sors » ?
+= mais
+> Conjonction de coordination.
+
+? Dans « Je sais que tu viendras », quel mot introduit la subordonnée ?
+= que
+> Conjonction de subordination (complétive).
+```
+
 ```quiz
 ? Combien de propositions dans « Il ouvrit la porte, regarda dehors et sourit » ?
 - 1
@@ -194,6 +223,157 @@ tags: [grammaire, proposition, subordonnée, relative, complétive, circonstanci
 + 3, par juxtaposition puis coordination
 - 3, par subordination
 > Trois verbes conjugués. « Elle chante, il danse » sont juxtaposées (virgule), « et nous applaudissons » est coordonnée.
+```
+
+### 🎲 Entraînement sans fin
+
+Une banque de 25 questions : 10 sont tirées au hasard à chaque essai, sans répétition tant que la banque n'est pas épuisée. Recommence autant que tu veux !
+
+```quiz Entraînement sans fin ~10
+? Des propositions coordonnées sont reliées par…
++ une conjonction de coordination
+- une virgule seulement
+- un pronom relatif
+> Mais, ou, et, donc, or, ni, car.
+
+? Dans « Le livre que je lis est passionnant », la subordonnée est…
++ relative
+- conjonctive complétive
+- circonstancielle
+> Introduite par le pronom relatif « que ».
+
+? Une proposition subordonnée relative complète…
++ un nom (son antécédent)
+- un verbe
+- un adverbe
+> Elle a la fonction de complément de l'antécédent.
+
+? Dans « Je crois qu'il a raison », la subordonnée est…
+- relative
++ conjonctive complétive (COD du verbe croire)
+- circonstancielle de cause
+> Elle complète le verbe.
+
+? Dans « Je partirai quand il fera beau », la subordonnée exprime…
++ le temps
+- la cause
+- le but
+> Circonstancielle de temps.
+
+? Dans « Il est resté parce qu'il pleuvait », la subordonnée exprime…
+- le but
++ la cause
+- la conséquence
+> Parce que, puisque, comme, étant donné que…
+
+? Dans « Il travaille pour que ses enfants réussissent », la subordonnée exprime…
++ le but
+- la cause
+- l'opposition
+> Pour que, afin que (+ subjonctif).
+
+? Dans « Bien qu'il soit fatigué, il continue », la subordonnée exprime…
++ la concession (opposition)
+- la cause
+- le temps
+> Bien que, quoique (+ subjonctif).
+
+? Dans « Il a tellement couru qu'il est épuisé », la subordonnée exprime…
++ la conséquence
+- la cause
+- le but
+> Si… que, tellement… que, si bien que.
+
+? Dans « Si tu viens, nous irons au parc », la subordonnée exprime…
++ la condition (hypothèse)
+- le but
+- la cause
+> « Si » + imparfait ou présent.
+
+? Dans « Je me demande s'il viendra », la subordonnée est…
++ interrogative indirecte
+- relative
+- circonstancielle de condition
+> Elle pose une question de façon indirecte.
+
+? Quelle phrase contient une proposition relative ?
++ La ville où j'habite est calme.
+- Je pense qu'il est calme.
+- Il est calme car il dort.
+> « Où » est ici un pronom relatif (antécédent : la ville).
+
+? « Dont » est…
++ un pronom relatif
+- une conjonction de coordination
+- un adverbe
+> « Le film dont je parle » (parler de).
+
+? Quelle est la proposition principale dans « Quand il est arrivé, nous dînions » ?
++ nous dînions
+- quand il est arrivé
+> La principale peut exister seule.
+
+? Combien de propositions dans « Il entre, s'assoit et commence à lire » ?
+- 1
+- 2
++ 3
+> Trois verbes conjugués : entre, s'assoit, commence.
+
+? Une proposition indépendante…
++ ne dépend d'aucune autre et n'en a aucune qui dépende d'elle
+- est toujours une subordonnée
+- n'a pas de verbe
+> Elle peut être juxtaposée ou coordonnée.
+
+? Après « bien que », on utilise…
++ le subjonctif
+- l'indicatif
+- l'infinitif
+> « Bien qu'il soit… ».
+
+? Après « après que », on utilise normalement…
++ l'indicatif
+- le subjonctif
+> « Après qu'il est parti » (fait réalisé).
+
+? Après « avant que », on utilise…
++ le subjonctif
+- l'indicatif
+> « Avant qu'il parte ».
+
+? Vrai ou faux : « que » est toujours une conjonction de subordination.
+- Vrai
++ Faux
+> Il peut être pronom relatif (« le livre que je lis ») ou interrogatif.
+
+? Vrai ou faux : une subordonnée ne peut pas exister seule.
++ Vrai
+- Faux
+> Elle dépend de la principale.
+
+? « Comme il pleuvait, il a pris son parapluie. » La subordonnée exprime…
++ la cause
+- la comparaison
+- le temps
+> Ici « comme » = parce que.
+
+? Transformer deux phrases simples en une phrase complexe par subordination, c'est…
++ « Il pleut. Je reste. » → « Je reste parce qu'il pleut. »
+- « Il pleut, je reste. »
+- « Il pleut et je reste. »
+> Les deux autres sont une juxtaposition et une coordination.
+
+? Les connecteurs logiques « cependant, pourtant, néanmoins » expriment…
++ l'opposition
+- la cause
+- la conséquence
+> Utiles pour argumenter.
+
+? « Donc, ainsi, c'est pourquoi » expriment…
++ la conséquence
+- l'opposition
+- le but
+> Ils introduisent une conclusion.
 ```
 
 ## Vidéos

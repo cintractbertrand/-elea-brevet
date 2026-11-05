@@ -151,6 +151,33 @@ tags: [orthographe, accords, participe passé, homophones, dictée]
 
 ## Quiz
 
+### ⚡ Échauffement express
+
+Cinq petites questions à réponse tapée pour vérifier que les bases sont là.
+
+```quiz Échauffement express
+? Complète : « Ils … partis » (sont / son)
+= sont
+> On peut remplacer par « étaient ».
+
+? Complète : « Il … faim » (a / à)
+= a
+> On peut remplacer par « avait ».
+
+? Complète : « Je vais … la plage » (a / à)
+= à
+= a
+> On ne peut pas dire « avait la plage » : c'est la préposition à.
+
+? Écris correctement : « Les fleurs qu'il a (cueillir) »
+= cueillies
+> COD « qu' » (les fleurs) avant l'auxiliaire avoir.
+
+? Complète : « … chat est noir » (ce / se)
+= ce
+> Déterminant devant un nom.
+```
+
 ```quiz
 ? « Les lettres qu'il a (écrire) » : quel accord ?
 - écrit
@@ -202,6 +229,144 @@ tags: [orthographe, accords, participe passé, homophones, dictée]
 + est
 - et
 > « Elle était allée » : on peut remplacer par « était », donc « est ».
+```
+
+### 🎲 Entraînement sans fin
+
+Une banque de 26 questions : 10 sont tirées au hasard à chaque essai, sans répétition tant que la banque n'est pas épuisée. Recommence autant que tu veux !
+
+```quiz Entraînement sans fin ~10
+? « Ils … beaucoup travaillé. » (on / ont)
++ ont
+- on
+> On peut remplacer par « avaient ».
+
+? « … dit que c'est facile. » (On / Ont)
++ On
+- Ont
+> On peut remplacer par « il ».
+
+? « Il s'est … » (laver / lavé)
++ lavé
+- laver
+> On remplace par « vendu » : « il s'est vendu », pas « vendre ».
+
+? « Je vais … » (manger / mangé)
++ manger
+- mangé
+> Après « aller », un infinitif : on peut dire « je vais prendre ».
+
+? « Elles sont … » (arrivé / arrivées)
+- arrivé
++ arrivées
+> Auxiliaire être : accord avec le sujet (féminin pluriel).
+
+? « Les livres que j'ai … » (lu / lus)
+- lu
++ lus
+> COD « que » (les livres) placé avant avoir.
+
+? « Ils ont … des gâteaux. » (mangé / mangés)
++ mangé
+- mangés
+> Le COD est après le verbe : pas d'accord.
+
+? « C'est … maison. » (sa / ça)
++ sa
+- ça
+> Déterminant possessif devant un nom.
+
+? « … me plaît. » (Sa / Ça)
+- Sa
++ Ça
+> On peut remplacer par « cela ».
+
+? « Je ne sais pas … il est. » (ou / où)
+- ou
++ où
+> Il s'agit du lieu.
+
+? « Tu veux du thé … du café ? » (ou / où)
++ ou
+- où
+> On peut remplacer par « ou bien ».
+
+? « Regarde … nuages ! » (ces / ses / c'est)
++ ces
+- ses
+- c'est
+> On montre les nuages : « ces » = ceux-là. « Ses » = les siens, « c'est » = cela est.
+
+? « … mon ami. » (C'est / S'est)
++ C'est
+- S'est
+> On peut remplacer par « cela est ».
+
+? « Il … trompé. » (c'est / s'est)
+- c'est
++ s'est
+> Verbe pronominal (se tromper).
+
+? « Quelle / Qu'elle » : « Je pense … viendra. »
+- quelle
++ qu'elle
+> On peut remplacer par « qu'il ».
+
+? « … belle journée ! » (Quelle / Qu'elle)
++ Quelle
+- Qu'elle
+> Déterminant exclamatif accordé avec « journée ».
+
+? « Je … donne un livre. » (leur / leurs)
++ leur
+- leurs
+> Devant un verbe, « leur » est pronom et invariable.
+
+? L'accord de « tout » dans « Elles sont … contentes » :
++ toutes
+- tout
+> Devant un adjectif féminin commençant par une consonne, « tout » s'accorde.
+
+? Le pluriel de « bijou » est…
++ bijoux
+- bijous
+> Bijou, caillou, chou, genou, hibou, joujou, pou prennent un x.
+
+? Le pluriel de « cheval » est…
++ chevaux
+- chevals
+> Mais : bals, carnavals, festivals…
+
+? Le pluriel de « œil » est…
++ yeux
+- œils
+> Pluriel irrégulier.
+
+? « Des robes … » (orange / oranges)
++ orange
+- oranges
+> Les adjectifs de couleur issus d'un nom (orange, marron) restent invariables.
+
+? « Des chemises … » (bleues / bleu)
++ bleues
+- bleu
+> Les adjectifs de couleur simples s'accordent.
+
+? « Des chemises bleu clair » : « bleu clair » est…
++ invariable (adjectif de couleur composé)
+- à accorder : bleues claires
+> Les couleurs composées restent invariables.
+
+? « Quatre-… » (vingt / vingts) : « quatre-vingts euros »
++ vingts
+- vingt
+> Vingt et cent s'accordent quand ils sont multipliés et non suivis d'un autre nombre.
+
+? Pour réussir la dictée du brevet, il faut…
++ se relire en vérifiant chaque accord (sujet-verbe, nom-adjectif, participes)
+- écrire très vite sans relire
+- ignorer la ponctuation
+> Garde 5 minutes pour la relecture.
 ```
 
 ## Vidéos

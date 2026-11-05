@@ -140,6 +140,38 @@ tags: [grammaire, classe grammaticale, fonction, COD, attribut, complément]
 
 ## Quiz
 
+### ⚡ Échauffement express
+
+Cinq petites questions à réponse tapée pour vérifier que les bases sont là.
+
+```quiz Échauffement express
+? Quelle est la nature (classe) du mot « rapidement » ?
+= adverbe
+= un adverbe
+> Les adverbes en -ment sont invariables.
+
+? Dans « Le chat dort », quelle est la fonction de « Le chat » ?
+= sujet
+= sujet du verbe
+> C'est lui qui fait l'action de dormir.
+
+? Quelle est la nature du mot « belle » dans « une belle maison » ?
+= adjectif
+= adjectif qualificatif
+= un adjectif
+> Il qualifie le nom « maison ».
+
+? Dans « Je mange une pomme », quelle est la fonction de « une pomme » ?
+= COD
+= complément d'objet direct
+> On peut poser la question « je mange quoi ? ».
+
+? Quelle est la nature du mot « et » ?
+= conjonction de coordination
+= conjonction
+> Mais, ou, et, donc, or, ni, car.
+```
+
 ```quiz
 ? Dans « Le chat dort sur le canapé », quelle est la fonction de « sur le canapé » ?
 - COD
@@ -189,6 +221,166 @@ tags: [grammaire, classe grammaticale, fonction, COD, attribut, complément]
 - heureux
 - ils
 > Un adverbe (« très ») et une préposition (« pour ») ne changent jamais de forme. Un adjectif et un pronom varient.
+```
+
+### 🎲 Entraînement sans fin
+
+Une banque de 26 questions : 10 sont tirées au hasard à chaque essai, sans répétition tant que la banque n'est pas épuisée. Recommence autant que tu veux !
+
+```quiz Entraînement sans fin ~10
+? Quelle est la nature du mot « parce que » ?
+- conjonction de coordination
++ conjonction de subordination
+- préposition
+> Elle introduit une proposition subordonnée.
+
+? Quelle est la nature du mot « avec » ?
++ préposition
+- adverbe
+- conjonction
+> à, de, pour, avec, sans, dans, par, sur…
+
+? Dans « Il parle à sa sœur », « à sa sœur » est…
+- COD
++ COI
+- complément circonstanciel
+> On pose la question « il parle à qui ? » (verbe + préposition).
+
+? Dans « Elle semble fatiguée », « fatiguée » est…
+- COD
++ attribut du sujet
+- épithète
+> Après un verbe d'état (être, sembler, paraître, devenir…).
+
+? Dans « une maison ancienne », « ancienne » est…
++ épithète du nom « maison »
+- attribut du sujet
+- COD
+> L'adjectif est directement accolé au nom.
+
+? Dans « Hier, nous sommes allés au cinéma », « Hier » est…
++ complément circonstanciel de temps
+- sujet
+- COD
+> Il est déplaçable et supprimable.
+
+? Un complément circonstanciel est en général…
++ déplaçable et supprimable
+- obligatoire
+- toujours placé avant le verbe
+> Les COD et COI ne se déplacent pas facilement.
+
+? Dans « le livre de mon frère », « de mon frère » est…
++ complément du nom
+- COI
+- complément circonstanciel
+> Il complète le nom « livre ».
+
+? Dans « Paris, capitale de la France, est très visitée », « capitale de la France » est…
++ apposition
+- COD
+- attribut
+> Elle est séparée par des virgules.
+
+? Quelle est la nature de « lui » dans « Je lui parle » ?
++ pronom personnel
+- déterminant
+- nom
+> Il remplace un nom (à lui, à elle).
+
+? Quelle est la nature de « leur » dans « Je leur donne un livre » ?
++ pronom personnel (invariable)
+- déterminant possessif
+- adjectif
+> Devant un verbe, « leur » est pronom et ne prend jamais de s.
+
+? Quelle est la nature de « leurs » dans « leurs livres » ?
+- pronom
++ déterminant possessif
+- adverbe
+> Devant un nom, il s'accorde.
+
+? Quelle est la nature de « qui » dans « Le garçon qui chante » ?
++ pronom relatif
+- pronom interrogatif
+- conjonction
+> Il reprend « le garçon » (son antécédent).
+
+? Dans « Le vent a brisé la branche », le sujet est…
++ le vent
+- la branche
+- a brisé
+> Qui est-ce qui a brisé ? Le vent.
+
+? Dans « La branche a été brisée par le vent », « par le vent » est…
++ complément d'agent
+- sujet
+- COD
+> Phrase à la voix passive.
+
+? Combien y a-t-il de déterminants dans « Mes deux chats dorment sur ce canapé » ?
+- 1
+- 2
++ 3
+> Mes (possessif), deux (numéral), ce (démonstratif).
+
+? Quelle est la nature du mot « très » ?
++ adverbe
+- adjectif
+- préposition
+> Il modifie un adjectif ou un adverbe.
+
+? Quelle est la nature du mot « courir » ?
++ verbe (à l'infinitif)
+- nom
+- adjectif
+> Un verbe à l'infinitif peut aussi être sujet : « Courir est bon ».
+
+? Le « COS » (complément d'objet second) apparaît dans…
++ « Je donne un livre à Paul » (à Paul)
+- « Je mange »
+- « Il est grand »
+> Il suit un COD avec un verbe à deux compléments.
+
+? Dans « Ils arrivent en courant », « en courant » est…
++ un gérondif, complément circonstanciel de manière
+- un COD
+- un sujet
+> En + participe présent.
+
+? Vrai ou faux : la nature d'un mot change selon la phrase.
+- Vrai
++ Faux
+> La nature est fixe (dans le dictionnaire) ; c'est la fonction qui change.
+
+? Vrai ou faux : un nom peut être sujet, COD ou complément du nom.
++ Vrai
+- Faux
+> La fonction dépend de son rôle dans la phrase.
+
+? Dans « Je pense à mes vacances », « à mes vacances » est…
+- COD
++ COI
+- complément circonstanciel de lieu
+> Penser à quelque chose : verbe + préposition à.
+
+? Dans « Il habite à Lyon », « à Lyon » est…
+- COI
++ complément circonstanciel de lieu (essentiel)
+- complément du nom
+> Il répond à « où ? ».
+
+? Quelle est la nature de « tout » dans « Il est tout content » ?
++ adverbe
+- déterminant
+- pronom
+> Il signifie « très » et modifie l'adjectif.
+
+? Dans « Quel beau temps ! », « Quel » est…
++ un déterminant exclamatif
+- un pronom
+- un adverbe
+> Il s'accorde avec « temps ».
 ```
 
 ## Vidéos

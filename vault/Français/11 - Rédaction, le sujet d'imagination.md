@@ -142,6 +142,37 @@ tags: [rédaction, imagination, récit, écriture, méthode]
 
 ## Quiz
 
+### ⚡ Échauffement express
+
+Cinq petites questions à réponse tapée pour vérifier que les bases sont là.
+
+```quiz Échauffement express
+? Dans un sujet d'imagination, quel mot désigne celui qui raconte l'histoire ?
+= narrateur
+= le narrateur
+> Il peut être « je » (interne) ou extérieur à l'histoire.
+
+? Quel temps du passé utilise-t-on pour les actions de premier plan ?
+= passé simple
+= le passé simple
+> L'imparfait sert pour les descriptions et les actions d'arrière-plan.
+
+? Quel temps du passé utilise-t-on pour les descriptions ?
+= imparfait
+= l'imparfait
+> Ex. : « Le ciel était gris, il pleuvait. »
+
+? Comment s'appelle le passage où les personnages parlent, avec des tirets ou des guillemets ?
+= dialogue
+= un dialogue
+> On utilise des verbes de parole variés : murmurer, s'écrier, répliquer…
+
+? Combien de minutes environ garde-t-on à la fin pour se relire ?
+= 10
+= dix
+> Relire accords, conjugaisons, ponctuation.
+```
+
 ```quiz
 ? Avant d'écrire, il faut d'abord…
 + repérer toutes les contraintes du sujet
@@ -191,6 +222,162 @@ tags: [rédaction, imagination, récit, écriture, méthode]
 - À raconter les actions soudaines
 - À parler du futur
 > Le passé simple est réservé aux actions principales.
+```
+
+### 🎲 Entraînement sans fin
+
+Une banque de 25 questions : 10 sont tirées au hasard à chaque essai, sans répétition tant que la banque n'est pas épuisée. Recommence autant que tu veux !
+
+```quiz Entraînement sans fin ~10
+? La première chose à faire face à un sujet d'imagination est…
++ lire attentivement le sujet et souligner les consignes
+- commencer à écrire tout de suite
+- recopier le texte de l'épreuve
+> Repère : qui raconte, quel temps, quelle situation, quelle longueur.
+
+? Si le sujet demande « Racontez à la première personne », on écrit…
++ avec « je »
+- avec « il » ou « elle »
+- uniquement des dialogues
+> Respecter le point de vue demandé rapporte des points.
+
+? Le sujet d'imagination doit souvent être…
++ cohérent avec le texte étudié (personnages, époque, lieux)
+- sans aucun lien avec le texte
+- écrit au futur obligatoirement
+> On ne change pas l'époque ni le caractère des personnages.
+
+? Au brouillon, il est conseillé de…
++ faire un plan rapide : situation initiale, péripéties, dénouement
+- rédiger tout le texte deux fois
+- ne rien écrire
+> Un plan en mots-clés suffit.
+
+? La situation initiale présente…
++ les personnages, le lieu et le moment
+- la fin de l'histoire
+- la morale
+> Elle répond à : qui ? où ? quand ?
+
+? L'élément perturbateur est…
++ l'événement qui lance l'action
+- la dernière phrase
+- une description du lieu
+> Souvent introduit par « Soudain », « Un jour »…
+
+? Le dénouement, c'est…
++ la résolution de l'histoire
+- le début du récit
+- le titre
+> Puis vient la situation finale.
+
+? « Il marchait dans la forêt quand soudain un cri retentit. » Le passé simple « retentit » marque…
++ une action soudaine, de premier plan
+- une habitude
+- une description
+> L'imparfait « marchait » pose le décor.
+
+? Pour enrichir l'écriture, on peut…
++ ajouter des sensations (vue, ouïe, odorat…) et des sentiments
+- répéter les mêmes mots
+- écrire des phrases sans verbe partout
+> Les cinq sens rendent la scène vivante.
+
+? Lequel est un verbe de parole plus précis que « dire » ?
++ murmurer
+- faire
+- être
+> Aussi : s'écrier, répliquer, chuchoter, hurler…
+
+? Dans un dialogue, chaque changement d'interlocuteur est marqué par…
++ un tiret en début de ligne
+- un point-virgule
+- des parenthèses
+> Le dialogue s'ouvre et se ferme par des guillemets.
+
+? « Le vent hurlait » est une…
++ personnification
+- comparaison
+- litote
+> On prête au vent une action humaine.
+
+? « Ses yeux brillaient comme des étoiles » est une…
++ comparaison
+- métaphore
+- hyperbole
+> Présence de l'outil « comme ».
+
+? Pour exprimer les pensées du personnage, on peut utiliser…
++ un monologue intérieur ou des phrases au discours indirect libre
+- seulement des chiffres
+- un tableau
+> Ex. : « Allait-il oser ? Il n'en savait rien. »
+
+? Les connecteurs de temps (d'abord, ensuite, soudain, enfin) servent à…
++ organiser la chronologie du récit
+- exprimer une opposition
+- conclure un argument
+> Ils rendent le récit facile à suivre.
+
+? Faire des paragraphes, c'est…
++ aller à la ligne avec un retrait à chaque nouvelle étape du récit
+- écrire tout d'un bloc
+- sauter une page
+> Le correcteur voit tout de suite la structure.
+
+? Au brevet, la rédaction d'imagination fait environ…
++ au moins une à deux pages, selon la consigne
+- trois lignes
+- dix pages
+> Vérifie la longueur indiquée dans le sujet.
+
+? Pendant la relecture, on vérifie en priorité…
++ les accords, les conjugaisons et la ponctuation
+- la couleur de l'encre
+- le nombre de mots exacts
+> Fais une relecture par type d'erreur.
+
+? Mélanger « je » et « il » pour le même narrateur sans raison est…
++ une incohérence à éviter
+- une figure de style
+- obligatoire
+> Garde le même point de vue du début à la fin.
+
+? Passer sans raison du passé simple au présent est…
++ une incohérence de temps à éviter
+- recommandé
+- une règle du dialogue
+> Choisis un système de temps et garde-le.
+
+? « Il faisait froid. Il a pris son manteau. Il sortit. » Le problème est…
++ le mélange passé composé / passé simple
+- l'imparfait dans la première phrase
+- il n'y a pas de problème
+> Dans un récit au passé simple : « Il prit son manteau. Il sortit. »
+
+? Une bonne fin de récit…
++ répond au sujet et peut surprendre ou faire réfléchir
+- s'arrête au milieu d'une phrase
+- répète le début mot pour mot
+> Évite « et ce n'était qu'un rêve » si ce n'est pas justifié.
+
+? Un récit uniquement fait de dialogues est…
++ déconseillé : il faut aussi du récit et de la description
+- toujours le meilleur choix
+- interdit par la loi
+> Alterne narration, description et paroles.
+
+? Pour décrire un lieu, on organise souvent la description…
++ du plus proche au plus lointain, ou de haut en bas
+- au hasard
+- par ordre alphabétique
+> Utilise des indicateurs de lieu : au loin, à gauche, au-dessus…
+
+? Le correcteur note la rédaction sur…
++ le respect du sujet, la cohérence, la richesse de l'expression et la langue
+- seulement l'orthographe
+- seulement la longueur
+> Tous ces critères comptent.
 ```
 
 ## Voir aussi

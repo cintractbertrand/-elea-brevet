@@ -126,6 +126,38 @@ tags: [figures de style, métaphore, comparaison, personnification, analyse]
 
 ## Quiz
 
+### ⚡ Échauffement express
+
+Cinq petites questions à réponse tapée pour vérifier que les bases sont là.
+
+```quiz Échauffement express
+? « Il est fort comme un lion » : quelle figure de style ?
+= comparaison
+= une comparaison
+> Il y a un outil de comparaison : « comme ».
+
+? « Cet homme est un lion » : quelle figure de style ?
+= métaphore
+= une métaphore
+= metaphore
+> Comparaison sans outil.
+
+? « Le vent hurle » : quelle figure de style ?
+= personnification
+= une personnification
+> On prête un comportement humain au vent.
+
+? « Je meurs de faim » : quelle figure de style ?
+= hyperbole
+= une hyperbole
+> Exagération.
+
+? « Ce n'est pas mauvais » pour dire « c'est très bon » : quelle figure de style ?
+= litote
+= une litote
+> Dire moins pour suggérer plus.
+```
+
 ```quiz
 ? « Il est fort comme un lion » est…
 + une comparaison
@@ -175,6 +207,160 @@ tags: [figures de style, métaphore, comparaison, personnification, analyse]
 - litote
 - antithèse
 > On exagère pour insister sur l'intensité du sentiment.
+```
+
+### 🎲 Entraînement sans fin
+
+Une banque de 25 questions : 10 sont tirées au hasard à chaque essai, sans répétition tant que la banque n'est pas épuisée. Recommence autant que tu veux !
+
+```quiz Entraînement sans fin ~10
+? Les outils de comparaison sont…
++ comme, tel, pareil à, semblable à, ressembler à
+- mais, ou, et, donc
+- très, trop, assez
+> Ils distinguent la comparaison de la métaphore.
+
+? « Va, je ne te hais point » (Corneille) est…
++ une litote
+- une hyperbole
+- une métaphore
+> Chimène veut dire « je t'aime ».
+
+? « Partir, c'est mourir un peu » contient…
++ une métaphore
+- une comparaison
+- une anaphore
+> Pas d'outil de comparaison.
+
+? Une anaphore est…
++ la répétition d'un mot en début de vers ou de phrase
+- une comparaison
+- une exagération
+> Ex. « Paris ! Paris outragé ! Paris brisé ! Paris martyrisé ! »
+
+? Une antithèse est…
++ le rapprochement de deux idées opposées
+- une répétition
+- une question sans réponse
+> Ex. « Je vis, je meurs ».
+
+? Un oxymore est…
++ l'association de deux mots de sens contraire dans un même groupe
+- une exagération
+- une énumération
+> Ex. « cette obscure clarté » (Corneille).
+
+? Une gradation est…
++ une suite de termes d'intensité croissante ou décroissante
+- un mot répété
+- une comparaison
+> Ex. « Va, cours, vole, et nous venge » (Corneille).
+
+? Une énumération est…
++ une liste de mots ou d'idées
+- une comparaison
+- une question
+> Elle donne une impression d'abondance.
+
+? Une question rhétorique est…
++ une question qui n'attend pas de réponse
+- une question à choix multiple
+- une question d'examen
+> Elle sert à convaincre.
+
+? Un euphémisme sert à…
++ atténuer une réalité dure
+- exagérer
+- répéter
+> « Il nous a quittés » pour « il est mort ».
+
+? Une périphrase est…
++ une expression qui remplace un mot (« la capitale de la France » pour Paris)
+- une répétition
+- une rime
+> « Le roi des animaux » = le lion.
+
+? Une allitération est…
++ la répétition d'un son consonne
+- la répétition d'un son voyelle
+- une rime
+> « Pour qui sont ces serpents qui sifflent sur vos têtes ? » (son s).
+
+? Une assonance est…
++ la répétition d'un son voyelle
+- la répétition d'un son consonne
+- une comparaison
+> Ex. le son « an » répété.
+
+? L'ironie consiste à…
++ dire le contraire de ce qu'on pense pour se moquer
+- exagérer
+- comparer
+> « Bravo, quelle réussite ! » après un échec.
+
+? « Une forêt de mâts » (pour beaucoup de bateaux) est…
++ une métaphore
+- une litote
+- un euphémisme
+> Image sans outil de comparaison.
+
+? « Mille fois merci » est…
++ une hyperbole
+- une litote
+- un oxymore
+> Exagération du nombre.
+
+? « Un silence assourdissant » est…
++ un oxymore
+- une gradation
+- une anaphore
+> Silence et assourdissant s'opposent.
+
+? Le chiasme est…
++ une construction en miroir (ABBA)
+- une comparaison
+- une rime
+> « Il faut manger pour vivre et non vivre pour manger. »
+
+? À quoi sert une hyperbole ?
++ à frapper l'esprit en exagérant
+- à atténuer
+- à se moquer doucement
+> Elle renforce l'émotion.
+
+? La personnification de la nature dans un poème sert souvent à…
++ la rendre vivante et proche des émotions humaines
+- la rendre ennuyeuse
+- expliquer des sciences
+> Ex. « La mer pleure ».
+
+? Vrai ou faux : « Ses yeux sont des étoiles » est une comparaison.
+- Vrai
++ Faux
+> Pas d'outil : c'est une métaphore.
+
+? Vrai ou faux : au brevet, il faut nommer la figure ET expliquer son effet.
++ Vrai
+- Faux
+> Nommer seul ne suffit pas.
+
+? « Je l'ai dit cent fois ! » est…
++ une hyperbole
+- une litote
+- une antithèse
+> Exagération.
+
+? « Rome, l'unique objet de mon ressentiment ! Rome… » commence par…
++ une anaphore
+- une litote
+- une comparaison
+> Répétition de « Rome » en tête.
+
+? La métaphore filée est…
++ une métaphore développée sur plusieurs phrases ou vers
+- une métaphore très courte
+- une comparaison
+> Ex. la vie comparée à un voyage tout au long d'un texte.
 ```
 
 ## Voir aussi

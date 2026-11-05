@@ -142,6 +142,40 @@ Le discours indirect libre rend les pensées et les paroles du personnage vivant
 
 ## Quiz
 
+### ⚡ Échauffement express
+
+Cinq petites questions à réponse tapée pour vérifier que les bases sont là.
+
+```quiz Échauffement express
+? Quand le narrateur participe à l'histoire et dit « je », on parle de narrateur…
+= interne
+= personnage
+= narrateur personnage
+> Point de vue interne, souvent à la 1re personne.
+
+? Quand le narrateur sait tout des personnages (pensées, passé, avenir), le point de vue est…
+= omniscient
+> Il sait tout.
+
+? Comment s'appelle un retour en arrière dans un récit ? (en anglais ou en français)
+= analepse
+= flashback
+= flash-back
+= retour en arrière
+> Le récit revient sur des faits antérieurs.
+
+? Quelle est la première étape du schéma narratif ?
+= situation initiale
+= la situation initiale
+> Puis élément perturbateur, péripéties, dénouement, situation finale.
+
+? Comment appelle-t-on l'étape qui déclenche l'action ?
+= élément perturbateur
+= l'élément perturbateur
+= element perturbateur
+> Il rompt l'équilibre de la situation initiale.
+```
+
 ```quiz
 ? Dans un roman écrit à la première personne, le narrateur est…
 - toujours l'auteur
@@ -191,6 +225,160 @@ Le discours indirect libre rend les pensées et les paroles du personnage vivant
 - l'élément perturbateur
 - la situation finale
 > On présente d'abord le cadre et les personnages, puis arrive l'élément perturbateur.
+```
+
+### 🎲 Entraînement sans fin
+
+Une banque de 25 questions : 10 sont tirées au hasard à chaque essai, sans répétition tant que la banque n'est pas épuisée. Recommence autant que tu veux !
+
+```quiz Entraînement sans fin ~10
+? Le narrateur est…
++ celui qui raconte l'histoire
+- toujours l'auteur
+- le personnage principal forcément
+> Il ne faut pas confondre auteur et narrateur.
+
+? L'auteur est…
++ la personne réelle qui a écrit le livre
+- le personnage qui raconte
+- le héros
+> Ex. Victor Hugo est l'auteur des « Misérables ».
+
+? Le point de vue externe…
++ montre les faits de l'extérieur, sans les pensées des personnages
+- donne toutes les pensées
+- est toujours à la 1re personne
+> Comme une caméra.
+
+? Le point de vue interne…
++ montre l'histoire à travers les yeux et les pensées d'un personnage
+- sait tout de tous
+- n'existe pas
+> Le lecteur ne sait que ce que le personnage perçoit.
+
+? Une ellipse narrative est…
++ un saut dans le temps (des événements passés sous silence)
+- un retour en arrière
+- une description
+> Ex. « Dix ans plus tard… ».
+
+? Une anticipation (prolepse) est…
++ l'annonce d'événements futurs
+- un retour en arrière
+- une pause
+> Ex. « Il ne savait pas encore qu'il ne la reverrait jamais. »
+
+? Une pause dans le récit correspond souvent à…
++ une description
+- une ellipse
+- un dialogue rapide
+> L'action s'arrête.
+
+? Le dénouement est…
++ l'événement qui met fin aux péripéties
+- le début de l'histoire
+- l'élément perturbateur
+> Il mène à la situation finale.
+
+? Le discours direct se reconnaît à…
++ des guillemets ou tirets et un verbe de parole
+- l'absence de ponctuation
+- l'emploi du conditionnel
+> « Viens ici ! » cria-t-elle.
+
+? Le discours indirect…
++ rapporte les paroles dans une subordonnée, sans guillemets
+- utilise des guillemets
+- n'a pas de verbe de parole
+> Elle lui dit de venir.
+
+? Le discours indirect libre…
++ mêle les paroles du personnage au récit, sans verbe introducteur ni guillemets
+- utilise toujours des guillemets
+- est une question
+> Fréquent chez Flaubert.
+
+? Le registre (ou tonalité) pathétique cherche à…
++ émouvoir, faire pitié
+- faire rire
+- faire peur uniquement
+> Ex. la mort de Gavroche.
+
+? Le registre comique cherche à…
++ faire rire
+- faire pleurer
+- informer
+> Comique de mots, de gestes, de situation, de caractère.
+
+? Le registre fantastique…
++ fait hésiter le lecteur entre une explication rationnelle et surnaturelle
+- est toujours comique
+- raconte des faits historiques
+> Ex. « Le Horla » de Maupassant.
+
+? Le registre tragique montre…
++ un personnage écrasé par un destin auquel il ne peut échapper
+- une fête
+- une recette
+> Ex. Antigone.
+
+? Le registre lyrique exprime…
++ les sentiments personnels, souvent à la 1re personne
+- une argumentation scientifique
+- une description technique
+> Fréquent en poésie.
+
+? Pour analyser un portrait, on étudie…
++ le physique, le caractère et le regard du narrateur sur le personnage
+- uniquement les vêtements
+- la date de publication
+> Les adjectifs mélioratifs ou péjoratifs révèlent ce regard.
+
+? Pour justifier une réponse au brevet, il faut…
++ citer le texte entre guillemets et expliquer la citation
+- donner son avis sans preuve
+- recopier toute la page
+> Affirmation + citation + explication.
+
+? Un récit à la 1re personne est forcément…
+- une autobiographie
++ raconté par un narrateur personnage (pas forcément l'auteur)
+- un roman de science-fiction
+> Ex. « L'Étranger » de Camus.
+
+? Le temps principal du récit au passé est en général…
++ le passé simple (actions) et l'imparfait (descriptions)
+- le futur
+- le conditionnel
+> Le présent de narration est aussi possible.
+
+? Vrai ou faux : le narrateur et l'auteur sont toujours la même personne.
+- Vrai
++ Faux
+> Sauf dans l'autobiographie.
+
+? Vrai ou faux : une description peut donner des indices sur la suite du récit.
++ Vrai
+- Faux
+> Ex. un ciel sombre annonce un drame.
+
+? L'incipit est…
++ le début d'un roman
+- la fin
+- un résumé au dos
+> Il présente souvent les personnages et le cadre.
+
+? Le schéma actantiel décrit…
++ les rôles des personnages (sujet, objet, adjuvants, opposants…)
+- l'ordre des chapitres
+- la ponctuation
+> L'adjuvant aide le héros, l'opposant le gêne.
+
+? « Le ciel était gris, la pluie tombait, les rues étaient vides. » Ce passage est…
++ une description
+- un dialogue
+- une ellipse
+> L'imparfait marque la description.
 ```
 
 ## Vidéos
