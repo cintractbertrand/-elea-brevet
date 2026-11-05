@@ -1,0 +1,40 @@
+name: Android APK
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths-ignore: ['README.md']
+permissions:
+  contents: write
+jobs:
+  apk:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20 }
+      - uses: actions/setup-java@v4
+        with: { distribution: temurin, java-version: 21 }
+      - name: Préparer le site embarqué
+        run: ./apk-tools/build-www.sh
+      - name: Projet Capacitor
+        run: |
+          npm init -y >/dev/null
+          npm i @capacitor/core@7 @capacitor/cli@7 @capacitor/android@7
+          cat > capacitor.config.json <<'JSON'
+          {"appId":"fr.elea.brevet","appName":"Brevet Elea","webDir":"www","android":{"allowMixedContent":true}}
+          JSON
+          npx cap add android
+          npx cap sync android
+      - name: Compiler l'APK
+        run: cd android && ./gradlew assembleDebug --no-daemon
+      - uses: actions/upload-artifact@v4
+        with:
+          name: brevet-elea-apk
+          path: android/app/build/outputs/apk/debug/app-debug.apk
+      - name: Publier la release
+        env: { GH_TOKEN: "${{ github.token }}" }
+        run: |
+          cp android/app/build/outputs/apk/debug/app-debug.apk brevet-elea.apk
+          gh release delete apk-latest --yes --cleanup-tag || true
+          gh release create apk-latest brevet-elea.apk --title "Appli Android (APK)" --notes "APK mis à jour automatiquement."
