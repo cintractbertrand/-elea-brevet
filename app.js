@@ -521,13 +521,13 @@ function progressOf(subject) {
 function renderSidebar() {
   const side = $('#sidebar');
   if (state.espace === 'jeux' && window.sidebarMonde) { side.innerHTML = sidebarMonde(); return; }
-  let html = '<a class="side-home" href="#/">🏠 Accueil</a>';
+  let html = '<a class="side-home" href="#/">🏠 Accueil</a><a class="side-home" href="#/annee">🗓️ Mon année de 3e</a>';
   for (const s of state.subjects) {
     const info = SUBJECTS[s] || { emoji: '📁' };
     const chs = chaptersOf(s);
     const isOpen = s === state.cur, pr = progressOf(s);
     html += `<details class="side-subject" data-s="${esc(s)}" style="--sc:${info.color || 'var(--accent)'}"${isOpen ? ' open' : ''}><summary>${info.emoji} ${esc(s)}<span class="side-prog">${pr.done}/${pr.total}</span></summary>`;
-    html += `<a class="side-link" href="#/m/${encodeURIComponent(s)}">📋 Vue d'ensemble</a>`;
+    html += `<a class="side-link" href="#/m/${encodeURIComponent(s)}">📋 Vue d'ensemble</a><a class="side-link" href="#/express/${encodeURIComponent(s)}">⚡ Révision express</a>`;
     if (!chs.length) html += '<div class="side-empty">Fiches à venir</div>';
     let theme = null;
     for (const f of chs) {
@@ -562,6 +562,8 @@ function matieresNav() {
     const info = SUBJECTS[s] || { emoji: '📁' }, p = progressOf(s), pct = p.total ? Math.round((100 * p.done) / p.total) : 0;
     return `<a class="mat-chip${s === state.cur ? ' on' : ''}" href="#/m/${encodeURIComponent(s)}" style="--sc:${info.color || 'var(--accent)'}"><span class="mat-emoji">${info.emoji}</span><span class="mat-nom">${esc(SHORT[s] || s)}</span><span class="mat-pct">${pct}%</span></a>`;
   }).join('');
+  // sur téléphone, la barre défile : on amène la matière en cours à l'écran
+  setTimeout(() => { const on = document.querySelector('.matieres-nav .mat-chip.on'); if (on) on.parentElement.scrollLeft = on.offsetLeft - 16; }, 0);
   return `<nav class="matieres-nav" aria-label="Matières">${chips}</nav>`;
 }
 
@@ -571,14 +573,132 @@ function prochaineFiche(subject) {
   return ch.find((f) => !fait(f.path)) || null;
 }
 
+
+/* Avancement global (toutes matières) */
+function progressAll() {
+  let done = 0, total = 0;
+  for (const s of state.subjects) { const p = progressOf(s); done += p.done; total += p.total; }
+  return { done, total, pct: total ? Math.round((100 * done) / total) : 0 };
+}
+const isAnnale = (f) => f.tags.some((t) => norm(t) === 'annales');
+function statutFiche(f) {
+  if (store.get('ok:' + f.path, false)) return { cls: 'ok', ico: '✓', txt: 'Maîtrisé' };
+  const q = store.get('quiz:' + f.path, null);
+  if (q) return { cls: q.best / q.total >= 0.8 ? 'ok' : 'mid', ico: '◐', txt: `Quiz ${q.best}/${q.total}` };
+  if (fait(f.path)) return { cls: 'mid', ico: '◐', txt: 'Commencé' };
+  return { cls: '', ico: '○', txt: 'À faire' };
+}
+
+/* Extrait un encadré Obsidian (> [!type] Titre ...) d'une fiche, avec son contenu */
+function calloutBlock(body, re) {
+  const lines = body.split('\n');
+  const i = lines.findIndex((l) => re.test(l));
+  if (i < 0) return '';
+  let j = i + 1;
+  while (j < lines.length && /^>/.test(lines[j])) j++;
+  return lines.slice(i, j).join('\n');
+}
+
+/* Révision express : les « L'essentiel » de toutes les fiches d'une matière, en lecture rapide ou en cartes à retourner */
+function pageExpress(subject) {
+  _current = '';
+  const info = SUBJECTS[subject] || { emoji: '📁' };
+  const chs = chaptersOf(subject).filter((f) => f.type === 'fiche' && !isAnnale(f));
+  const cartes = chs.map((f) => ({
+    f,
+    ess: calloutBlock(f.body, /^> \[!abstract\]/),
+    retenir: calloutBlock(f.body, /^> \[!tip\] Pour retenir/i),
+    pieges: calloutBlock(f.body, /^> \[!warning\] Les pièges/i),
+  })).filter((c) => c.ess);
+  const su = store.get('express:' + subject, {});
+  const nbSu = cartes.filter((c) => su[c.f.path]).length;
+  let html = matieresNav() + `<div class="breadcrumb"><a href="#/">Accueil</a> › <a href="#/m/${encodeURIComponent(subject)}">${esc(subject)}</a> › Révision express</div>`;
+  html += `<div class="hero"><h1>⚡ Révision express : ${info.emoji} ${esc(SHORT[subject] || subject)}</h1><p class="muted">L'essentiel de chaque chapitre sur une seule page. En mode « cartes », essaie de te rappeler le chapitre avant de retourner la carte, puis dis si tu le savais.</p>`;
+  html += `<p class="express-score"><strong id="nb-su">${nbSu}</strong> / ${cartes.length} chapitres que je sais déjà</p></div>`;
+  html += `<div class="express-outils" role="group" aria-label="Mode"><button type="button" class="btn ghost small on" data-mode="lire">📖 Tout lire</button><button type="button" class="btn ghost small" data-mode="cartes">🃏 Cartes à retourner</button><button type="button" class="btn ghost small" data-mode="revoir">🔁 Seulement à revoir</button><button type="button" class="btn ghost small" id="express-print">🖨️ Imprimer</button></div>`;
+  html += '<div class="express mode-lire">';
+  for (const { f, ess, retenir, pieges } of cartes) {
+    const ok = !!su[f.path];
+    html += `<section class="carte${ok ? ' sue' : ''}" data-path="${esc(f.path)}" style="--sc:${info.color || 'var(--accent)'}">`;
+    html += `<button type="button" class="carte-face"><span class="carte-num">${f.num ?? ''}</span><span class="carte-titre">${esc(f.title)}</span><span class="carte-aide">${f.meta.resume ? esc(f.meta.resume) + ' · ' : ''}Touche pour retourner</span></button>`;
+    html += '<div class="carte-dos">' + markdown(ess.replace(/^> \[!abstract\][^\n]*/, `> [!abstract] ${f.num != null ? f.num + '. ' : ''}${f.title}`));
+    if (retenir) html += markdown(retenir);
+    if (pieges) html += markdown(pieges.replace(/^> \[!warning\]/, '> [!warning]-'));
+    html += `<div class="carte-actions"><button type="button" class="btn small" data-su="1">✅ Je savais</button><button type="button" class="btn ghost small" data-su="0">🔁 À revoir</button><a class="btn ghost small" href="${ficheUrl(f.path)}">Ouvrir la fiche →</a></div></div></section>`;
+  }
+  html += '</div>';
+  if (!cartes.length) html += '<p class="muted">Pas encore de résumé pour cette matière.</p>';
+  app.innerHTML = html;
+  app.className = 'content';
+  document.title = 'Révision express · ' + subject;
+  const box = app.querySelector('.express');
+  app.querySelectorAll('[data-mode]').forEach((b) => b.addEventListener('click', () => {
+    app.querySelectorAll('[data-mode]').forEach((x) => x.classList.toggle('on', x === b));
+    box.className = 'express mode-' + b.dataset.mode;
+    box.querySelectorAll('.carte.retournee').forEach((c) => c.classList.remove('retournee'));
+  }));
+  $('#express-print').addEventListener('click', () => { box.className = 'express mode-lire'; window.print(); });
+  box.addEventListener('click', (e) => {
+    const carte = e.target.closest('.carte'); if (!carte) return;
+    if (e.target.closest('.carte-face')) { carte.classList.toggle('retournee'); return; }
+    const b = e.target.closest('[data-su]'); if (!b) return;
+    const v = store.get('express:' + subject, {});
+    if (b.dataset.su === '1') { v[carte.dataset.path] = 1; carte.classList.add('sue'); if (window.chatReagit) window.chatReagit('bravo'); }
+    else { delete v[carte.dataset.path]; carte.classList.remove('sue'); }
+    store.set('express:' + subject, v);
+    $('#nb-su').textContent = Object.keys(v).filter((k) => cartes.some((c) => c.f.path === k)).length;
+    if (!box.classList.contains('mode-lire')) { carte.classList.remove('retournee'); const n = carte.nextElementSibling; if (n) n.scrollIntoView({ behavior: 'smooth', block: 'start' }); }
+  });
+  renderMath(app);
+  highlightSidebar();
+}
+
+/* Mon année de 3e : tout le programme sur une seule page, matière par matière */
+function pageAnnee() {
+  _current = '';
+  const g = progressAll();
+  let html = `<div class="breadcrumb"><a href="#/">Accueil</a> › Mon année de 3e</div>`;
+  html += `<div class="hero"><h1>🗓️ Mon année de 3e</h1><p class="muted">Tout le programme, matière par matière. Un rond vide = à faire, un demi-rond = commencé, une coche = maîtrisé.</p>`;
+  html += `<div class="annee-global"><div class="progress big"><span style="width:${g.pct}%"></span></div><strong>${g.done} / ${g.total} fiches faites (${g.pct} %)</strong></div></div>`;
+  html += '<div class="annee-filtres" role="group" aria-label="Filtrer"><button type="button" class="btn ghost small on" data-filtre="tout">Tout</button><button type="button" class="btn ghost small" data-filtre="afaire">À faire seulement</button></div>';
+  html += '<div class="annee">';
+  for (const s of state.subjects) {
+    const info = SUBJECTS[s] || { emoji: '📁' }, p = progressOf(s), nxt = prochaineFiche(s);
+    html += `<section class="annee-mat" style="--sc:${info.color || 'var(--accent)'}"><h2><a href="#/m/${encodeURIComponent(s)}">${info.emoji} ${esc(s)}</a><small>${p.done}/${p.total}</small></h2>`;
+    html += `<div class="progress"><span style="width:${p.total ? Math.round((100 * p.done) / p.total) : 0}%"></span></div>`;
+    if (nxt) html += `<a class="annee-next" href="${ficheUrl(nxt.path)}">▶ Prochaine : ${esc(nxt.title)}</a>`;
+    html += ` <a class="annee-next" href="#/express/${encodeURIComponent(s)}">⚡ Express</a>`;
+    let theme = null;
+    for (const f of chaptersOf(s)) {
+      if (f.theme !== theme) { if (theme !== null) html += '</ul>'; theme = f.theme; html += `<h3>${esc(theme || 'Fiches')}</h3><ul>`; }
+      const st = f.type === 'fiche' ? statutFiche(f) : { cls: 'outil', ico: '★', txt: 'Outil' };
+      html += `<li class="st-${st.cls || 'todo'}"><a href="${ficheUrl(f.path)}"><span class="st-ico" title="${esc(st.txt)}">${st.ico}</span><span>${esc(f.title)}</span></a></li>`;
+    }
+    if (theme !== null) html += '</ul>';
+    html += '</section>';
+  }
+  html += '</div>';
+  app.innerHTML = html;
+  app.className = 'content wide';
+  document.title = 'Mon année de 3e · Révisions';
+  app.querySelectorAll('[data-filtre]').forEach((b) => b.addEventListener('click', () => {
+    app.querySelectorAll('[data-filtre]').forEach((x) => x.classList.toggle('on', x === b));
+    app.querySelector('.annee').classList.toggle('seulement-afaire', b.dataset.filtre === 'afaire');
+  }));
+  highlightSidebar();
+}
+
 /* ======================= Pages ======================= */
 function pageHome() {
   _current = '';
   const last = store.get('last', null);
   const lastF = last && state.byPath.get(last);
-  let html = `<div class="hero"><h1>Bonjour 👋</h1><p class="muted">Choisis une matière, ouvre une fiche, puis teste-toi avec le quiz. Coche « Je maîtrise » quand une fiche est acquise.</p></div>`;
-  if (lastF) html += `<div class="actions"><a class="btn" href="${ficheUrl(lastF.path)}">▶ Reprendre : ${esc(lastF.title)}</a><a class="btn ghost" href="#/quiz">🎲 Quiz surprise (toutes matières)</a></div>`;
-  else html += `<div class="actions"><a class="btn ghost" href="#/quiz">🎲 Quiz surprise (toutes matières)</a></div>`;
+  const g = progressAll();
+  let html = `<div class="hero"><h1>Bonjour 👋</h1><p class="muted">Choisis une matière, ouvre une fiche, puis teste-toi avec le quiz. Coche « Je maîtrise » quand une fiche est acquise.</p>`;
+  html += `<a class="annee-global lien" href="#/annee"><div class="progress big"><span style="width:${g.pct}%"></span></div><strong>Mon année : ${g.done} / ${g.total} fiches faites (${g.pct} %)</strong><span class="todo-go">Voir tout le programme →</span></a></div>`;
+  html += '<div class="actions">';
+  if (lastF) html += `<a class="btn" href="${ficheUrl(lastF.path)}">▶ Reprendre : ${esc(lastF.title)}</a>`;
+  html += '<a class="btn ghost" href="#/quiz">🎲 Quiz surprise (toutes matières)</a></div>';
   const todo = state.subjects.map((s) => ({ s, f: prochaineFiche(s) })).filter((x) => x.f);
   if (todo.length) {
     html += '<h2 class="section-title">🎯 À réviser maintenant</h2><p class="muted" style="margin-top:-6px">Une fiche à ouvrir dans chaque matière : la première que tu ne maîtrises pas encore.</p><div class="grid todo">';
@@ -586,6 +706,12 @@ function pageHome() {
       const info = SUBJECTS[s] || { emoji: '📁' };
       html += `<a class="card todo-card" href="${ficheUrl(f.path)}" style="--sc:${info.color || 'var(--accent)'}"><div class="todo-mat">${info.emoji} ${esc(SHORT[s] || s)}</div><h3>${f.num != null ? f.num + '. ' : ''}${esc(f.title)}</h3>${f.meta.resume ? `<p>${esc(f.meta.resume)}</p>` : ''}<span class="todo-go">Ouvrir la fiche →</span></a>`;
     }
+    html += '</div>';
+  }
+  const annales = state.fiches.filter(isAnnale).sort((a, b) => (a.num ?? 999) - (b.num ?? 999));
+  if (annales.length) {
+    html += '<h2 class="section-title">📝 S\'entraîner sur de vrais sujets</h2><div class="grid todo">';
+    for (const f of annales) html += `<a class="card todo-card" href="${ficheUrl(f.path)}" style="--sc:${(SUBJECTS[f.subject] || {}).color || 'var(--accent)'}"><div class="todo-mat">${(SUBJECTS[f.subject] || { emoji: '📁' }).emoji} ${esc(SHORT[f.subject] || f.subject || '')}</div><h3>${esc(f.title)}</h3><span class="todo-go">${statutFiche(f).txt} · Ouvrir →</span></a>`;
     html += '</div>';
   }
   html += '<h2 class="section-title">Matières</h2><div class="grid">';
@@ -620,6 +746,7 @@ function pageSubject(subject) {
   const nxt = prochaineFiche(subject);
   html += '<div class="actions">';
   if (nxt) html += `<a class="btn" href="${ficheUrl(nxt.path)}">▶ ${p.done ? 'Continuer' : 'Commencer'} : ${nxt.num != null ? nxt.num + '. ' : ''}${esc(nxt.title)}</a>`;
+  html += `<a class="btn ghost" href="#/express/${encodeURIComponent(subject)}">⚡ Révision express</a>`;
   if (nbQ) html += `<a class="btn ghost" href="#/quiz/${encodeURIComponent(subject)}">🎲 Quiz mélangé (10 questions)</a>`;
   html += '</div>';
   let theme = null;
@@ -687,12 +814,13 @@ async function pageFiche(path, anchor) {
     html += `<ol class="parcours">${etapes.map(([e, t, hd], i) => `<li><a href="${hd ? (hd.id === 'mastery' ? '#' : ficheUrl(path, hd.id)) : ficheUrl(path)}"${hd && hd.id === 'mastery' ? ' data-maitrise="1"' : ''}><span class="p-num">${i + 1}</span>${e} ${t}</a></li>`).join('')}</ol>`;
     html += '<div class="outils-fiche"><button type="button" class="btn ghost small" id="mode-test" aria-pressed="false">🙈 Mode « test-toi » : cacher les définitions</button></div>';
   }
-  if (toc.length > 2) html += `<nav class="toc"><strong>Sommaire</strong><ol>${toc.map((x) => `<li><a href="${ficheUrl(path, x.id)}">${esc(x.text)}</a></li>`).join('')}</ol></nav>`;
+  if (toc.length > 2) html += `<details class="toc"${matchMedia('(max-width: 900px)').matches ? '' : ' open'}><summary><strong>Sommaire de la fiche</strong> <span class="muted">(${toc.length} parties)</span></summary><ol>${toc.map((x) => `<li><a href="${ficheUrl(path, x.id)}">${esc(x.text)}</a></li>`).join('')}</ol></details>`;
   html += `<article class="md">${content}</article>`;
   html += '<div class="fiche-nav">';
   html += prev ? `<a class="card" href="${ficheUrl(prev.path)}"><p>← Fiche précédente</p><h3>${esc(prev.title)}</h3></a>` : '<span></span>';
   html += next ? `<a class="card next" href="${ficheUrl(next.path)}"><p>Fiche suivante →</p><h3>${esc(next.title)}</h3></a>` : '<span></span>';
   html += '</div>';
+  if (f.subject) html += `<div class="fiche-retour"><a href="#/m/${encodeURIComponent(f.subject)}">↩ Toutes les fiches de ${esc(SHORT[f.subject] || f.subject)}</a> · <a href="#/annee">🗓️ Mon année</a></div>`;
   app.innerHTML = html;
   app.className = 'content';
   document.title = f.title + ' · Révisions';
@@ -820,13 +948,16 @@ function pageSearch(query) {
 /* ======================= Navigation ======================= */
 function route() {
   document.body.classList.remove('menu-open');
+  if (!location.hash.startsWith('#/recherche')) document.body.classList.remove('search-open');
   const parts = location.hash.replace(/^#\/?/, '').split('/').map((p) => { try { return decodeURIComponent(p); } catch { return p; } });
   const [page, a, b] = parts;
   setEspace(page === 'monde' || page === 'minijeux' ? 'jeux' : 'brevet');
-  state.cur = page === 'm' ? a : page === 'f' && a ? (state.byPath.get(a) || {}).subject || null : page === 'quiz' && a ? a : null;
+  state.cur = page === 'm' || page === 'express' ? a : page === 'f' && a ? (state.byPath.get(a) || {}).subject || null : page === 'quiz' && a ? a : null;
   if (page === 'f' && a) return pageFiche(a, b);
   if (page === 'm' && a) { pageSubject(a); renderMath(app); highlightSidebar(); return; }
   if (page === 'quiz') return pageQuiz(a);
+  if (page === 'annee') return pageAnnee();
+  if (page === 'express' && a) return pageExpress(a);
   if (page === 'recherche') return pageSearch(parts.slice(1).join('/'));
   if (page === 'monde' && window.pageMonde) return pageMonde(a, b);
   if (page === 'minijeux' && window.pageMiniJeux) { document.querySelectorAll('.side-m').forEach((l) => l.classList.toggle('active', l.dataset.k === 'minijeux')); return pageMiniJeux(a); }
@@ -856,7 +987,23 @@ function setupUi() {
     const t = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
     store.set('theme', t); applyTheme(t);
   });
-  $('#menu-btn').addEventListener('click', () => document.body.classList.toggle('menu-open'));
+  $('#menu-btn').addEventListener('click', () => { document.body.classList.remove('search-open'); document.body.classList.toggle('menu-open'); });
+  // Un toucher en dehors du menu le referme (téléphone)
+  document.addEventListener('click', (e) => {
+    if (document.body.classList.contains('menu-open') && !e.target.closest('#sidebar, #menu-btn')) document.body.classList.remove('menu-open');
+  });
+  // Recherche : sur téléphone, une loupe ouvre la barre de recherche sur toute la largeur
+  const sb = document.createElement('button');
+  sb.className = 'icon-btn'; sb.id = 'search-btn'; sb.type = 'button'; sb.textContent = '🔎';
+  sb.setAttribute('aria-label', 'Rechercher'); sb.title = 'Rechercher';
+  $('.search').after(sb);
+  sb.addEventListener('click', () => { document.body.classList.remove('menu-open'); const on = document.body.classList.toggle('search-open'); if (on) $('#search').focus(); });
+  // Bouton « retour en haut »
+  const up = document.createElement('button');
+  up.className = 'haut-btn'; up.type = 'button'; up.textContent = '↑'; up.title = 'Revenir en haut'; up.setAttribute('aria-label', 'Revenir en haut de la page');
+  document.body.appendChild(up);
+  up.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+  window.addEventListener('scroll', () => up.classList.toggle('visible', window.scrollY > 700), { passive: true });
 
   const input = $('#search');
   let timer;
@@ -867,7 +1014,7 @@ function setupUi() {
       if (q) location.hash = '#/recherche/' + encodeURIComponent(q);
     }, 250);
   });
-  input.addEventListener('keydown', (e) => { if (e.key === 'Escape') { input.value = ''; input.blur(); } });
+  input.addEventListener('keydown', (e) => { if (e.key === 'Escape') { input.value = ''; input.blur(); document.body.classList.remove('search-open'); } });
   document.addEventListener('keydown', (e) => {
     if (e.key === '/' && document.activeElement !== input && !/INPUT|TEXTAREA/.test(document.activeElement.tagName)) { e.preventDefault(); input.focus(); }
   });
