@@ -124,6 +124,40 @@ tags: [SVT, corps humain, effort, digestion, système nerveux, santé]
 
 ## Quiz
 
+### ⚡ Échauffement express
+
+Cinq petites questions à réponse tapée pour vérifier que les bases sont là.
+
+```quiz Échauffement express
+? Quel organe pompe le sang dans tout le corps ?
+= cœur
+= coeur
+= le cœur
+= le coeur
+> Il bat environ 70 fois par minute au repos.
+
+? Quel gaz le sang apporte-t-il aux muscles ? (nom)
+= dioxygène
+= oxygène
+= O2
+> Le dioxygène permet la respiration des cellules.
+
+? Quel organe commande le corps grâce au système nerveux ?
+= cerveau
+= le cerveau
+> Le cerveau reçoit et envoie des messages nerveux.
+
+? Dans quel organe la digestion se termine-t-elle et les nutriments passent-ils dans le sang ?
+= intestin grêle
+= l'intestin grêle
+= intestin
+> Ses villosités offrent une immense surface d'échange.
+
+? Combien de temps d'activité physique par jour est conseillé pour un adolescent (en minutes) ?
+= 60
+> Au moins 1 heure par jour.
+```
+
 ```quiz
 ? Pendant un effort, les muscles consomment davantage…
 + de dioxygène et de glucose
@@ -178,6 +212,188 @@ tags: [SVT, corps humain, effort, digestion, système nerveux, santé]
 - une meilleure mémorisation
 - une baisse du rythme cardiaque
 > La lumière des écrans perturbe l'endormissement.
+```
+
+### 🎲 Entraînement sans fin
+
+Une banque de 30 questions : 10 sont tirées au hasard à chaque essai, sans répétition tant que la banque n'est pas épuisée. Recommence autant que tu veux !
+
+```quiz Entraînement sans fin ~10
+? Pendant un effort, la fréquence cardiaque…
++ augmente
+- diminue
+- reste la même
+> Les muscles ont besoin de plus de dioxygène et de glucose.
+
+? Pendant un effort, la fréquence respiratoire…
++ augmente
+- diminue
+> On respire plus vite et plus profondément.
+
+? Les muscles ont besoin de…
++ dioxygène et glucose
+- dioxyde de carbone et eau
+- uniquement d'eau
+> Ils rejettent du dioxyde de carbone.
+
+? Le dioxygène passe de l'air au sang…
++ dans les alvéoles pulmonaires
+- dans l'estomac
+- dans le cœur
+> Les alvéoles ont une paroi très fine.
+
+? Le sang riche en $\text{CO}_2$ est rejeté…
++ par les poumons
+- par les reins
+- par l'estomac
+> On l'expire.
+
+? La digestion transforme les aliments en…
++ nutriments
+- sang
+- enzymes
+> Ex. l'amidon devient du glucose.
+
+? Les enzymes digestives servent à…
++ découper les aliments en petites molécules
+- transporter le sang
+- produire des anticorps
+> On les trouve dans la salive, le suc gastrique, le suc pancréatique…
+
+? Une alimentation équilibrée…
++ apporte tous les types d'aliments en quantités adaptées
+- contient surtout du sucre
+- supprime les féculents
+> Fruits et légumes, féculents, protéines, produits laitiers, matières grasses en petite quantité.
+
+? Une consommation excessive de sucres et de graisses augmente le risque…
++ d'obésité, de diabète et de maladies cardiovasculaires
+- de rhume
+- de myopie
+> Associée au manque d'activité physique.
+
+? Le message nerveux est…
++ de nature électrique le long des neurones
+- un liquide
+- une hormone
+> Il passe d'un neurone à l'autre par des synapses (messages chimiques).
+
+? Le trajet du message nerveux lors d'un mouvement volontaire est…
++ organe des sens → nerf sensitif → cerveau → nerf moteur → muscle
+- muscle → cerveau → œil
+- cœur → poumons → muscle
+> Le cerveau analyse puis commande.
+
+? Un réflexe (ex. retirer la main d'une plaque chaude) passe par…
++ la moelle épinière, sans attendre le cerveau
+- l'estomac
+- le cœur
+> C'est plus rapide qu'un mouvement volontaire.
+
+? Une synapse est…
++ la zone de communication entre deux neurones
+- un muscle
+- un os
+> Le message y devient chimique (neurotransmetteurs).
+
+? L'alcool et les drogues…
++ perturbent le fonctionnement des synapses et ralentissent les réflexes
+- améliorent la concentration
+- n'ont aucun effet sur le cerveau
+> D'où les dangers au volant ou en deux-roues.
+
+? Le cannabis consommé à l'adolescence…
++ peut nuire à la mémoire et à la concentration
+- est sans risque
+- améliore les notes
+> Le cerveau est encore en construction jusqu'à environ 25 ans.
+
+? La nicotine du tabac est…
++ une substance qui rend dépendant
+- une vitamine
+- un antibiotique
+> La fumée contient aussi des goudrons cancérigènes.
+
+? Le manque de sommeil…
++ diminue l'attention et la mémorisation
+- améliore la mémoire
+- n'a aucun effet
+> Un ado a besoin d'environ 8 à 10 h de sommeil.
+
+? Les écrans le soir peuvent retarder l'endormissement car…
++ leur lumière bleue perturbe l'horloge biologique
+- ils fatiguent les pieds
+- ils réchauffent la chambre
+> Il vaut mieux les couper une heure avant de dormir.
+
+? Pendant l'effort, le sang circule plus vite pour…
++ apporter plus de dioxygène et de nutriments aux muscles
+- refroidir l'estomac
+- diminuer la température
+> Le débit sanguin vers les muscles augmente.
+
+? Le cœur est un muscle qui comporte…
++ 4 cavités (2 oreillettes, 2 ventricules)
+- 2 cavités
+- 6 cavités
+> Le cœur droit envoie le sang aux poumons, le gauche au reste du corps.
+
+? Les artères transportent le sang…
++ du cœur vers les organes
+- des organes vers le cœur
+- uniquement vers les poumons
+> Les veines ramènent le sang vers le cœur.
+
+? Les reins…
++ filtrent le sang et produisent l'urine
+- digèrent les aliments
+- pompent le sang
+> Ils éliminent les déchets comme l'urée.
+
+? Le glucose est stocké dans le foie sous forme de…
++ glycogène
+- protéines
+- amidon
+> L'insuline (hormone) aide à réguler la glycémie.
+
+? Le diabète est lié à un problème de régulation…
++ du taux de sucre dans le sang (glycémie)
+- de la température
+- du rythme cardiaque
+> L'insuline est produite par le pancréas.
+
+? Vrai ou faux : pendant un effort, les muscles produisent de la chaleur.
++ Vrai
+- Faux
+> C'est pour cela qu'on transpire.
+
+? Vrai ou faux : on peut boire de l'alcool sans risque avant de conduire si on mange.
+- Vrai
++ Faux
+> L'alcool ralentit toujours les réflexes.
+
+? Vrai ou faux : le cerveau a besoin de dioxygène et de glucose en permanence.
++ Vrai
+- Faux
+> Quelques minutes sans dioxygène suffisent à l'abîmer.
+
+? Un échauffement avant le sport sert à…
++ préparer progressivement les muscles et le cœur à l'effort
+- fatiguer les muscles
+- rien
+> Il limite les blessures.
+
+? Les fibres (légumes, céréales complètes) aident…
++ au bon fonctionnement de l'intestin
+- à produire des anticorps
+- à respirer
+> Elles nourrissent aussi le microbiote.
+
+? Le volume d'air que l'on respire en une minute, au repos puis à l'effort…
++ augmente fortement à l'effort
+- diminue à l'effort
+- reste identique
+> Il peut être multiplié par 10 lors d'un effort intense.
 ```
 
 ## Voir aussi

@@ -137,6 +137,35 @@ $$P = U \times I \qquad E = P \times t$$
 
 ## Quiz
 
+### ⚡ Échauffement express
+
+Cinq petites questions à réponse tapée pour vérifier que les bases sont là.
+
+```quiz Échauffement express
+? Loi d'Ohm : $U = R \times I$. Avec $R = 100$ Ω et $I = 0{,}05$ A, que vaut $U$ (en V) ?
+= 5
+> $100 \times 0{,}05 = 5$ V.
+
+? Unité de l'intensité du courant ?
+= ampère
+= A
+> Mesurée avec un ampèremètre.
+
+? Unité de la tension ?
+= volt
+= V
+> Mesurée avec un voltmètre.
+
+? Puissance d'un appareil sous 230 V traversé par 2 A (en W) ?
+= 460
+> $P = U \times I = 230 \times 2$.
+
+? Unité de la résistance ?
+= ohm
+= Ω
+> Symbole Ω (oméga).
+```
+
 ```quiz
 ? Comment branche-t-on un voltmètre ?
 - en série
@@ -190,6 +219,186 @@ $$P = U \times I \qquad E = P \times t$$
 + le disjoncteur différentiel
 - l'ampèremètre
 > Le différentiel coupe le courant dès qu'une fuite de courant est détectée.
+```
+
+### 🎲 Entraînement sans fin
+
+Une banque de 30 questions : 10 sont tirées au hasard à chaque essai, sans répétition tant que la banque n'est pas épuisée. Recommence autant que tu veux !
+
+```quiz Entraînement sans fin ~10
+? Un ampèremètre se branche…
++ en série
+- en dérivation
+> Il doit être traversé par le courant.
+
+? Un voltmètre se branche…
+- en série
++ en dérivation (aux bornes du dipôle)
+> Il mesure une différence entre deux points.
+
+? Dans un circuit en série, l'intensité est…
++ la même partout
+- différente dans chaque dipôle
+- nulle
+> Loi d'unicité de l'intensité.
+
+? Dans un circuit en série, la tension du générateur est égale…
++ à la somme des tensions aux bornes des dipôles
+- à la tension d'un seul dipôle
+- à zéro
+> Loi d'additivité des tensions.
+
+? Dans un circuit en dérivation, les tensions aux bornes des branches sont…
++ égales
+- additionnées
+- nulles
+> Loi d'unicité des tensions en dérivation.
+
+? Dans un circuit en dérivation, l'intensité dans la branche principale est…
++ la somme des intensités des branches dérivées
+- égale à celle d'une branche
+- toujours nulle
+> Loi d'additivité des intensités (loi des nœuds).
+
+? À la maison, les appareils sont branchés…
++ en dérivation
+- en série
+> Chacun reçoit 230 V et fonctionne indépendamment.
+
+? Loi d'Ohm :
++ $U = R \times I$
+- $U = \dfrac{I}{R}$
+- $R = U \times I$
+> $U$ en V, $R$ en Ω, $I$ en A.
+
+? $U = 12$ V et $R = 6$ Ω. Que vaut $I$ ?
++ 2 A
+- 72 A
+- 0,5 A
+> $I = \dfrac{U}{R} = \dfrac{12}{6}$.
+
+? $U = 9$ V et $I = 0{,}3$ A. Que vaut $R$ ?
++ 30 Ω
+- 2,7 Ω
+- 3 Ω
+> $R = \dfrac{U}{I} = \dfrac{9}{0{,}3}$.
+
+? La caractéristique $U = f(I)$ d'une résistance est…
++ une droite qui passe par l'origine
+- une courbe
+- une droite horizontale
+> Tension et intensité sont proportionnelles.
+
+? 250 mA correspondent à…
++ 0,25 A
+- 2,5 A
+- 25 A
+> 1 A = 1 000 mA.
+
+? Formule de la puissance électrique :
++ $P = U \times I$
+- $P = \dfrac{U}{I}$
+- $P = U + I$
+> $P$ en W.
+
+? Formule de l'énergie électrique :
++ $E = P \times t$
+- $E = \dfrac{P}{t}$
+- $E = U \times R$
+> $E$ en J ($t$ en s) ou en kWh ($P$ en kW, $t$ en h).
+
+? Une bouilloire de 2 000 W sous 230 V est traversée par un courant d'environ…
++ 8,7 A
+- 460 A
+- 0,1 A
+> $I = \dfrac{P}{U} = \dfrac{2\,000}{230} \approx 8{,}7$ A.
+
+? Un four de 3 kW fonctionne 2 h. Énergie consommée ?
++ 6 kWh
+- 1,5 kWh
+- 5 kWh
+> $3 \times 2$.
+
+? À 0,20 € le kWh, combien coûtent 6 kWh ?
++ 1,20 €
+- 0,03 €
+- 30 €
+> $6 \times 0{,}20$.
+
+? Un court-circuit se produit quand…
++ le courant passe par un fil sans dipôle entre les bornes du générateur
+- l'interrupteur est ouvert
+- la lampe est grillée
+> L'intensité devient très grande : danger.
+
+? Le rôle d'un fusible ou d'un disjoncteur est…
++ de couper le circuit si l'intensité est trop grande
+- d'augmenter la tension
+- d'économiser l'énergie
+> Il protège contre les surintensités.
+
+? Brancher trop d'appareils sur une même prise multiple risque…
++ une surintensité et un échauffement des fils
+- de baisser la facture
+- rien
+> Les intensités s'additionnent dans la branche principale.
+
+? La prise de terre protège…
++ les personnes contre l'électrocution
+- l'appareil contre la foudre seulement
+- la facture
+> Le courant de fuite part vers la terre.
+
+? La tension du secteur en France est…
++ 230 V alternatif
+- 12 V continu
+- 4,5 V
+> Elle est dangereuse pour le corps humain.
+
+? Une tension supérieure à environ 50 V est…
++ dangereuse pour l'humain
+- toujours sans danger
+- impossible
+> D'où les règles de sécurité électrique.
+
+? Une lampe portant « 6 V ; 0,5 A » a une puissance nominale de…
++ 3 W
+- 12 W
+- 6,5 W
+> $6 \times 0{,}5$.
+
+? Si on ajoute une lampe en série dans un circuit, les lampes brillent…
++ moins
+- plus
+- pareil
+> La résistance totale augmente, l'intensité diminue.
+
+? Vrai ou faux : un interrupteur ouvert laisse passer le courant.
+- Vrai
++ Faux
+> Le circuit est ouvert : pas de courant.
+
+? Vrai ou faux : dans un circuit en série, si une lampe grille, les autres s'éteignent.
++ Vrai
+- Faux
+> Le circuit est ouvert.
+
+? Vrai ou faux : la puissance d'un appareil s'exprime en watts.
++ Vrai
+- Faux
+> Le kWh mesure l'énergie, pas la puissance.
+
+? Une diode ne laisse passer le courant que…
++ dans un seul sens
+- dans les deux sens
+- s'il fait jour
+> Les LED sont des diodes électroluminescentes.
+
+? Le courant électrique dans un métal est dû au déplacement…
++ d'électrons
+- de protons
+- de neutrons
+> Les électrons libres se déplacent du pôle − vers le pôle +.
 ```
 
 ## Vidéos

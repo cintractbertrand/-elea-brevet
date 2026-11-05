@@ -461,6 +461,35 @@ Un caractère dépend des gènes **et** de l'**environnement** : la couleur de l
 
 ## Quiz
 
+### ⚡ Échauffement express
+
+Cinq petites questions à réponse tapée pour vérifier que les bases sont là.
+
+```quiz Échauffement express
+? Combien de chromosomes possède une cellule humaine (hors cellules reproductrices) ?
+= 46
+> 23 paires de chromosomes.
+
+? Combien de paires de chromosomes chez l'être humain ?
+= 23
+> Dont une paire de chromosomes sexuels.
+
+? Quels chromosomes sexuels possède un garçon ? (écris XX ou XY)
+= XY
+> Une fille est XX.
+
+? Combien de chromosomes dans un spermatozoïde humain ?
+= 23
+> Les cellules reproductrices n'ont qu'un chromosome de chaque paire.
+
+? Comment s'appellent les versions différentes d'un même gène ?
+= allèles
+= des allèles
+= allele
+= alleles
+> Ex. groupe sanguin : allèles A, B, O.
+```
+
 ```quiz
 ? Combien de chromosomes possède une cellule humaine (non sexuelle) ?
 - 23
@@ -515,6 +544,189 @@ Un caractère dépend des gènes **et** de l'**environnement** : la couleur de l
 - une maladie contagieuse
 - un type de chromosome
 > Elle peut créer un nouvel allèle ; elle n'est pas forcément dangereuse.
+```
+
+### 🎲 Entraînement sans fin
+
+Une banque de 30 questions : 10 sont tirées au hasard à chaque essai, sans répétition tant que la banque n'est pas épuisée. Recommence autant que tu veux !
+
+```quiz Entraînement sans fin ~10
+? Les chromosomes se trouvent…
++ dans le noyau des cellules
+- dans le sang seulement
+- dans la membrane
+> Ils portent l'information génétique.
+
+? Un chromosome est constitué…
++ d'une molécule d'ADN
+- de protéines du sang
+- de glucose
+> L'ADN porte les gènes.
+
+? Un gène est…
++ une portion d'ADN qui détermine un caractère
+- un chromosome entier
+- une cellule
+> Ex. le gène du groupe sanguin.
+
+? Un allèle est…
++ une version d'un gène
+- un chromosome
+- un caractère
+> Un même gène peut exister en plusieurs versions.
+
+? Le caryotype est…
++ la photographie des chromosomes d'une cellule rangés par paires
+- l'ADN d'une seule cellule
+- l'arbre généalogique
+> Il permet de détecter des anomalies (ex. trisomie 21).
+
+? La trisomie 21 correspond à…
++ trois chromosomes 21 au lieu de deux
+- l'absence du chromosome 21
+- 21 chromosomes en tout
+> 47 chromosomes au total.
+
+? Les deux chromosomes d'une même paire proviennent…
++ l'un du père, l'autre de la mère
+- tous deux de la mère
+- tous deux du père
+> Par les cellules reproductrices.
+
+? Pour un gène, chaque individu possède…
++ deux allèles (un sur chaque chromosome de la paire)
+- un seul allèle
+- 46 allèles
+> Ils peuvent être identiques ou différents.
+
+? Un allèle dominant…
++ s'exprime même s'il est présent en un seul exemplaire
+- ne s'exprime jamais
+- doit être présent en deux exemplaires
+> L'allèle récessif ne s'exprime que s'il est en double.
+
+? Le groupe sanguin O correspond aux allèles…
++ O//O
+- A//O
+- A//B
+> O est récessif face à A et B.
+
+? Une personne A//O a le groupe sanguin…
++ A
+- O
+- AB
+> A domine O.
+
+? Une personne A//B a le groupe sanguin…
+- A
+- B
++ AB
+> A et B s'expriment tous les deux (codominance).
+
+? Le sexe de l'enfant est déterminé par…
++ le chromosome sexuel apporté par le spermatozoïde
+- l'ovule seulement
+- l'alimentation de la mère
+> L'ovule apporte toujours X ; le spermatozoïde apporte X ou Y.
+
+? Probabilité qu'un enfant soit une fille ?
++ environ 1 chance sur 2
+- 1 chance sur 4
+- toujours 1
+> Moitié des spermatozoïdes portent X, moitié Y.
+
+? Les cellules reproductrices (gamètes) contiennent…
++ un seul chromosome de chaque paire
+- deux chromosomes de chaque paire
+- aucun chromosome
+> 23 chromosomes chez l'humain.
+
+? Lors de la fécondation…
++ un ovule et un spermatozoïde s'unissent pour former une cellule-œuf à 46 chromosomes
+- deux ovules s'unissent
+- le nombre de chromosomes est divisé par 2
+> On retrouve des paires.
+
+? Pourquoi deux frères et sœurs (non jumeaux) sont-ils différents ?
++ chaque gamète reçoit une combinaison différente de chromosomes
+- ils ont des parents différents
+- l'ADN change avec l'âge
+> Le hasard de la formation des gamètes et de la fécondation crée la diversité.
+
+? Les vrais jumeaux ont…
++ le même patrimoine génétique
+- des patrimoines différents
+- des sexes différents
+> Ils viennent de la même cellule-œuf.
+
+? Une mutation est…
++ une modification de l'ADN
+- un changement de taille
+- une maladie contagieuse
+> Elle peut créer un nouvel allèle.
+
+? Les caractères d'un individu dépendent…
++ de ses gènes et de son environnement
+- uniquement de ses gènes
+- uniquement de l'environnement
+> Ex. la couleur de peau dépend aussi du soleil.
+
+? Le bronzage est un caractère…
++ influencé par l'environnement
+- uniquement génétique
+- hérité directement
+> Il ne se transmet pas aux enfants.
+
+? L'ADN a une forme de…
++ double hélice
+- cercle
+- cube
+> Découverte en 1953.
+
+? Toutes les cellules d'un individu (sauf gamètes) contiennent…
++ la même information génétique
+- des chromosomes différents
+- aucun ADN
+> Elles proviennent toutes de la cellule-œuf.
+
+? Vrai ou faux : un gène correspond à un chromosome entier.
+- Vrai
++ Faux
+> Un chromosome porte des centaines à des milliers de gènes.
+
+? Vrai ou faux : les globules rouges matures n'ont pas de noyau.
++ Vrai
+- Faux
+> Ils n'ont donc pas de chromosomes.
+
+? Vrai ou faux : un parent de groupe O peut transmettre l'allèle A.
+- Vrai
++ Faux
+> Il est O//O : il ne peut transmettre que O.
+
+? Parents A//O et B//O : leur enfant peut être du groupe…
++ A, B, AB ou O
+- seulement AB
+- seulement O
+> A//B, A//O, B//O, O//O sont possibles.
+
+? Un arbre généalogique permet…
++ de suivre la transmission d'un caractère dans une famille
+- de compter les chromosomes
+- de voir l'ADN
+> On repère les porteurs d'un allèle.
+
+? Un individu porteur sain d'une maladie récessive…
++ possède un allèle de la maladie sans être malade
+- est malade
+- n'a aucun allèle de la maladie
+> L'allèle normal (dominant) masque l'allèle malade.
+
+? Combien de chromosomes dans une cellule-œuf humaine ?
++ 46
+- 23
+- 92
+> 23 du père + 23 de la mère.
 ```
 
 ## Vidéos

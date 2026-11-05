@@ -135,6 +135,34 @@ L'acide chlorhydrique attaque le **fer** : il se forme des **ions fer II** (test
 
 ## Quiz
 
+### ⚡ Échauffement express
+
+Cinq petites questions à réponse tapée pour vérifier que les bases sont là.
+
+```quiz Échauffement express
+? Le pH de l'eau pure vaut…
+= 7
+> Une solution neutre a un pH de 7.
+
+? Une solution de pH 3 est-elle acide ou basique ?
+= acide
+> pH < 7 : acide.
+
+? Une solution de pH 11 est-elle acide ou basique ?
+= basique
+> pH > 7 : basique.
+
+? Dans la combustion du carbone, quel gaz est produit ? (formule)
+= CO2
+= CO₂
+> C + O₂ → CO₂.
+
+? Lors d'une transformation chimique, la masse totale… (se conserve / augmente / diminue)
+= se conserve
+= conserve
+> Loi de conservation de la masse (Lavoisier).
+```
+
 ```quiz
 ? Laquelle est une transformation chimique ?
 - la fonte d'un glaçon
@@ -189,6 +217,186 @@ L'acide chlorhydrique attaque le **fer** : il se forme des **ions fer II** (test
 - du dioxygène
 - du dioxyde de carbone
 > C'est le test de reconnaissance de l'eau.
+```
+
+### 🎲 Entraînement sans fin
+
+Une banque de 30 questions : 10 sont tirées au hasard à chaque essai, sans répétition tant que la banque n'est pas épuisée. Recommence autant que tu veux !
+
+```quiz Entraînement sans fin ~10
+? Une transformation chimique se reconnaît car…
++ de nouvelles espèces chimiques apparaissent
+- l'état physique change seulement
+- la masse disparaît
+> Les réactifs sont consommés et des produits se forment.
+
+? La fusion de la glace est…
+- une transformation chimique
++ une transformation physique
+> L'eau reste de l'eau, seul l'état change.
+
+? La combustion du bois est…
++ une transformation chimique
+- une transformation physique
+> Il se forme du dioxyde de carbone, de l'eau, des cendres.
+
+? Dans « carbone + dioxygène → dioxyde de carbone », les réactifs sont…
++ le carbone et le dioxygène
+- le dioxyde de carbone
+- seulement le dioxygène
+> Ils sont à gauche de la flèche.
+
+? Au cours d'une réaction chimique, les atomes…
++ se réarrangent, sans disparaître
+- disparaissent
+- se transforment en d'autres atomes
+> C'est pour cela que la masse se conserve.
+
+? Quelle équation est équilibrée ?
++ $\text{C} + \text{O}_2 \rightarrow \text{CO}_2$
+- $\text{H}_2 + \text{O}_2 \rightarrow \text{H}_2\text{O}$
+- $\text{CH}_4 + \text{O}_2 \rightarrow \text{CO}_2 + \text{H}_2\text{O}$
+> Mêmes atomes en nombres égaux de chaque côté. Il faudrait $2\text{H}_2 + \text{O}_2 \rightarrow 2\text{H}_2\text{O}$.
+
+? Pour équilibrer $\text{H}_2 + \text{O}_2 \rightarrow \text{H}_2\text{O}$, on écrit…
++ $2\text{H}_2 + \text{O}_2 \rightarrow 2\text{H}_2\text{O}$
+- $\text{H}_2 + \text{O} \rightarrow \text{H}_2\text{O}$
+- $\text{H}_2 + \text{O}_2 \rightarrow \text{H}_2\text{O}_2$
+> On ne change jamais les formules, seulement les nombres devant.
+
+? 12 g de carbone brûlent avec 32 g de dioxygène. Masse de $\text{CO}_2$ formée ?
++ 44 g
+- 20 g
+- 12 g
+> Conservation de la masse : $12 + 32 = 44$ g.
+
+? Un acide a un pH…
++ inférieur à 7
+- égal à 7
+- supérieur à 7
+> Plus le pH est petit, plus c'est acide.
+
+? Le jus de citron (pH ≈ 2) est…
++ acide
+- neutre
+- basique
+> pH très inférieur à 7.
+
+? L'eau de Javel (pH ≈ 12) est…
+- acide
+- neutre
++ basique
+> pH supérieur à 7.
+
+? Une solution acide contient plus d'ions…
++ $\text{H}^+$
+- $\text{HO}^-$
+- $\text{Na}^+$
+> Les ions hydrogène rendent la solution acide.
+
+? Une solution basique contient plus d'ions…
+- $\text{H}^+$
++ $\text{HO}^-$ (hydroxyde)
+- $\text{Cl}^-$
+> Ions hydroxyde.
+
+? Quand on dilue un acide avec de l'eau, son pH…
++ augmente et se rapproche de 7
+- diminue
+- ne change pas
+> La solution devient moins acide.
+
+? Pour mesurer précisément un pH, on utilise…
++ un pH-mètre
+- un thermomètre
+- un ampèremètre
+> Le papier pH donne une valeur approchée.
+
+? L'acide chlorhydrique réagit avec le fer. Quel gaz se dégage ?
++ du dihydrogène
+- du dioxygène
+- du dioxyde de carbone
+> Il produit une petite détonation à la flamme.
+
+? L'acide chlorhydrique et le fer donnent aussi des ions…
++ $\text{Fe}^{2+}$
+- $\text{Cu}^{2+}$
+- $\text{Na}^+$
+> Révélés par un précipité vert avec la soude.
+
+? Le pictogramme « corrosif » signale un produit qui…
++ ronge la peau et les matériaux
+- explose
+- est inflammable
+> Port de gants et lunettes obligatoire.
+
+? Pour diluer un acide concentré, on verse…
++ l'acide dans l'eau
+- l'eau dans l'acide
+> Sinon, la réaction peut provoquer des projections.
+
+? La combustion du méthane produit…
++ du dioxyde de carbone et de l'eau
+- du dioxygène
+- du carbone uniquement
+> $\text{CH}_4 + 2\text{O}_2 \rightarrow \text{CO}_2 + 2\text{H}_2\text{O}$.
+
+? Une combustion incomplète peut produire un gaz mortel…
++ le monoxyde de carbone (CO)
+- le dioxygène
+- l'azote
+> Il est inodore : d'où les détecteurs.
+
+? Vrai ou faux : dans une réaction chimique, la masse des produits égale la masse des réactifs consommés.
++ Vrai
+- Faux
+> C'est la loi de Lavoisier.
+
+? Vrai ou faux : un pH de 6 est plus acide qu'un pH de 4.
+- Vrai
++ Faux
+> Plus le pH est petit, plus c'est acide : pH 4 est plus acide.
+
+? Vrai ou faux : la dissolution du sucre dans l'eau est une transformation chimique.
+- Vrai
++ Faux
+> Le sucre est toujours là : c'est une transformation physique.
+
+? Le réactif limitant est…
++ le réactif entièrement consommé en premier
+- celui qui est en excès
+- un produit
+> Quand il est épuisé, la réaction s'arrête.
+
+? La rouille se forme par réaction du fer avec…
++ le dioxygène (et l'eau)
+- le dioxyde de carbone seul
+- l'azote
+> C'est une oxydation lente.
+
+? Les pluies acides sont surtout dues…
++ aux rejets de gaz soufrés et azotés
+- au dioxygène
+- à l'eau pure
+> Usines et pots d'échappement.
+
+? Le vinaigre a un pH d'environ 3. Il est…
++ acide
+- basique
+- neutre
+> Il contient de l'acide acétique.
+
+? Mélanger un acide et une base donne une réaction qui…
++ peut neutraliser la solution (pH vers 7)
+- augmente toujours l'acidité
+- ne fait rien
+> Les ions $\text{H}^+$ et $\text{HO}^-$ réagissent pour former de l'eau.
+
+? Dans l'équation $\text{CH}_4 + 2\text{O}_2 \rightarrow \text{CO}_2 + 2\text{H}_2\text{O}$, combien d'atomes d'oxygène à gauche ?
++ 4
+- 2
+- 3
+> $2 \times 2 = 4$ ; à droite : $2 + 2 \times 1 = 4$.
 ```
 
 ## Voir aussi

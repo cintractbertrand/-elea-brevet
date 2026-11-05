@@ -146,6 +146,36 @@ On compare les matériaux selon des **critères** : masse volumique (légèreté
 
 ## Quiz
 
+### ⚡ Échauffement express
+
+Cinq petites questions à réponse tapée pour vérifier que les bases sont là.
+
+```quiz Échauffement express
+? Le bois est-il un matériau renouvelable ? (oui/non)
+= oui
+> S'il vient de forêts gérées durablement.
+
+? Le plastique est principalement fabriqué à partir de…
+= pétrole
+= du pétrole
+> Une ressource fossile non renouvelable.
+
+? Quel métal est attiré par un aimant : le fer ou l'aluminium ?
+= fer
+= le fer
+> L'aluminium n'est pas attiré.
+
+? Comment s'appelle l'analyse de l'impact d'un objet de sa fabrication à sa fin de vie ?
+= cycle de vie
+= analyse du cycle de vie
+= ACV
+> On étudie extraction, fabrication, transport, usage, fin de vie.
+
+? Le verre est-il recyclable à l'infini ? (oui/non)
+= oui
+> Il peut être refondu sans perdre ses qualités.
+```
+
 ```quiz
 ? Quel matériau est un bon conducteur de l'électricité ?
 + le cuivre
@@ -194,6 +224,189 @@ On compare les matériaux selon des **critères** : masse volumique (légèreté
 - un objet jeté
 - un cahier des charges
 > Il permet de tester avant la fabrication en série.
+```
+
+### 🎲 Entraînement sans fin
+
+Une banque de 30 questions : 10 sont tirées au hasard à chaque essai, sans répétition tant que la banque n'est pas épuisée. Recommence autant que tu veux !
+
+```quiz Entraînement sans fin ~10
+? Les familles de matériaux sont…
++ métaux, matières plastiques, matériaux organiques, céramiques, composites
+- solides, liquides, gaz
+- rouges, bleus, verts
+> Le bois et le cuir sont organiques ; le verre est une céramique.
+
+? Un matériau conducteur électrique, par exemple…
++ le cuivre
+- le bois sec
+- le plastique
+> Utilisé dans les fils électriques.
+
+? Un isolant thermique, par exemple…
++ la laine de verre
+- l'aluminium
+- le cuivre
+> Utilisé pour isoler les maisons.
+
+? Pourquoi les casseroles ont-elles un manche en plastique ou en bois ?
++ ce sont des isolants thermiques
+- ils sont plus lourds
+- ils conduisent la chaleur
+> On ne se brûle pas.
+
+? L'aluminium est souvent choisi pour les avions car il est…
++ léger et résistant
+- lourd
+- très bon marché et fragile
+> Sa masse volumique est faible.
+
+? Un matériau composite est…
++ un assemblage de plusieurs matériaux aux qualités complémentaires
+- un métal pur
+- un liquide
+> Ex. la fibre de carbone, le béton armé.
+
+? Le choix d'un matériau dépend…
++ de ses propriétés, de son coût et de son impact environnemental
+- uniquement de sa couleur
+- uniquement de son prix
+> On consulte le cahier des charges.
+
+? Le développement durable vise à…
++ répondre aux besoins actuels sans compromettre ceux des générations futures
+- produire toujours plus
+- arrêter toute technologie
+> Il a trois piliers : environnement, social, économie.
+
+? Les trois piliers du développement durable sont…
++ environnemental, social, économique
+- rapide, cher, beau
+- local, national, mondial
+> Un projet durable doit équilibrer les trois.
+
+? L'écoconception consiste à…
++ réduire l'impact environnemental d'un objet dès sa conception
+- décorer un objet
+- fabriquer plus vite
+> Moins de matière, matériaux recyclables, réparabilité…
+
+? L'obsolescence programmée désigne…
++ la réduction volontaire de la durée de vie d'un produit
+- un produit réparable
+- un recyclage
+> En France, c'est un délit.
+
+? L'indice de réparabilité indique…
++ si un produit est facile à réparer
+- son prix
+- sa couleur
+> Noté sur 10 en France.
+
+? Dans le cycle de vie d'un smartphone, l'étape la plus polluante est souvent…
++ la fabrication (extraction des métaux)
+- l'utilisation
+- l'emballage
+> D'où l'intérêt de garder son téléphone longtemps.
+
+? Le recyclage permet…
++ de réutiliser la matière des objets usagés
+- de produire plus de déchets
+- de brûler les déchets
+> Ex. canettes en aluminium recyclées en vélos.
+
+? La règle des 3 R est…
++ réduire, réutiliser, recycler
+- ranger, réparer, revendre
+- rouler, rouler, rouler
+> Réduire les déchets est la priorité.
+
+? Le tri sélectif sert à…
++ séparer les déchets pour faciliter leur recyclage
+- tout mélanger
+- brûler les déchets
+> Chaque matériau suit sa filière.
+
+? Les métaux rares des appareils électroniques…
++ sont extraits avec un fort impact environnemental et social
+- sont infinis
+- poussent dans les arbres
+> D'où l'importance de recycler les vieux appareils.
+
+? Un DEEE est…
++ un déchet d'équipement électrique ou électronique
+- un nouveau logiciel
+- un type de bois
+> Il se rapporte en magasin ou en déchetterie.
+
+? Le béton est un mélange de…
++ ciment, sable, graviers et eau
+- bois et plastique
+- verre et métal
+> Avec des barres d'acier, on obtient du béton armé.
+
+? Une maquette numérique (CAO) permet…
++ de concevoir et tester un objet sur ordinateur avant de le fabriquer
+- de recycler
+- d'imprimer de l'argent
+> On l'utilise aussi pour l'impression 3D.
+
+? L'impression 3D fabrique un objet…
++ couche par couche
+- en le découpant dans un bloc
+- en le moulant
+> On parle de fabrication additive.
+
+? Vrai ou faux : un objet plus léger consomme souvent moins d'énergie à transporter.
++ Vrai
+- Faux
+> C'est un des principes de l'écoconception.
+
+? Vrai ou faux : le plastique est biodégradable en quelques jours.
+- Vrai
++ Faux
+> Une bouteille en plastique peut mettre des centaines d'années à se dégrader.
+
+? Vrai ou faux : réparer un objet est souvent meilleur pour l'environnement que d'en racheter un neuf.
++ Vrai
+- Faux
+> On évite l'impact d'une nouvelle fabrication.
+
+? Le bilan carbone d'un produit mesure…
++ les gaz à effet de serre émis tout au long de sa vie
+- son poids
+- son prix
+> Exprimé en kg équivalent $\text{CO}_2$.
+
+? Acheter des produits locaux réduit…
++ les émissions liées au transport
+- la qualité
+- le nombre de magasins
+> Moins de kilomètres parcourus.
+
+? Le bois utilisé en construction…
++ stocke du carbone
+- émet beaucoup de $\text{CO}_2$
+- n'est pas solide
+> Le carbone capté par l'arbre reste dans le bois.
+
+? Un matériau malléable…
++ se déforme sans casser
+- casse facilement
+- ne peut jamais être déformé
+> Ex. l'aluminium des canettes.
+
+? Le verre est un matériau…
++ fragile et transparent
+- souple et opaque
+- conducteur électrique
+> Il casse facilement.
+
+? L'acier est un alliage de…
++ fer et carbone
+- cuivre et zinc
+- aluminium et plastique
+> Le laiton est un alliage de cuivre et de zinc.
 ```
 
 ## Voir aussi

@@ -145,6 +145,33 @@ Sur Terre : $g \approx 9{,}8$ N/kg (souvent arrondi à 10). Sur la Lune : $g \ap
 
 ## Quiz
 
+### ⚡ Échauffement express
+
+Cinq petites questions à réponse tapée pour vérifier que les bases sont là.
+
+```quiz Échauffement express
+? Une voiture parcourt 150 km en 2 h. Sa vitesse moyenne en km/h ?
+= 75
+> $v = \dfrac{d}{t} = \dfrac{150}{2} = 75$ km/h.
+
+? Poids d'un objet de 10 kg sur Terre (g = 10 N/kg), en N ?
+= 100
+> $P = m \times g = 10 \times 10 = 100$ N.
+
+? L'unité d'une force est le…
+= newton
+= N
+> Du nom d'Isaac Newton.
+
+? La masse d'un astronaute de 70 kg sur la Lune (en kg) ?
+= 70
+> La masse ne change pas ; c'est le poids qui change.
+
+? Un piéton marche à 5 km/h pendant 3 h. Distance en km ?
+= 15
+> $d = v \times t = 15$ km.
+```
+
 ```quiz
 ? Quelle est l'unité du poids ?
 - le kilogramme
@@ -199,6 +226,187 @@ Sur Terre : $g \approx 9{,}8$ N/kg (souvent arrondi à 10). Sur la Lune : $g \ap
 + multipliée par 4
 - inchangée
 > Elle augmente beaucoup plus vite que la vitesse.
+```
+
+### 🎲 Entraînement sans fin
+
+Une banque de 30 questions : 10 sont tirées au hasard à chaque essai, sans répétition tant que la banque n'est pas épuisée. Recommence autant que tu veux !
+
+```quiz Entraînement sans fin ~10
+? Le mouvement d'une balle lâchée verticalement est…
++ rectiligne accéléré
+- rectiligne uniforme
+- circulaire uniforme
+> Sa trajectoire est une droite et sa vitesse augmente.
+
+? Un mouvement uniforme est un mouvement…
++ à vitesse constante
+- en ligne droite
+- qui ralentit
+> « Uniforme » parle de la vitesse, « rectiligne » de la trajectoire.
+
+? La Lune autour de la Terre a un mouvement presque…
++ circulaire uniforme
+- rectiligne accéléré
+- rectiligne uniforme
+> Trajectoire quasi circulaire à vitesse presque constante.
+
+? Le mouvement dépend…
++ du référentiel choisi
+- seulement de l'objet
+- de la masse
+> Un passager est immobile par rapport au train, mais en mouvement par rapport au quai.
+
+? Sur une chronophotographie, des points de plus en plus espacés montrent un mouvement…
++ accéléré
+- ralenti
+- uniforme
+> L'objet parcourt plus de distance à chaque intervalle.
+
+? 90 km/h en m/s font…
++ 25 m/s
+- 90 m/s
+- 324 m/s
+> $90 \div 3{,}6 = 25$.
+
+? Une action mécanique est modélisée par…
++ une force (flèche avec point d'application, direction, sens, valeur)
+- une vitesse
+- une masse
+> Valeur en newtons (N).
+
+? L'action de la Terre sur un objet s'appelle…
++ le poids
+- la masse
+- la réaction du sol
+> Il est vertical et dirigé vers le centre de la Terre.
+
+? Le poids est une action…
++ à distance
+- de contact
+> Pas besoin de toucher l'objet, comme pour les aimants.
+
+? La force exercée par une table sur un livre posé dessus est une action…
+- à distance
++ de contact
+> La table touche le livre.
+
+? Formule du poids :
++ $P = m \times g$
+- $P = \dfrac{m}{g}$
+- $P = m + g$
+> $P$ en N, $m$ en kg, $g$ en N/kg.
+
+? Sur la Lune, $g \approx 1{,}6$ N/kg. Le poids d'un astronaute de 80 kg est…
++ 128 N
+- 800 N
+- 50 N
+> $80 \times 1{,}6 = 128$ N.
+
+? La masse s'exprime en…
++ kilogrammes
+- newtons
+- mètres
+> Le poids, lui, en newtons.
+
+? Le poids d'un objet est plus faible sur la Lune car…
++ l'attraction de la Lune est plus faible que celle de la Terre
+- sa masse diminue
+- il n'y a pas d'air
+> $g$ est environ 6 fois plus petit sur la Lune.
+
+? L'interaction gravitationnelle entre deux corps est…
++ attractive
+- répulsive
+- inexistante
+> Les masses s'attirent toujours.
+
+? L'interaction gravitationnelle est d'autant plus forte que…
++ les masses sont grandes et proches
+- les masses sont petites
+- les corps sont éloignés
+> Elle diminue quand la distance augmente.
+
+? Qu'est-ce qui maintient les planètes en orbite autour du Soleil ?
++ l'attraction gravitationnelle du Soleil
+- le vent solaire
+- la rotation de la Terre
+> Sans elle, les planètes partiraient en ligne droite.
+
+? Si les forces qui s'exercent sur un objet se compensent, l'objet est…
++ immobile ou en mouvement rectiligne uniforme
+- forcément accéléré
+- forcément immobile
+> C'est le principe d'inertie.
+
+? Un objet qui tourne en rond à vitesse constante subit-il une force ?
++ Oui
+- Non
+> Sinon il irait tout droit : la force change sa direction.
+
+? Une force de 500 N est représentée avec l'échelle 1 cm pour 100 N. Longueur de la flèche ?
++ 5 cm
+- 50 cm
+- 0,5 cm
+> $500 \div 100 = 5$.
+
+? Un objet de 2 kg tombe. Son poids sur Terre ($g = 9{,}8$ N/kg) vaut…
++ 19,6 N
+- 2 N
+- 4,9 N
+> $2 \times 9{,}8$.
+
+? L'instrument pour mesurer un poids est…
++ le dynamomètre
+- la balance
+- le chronomètre
+> La balance mesure une masse.
+
+? Vrai ou faux : masse et poids sont la même chose.
+- Vrai
++ Faux
+> La masse (kg) ne change pas ; le poids (N) dépend de l'astre.
+
+? Vrai ou faux : la Terre attire la Lune et la Lune attire la Terre.
++ Vrai
+- Faux
+> L'interaction est réciproque (les marées en sont un effet).
+
+? La distance de sécurité augmente avec la vitesse car…
++ la distance de freinage augmente beaucoup avec la vitesse
+- les freins sont moins bons à grande vitesse
+- le temps de réaction diminue
+> La distance de freinage est multipliée par 4 quand la vitesse double.
+
+? La distance d'arrêt est la somme de…
++ la distance de réaction et la distance de freinage
+- la vitesse et le temps
+- la distance de freinage seule
+> Pendant la réaction, la voiture roule encore à pleine vitesse.
+
+? Le satellite naturel le plus proche de la Terre est…
++ la Lune
+- le Soleil
+- Mars
+> C'est notre satellite naturel.
+
+? Un cycliste fait 18 km en 45 min. Sa vitesse est…
++ 24 km/h
+- 40 km/h
+- 0,4 km/h
+> 45 min = 0,75 h ; $18 \div 0{,}75 = 24$.
+
+? Un parachutiste qui descend à vitesse constante subit des forces…
++ qui se compensent (poids et frottements de l'air)
+- qui ne se compensent pas
+- nulles
+> Mouvement rectiligne uniforme : les forces se compensent.
+
+? L'unité légale de la vitesse est…
++ le mètre par seconde (m/s)
+- le km/h
+- le newton
+> Le km/h est d'usage courant.
 ```
 
 ## Vidéos
