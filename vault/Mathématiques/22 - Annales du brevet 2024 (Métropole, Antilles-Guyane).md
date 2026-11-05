@@ -29,6 +29,61 @@ Les **énoncés** sont repris à l'identique du sujet officiel (DNB, session 202
 | 4 | Fonctions, tableur, factorisation | 07, 04 |
 | 5 | Losange, Scratch, rotation | 14, 17 |
 
+> [!tip] À retenir avant de commencer
+> - **Facteurs premiers** : tous les facteurs d'une décomposition doivent être premiers (4 ne l'est pas).
+> - **Probabilité** $= \dfrac{\text{cas favorables}}{\text{cas possibles}}$ ; on compare des fractions en les écrivant en décimaux.
+> - **Équation** : on regroupe les $x$ d'un côté et les nombres de l'autre, puis on divise.
+> - **Vitesses** : pour comparer, on convertit dans la même unité (m/s $\times$ 3,6 $=$ km/h).
+> - **Thalès** : avec deux droites parallèles, $\dfrac{CG}{CB} = \dfrac{GF}{BA}$ ; **Pythagore** : $\text{hypoténuse}^2 = \text{côté}^2 + \text{côté}^2$.
+> - **Proportionnalité** : si le temps est proportionnel à la surface, on utilise un produit en croix.
+> - **Pourcentage** : $t$ % de $N$ $= N \times \dfrac{t}{100}$.
+> - **Image** d'un nombre par $f$ : on remplace $x$ par ce nombre.
+> - **Losange** : 4 côtés égaux ; deux triangles équilatéraux accolés donnent des angles de $60°$ et $120°$.
+
+```quiz Sujet 2024 : échauffement
+? Résous l'équation $3x + 4 = x + 10$. (écris le nombre seul)
+= 3
+> 3x − x = 10 − 4, donc 2x = 6 et x = 3.
+
+? Convertis 36 km/h en m/s. (écris le nombre seul)
+= 10
+> 36 ÷ 3,6 = 10 m/s.
+
+? Une urne contient 2 boules rouges et 3 boules bleues. Quelle est la probabilité de tirer une boule rouge ?
++ $\dfrac{2}{5}$
+- $\dfrac{2}{3}$
+- $\dfrac{1}{2}$
+- $\dfrac{3}{5}$
+> 2 boules rouges sur 2 + 3 = 5 boules : 2/5.
+
+? Un triangle est rectangle avec des côtés de l'angle droit de 6 cm et 8 cm. Combien mesure l'hypoténuse (en cm) ?
+= 10
+> 6² + 8² = 36 + 64 = 100, donc l'hypoténuse mesure 10 cm.
+
+? Combien font 15 % de 200 ? (écris le nombre seul)
+= 30
+> 200 × 15 ÷ 100 = 30.
+
+? Dans un triangle rectangle, $\sin(\text{angle}) = 0{,}5$. Quelle est la mesure de l'angle en degrés ?
+= 30
+> sin⁻¹(0,5) = 30°.
+
+? $f(x) = x^2 + 2x$. Quelle est l'image de 3 ?
+= 15
+> f(3) = 9 + 6 = 15.
+
+? On colle deux triangles équilatéraux par un côté pour former un losange. Combien mesure son grand angle ?
++ $120°$
+- $60°$
+- $90°$
+- $100°$
+> Le grand angle est formé de deux angles de 60° : 120°.
+
+? Pour tracer un hexagone régulier avec Scratch, de combien de degrés faut-il tourner à chaque sommet ? (écris le nombre seul)
+= 60
+> 360 ÷ 6 = 60°.
+```
+
 ## Exercices corrigés
 
 ### Exercice 1 (20 points) : vrai ou faux
@@ -282,6 +337,21 @@ Les **énoncés** sont repris à l'identique du sujet officiel (DNB, session 202
 > - **Programme B** : on trace le Motif, on tourne de $72°$ puis on avance de 25 pas : les motifs sont tournés de $72°$ **et** décalés. C'est la **figure 3**.
 >
 > **Le programme A permet de tracer la figure 2, le programme B la figure 3 et le programme C la figure 1.**
+
+### Petits exercices pour s'entraîner
+
+> [!question] Petit exercice A
+> Un cylindre a pour rayon 3 cm et pour hauteur 10 cm. Donner son volume exact, puis arrondi à l'unité.
+
+> [!success]- Corrigé du petit exercice A
+> $V = \pi \times 3^2 \times 10 = \mathbf{90\pi}$ cm³ $\approx \mathbf{283}$ cm³.
+
+> [!question] Petit exercice B
+> Une urne contient 5 boules rouges, 3 boules vertes et 2 boules jaunes. Quelle est la probabilité de ne pas tirer une boule rouge ?
+
+> [!success]- Corrigé du petit exercice B
+> Il y a $5 + 3 + 2 = 10$ boules, dont $3 + 2 = 5$ qui ne sont pas rouges : $\dfrac{5}{10} = \mathbf{\dfrac{1}{2}}$.
+> *(Autre méthode : événement contraire, $1 - \dfrac{5}{10} = \dfrac{1}{2}$.)*
 
 ## Voir aussi
 

@@ -29,6 +29,58 @@ Les **énoncés** sont repris à l'identique du sujet officiel (DNB, session 202
 | 4 | Programme de calcul, fonctions | 04, 05, 08 |
 | 5 | Probabilités, Scratch | 10, 17 |
 
+> [!tip] À retenir avant de commencer
+> - **Tableur** : une formule commence par $=$ ; **=SOMME(B2:G2)** additionne les cellules de B2 à G2.
+> - **Moyenne avec effectifs** : on multiplie chaque valeur par son effectif, on additionne, puis on divise par l'effectif total.
+> - **Augmenter de $t$ %** revient à multiplier par $1 + \dfrac{t}{100}$ (hausse de 10 % : $\times 1{,}1$).
+> - **Pythagore** : dans un triangle rectangle, $\text{hypoténuse}^2 = \text{côté}^2 + \text{côté}^2$. **Sinus** $= \dfrac{\text{opposé}}{\text{hypoténuse}}$ ; on retrouve l'angle avec la touche $\sin^{-1}$.
+> - **Thalès** : avec deux droites parallèles, les longueurs sont proportionnelles.
+> - **Translation** : tout est déplacé de la même façon, la figure ne tourne pas et ne change pas de taille.
+> - **Carré** : $(-3)^2 = 9$ mais $-3^2 = -9$.
+> - **Dé équilibré** : chaque face a la même probabilité, $P = \dfrac{\text{faces favorables}}{\text{nombre de faces}}$.
+
+```quiz Sujet 2025 Polynésie : échauffement
+? Un club compte 50 inscrits. Une hausse de 20 % est prévue. Combien d'inscrits y aura-t-il ?
+= 60
+> 50 × 1,2 = 60.
+
+? Notes : 10 avec le coefficient 1 et 14 avec le coefficient 3. Quelle est la moyenne ?
+= 13
+> (10 × 1 + 14 × 3) ÷ 4 = 52 ÷ 4 = 13.
+
+? Que vaut $(-5)^2$ ?
++ $25$
+- $-25$
+- $-10$
+- $10$
+> (−5)² = (−5) × (−5) = 25. Un carré est toujours positif.
+
+? Dans un triangle rectangle, le côté opposé à un angle mesure 3 cm et l'hypoténuse 6 cm. Quelle est la mesure de cet angle en degrés ?
+= 30
+> sin(angle) = 3 ÷ 6 = 0,5, donc l'angle mesure 30°.
+
+? On translate le point (2 ; 1) de 3 carreaux vers la droite et 2 vers le bas. Quelles sont ses nouvelles coordonnées ?
++ $(5\;;\;-1)$
+- $(5\;;\;3)$
+- $(-1\;;\;3)$
+- $(-1\;;\;-1)$
+> Vers la droite : x augmente de 3 (2 + 3 = 5). Vers le bas : y diminue de 2 (1 − 2 = −1).
+
+? On lance un dé équilibré à 12 faces. Quelle est la probabilité d'obtenir un multiple de 4 ? (écris une fraction)
+= 1/4
+= 3/12
+= 0,25
+> Les multiples de 4 sont 4, 8 et 12 : 3 faces sur 12, soit 1/4.
+
+? $f(x) = 2x - 8$. Quelle est l'image de 5 ?
+= 2
+> f(5) = 2 × 5 − 8 = 2.
+
+? Quelle est la solution de l'équation $2x + 3 = 11$ ?
+= 4
+> 2x = 11 − 3 = 8, donc x = 4.
+```
+
 ## Exercices corrigés
 
 ### Exercice 1 (20 points)
@@ -287,6 +339,21 @@ Les **énoncés** sont repris à l'identique du sujet officiel (DNB, session 202
 > - ligne 4 : mettre *Résultat* à **Dé 1 + Dé 2**
 >
 > **2.** Avec Dé 1 $= 8$ et Dé 2 $= 3$ : *Résultat* $= 8 + 3 = 11$. Comme $11 > 6$, la condition « *Résultat* > 6 » est vraie : le programme affiche **« Gagné ! »** pendant 2 secondes.
+
+### Petits exercices pour s'entraîner
+
+> [!question] Petit exercice A
+> Un club de sport compte 40 inscrits. L'an prochain, il prévoit une hausse de 15 %. Combien d'inscrits sont prévus ?
+
+> [!success]- Corrigé du petit exercice A
+> Hausse de 15 % : on multiplie par $1{,}15$. $40 \times 1{,}15 = \mathbf{46}$ inscrits.
+
+> [!question] Petit exercice B
+> Le triangle ABC est rectangle en A, avec AB = 6 cm et BC = 10 cm. Calculer AC, puis $\cos(\widehat{ABC})$.
+
+> [!success]- Corrigé du petit exercice B
+> Pythagore : $AC^2 = BC^2 - AB^2 = 100 - 36 = 64$, donc $AC = \mathbf{8}$ cm.
+> Dans le triangle ABC, [AB] est le côté adjacent à l'angle $\widehat{ABC}$ et [BC] l'hypoténuse : $\cos(\widehat{ABC}) = \dfrac{6}{10} = \mathbf{0{,}6}$.
 
 ## Voir aussi
 

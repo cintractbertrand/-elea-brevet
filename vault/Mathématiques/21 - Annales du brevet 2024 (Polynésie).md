@@ -29,6 +29,60 @@ Les **énoncés** sont repris à l'identique du sujet officiel (DNB, session 202
 | 4 | Angles, Scratch, transformations | 14, 17 |
 | 5 | Volume du cylindre, fonction affine | 15, 08 |
 
+> [!tip] À retenir avant de commencer
+> - **Divisible par 21** : il faut un 3 **et** un 7 dans la décomposition en facteurs premiers.
+> - **Écriture scientifique** : $a \times 10^n$ avec $1 \leq a < 10$ ; pour un petit nombre, l'exposant $n$ est négatif.
+> - **Vitesse** : 1 km/min $= 1\,000$ m $\div$ 60 s ; pour passer de km/h à m/s, on divise par 3,6.
+> - **Équation produit nul** : $A \times B = 0$ si $A = 0$ ou $B = 0$.
+> - **Thalès** : avec (AB) // (ED), $\dfrac{CD}{CB} = \dfrac{DE}{AB}$.
+> - **Médiane** : valeur du milieu ; **étendue** : plus grande valeur $-$ plus petite.
+> - **Agrandissement de rapport $k$** : longueurs $\times k$, aires $\times k^2$.
+> - **Polygone régulier à $n$ côtés** : on tourne de $\dfrac{360}{n}$ degrés (72° pour un pentagone).
+> - **Volume d'un cylindre** $= \pi \times r^2 \times h$.
+
+```quiz Sujet 2024 Polynésie : échauffement
+? Quelle est l'écriture scientifique de 0,00035 ?
++ $3{,}5 \times 10^{-4}$
+- $3{,}5 \times 10^{4}$
+- $35 \times 10^{-5}$
+- $0{,}35 \times 10^{-3}$
+> On décale la virgule de 4 rangs vers la droite : 3,5 × 10⁻⁴. Les autres écritures ne respectent pas 1 ≤ a < 10 ou donnent un autre nombre.
+
+? Convertis 90 km/h en m/s. (écris le nombre seul)
+= 25
+> 90 ÷ 3,6 = 25 m/s.
+
+? Quelles sont les solutions de $(x-2)(x+5) = 0$ ?
++ $2$ et $-5$
+- $-2$ et $5$
+- $2$ et $5$
+- $-2$ et $-5$
+> x − 2 = 0 donne x = 2 ; x + 5 = 0 donne x = −5.
+
+? Quelle est l'étendue de la série 3 ; 5 ; 9 ; 12 ?
+= 9
+> 12 − 3 = 9.
+
+? Dans un pentagone régulier, de combien de degrés tourne-t-on à chaque sommet quand on trace le contour ? (écris le nombre seul)
+= 72
+> 360 ÷ 5 = 72°.
+
+? Quel est le volume d'un cylindre de rayon 2 cm et de hauteur 5 cm, arrondi au dixième de cm³ ?
+= 62,8
+> π × 2² × 5 = 20π ≈ 62,8 cm³.
+
+? Un triangle est agrandi avec un rapport 3. Par combien son aire est-elle multipliée ? (écris le nombre seul)
+= 9
+> Les aires sont multipliées par k² = 3² = 9.
+
+? Quelle transformation est équivalente à une rotation de 180° autour d'un point O ?
++ La symétrie centrale de centre O
+- La symétrie axiale
+- Une translation
+- Une homothétie de rapport 2
+> La symétrie centrale de centre O envoie chaque point M sur M' tel que O soit le milieu de [MM'], ce qui revient à tourner de 180° autour de O.
+```
+
 ## Exercices corrigés
 
 ### Exercice 1 (21 points)
@@ -310,6 +364,24 @@ Les **énoncés** sont repris à l'identique du sujet officiel (DNB, session 202
 > *Interprétation :* au bout d'environ 90 minutes (1 h 30), il reste 40 m³ d'eau à vider.
 >
 > **b.** Le bassin est vide quand $V(t) = 0$ : on lit l'abscisse du point où la droite coupe l'axe horizontal, $t \approx \mathbf{260}$ minutes, soit environ 4 h 20 min. *(Par le calcul : $\dfrac{61{,}1}{0{,}235} = 260$.)*
+
+### Petits exercices pour s'entraîner
+
+> [!question] Petit exercice A
+> Convertir 108 km/h en m/s.
+
+> [!success]- Corrigé du petit exercice A
+> $108 \div 3{,}6 = \mathbf{30}$ m/s. *(Ou : $108\,000$ m en $3\,600$ s, donc $\dfrac{108\,000}{3\,600} = 30$.)*
+
+> [!question] Petit exercice B
+> Résoudre l'équation $(3x - 6)(x + 4) = 0$.
+
+> [!success]- Corrigé du petit exercice B
+> Un produit est nul si l'un des facteurs est nul :
+> - $3x - 6 = 0 \Rightarrow x = 2$
+> - $x + 4 = 0 \Rightarrow x = -4$
+>
+> Les solutions sont $\mathbf{2}$ et $\mathbf{-4}$.
 
 ## Voir aussi
 
