@@ -47,7 +47,7 @@ tags: [méthode, brevet, épreuve, organisation]
 
 ## La réécriture et la dictée
 
-Voir [[04 - La réécriture]] et [[05 - Orthographe et accords]].
+Voir [[04 - La réécriture]], [[05 - Orthographe et accords]] et [[13 - La dictée]]. Pour la question sur l'image, voir [[14 - Analyser une image]].
 
 ## La rédaction
 
