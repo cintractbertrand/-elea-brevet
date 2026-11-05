@@ -282,3 +282,7 @@
 .cp-btn.on { background: #e3f1fc; border-color: #a9d2f3; }
 .cp-bonheur { display: flex; align-items: center; justify-content: space-between; margin-top: 10px; font-size: .8rem; color: #7b6f78; }
 .cp-aide { margin-top: 8px; font-size: .74rem; color: #8a7e86; line-height: 1.35; }
+
+/* Silver parle anglais : phrase en anglais + traduction en petit */
+.chat-bulle .chat-en { display: block; font-weight: 700; }
+.chat-bulle .chat-fr { display: block; margin-top: 3px; font-size: .78em; opacity: .75; font-style: italic; }
