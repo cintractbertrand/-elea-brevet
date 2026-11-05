@@ -307,6 +307,37 @@ Le temps composé marque l'**antériorité** : *Quand il **eut fini**, il **sort
 
 ## Quiz
 
+### ⚡ Échauffement express
+
+Cinq petites questions à réponse tapée pour vérifier que les bases sont là.
+
+```quiz Échauffement express
+? Conjugue « finir » au présent avec « nous »
+= finissons
+= nous finissons
+> 2e groupe : nous finissons.
+
+? Conjugue « aller » au futur avec « je »
+= irai
+= j'irai
+> Le radical change : ir-.
+
+? Conjugue « être » à l'imparfait avec « ils »
+= étaient
+= ils étaient
+> J'étais, tu étais, il était, nous étions, vous étiez, ils étaient.
+
+? Conjugue « faire » au passé simple avec « il »
+= fit
+= il fit
+> Il fit, ils firent.
+
+? Conjugue « venir » au subjonctif présent avec « que je »
+= vienne
+= que je vienne
+> Que je vienne, que nous venions.
+```
+
 ```quiz
 ? Dans un récit, l'imparfait sert surtout à…
 + décrire le décor et les actions qui durent
@@ -355,6 +386,163 @@ Le temps composé marque l'**antériorité** : *Quand il **eut fini**, il **sort
 + Pour une loi scientifique
 - Pour décrire une action qui se passe en ce moment
 > « L'eau bout à 100 °C » et les proverbes sont toujours vrais. Une action en cours relève du présent d'énonciation.
+```
+
+### 🎲 Entraînement sans fin
+
+Une banque de 26 questions : 10 sont tirées au hasard à chaque essai, sans répétition tant que la banque n'est pas épuisée. Recommence autant que tu veux !
+
+```quiz Entraînement sans fin ~10
+? Le passé simple s'emploie surtout pour…
++ les actions de premier plan dans un récit au passé
+- les descriptions
+- les habitudes du passé
+> L'imparfait sert à l'arrière-plan (descriptions, habitudes).
+
+? L'imparfait s'emploie pour…
++ les descriptions, les habitudes, les actions en cours dans le passé
+- une action brève et soudaine
+- le futur
+> « Il faisait beau ; soudain, l'orage éclata. »
+
+? « Il chanta » est conjugué au…
+- passé composé
++ passé simple
+- imparfait
+> Passé simple du verbe chanter (1er groupe : -a).
+
+? « Nous avions mangé » est au…
+- passé composé
++ plus-que-parfait
+- passé antérieur
+> Auxiliaire à l'imparfait + participe passé.
+
+? « Ils seront partis » est au…
++ futur antérieur
+- futur simple
+- conditionnel passé
+> Auxiliaire au futur + participe passé.
+
+? Le conditionnel présent de « pouvoir » avec « je » est…
++ je pourrais
+- je pourrai
+- je puisse
+> Terminaison -ais (conditionnel) ; -ai = futur.
+
+? « Je mangerai » ou « je mangerais » ? « Demain, je … une pizza. »
++ mangerai (futur)
+- mangerais (conditionnel)
+> Action certaine dans le futur : futur simple.
+
+? « Si j'avais le temps, je … du sport. »
+- ferai
++ ferais
+> Si + imparfait → conditionnel présent.
+
+? Le subjonctif s'emploie après…
++ « il faut que »
+- « je pense que »
+- « parce que »
+> Il exprime souvent l'obligation, le souhait, le doute.
+
+? « Il faut que tu … » (faire)
++ fasses
+- fais
+- feras
+> Subjonctif présent de faire : que tu fasses.
+
+? L'impératif présent de « être » à la 2e personne du singulier est…
++ sois
+- es
+- soit
+> Sois sage !
+
+? L'impératif de « manger » (2e pers. sing.) s'écrit…
++ mange
+- manges
+> Pas de s pour les verbes en -er à l'impératif (sauf devant en/y : manges-en).
+
+? Le passé simple de « voir » avec « ils » est…
++ ils virent
+- ils voyèrent
+- ils voirent
+> Je vis, tu vis, il vit, nous vîmes, vous vîtes, ils virent.
+
+? Le passé simple de « prendre » avec « elle » est…
++ elle prit
+- elle prenda
+- elle prena
+> Je pris, il prit, ils prirent.
+
+? Le passé simple de « avoir » avec « nous » est…
++ nous eûmes
+- nous avions
+- nous aurons
+> J'eus, tu eus, il eut, nous eûmes, vous eûtes, ils eurent.
+
+? Le présent de vérité générale exprime…
++ une vérité toujours valable (« La Terre tourne autour du Soleil »)
+- une action en cours
+- un souvenir
+> Aussi dans les proverbes.
+
+? Le présent de narration sert à…
++ rendre un récit au passé plus vivant
+- parler du futur
+- donner un ordre
+> « En 1914, la guerre éclate. »
+
+? Quel est le mode de « en chantant » ?
++ gérondif (participe présent précédé de « en »)
+- infinitif
+- subjonctif
+> Il exprime la simultanéité ou la manière.
+
+? Les modes personnels sont…
++ indicatif, subjonctif, conditionnel, impératif
+- infinitif et participe
+- seulement l'indicatif
+> L'infinitif et le participe sont impersonnels.
+
+? Le futur de « voir » avec « tu » est…
++ tu verras
+- tu voiras
+- tu voyeras
+> Radical irrégulier : ver-.
+
+? Le futur de « envoyer » avec « je » est…
++ j'enverrai
+- j'envoyerai
+- j'envoirai
+> Radical irrégulier : enverr-.
+
+? Le présent de « peindre » avec « ils » est…
++ ils peignent
+- ils peindent
+- ils peinent
+> Je peins, nous peignons, ils peignent.
+
+? Vrai ou faux : le conditionnel peut exprimer une information non vérifiée.
++ Vrai
+- Faux
+> « Le suspect serait en fuite. »
+
+? Vrai ou faux : on écrit « j'irais » pour une action sûre demain.
+- Vrai
++ Faux
+> Action certaine : futur, « j'irai ».
+
+? Le passé composé de « tomber » avec « elles » est…
++ elles sont tombées
+- elles ont tombé
+- elles sont tombé
+> Auxiliaire être : accord avec le sujet.
+
+? « Quand il eut fini, il partit. » « eut fini » est au…
++ passé antérieur
+- plus-que-parfait
+- passé composé
+> Action antérieure à un passé simple.
 ```
 
 ## Vidéos

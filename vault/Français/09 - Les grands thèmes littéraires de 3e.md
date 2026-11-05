@@ -133,6 +133,37 @@ Le poète **transforme** le regard sur le monde par les images et la musique des
 
 ## Quiz
 
+### ⚡ Échauffement express
+
+Cinq petites questions à réponse tapée pour vérifier que les bases sont là.
+
+```quiz Échauffement express
+? Comment appelle-t-on le récit de sa propre vie par l'auteur ?
+= autobiographie
+= une autobiographie
+> L'auteur, le narrateur et le personnage sont la même personne.
+
+? Qui a écrit « Les Misérables » ?
+= Victor Hugo
+= Hugo
+> Roman publié en 1862.
+
+? Quel genre littéraire est écrit pour être joué sur scène ?
+= théâtre
+= le théâtre
+> Avec des répliques et des didascalies.
+
+? Comment s'appellent les indications de mise en scène au théâtre ?
+= didascalies
+= les didascalies
+> Souvent en italique.
+
+? Qui a écrit « 1984 », roman sur une société totalitaire (nom) ?
+= Orwell
+= George Orwell
+> Publié en 1949.
+```
+
 ```quiz
 ? Dans une autobiographie…
 + l'auteur, le narrateur et le personnage principal sont la même personne
@@ -182,6 +213,160 @@ Le poète **transforme** le regard sur le monde par les images et la musique des
 + la guerre, l'intolérance, l'esclavage
 - la vie des poètes
 > C'est un conte philosophique plein d'ironie.
+```
+
+### 🎲 Entraînement sans fin
+
+Une banque de 25 questions : 10 sont tirées au hasard à chaque essai, sans répétition tant que la banque n'est pas épuisée. Recommence autant que tu veux !
+
+```quiz Entraînement sans fin ~10
+? Les grands thèmes de 3e sont…
++ se raconter, dénoncer les travers de la société, visions poétiques du monde, agir dans la cité, progrès et rêves scientifiques
+- uniquement la poésie
+- uniquement le théâtre
+> Ce sont les entrées du programme.
+
+? Le pacte autobiographique (Philippe Lejeune) est…
++ l'engagement de l'auteur à dire la vérité sur sa vie
+- un contrat d'édition
+- un poème
+> Ex. Rousseau, « Les Confessions ».
+
+? Les mémoires se distinguent de l'autobiographie car…
++ ils mêlent la vie de l'auteur aux grands événements historiques
+- ils sont inventés
+- ils sont écrits par un autre
+> Ex. Chateaubriand, « Mémoires d'outre-tombe ».
+
+? « W ou le souvenir d'enfance » de Georges Perec mêle…
++ autobiographie et fiction
+- théâtre et poésie
+- science et cuisine
+> Perec a perdu ses parents pendant la guerre.
+
+? Une utopie est…
++ la description d'une société idéale
+- une société cauchemardesque
+- un poème d'amour
+> Thomas More, « Utopie » (1516).
+
+? Une dystopie (contre-utopie) est…
++ une société imaginaire oppressante
+- une société idéale
+- un roman d'amour
+> Ex. « 1984 », « Le Meilleur des mondes ».
+
+? La satire sert à…
++ se moquer pour critiquer les travers de la société
+- raconter sa vie
+- décrire un paysage
+> Ex. les fables de La Fontaine.
+
+? « Candide » de Voltaire est…
++ un conte philosophique qui critique l'optimisme et les injustices
+- une autobiographie
+- une tragédie
+> Publié en 1759.
+
+? Victor Hugo, exilé sous Napoléon III, est un exemple d'écrivain…
++ engagé
+- indifférent à la politique
+- uniquement comique
+> Il dénonce la misère et la peine de mort.
+
+? La poésie engagée de la Résistance est illustrée par…
++ Paul Éluard (« Liberté ») et Louis Aragon
+- Molière
+- La Fontaine
+> Poèmes écrits pendant l'Occupation.
+
+? « Antigone » de Jean Anouilh (1944) met en scène…
++ une jeune fille qui dit non au pouvoir de Créon
+- une histoire d'amour comique
+- un voyage spatial
+> Réécriture de Sophocle, jouée sous l'Occupation.
+
+? Dans une tragédie classique, la règle des trois unités impose…
++ unité de temps, de lieu et d'action
+- trois actes
+- trois personnages
+> XVIIe siècle (Racine, Corneille).
+
+? Une comédie de Molière cherche à…
++ corriger les mœurs en faisant rire
+- faire pleurer
+- raconter la guerre
+> « Castigat ridendo mores ».
+
+? Le monologue au théâtre est…
++ une tirade où un personnage parle seul
+- un dialogue rapide
+- une didascalie
+> Il révèle ses pensées.
+
+? Un aparté est…
++ une réplique dite pour le public, que les autres personnages sont censés ne pas entendre
+- un long discours
+- un changement de décor
+> Complicité avec le spectateur.
+
+? Une stichomythie est…
++ un échange de répliques très courtes
+- un long monologue
+- un chant
+> Elle crée un rythme vif.
+
+? Jules Verne illustre le thème…
++ progrès et rêves scientifiques
+- se raconter
+- la poésie lyrique
+> « Vingt mille lieues sous les mers », « De la Terre à la Lune ».
+
+? « Frankenstein » de Mary Shelley interroge…
++ les dangers d'une science sans limites
+- la vie à la campagne
+- la Révolution française
+> Le créateur est dépassé par sa créature.
+
+? Le roman d'anticipation…
++ imagine le futur à partir du présent
+- raconte le passé
+- est forcément drôle
+> Souvent pour alerter.
+
+? Primo Levi, dans « Si c'est un homme », témoigne…
++ de sa déportation à Auschwitz
+- de sa vie de roi
+- d'un voyage sur la Lune
+> Récit autobiographique et témoignage.
+
+? Vrai ou faux : « Le Petit Prince » est une autobiographie.
+- Vrai
++ Faux
+> C'est un conte poétique de Saint-Exupéry.
+
+? Vrai ou faux : un texte peut à la fois raconter et dénoncer.
++ Vrai
+- Faux
+> Ex. un roman réaliste qui dénonce la misère.
+
+? Le réalisme (XIXe siècle) veut…
++ représenter la réalité telle qu'elle est, y compris la misère
+- inventer des mondes magiques
+- écrire uniquement en vers
+> Balzac, Flaubert, Zola.
+
+? Zola, dans « Germinal », dénonce…
++ la misère des mineurs
+- la vie des rois
+- le progrès spatial
+> Roman naturaliste (1885).
+
+? L'argumentation directe…
++ défend une thèse de façon explicite (essai, discours)
+- passe par une histoire
+- n'existe pas
+> L'argumentation indirecte passe par un récit (fable, conte).
 ```
 
 ## Voir aussi

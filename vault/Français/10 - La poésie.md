@@ -143,6 +143,36 @@ De / main / dès / l'au / be à / l'heu / re où / blan / chit / la / cam / pagn
 
 ## Quiz
 
+### ⚡ Échauffement express
+
+Cinq petites questions à réponse tapée pour vérifier que les bases sont là.
+
+```quiz Échauffement express
+? Combien de syllabes compte un alexandrin ?
+= 12
+= douze
+> L'alexandrin est le vers de 12 syllabes, coupé en deux hémistiches de 6.
+
+? Comment appelle-t-on une strophe de quatre vers ?
+= quatrain
+= un quatrain
+> Distique = 2, tercet = 3, quatrain = 4.
+
+? Combien de vers compte un sonnet ?
+= 14
+= quatorze
+> 2 quatrains + 2 tercets = 4 + 4 + 3 + 3.
+
+? Quel schéma correspond aux rimes croisées ?
+= ABAB
+> Plates = AABB, croisées = ABAB, embrassées = ABBA.
+
+? Comment s'appelle la moitié d'un alexandrin ?
+= hémistiche
+= un hémistiche
+> Chaque hémistiche compte 6 syllabes ; la pause entre les deux est la césure.
+```
+
 ```quiz
 ? Combien de syllabes compte un alexandrin ?
 - 8
@@ -192,6 +222,192 @@ De / main / dès / l'au / be à / l'heu / re où / blan / chit / la / cam / pagn
 + vers libres
 - rimes embrassées
 > Apollinaire et Prévert ont écrit des poèmes en vers libres.
+```
+
+### 🎲 Entraînement sans fin
+
+Une banque de 30 questions : 10 sont tirées au hasard à chaque essai, sans répétition tant que la banque n'est pas épuisée. Recommence autant que tu veux !
+
+```quiz Entraînement sans fin ~10
+? Un vers, c'est…
++ une ligne de poème
+- un groupe de lignes
+- un son répété
+> Un groupe de vers forme une strophe.
+
+? Une strophe, c'est…
++ un groupe de vers, comme un paragraphe
+- une ligne de poème
+- une rime
+> On les sépare par une ligne blanche.
+
+? Combien de vers dans un tercet ?
++ 3
+- 2
+- 4
+> Ter = trois.
+
+? Combien de vers dans un distique ?
++ 2
+- 3
+- 4
+> Di = deux.
+
+? Le e muet se prononce dans un vers…
++ devant un mot qui commence par une consonne
+- devant un mot qui commence par une voyelle
+- à la fin du vers
+> e + consonne = on le compte ; e + voyelle = on l'avale.
+
+? Le e muet en fin de vers…
++ ne compte jamais
+- compte toujours
+- compte s'il y a une virgule
+> Ex. : « cam-pagne » = 2 syllabes en fin de vers.
+
+? Combien de syllabes dans « Une belle fleur » (dit dans un vers) ?
++ 5
+- 3
+- 4
+> U-ne-bel-le-fleur : les deux e sont devant une consonne, on les prononce.
+
+? Combien de syllabes dans « Une âme » (dans un vers, avant une consonne) ?
++ 3
+- 4
+- 2
+> U-n(e) â-me : le e de « une » est élidé devant « âme » ; celui de « âme » compte s'il est suivi d'une consonne.
+
+? La diérèse consiste à…
++ prononcer en deux syllabes deux voyelles normalement liées
+- supprimer un e muet
+- couper un alexandrin en deux
+> Ex. : « pass-i-on » au lieu de « pas-sion ».
+
+? Le schéma AABB correspond à des rimes…
++ plates (suivies)
+- croisées
+- embrassées
+> Deux vers qui riment, puis deux autres.
+
+? Le schéma ABBA correspond à des rimes…
++ embrassées
+- plates
+- croisées
+> La rime B est « embrassée » par la rime A.
+
+? « amour / jour / rêve / sève » : quel schéma ?
++ AABB, rimes plates
+- ABAB, rimes croisées
+- ABBA, rimes embrassées
+> amour = jour (A), rêve = sève (B).
+
+? « nuit / mer / bruit / hiver » : quel schéma ?
++ ABAB, rimes croisées
+- AABB, rimes plates
+- ABBA, rimes embrassées
+> nuit = bruit (A), mer = hiver (B), en alternance.
+
+? Une rime féminine…
++ se termine par un e muet (ex. : rose)
+- parle d'une femme
+- se termine par une consonne prononcée
+> Sinon elle est masculine (ex. : amour).
+
+? Le sonnet est composé de…
++ deux quatrains puis deux tercets
+- trois quatrains
+- quatre tercets
+> 14 vers, souvent en alexandrins.
+
+? Le dernier vers d'un sonnet, qui surprend souvent, s'appelle…
++ la chute
+- la césure
+- le refrain
+> Il donne souvent la clé du poème.
+
+? Le vers libre, c'est…
++ un vers sans mètre régulier ni rimes obligatoires
+- un vers de 12 syllabes
+- un poème sans titre
+> Utilisé au XXe siècle (Apollinaire, Prévert).
+
+? Un poème en prose…
++ n'a pas de vers mais travaille les images et le rythme
+- est toujours un sonnet
+- est un roman
+> Ex. : Baudelaire, « Petits poèmes en prose ».
+
+? Un calligramme est…
++ un poème dont le texte dessine une forme
+- un poème de 14 vers
+- un poème chanté
+> Apollinaire en a écrit beaucoup.
+
+? L'allitération est la répétition…
++ d'un son consonne
+- d'un son voyelle
+- d'un mot entier
+> Ex. : « Pour qui sont ces serpents qui sifflent sur vos têtes ? » (son [s]).
+
+? L'assonance est la répétition…
++ d'un son voyelle
+- d'un son consonne
+- d'une rime
+> Ex. : répétition du son [an] ou [i].
+
+? Dans « Pour qui sont ces serpents qui sifflent sur vos têtes ? », le son [s] évoque…
++ le sifflement des serpents
+- le bruit de la mer
+- un cri de joie
+> Toujours expliquer l'effet du son, pas seulement le nommer.
+
+? L'enjambement, c'est quand…
++ la phrase continue sur le vers suivant
+- deux vers riment
+- on supprime une syllabe
+> Il crée un effet de débordement, de continuité.
+
+? Le rejet, c'est…
++ un mot court renvoyé au début du vers suivant, mis en valeur
+- un vers qui ne rime pas
+- un poème refusé par l'éditeur
+> Sa position isolée attire l'attention.
+
+? La césure d'un alexandrin se place…
++ après la 6e syllabe
+- après la 4e syllabe
+- à la fin du vers
+> Elle partage le vers en deux hémistiches.
+
+? Combien de syllabes dans « Demain, dès l'aube, à l'heure où blanchit la campagne » ?
++ 12
+- 13
+- 14
+> Les e de « aube » et « heure » sont élidés, celui de « campagne » est en fin de vers.
+
+? Qui a écrit « Demain, dès l'aube… » ?
++ Victor Hugo
+- Charles Baudelaire
+- Jacques Prévert
+> Poème des « Contemplations », écrit pour sa fille Léopoldine.
+
+? Pour analyser un poème, on commence par se demander…
++ de quoi il parle (le thème)
+- combien il a de lettres
+- en quelle année l'auteur est mort
+> Puis : comment il est construit, quelles images, quel effet.
+
+? Dire seulement « il y a une allitération en [s] » est…
++ incomplet : il faut expliquer l'effet produit
+- suffisant pour avoir tous les points
+- faux, cela n'existe pas
+> Nommer + citer + expliquer l'effet.
+
+? « Un poème de quatre vers » pour dire « quatrain » est…
++ une confusion : le quatrain est une strophe de quatre vers
+- tout à fait juste
+- le nom d'un sonnet
+> Un poème peut contenir plusieurs quatrains.
 ```
 
 ## Voir aussi

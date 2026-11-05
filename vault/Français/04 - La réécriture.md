@@ -129,6 +129,37 @@ tags: [réécriture, conjugaison, accords, discours indirect]
 
 ## Quiz
 
+### ⚡ Échauffement express
+
+Cinq petites questions à réponse tapée pour vérifier que les bases sont là.
+
+```quiz Échauffement express
+? Réécris au pluriel : « Le chien aboie. »
+= Les chiens aboient.
+= Les chiens aboient
+> Le déterminant, le nom et le verbe changent.
+
+? Réécris au féminin : « Il est content. »
+= Elle est contente.
+= Elle est contente
+> L'adjectif s'accorde aussi.
+
+? Réécris avec « nous » : « Je suis parti. » (donne la phrase)
+= Nous sommes partis.
+= Nous sommes partis
+> Auxiliaire être : le participe s'accorde avec le sujet.
+
+? Réécris au passé composé : « Elle mange. »
+= Elle a mangé.
+= Elle a mangé
+> Auxiliaire avoir + participe passé.
+
+? Réécris à l'imparfait : « Ils jouent. »
+= Ils jouaient.
+= Ils jouaient
+> Terminaison -aient.
+```
+
 ```quiz
 ? « Il dit : "Je suis fatigué." » devient au discours indirect…
 - Il dit que je suis fatigué.
@@ -178,6 +209,154 @@ tags: [réécriture, conjugaison, accords, discours indirect]
 - il eut fini
 - il finissait
 > Le passé composé du discours direct devient plus-que-parfait.
+```
+
+### 🎲 Entraînement sans fin
+
+Une banque de 24 questions : 10 sont tirées au hasard à chaque essai, sans répétition tant que la banque n'est pas épuisée. Recommence autant que tu veux !
+
+```quiz Entraînement sans fin ~10
+? Dans la réécriture du brevet, il faut…
++ modifier uniquement ce qui est demandé et faire toutes les modifications nécessaires
+- réécrire le texte librement
+- résumer le texte
+> Chaque erreur coûte des points.
+
+? « Il prend son sac. » → avec « Ils » :
++ Ils prennent leur sac. (ou leurs sacs)
+- Ils prend son sac.
+- Ils prenent leur sac.
+> Le possessif change aussi : son → leur.
+
+? « Je lui ai parlé. » → avec « nous » à la place de « je » :
++ Nous lui avons parlé.
+- Nous lui avez parlé.
+- Nous leurs avons parlé.
+> Seul le sujet et le verbe changent.
+
+? « Elle est arrivée hier. » → avec « Ils » :
++ Ils sont arrivés hier.
+- Ils sont arrivé hier.
+- Ils ont arrivés hier.
+> Accord du participe avec l'auxiliaire être.
+
+? « Les fleurs qu'il a cueillies » : pourquoi « cueillies » ?
++ le COD « qu' » (= les fleurs) est placé avant l'auxiliaire avoir
+- il s'accorde avec « il »
+- c'est une faute
+> Avec avoir, accord avec le COD placé avant.
+
+? « Il a cueilli des fleurs. » → pourquoi « cueilli » sans accord ?
++ le COD est placé après le verbe
+- le sujet est masculin
+- les fleurs ne comptent pas
+> Pas d'accord si le COD est après.
+
+? « Je marchais dans la rue. » → au passé simple :
++ Je marchai dans la rue.
+- Je marcha dans la rue.
+- J'ai marché dans la rue.
+> Passé simple, 1re personne, 1er groupe : -ai.
+
+? Il a dit : « Je viendrai demain. » → au discours indirect :
++ Il a dit qu'il viendrait le lendemain.
+- Il a dit qu'il viendra demain.
+- Il a dit que je viendrai demain.
+> Futur → conditionnel, et « demain » devient « le lendemain ».
+
+? Discours direct → indirect : Il dit : « Je suis fatigué. »
++ Il dit qu'il est fatigué.
+- Il dit que je suis fatigué.
+- Il dit : je suis fatigué.
+> Les pronoms changent.
+
+? « Ma sœur est partie. » → au pluriel :
++ Mes sœurs sont parties.
+- Mes sœurs est partie.
+- Mes sœurs sont partis.
+> Accord en genre et nombre.
+
+? « Elle s'est lavée. » → avec « Elles » :
++ Elles se sont lavées.
+- Elles s'est lavées.
+- Elles se sont lavé.
+> Verbe pronominal : accord avec le sujet ici.
+
+? « Tu finis ton travail. » → avec « vous » :
++ Vous finissez votre travail.
+- Vous finisez votre travail.
+- Vous finissez ton travail.
+> Le possessif suit la personne.
+
+? « Ce garçon est beau. » → au féminin pluriel :
++ Ces filles sont belles.
+- Ces filles sont beaux.
+- Cettes filles sont belles.
+> Ce → ces ; beau → belles.
+
+? « Je ne vois personne. » → avec « ils » :
++ Ils ne voient personne.
+- Ils ne voit personne.
+- Ils ne voyent personne.
+> Je vois, ils voient.
+
+? Pour réussir une réécriture, il faut d'abord…
++ repérer tous les mots qui vont changer (verbes, pronoms, accords)
+- recopier vite sans réfléchir
+- changer le vocabulaire
+> Souligne-les avant de réécrire.
+
+? « Il a dû partir. » → avec « elles » :
++ Elles ont dû partir.
+- Elles ont dûes partir.
+- Elles sont dû partir.
+> Le participe de devoir suivi d'un infinitif reste invariable.
+
+? Vrai ou faux : dans une réécriture, on peut changer l'ordre des mots si on veut.
+- Vrai
++ Faux
+> On ne modifie que ce qui est demandé.
+
+? Vrai ou faux : un passage au pluriel peut changer les pronoms COD (le → les).
++ Vrai
+- Faux
+> « Je le vois » → « je les vois ».
+
+? « Il s'en va. » → à l'imparfait avec « nous » :
++ Nous nous en allions.
+- Nous nous en allons.
+- Nous s'en allions.
+> Le pronom réfléchi suit la personne.
+
+? « J'ai peur qu'il parte. » → avec « nous » à la place de « il » :
++ J'ai peur que nous partions.
+- J'ai peur que nous partons.
+- J'ai peur que nous partirons.
+> Subjonctif présent.
+
+? « Elle dit : « J'aime ce livre. » » au discours indirect :
++ Elle dit qu'elle aime ce livre.
+- Elle dit qu'elle aime le livre de moi.
+- Elle dit que j'aime ce livre.
+> La 1re personne devient la 3e.
+
+? « Il faisait froid ; il mit son manteau. » → au présent :
++ Il fait froid ; il met son manteau.
+- Il fais froid ; il mets son manteau.
+- Il fait froid ; il mis son manteau.
+> Il met (verbe mettre).
+
+? « Le loup qui avait faim » → au pluriel :
++ Les loups qui avaient faim
+- Les loups qui avait faim
+- Les loups qui avaient faims
+> « Faim » reste invariable dans « avoir faim ».
+
+? Quel est le piège le plus fréquent en réécriture ?
++ oublier un accord ou un pronom
+- écrire trop lisiblement
+- souligner les mots
+> Relis mot à mot à la fin.
 ```
 
 ## Vidéos
