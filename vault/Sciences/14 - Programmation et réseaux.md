@@ -146,6 +146,34 @@ tags: [technologie, programmation, algorithme, Scratch, réseau, adresse IP]
 
 ## Quiz
 
+### ⚡ Échauffement express
+
+Cinq petites questions à réponse tapée pour vérifier que les bases sont là.
+
+```quiz Échauffement express
+? Combien de valeurs peut prendre un bit ?
+= 2
+> 0 ou 1.
+
+? 1 octet = combien de bits ?
+= 8
+> 8 bits.
+
+? Quel protocole donne une adresse unique à chaque appareil sur Internet ? (sigle)
+= IP
+> L'adresse IP.
+
+? L'appareil qui relie le réseau de la maison à Internet s'appelle une…
+= box
+= routeur
+= la box
+> Elle joue le rôle de routeur.
+
+? Combien font 3 octets en bits ?
+= 24
+> $3 \times 8 = 24$.
+```
+
 ```quiz
 ? Dans un algorigramme, un losange représente…
 - le début
@@ -200,6 +228,189 @@ tags: [technologie, programmation, algorithme, Scratch, réseau, adresse IP]
 - utiliser le même mot de passe partout
 - cliquer sur tous les liens reçus
 > Le hameçonnage (phishing) se repère à des messages frauduleux.
+```
+
+### 🎲 Entraînement sans fin
+
+Une banque de 30 questions : 10 sont tirées au hasard à chaque essai, sans répétition tant que la banque n'est pas épuisée. Recommence autant que tu veux !
+
+```quiz Entraînement sans fin ~10
+? Un réseau informatique est…
++ un ensemble d'appareils reliés qui échangent des informations
+- un seul ordinateur
+- un logiciel de dessin
+> Ex. le réseau du collège, Internet.
+
+? Internet est…
++ un réseau de réseaux à l'échelle mondiale
+- un site web
+- un navigateur
+> Le Web n'est qu'un service d'Internet.
+
+? Le Web (www) est…
++ un service d'Internet qui permet de consulter des pages reliées par des liens
+- la même chose qu'Internet
+- un câble
+> Les mails sont un autre service d'Internet.
+
+? Une adresse IP sert à…
++ identifier un appareil sur un réseau
+- protéger un mot de passe
+- mesurer la vitesse
+> Ex. 192.168.1.10.
+
+? Un serveur est…
++ un ordinateur qui fournit des services (pages web, fichiers) à d'autres
+- un écran
+- un clavier
+> Les clients lui envoient des requêtes.
+
+? Le DNS sert à…
++ traduire un nom de site en adresse IP
+- envoyer des mails
+- chiffrer un mot de passe
+> Comme un annuaire.
+
+? Les données circulent sur Internet…
++ découpées en paquets
+- en un seul bloc
+- par courrier
+> Chaque paquet peut prendre un chemin différent.
+
+? Le protocole HTTPS indique que…
++ la communication est chiffrée
+- le site est gratuit
+- le site est forcément fiable
+> Il protège les échanges mais ne garantit pas l'honnêteté du site.
+
+? Un mot de passe solide…
++ est long et mélange lettres, chiffres et symboles
+- est sa date de naissance
+- est « 123456 »
+> On en utilise un différent par site.
+
+? Le hameçonnage (phishing) consiste à…
++ tromper quelqu'un pour voler ses identifiants
+- réparer un ordinateur
+- accélérer le wifi
+> Faux mails imitant une banque, un réseau social…
+
+? Le wifi transmet les données par…
++ des ondes radio
+- des câbles en cuivre
+- de la lumière dans des fibres
+> La fibre optique utilise la lumière.
+
+? Un débit de 100 Mbit/s signifie…
++ 100 millions de bits par seconde
+- 100 octets par minute
+- 100 mégaoctets par heure
+> Le débit mesure la quantité de données transmise par seconde.
+
+? Un fichier de 8 Mo fait…
++ 64 Mbit
+- 8 Mbit
+- 1 Mbit
+> 1 octet = 8 bits.
+
+? En binaire, le nombre 5 s'écrit…
++ 101
+- 11
+- 110
+> $4 + 0 + 1 = 5$.
+
+? En binaire, 1010 vaut…
++ 10
+- 1 010
+- 5
+> $8 + 0 + 2 + 0 = 10$.
+
+? Une variable dans un programme sert à…
++ stocker une valeur qui peut changer
+- afficher une image
+- relier deux ordinateurs
+> Ex. la température mesurée.
+
+? Une boucle « tant que » répète des instructions…
++ tant qu'une condition est vraie
+- une seule fois
+- jamais
+> Ex. tant que la porte est ouverte, faire sonner l'alarme.
+
+? Dans un programme, « si température > 25 alors allumer ventilateur » est…
++ une instruction conditionnelle
+- une boucle
+- une variable
+> On teste une condition.
+
+? Un algorithme est…
++ une suite d'instructions pour résoudre un problème
+- un langage
+- un câble
+> Il peut être écrit en langage naturel, puis programmé.
+
+? Les données personnelles sont protégées en Europe par…
++ le RGPD
+- le Wi-Fi
+- le HTML
+> Règlement général sur la protection des données.
+
+? Avant 15 ans en France, l'inscription sur un réseau social nécessite…
++ l'accord des parents
+- rien du tout
+- un permis
+> C'est la « majorité numérique ».
+
+? Une photo publiée en ligne…
++ peut être copiée et rester visible longtemps
+- disparaît forcément au bout d'un jour
+- est privée automatiquement
+> On réfléchit avant de publier.
+
+? Le cyberharcèlement…
++ est puni par la loi ; on peut appeler le 3018
+- n'est pas grave
+- n'existe pas
+> Le 3018 est le numéro national contre les violences numériques.
+
+? Le stockage « dans le cloud » signifie que les fichiers sont…
++ sur des serveurs distants
+- uniquement sur ta clé USB
+- dans l'imprimante
+> Accessibles depuis n'importe quel appareil connecté.
+
+? Vrai ou faux : Internet et le Web sont la même chose.
+- Vrai
++ Faux
+> Le Web est un des services d'Internet.
+
+? Vrai ou faux : le numérique a un impact environnemental (énergie des serveurs, fabrication des appareils).
++ Vrai
+- Faux
+> La fabrication des appareils est la principale source d'impact.
+
+? Vrai ou faux : un site en HTTPS est forcément honnête.
+- Vrai
++ Faux
+> HTTPS chiffre la connexion, il ne garantit pas les intentions du site.
+
+? Le HTML sert à…
++ décrire le contenu d'une page web
+- envoyer des mails
+- compresser des images
+> Le CSS gère la mise en forme.
+
+? Un réseau local (LAN) relie…
++ des appareils proches (maison, collège)
+- toute la planète
+- uniquement des téléphones
+> Internet relie entre eux des millions de réseaux locaux.
+
+? Le commutateur (switch) sert à…
++ relier les appareils d'un réseau local
+- produire de l'électricité
+- afficher les pages web
+> Le routeur relie des réseaux différents.
 ```
 
 ## Voir aussi

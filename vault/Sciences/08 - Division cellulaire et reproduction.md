@@ -130,6 +130,37 @@ tags: [SVT, mitose, méiose, fécondation, gamètes, diversité génétique]
 
 ## Quiz
 
+### ⚡ Échauffement express
+
+Cinq petites questions à réponse tapée pour vérifier que les bases sont là.
+
+```quiz Échauffement express
+? Comment s'appelle la division qui produit deux cellules identiques ?
+= mitose
+= la mitose
+> Elle permet la croissance et la réparation.
+
+? Combien de cellules filles produit une mitose ?
+= 2
+> Deux cellules identiques à la cellule mère.
+
+? Combien de chromosomes dans chaque cellule fille après la mitose d'une cellule humaine ?
+= 46
+> La mitose conserve le nombre de chromosomes.
+
+? Comment s'appelle la cellule reproductrice femelle ?
+= ovule
+= l'ovule
+= ovocyte
+> La cellule mâle est le spermatozoïde.
+
+? Comment s'appelle la division qui produit les gamètes ?
+= méiose
+= la méiose
+= meiose
+> Elle divise par 2 le nombre de chromosomes.
+```
+
 ```quiz
 ? La mitose produit…
 + deux cellules identiques à la cellule mère
@@ -183,6 +214,182 @@ tags: [SVT, mitose, méiose, fécondation, gamètes, diversité génétique]
 + aussi différents que des frères et sœurs
 - toujours de même sexe
 > Ils sont issus de deux ovules et deux spermatozoïdes différents.
+```
+
+### 🎲 Entraînement sans fin
+
+Une banque de 29 questions : 10 sont tirées au hasard à chaque essai, sans répétition tant que la banque n'est pas épuisée. Recommence autant que tu veux !
+
+```quiz Entraînement sans fin ~10
+? Avant une mitose, chaque chromosome…
++ se duplique (il est copié)
+- disparaît
+- se divise en 4
+> Il est alors formé de deux chromatides identiques.
+
+? À quoi sert la mitose ?
++ à la croissance et au renouvellement des cellules
+- à fabriquer les gamètes
+- à la digestion
+> Elle a lieu dans tout le corps (peau, os…).
+
+? Après une mitose, les cellules filles sont…
++ génétiquement identiques à la cellule mère
+- toutes différentes
+- sans noyau
+> Mêmes chromosomes, même information.
+
+? La méiose produit des cellules…
++ à 23 chromosomes (un de chaque paire)
+- à 46 chromosomes
+- à 92 chromosomes
+> Ce sont les gamètes.
+
+? Où ont lieu les méioses chez l'homme ?
++ dans les testicules
+- dans le cœur
+- dans l'estomac
+> Chez la femme, dans les ovaires.
+
+? La fécondation est…
++ l'union d'un ovule et d'un spermatozoïde
+- la division d'une cellule
+- la naissance du bébé
+> Elle forme la cellule-œuf.
+
+? Chez l'humain, la fécondation a lieu…
++ dans une trompe (oviducte)
+- dans l'utérus
+- dans le vagin
+> L'embryon migre ensuite vers l'utérus.
+
+? La nidation est…
++ l'implantation de l'embryon dans la paroi de l'utérus
+- la ponte
+- la fécondation
+> Elle a lieu environ une semaine après la fécondation.
+
+? La puberté est déclenchée par…
++ des hormones
+- l'alimentation
+- la mitose
+> Testostérone chez le garçon, œstrogènes chez la fille.
+
+? Les testicules produisent…
++ les spermatozoïdes et la testostérone
+- les ovules
+- le sang
+> En continu à partir de la puberté.
+
+? Le cycle menstruel dure en moyenne…
++ 28 jours
+- 7 jours
+- 1 an
+> Il varie selon les personnes.
+
+? L'ovulation a lieu en moyenne…
++ vers le 14e jour du cycle
+- le 1er jour
+- le 28e jour
+> Le 1er jour du cycle correspond au début des règles.
+
+? Les règles correspondent…
++ à l'élimination de la muqueuse de l'utérus
+- à l'ovulation
+- à la fécondation
+> En l'absence de grossesse.
+
+? Le préservatif est le seul moyen de contraception qui…
++ protège aussi des infections sexuellement transmissibles (IST)
+- est définitif
+- se prend tous les jours
+> D'où son importance.
+
+? La pilule contraceptive agit en…
++ bloquant l'ovulation grâce à des hormones
+- tuant les spermatozoïdes
+- protégeant des IST
+> Elle ne protège pas des IST.
+
+? Le placenta permet…
++ les échanges entre la mère et le fœtus (nutriments, dioxygène, déchets)
+- au bébé de respirer de l'air
+- la fécondation
+> Le sang de la mère et celui du fœtus ne se mélangent pas.
+
+? Une grossesse dure environ…
++ 9 mois
+- 3 mois
+- 12 mois
+> Environ 38 semaines après la fécondation.
+
+? La reproduction sexuée…
++ crée des individus tous différents
+- crée des clones
+- ne nécessite pas de gamètes
+> Elle mélange les informations génétiques des deux parents.
+
+? Le bouturage d'une plante est une reproduction…
++ asexuée
+- sexuée
+> La nouvelle plante est un clone de la plante mère.
+
+? Chez les plantes à fleurs, le pollen contient…
++ les gamètes mâles
+- les ovules
+- les graines
+> Il est transporté par le vent ou les insectes.
+
+? La pollinisation est…
++ le transport du pollen vers le pistil d'une fleur
+- la germination
+- la chute des feuilles
+> Les abeilles y jouent un grand rôle.
+
+? Après fécondation, l'ovaire de la fleur devient…
++ le fruit
+- la racine
+- la tige
+> Les ovules deviennent les graines.
+
+? Vrai ou faux : les cellules de la peau se divisent par méiose.
+- Vrai
++ Faux
+> Par mitose. La méiose ne concerne que les gamètes.
+
+? Vrai ou faux : un spermatozoïde peut contenir un chromosome X ou un chromosome Y.
++ Vrai
+- Faux
+> C'est lui qui détermine le sexe de l'enfant.
+
+? Vrai ou faux : la pilule protège du VIH.
+- Vrai
++ Faux
+> Seul le préservatif protège des IST.
+
+? Le dépistage des IST se fait…
++ gratuitement dans des centres spécialisés (CeGIDD)
+- uniquement à l'étranger
+- jamais avant 18 ans
+> Des tests existent pour le VIH, la chlamydia, etc.
+
+? Une cellule-œuf se divise ensuite par…
++ mitoses successives
+- méioses
+- fécondation
+> Elle devient un embryon.
+
+? La FIV (fécondation in vitro) consiste à…
++ réaliser la fécondation en laboratoire puis implanter l'embryon dans l'utérus
+- cloner un individu
+- bloquer l'ovulation
+> C'est une technique d'aide à la procréation.
+
+? Les caractères sexuels secondaires (voix qui mue, pilosité…) apparaissent…
++ à la puberté
+- à la naissance
+- à 30 ans
+> Sous l'action des hormones.
 ```
 
 ## Vidéos

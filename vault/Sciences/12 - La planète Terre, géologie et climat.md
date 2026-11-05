@@ -129,6 +129,38 @@ $$\text{Risque} = \text{aléa} \times \text{enjeux}$$
 
 ## Quiz
 
+### ⚡ Échauffement express
+
+Cinq petites questions à réponse tapée pour vérifier que les bases sont là.
+
+```quiz Échauffement express
+? Comment s'appellent les grandes plaques rigides qui forment la surface de la Terre ?
+= plaques tectoniques
+= plaques lithosphériques
+= plaques
+> Elles se déplacent de quelques cm par an.
+
+? Un séisme se mesure avec quelle échelle (nom du savant) ?
+= Richter
+= magnitude
+> La magnitude mesure l'énergie libérée.
+
+? Le magma qui sort d'un volcan s'appelle…
+= lave
+= la lave
+> En refroidissant, elle forme des roches volcaniques.
+
+? Quel gaz est le principal responsable du réchauffement climatique d'origine humaine ? (formule)
+= CO2
+= CO₂
+> Le dioxyde de carbone, rejeté par les combustibles fossiles.
+
+? La Terre tourne autour du Soleil en environ combien de jours ?
+= 365
+= 365,25
+> Une année.
+```
+
 ```quiz
 ? À quelle vitesse se déplacent les plaques lithosphériques ?
 - quelques mètres par jour
@@ -183,6 +215,189 @@ $$\text{Risque} = \text{aléa} \times \text{enjeux}$$
 - le climat
 - l'effet de serre uniquement
 > Le climat s'étudie sur au moins 30 ans.
+```
+
+### 🎲 Entraînement sans fin
+
+Une banque de 30 questions : 10 sont tirées au hasard à chaque essai, sans répétition tant que la banque n'est pas épuisée. Recommence autant que tu veux !
+
+```quiz Entraînement sans fin ~10
+? Les plaques tectoniques se déplacent…
++ de quelques centimètres par an
+- de plusieurs kilomètres par jour
+- jamais
+> Environ la vitesse de pousse des ongles.
+
+? Au niveau d'une dorsale océanique, les plaques…
++ s'écartent et une nouvelle croûte océanique se forme
+- se rapprochent
+- ne bougent pas
+> Ex. la dorsale médio-atlantique.
+
+? Dans une zone de subduction, une plaque océanique…
++ plonge sous une autre plaque
+- s'écarte
+- monte vers le ciel
+> Cela provoque séismes et volcans (ex. Japon, Andes).
+
+? La collision de deux plaques continentales forme…
++ des chaînes de montagnes
+- des océans
+- des dorsales
+> Ex. l'Himalaya, les Alpes.
+
+? Un séisme est provoqué par…
++ une rupture brutale des roches en profondeur
+- le vent
+- la pluie
+> L'énergie libérée se propage en ondes sismiques.
+
+? Le foyer d'un séisme est…
++ le point en profondeur où la rupture commence
+- le point en surface juste au-dessus
+- une ville touchée
+> L'épicentre est le point de surface à la verticale du foyer.
+
+? Un risque naturel combine…
++ un aléa et des enjeux (population, biens)
+- uniquement un volcan
+- la météo seule
+> Un séisme dans un désert vide présente un faible risque.
+
+? Pour réduire le risque sismique, on peut…
++ construire des bâtiments parasismiques et informer la population
+- empêcher les séismes
+- construire plus haut sans règles
+> On ne peut pas empêcher un séisme, mais on peut limiter ses effets.
+
+? La météo, c'est…
++ le temps qu'il fait à un endroit sur une courte durée
+- les moyennes sur 30 ans
+- l'étude des volcans
+> Le climat correspond aux moyennes sur au moins 30 ans.
+
+? Le climat d'une région se définit…
++ par les moyennes de températures et de précipitations sur au moins 30 ans
+- par le temps d'une journée
+- par le nombre de volcans
+> On ne confond pas météo et climat.
+
+? L'effet de serre naturel…
++ permet à la Terre d'avoir une température moyenne d'environ 15 °C
+- n'existe pas
+- refroidit la Terre à −50 °C
+> Sans lui, il ferait environ −18 °C.
+
+? Les activités humaines renforcent l'effet de serre car elles rejettent…
++ du $\text{CO}_2$ et du méthane
+- du dioxygène
+- de la vapeur d'eau seulement
+> Combustion du pétrole, du charbon, élevage…
+
+? Une conséquence du réchauffement climatique est…
++ la montée du niveau des océans
+- la baisse du niveau des océans
+- la disparition des saisons
+> Fonte des glaciers et dilatation de l'eau.
+
+? Les saisons sont dues…
++ à l'inclinaison de l'axe de rotation de la Terre
+- à la distance Terre-Soleil
+- à la Lune
+> L'hiver, les rayons arrivent plus inclinés.
+
+? L'alternance jour/nuit est due…
++ à la rotation de la Terre sur elle-même en 24 h
+- à la révolution autour du Soleil
+- aux nuages
+> Le Soleil éclaire une moitié de la Terre à la fois.
+
+? Une ressource non renouvelable, par exemple…
++ le pétrole
+- l'énergie solaire
+- le bois d'une forêt gérée
+> Elle met des millions d'années à se former.
+
+? L'eau douce représente environ…
++ 3 % de l'eau sur Terre
+- 50 %
+- 97 %
+> L'essentiel est salé, et une grande part de l'eau douce est gelée.
+
+? Un aquifère (nappe phréatique) est…
++ de l'eau stockée dans les roches du sous-sol
+- un lac de surface
+- un nuage
+> On y puise de l'eau potable.
+
+? Le sol est une ressource fragile car…
++ il met des centaines d'années à se former
+- il se reforme en un jour
+- il ne contient rien de vivant
+> Il contient une très grande biodiversité (vers de terre, bactéries…).
+
+? Les volcans effusifs émettent…
++ une lave fluide qui coule
+- des explosions de cendres uniquement
+- de l'eau
+> Ex. le Piton de la Fournaise.
+
+? Les volcans explosifs émettent…
++ une lave visqueuse, des nuées ardentes et des cendres
+- une lave très fluide
+- rien de dangereux
+> Ex. la montagne Pelée (Martinique).
+
+? Vrai ou faux : un été froid prouve que le climat ne se réchauffe pas.
+- Vrai
++ Faux
+> On ne confond pas un épisode météo et une tendance climatique sur 30 ans.
+
+? Vrai ou faux : le GIEC est un groupe d'experts qui étudie le climat.
++ Vrai
+- Faux
+> Il publie des rapports scientifiques sur le changement climatique.
+
+? Vrai ou faux : la Lune est plus éloignée de la Terre que le Soleil.
+- Vrai
++ Faux
+> Lune : environ 384 000 km ; Soleil : 150 millions de km.
+
+? L'atténuation du changement climatique consiste à…
++ réduire les émissions de gaz à effet de serre
+- construire des digues seulement
+- augmenter la consommation de charbon
+> L'adaptation, elle, consiste à se préparer aux effets.
+
+? Une inondation est un aléa…
++ climatique ou météorologique
+- sismique
+- volcanique
+> Il peut être aggravé par l'imperméabilisation des sols.
+
+? Les forêts jouent un rôle pour le climat car elles…
++ stockent du carbone
+- produisent du $\text{CO}_2$ uniquement
+- n'ont aucun rôle
+> La photosynthèse capte le $\text{CO}_2$.
+
+? Les sismographes enregistrent…
++ les ondes sismiques
+- la température
+- la pluie
+> Ils permettent de localiser l'épicentre.
+
+? La Terre fait partie du système solaire, qui compte…
++ 8 planètes
+- 9 planètes
+- 12 planètes
+> Mercure, Vénus, Terre, Mars, Jupiter, Saturne, Uranus, Neptune.
+
+? Le plus grand océan du monde est…
++ le Pacifique
+- l'Atlantique
+- l'Indien
+> Il est bordé par la « ceinture de feu » volcanique.
 ```
 
 ## Voir aussi

@@ -130,6 +130,39 @@ tags: [SVT, immunité, anticorps, vaccination, antibiotiques, bactéries, virus]
 
 ## Quiz
 
+### ⚡ Échauffement express
+
+Cinq petites questions à réponse tapée pour vérifier que les bases sont là.
+
+```quiz Échauffement express
+? Les bactéries sont-elles des êtres vivants ? (oui/non)
+= oui
+> Ce sont des êtres unicellulaires.
+
+? Un antibiotique agit-il sur les virus ? (oui/non)
+= non
+> Les antibiotiques n'agissent que sur les bactéries.
+
+? Comment s'appellent les cellules du sang qui défendent l'organisme ?
+= globules blancs
+= leucocytes
+= les globules blancs
+> Phagocytes et lymphocytes.
+
+? Comment s'appellent les molécules produites par les lymphocytes B qui neutralisent un microbe ?
+= anticorps
+= les anticorps
+= des anticorps
+> Chaque anticorps est spécifique d'un antigène.
+
+? Le VIH s'attaque à quelles cellules ? (lymphocytes…)
+= T
+= lymphocytes T
+= LT
+= T4
+> Il détruit les lymphocytes T, ce qui affaiblit l'immunité (sida).
+```
+
 ```quiz
 ? Les antibiotiques sont efficaces contre…
 + les bactéries
@@ -184,6 +217,189 @@ tags: [SVT, immunité, anticorps, vaccination, antibiotiques, bactéries, virus]
 + pour renforcer la mémoire immunitaire
 - pour remplacer les antibiotiques
 > La 2e injection provoque une réponse plus rapide et plus forte.
+```
+
+### 🎲 Entraînement sans fin
+
+Une banque de 30 questions : 10 sont tirées au hasard à chaque essai, sans répétition tant que la banque n'est pas épuisée. Recommence autant que tu veux !
+
+```quiz Entraînement sans fin ~10
+? Un micro-organisme est…
++ un être vivant visible seulement au microscope
+- un petit insecte
+- une cellule du sang
+> Bactéries, champignons microscopiques, virus (à part)…
+
+? Les virus…
++ ne peuvent se multiplier qu'à l'intérieur d'une cellule
+- se multiplient seuls dans l'eau
+- sont des bactéries
+> Ce ne sont pas des cellules.
+
+? La plupart des bactéries sont…
++ inoffensives ou utiles
+- toutes dangereuses
+- des virus
+> Ex. le microbiote intestinal, les bactéries du yaourt.
+
+? Le microbiote intestinal…
++ aide à la digestion et protège contre certains microbes
+- est toujours dangereux
+- est un virus
+> Il compte des milliards de bactéries.
+
+? Les bactéries se multiplient…
++ très rapidement par division
+- très lentement
+- seulement la nuit
+> Certaines se divisent toutes les 20 minutes.
+
+? Une contamination, c'est…
++ l'entrée de micro-organismes dans l'organisme
+- la guérison
+- la vaccination
+> Par une plaie, l'air, les aliments…
+
+? Une infection, c'est…
++ la multiplication des micro-organismes dans l'organisme
+- un lavage des mains
+- un vaccin
+> Elle suit la contamination.
+
+? La première barrière contre les microbes est…
++ la peau et les muqueuses
+- les anticorps
+- les antibiotiques
+> Une peau intacte est très efficace.
+
+? La réaction inflammatoire se reconnaît à…
++ rougeur, gonflement, chaleur, douleur
+- une fièvre de 42 °C
+- rien de visible
+> C'est la réponse immunitaire innée (rapide, non spécifique).
+
+? La phagocytose est…
++ l'ingestion et la destruction des microbes par des phagocytes
+- la production d'anticorps
+- la multiplication des virus
+> C'est une réaction rapide.
+
+? Les lymphocytes B produisent…
++ des anticorps
+- des antibiotiques
+- des virus
+> Les anticorps neutralisent les microbes.
+
+? Les lymphocytes T…
++ détruisent les cellules infectées par un virus
+- produisent des anticorps
+- digèrent les aliments
+> On parle de lymphocytes T cytotoxiques.
+
+? Un anticorps est spécifique, cela signifie qu'il…
++ agit contre un seul antigène précis
+- agit contre tous les microbes
+- tue les bactéries directement
+> Comme une clé pour une serrure.
+
+? Un antigène est…
++ une molécule reconnue comme étrangère par le système immunitaire
+- un médicament
+- un globule blanc
+> Les anticorps se fixent sur les antigènes.
+
+? Le principe de la vaccination est…
++ d'injecter un microbe inactivé ou une partie de microbe pour créer une mémoire immunitaire
+- d'injecter des antibiotiques
+- de soigner une maladie déjà déclarée
+> En cas de vrai contact, la réponse est rapide et forte.
+
+? Les lymphocytes mémoire permettent…
++ une réponse plus rapide et plus forte lors d'un 2e contact
+- de digérer
+- de produire des globules rouges
+> C'est la base de la vaccination.
+
+? Quand une grande partie de la population est vaccinée, on protège aussi…
++ les personnes qui ne peuvent pas être vaccinées
+- seulement les vaccinés
+- personne
+> Le microbe circule moins : c'est l'immunité collective.
+
+? Un antibiotique est efficace contre…
++ les bactéries
+- les virus
+- les champignons et les virus
+> D'où « les antibiotiques, c'est pas automatique ».
+
+? L'utilisation excessive d'antibiotiques favorise…
++ l'apparition de bactéries résistantes
+- la guérison des grippes
+- la disparition des virus
+> Les bactéries résistantes sont sélectionnées.
+
+? Pour limiter la transmission des microbes, on peut…
++ se laver les mains et tousser dans son coude
+- partager sa gourde
+- éviter de se laver
+> Gestes barrières.
+
+? L'asepsie consiste à…
++ empêcher les microbes d'arriver (matériel stérile)
+- tuer les microbes sur une plaie
+- prendre un antibiotique
+> L'antisepsie, elle, tue les microbes présents (désinfectant).
+
+? Le sida est causé par…
++ le VIH, un virus
+- une bactérie
+- un champignon
+> Il se transmet par le sang et les rapports sexuels non protégés.
+
+? Une personne séropositive au VIH…
++ a des anticorps contre le VIH dans son sang
+- est guérie
+- n'a jamais rencontré le virus
+> Les traitements actuels empêchent l'évolution vers le sida.
+
+? Une sérothérapie consiste à injecter…
++ des anticorps déjà fabriqués
+- un microbe atténué
+- un antibiotique
+> L'effet est immédiat mais ne dure pas.
+
+? Vrai ou faux : la fièvre aide l'organisme à se défendre.
++ Vrai
+- Faux
+> Elle ralentit la multiplication de certains microbes.
+
+? Vrai ou faux : un vaccin soigne une maladie déjà déclarée.
+- Vrai
++ Faux
+> Il prévient la maladie, il ne la soigne pas.
+
+? Vrai ou faux : les yaourts sont fabriqués grâce à des bactéries.
++ Vrai
+- Faux
+> Les bactéries lactiques transforment le lait.
+
+? Le pus est constitué…
++ de phagocytes morts et de débris de microbes
+- de sang propre
+- d'anticorps uniquement
+> Signe d'une infection locale.
+
+? Pour conserver les aliments, on ralentit les bactéries par…
++ le froid
+- la chaleur douce (30 °C)
+- l'humidité
+> Le froid ralentit leur multiplication ; la cuisson les détruit.
+
+? Qui a mis au point le premier vaccin contre la rage (1885) ?
++ Louis Pasteur
+- Marie Curie
+- Charles Darwin
+> Edward Jenner avait inventé le vaccin contre la variole (1796).
 ```
 
 ## Vidéos

@@ -128,6 +128,37 @@ tags: [SVT, évolution, sélection naturelle, biodiversité, parenté, fossiles]
 
 ## Quiz
 
+### ⚡ Échauffement express
+
+Cinq petites questions à réponse tapée pour vérifier que les bases sont là.
+
+```quiz Échauffement express
+? Quel scientifique a proposé la théorie de la sélection naturelle (nom) ?
+= Darwin
+= Charles Darwin
+> En 1859, dans « L'Origine des espèces ».
+
+? Les espèces actuelles descendent-elles d'ancêtres communs ? (oui/non)
+= oui
+> Toutes les espèces sont apparentées.
+
+? Comment s'appelle la diversité des êtres vivants ?
+= biodiversité
+= la biodiversité
+> Elle s'observe à 3 niveaux : écosystèmes, espèces, gènes.
+
+? Comment s'appelle une modification aléatoire de l'ADN ?
+= mutation
+= une mutation
+> Elle peut créer un nouvel allèle.
+
+? Il y a environ combien de milliards d'années que la vie est apparue sur Terre ? (nombre)
+= 3,8
+= 3.8
+= 4
+> Les premières traces de vie datent d'environ 3,8 milliards d'années.
+```
+
 ```quiz
 ? Qui a proposé la théorie de la sélection naturelle ?
 - Pasteur
@@ -181,6 +212,181 @@ tags: [SVT, évolution, sélection naturelle, biodiversité, parenté, fossiles]
 - une espèce encore vivante
 - un type de roche
 > Les fossiles permettent de reconstituer l'histoire des peuplements.
+```
+
+### 🎲 Entraînement sans fin
+
+Une banque de 29 questions : 10 sont tirées au hasard à chaque essai, sans répétition tant que la banque n'est pas épuisée. Recommence autant que tu veux !
+
+```quiz Entraînement sans fin ~10
+? La sélection naturelle explique que…
++ les individus les mieux adaptés à leur milieu survivent et se reproduisent davantage
+- les animaux choisissent de changer
+- les espèces ne changent jamais
+> Leurs caractères deviennent plus fréquents au fil des générations.
+
+? Les mutations se produisent…
++ au hasard
+- volontairement pour s'adapter
+- seulement chez les humains
+> C'est ensuite le milieu qui « trie » les individus.
+
+? Les phalènes du bouleau sombres sont devenues plus nombreuses près des usines car…
++ elles étaient moins visibles des oiseaux sur les troncs noircis
+- la pollution les a peintes
+- elles ont décidé de changer de couleur
+> Exemple célèbre de sélection naturelle (Angleterre, XIXe siècle).
+
+? Des bactéries deviennent résistantes aux antibiotiques parce que…
++ les quelques bactéries résistantes survivent et se multiplient
+- les antibiotiques les rendent plus fortes
+- elles apprennent
+> D'où l'importance de ne pas abuser des antibiotiques.
+
+? La dérive génétique, c'est…
++ la variation au hasard de la fréquence des allèles, surtout dans les petites populations
+- la sélection par l'humain
+- une migration
+> Elle ne dépend pas de l'avantage d'un caractère.
+
+? Deux espèces qui partagent un ancêtre commun récent…
++ ont beaucoup de caractères en commun
+- n'ont rien en commun
+- sont identiques
+> Ex. l'humain et le chimpanzé.
+
+? L'humain descend-il du chimpanzé ?
+- Oui
++ Non
+> Ils ont un ancêtre commun, il y a environ 7 millions d'années.
+
+? Une espèce est un ensemble d'individus…
++ qui peuvent se reproduire entre eux et avoir des descendants fertiles
+- de même couleur
+- qui vivent au même endroit
+> Ex. tous les chiens forment une seule espèce.
+
+? Les fossiles permettent…
++ de connaître des espèces disparues et leur évolution
+- de dater l'âge d'un humain vivant
+- de produire de l'énergie
+> Ce sont des restes ou traces d'êtres vivants conservés dans les roches.
+
+? Les dinosaures non aviens ont disparu il y a environ…
++ 66 millions d'années
+- 6 000 ans
+- 3 milliards d'années
+> Probablement après la chute d'une météorite.
+
+? Les oiseaux sont…
++ les descendants actuels de certains dinosaures
+- sans lien avec les dinosaures
+- apparus avant les dinosaures
+> Ce sont des dinosaures à plumes.
+
+? Une crise biologique (extinction de masse) est…
++ la disparition d'un grand nombre d'espèces en peu de temps
+- l'apparition d'une espèce
+- une maladie
+> On en compte cinq majeures.
+
+? Selon de nombreux scientifiques, nous vivons une 6e crise de la biodiversité due…
++ aux activités humaines
+- aux météorites
+- aux volcans
+> Destruction des milieux, pollution, réchauffement, surexploitation.
+
+? Quelle est la première cause de perte de biodiversité ?
++ la destruction des habitats naturels
+- les zoos
+- la chasse aux moustiques
+> Déforestation, urbanisation, agriculture intensive.
+
+? Une espèce invasive est…
++ une espèce introduite qui se répand et menace les espèces locales
+- une espèce protégée
+- une espèce disparue
+> Ex. le frelon asiatique en France.
+
+? Pour protéger la biodiversité, on peut…
++ créer des aires protégées et des corridors écologiques
+- assécher les zones humides
+- couper les haies
+> Les haies et mares abritent de nombreuses espèces.
+
+? La biodiversité comprend…
++ la diversité des écosystèmes, des espèces et des gènes
+- seulement le nombre d'espèces
+- seulement les animaux
+> Trois niveaux à connaître.
+
+? La diversité génétique au sein d'une espèce est un atout car…
++ elle augmente les chances que certains individus s'adaptent à un changement
+- elle rend l'espèce plus fragile
+- elle ne sert à rien
+> Une population de clones peut disparaître d'un coup face à une maladie.
+
+? Un arbre de parenté (phylogénétique) se construit à partir…
++ des caractères partagés entre les espèces
+- de la taille des animaux
+- de leur couleur
+> Plus deux espèces partagent de caractères, plus elles sont proches.
+
+? La baleine est plus proche…
++ de la vache que du requin
+- du requin que de la vache
+> C'est un mammifère (poils, mamelles, poumons).
+
+? Les premiers êtres vivants étaient…
++ unicellulaires
+- des mammifères
+- des plantes à fleurs
+> Les êtres pluricellulaires sont apparus bien plus tard.
+
+? Un éleveur qui choisit les vaches qui donnent le plus de lait pratique…
++ la sélection artificielle
+- la sélection naturelle
+- la dérive génétique
+> C'est l'humain qui choisit les reproducteurs.
+
+? Vrai ou faux : l'évolution est terminée pour l'espèce humaine.
+- Vrai
++ Faux
+> Toutes les espèces continuent d'évoluer.
+
+? Vrai ou faux : un individu évolue au cours de sa vie.
+- Vrai
++ Faux
+> Ce sont les populations qui évoluent, sur plusieurs générations.
+
+? Vrai ou faux : l'isolement géographique peut conduire à l'apparition de nouvelles espèces.
++ Vrai
+- Faux
+> Ex. les pinsons des Galápagos observés par Darwin.
+
+? Les pinsons des Galápagos ont des becs différents selon…
++ la nourriture disponible sur chaque île
+- leur âge
+- la saison
+> Exemple d'adaptation par sélection naturelle.
+
+? Les abeilles sont importantes pour la biodiversité car…
++ elles pollinisent de nombreuses plantes
+- elles mangent les moustiques
+- elles produisent de l'oxygène
+> Sans pollinisateurs, beaucoup de fruits et légumes disparaîtraient.
+
+? Le réchauffement climatique menace la biodiversité car…
++ certaines espèces ne peuvent pas s'adapter ou migrer assez vite
+- il crée plus d'espèces
+- il n'a aucun effet
+> Ex. les coraux blanchissent quand l'eau est trop chaude.
+
+? Homo sapiens est apparu il y a environ…
++ 300 000 ans
+- 3 millions d'années
+- 3 000 ans
+> En Afrique.
 ```
 
 ## Vidéos

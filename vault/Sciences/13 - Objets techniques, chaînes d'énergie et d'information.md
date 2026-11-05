@@ -137,6 +137,38 @@ tags: [technologie, objet technique, chaîne d'énergie, chaîne d'information, 
 
 ## Quiz
 
+### ⚡ Échauffement express
+
+Cinq petites questions à réponse tapée pour vérifier que les bases sont là.
+
+```quiz Échauffement express
+? Dans une chaîne d'information, la fonction qui détecte une grandeur s'appelle « acquérir ». Quel composant l'assure ? (un…)
+= capteur
+= un capteur
+> Ex. capteur de température, de présence.
+
+? Dans une chaîne d'énergie, quel composant transforme l'énergie électrique en mouvement ?
+= moteur
+= un moteur
+= actionneur
+> C'est un actionneur.
+
+? Dans un robot, quelle carte « traite » l'information ?
+= microcontrôleur
+= carte programmable
+= microcontroleur
+= arduino
+> Elle exécute le programme.
+
+? Un objet qui répond à un besoin s'appelle un objet…
+= technique
+> Il a une fonction d'usage.
+
+? Le cahier des charges décrit-il les besoins à satisfaire ? (oui/non)
+= oui
+> Il fixe les fonctions et contraintes.
+```
+
 ```quiz
 ? Un capteur sert à…
 + acquérir une information
@@ -189,6 +221,183 @@ tags: [technologie, objet technique, chaîne d'énergie, chaîne d'information, 
 + un actionneur
 - un programme
 > Il convertit l'énergie électrique en mouvement.
+```
+
+### 🎲 Entraînement sans fin
+
+Une banque de 30 questions : 10 sont tirées au hasard à chaque essai, sans répétition tant que la banque n'est pas épuisée. Recommence autant que tu veux !
+
+```quiz Entraînement sans fin ~10
+? Les trois fonctions de la chaîne d'information sont…
++ acquérir, traiter, communiquer
+- alimenter, distribuer, convertir
+- dessiner, couper, coller
+> Capteur → microcontrôleur → interface ou envoi d'ordres.
+
+? Les fonctions de la chaîne d'énergie sont…
++ alimenter, distribuer, convertir, transmettre
+- acquérir, traiter, communiquer
+- calculer, afficher
+> Batterie → relais/variateur → moteur → engrenages.
+
+? Un capteur de luminosité sert à…
++ acquérir une information sur la lumière ambiante
+- produire de la lumière
+- stocker de l'énergie
+> Ex. allumer l'éclairage public à la tombée de la nuit.
+
+? Un actionneur…
++ agit sur l'environnement (moteur, lampe, vérin)
+- mesure une grandeur
+- stocke le programme
+> Il reçoit l'énergie de la chaîne d'énergie.
+
+? Dans une porte automatique, le détecteur de présence fait partie de…
++ la chaîne d'information
+- la chaîne d'énergie
+> Il acquiert l'information « quelqu'un arrive ».
+
+? Dans une porte automatique, le moteur fait partie de…
+- la chaîne d'information
++ la chaîne d'énergie
+> Il convertit l'énergie électrique en énergie mécanique.
+
+? Une batterie assure la fonction…
++ alimenter
+- convertir
+- acquérir
+> Elle fournit l'énergie.
+
+? Un engrenage ou une courroie assure la fonction…
++ transmettre
+- acquérir
+- alimenter
+> Il transmet le mouvement.
+
+? La fonction d'usage d'un objet, c'est…
++ à quoi il sert
+- sa couleur
+- son prix
+> Ex. un vélo sert à se déplacer.
+
+? La fonction d'estime d'un objet, c'est…
++ ce qui le rend agréable ou désirable (esthétique, marque)
+- sa fonction principale
+- son poids
+> Elle influence l'achat.
+
+? Un cahier des charges contient…
++ les fonctions de l'objet et les contraintes (prix, taille, normes…)
+- uniquement le prix
+- la notice de montage
+> Il sert de référence au concepteur.
+
+? Un diagramme des exigences ou fonctionnel sert à…
++ représenter ce que l'objet doit faire
+- programmer un robot
+- calculer un prix
+> On l'utilise en phase de conception.
+
+? Un prototype est…
++ un premier exemplaire pour tester l'objet avant la production
+- l'objet final vendu
+- un dessin
+> On corrige les défauts grâce aux tests.
+
+? Un signal logique (ou numérique) peut prendre…
++ deux valeurs (0 ou 1)
+- une infinité de valeurs
+- aucune valeur
+> Ex. un bouton poussoir : appuyé ou non.
+
+? Un signal analogique…
++ varie de façon continue
+- ne vaut que 0 ou 1
+- est toujours nul
+> Ex. la température.
+
+? Un capteur de température donne en général un signal…
++ analogique
+- logique
+> Il est ensuite converti en nombre par la carte.
+
+? Un bouton poussoir donne un signal…
++ logique
+- analogique
+> Deux états : appuyé / relâché.
+
+? Un servomoteur permet…
++ de positionner un axe à un angle précis
+- de mesurer la lumière
+- de stocker l'énergie
+> Utilisé pour les barrières, bras robotisés.
+
+? L'énergie d'un panneau solaire est stockée dans…
++ une batterie
+- un capteur
+- un microcontrôleur
+> Pour être utilisée la nuit.
+
+? Un objet connecté…
++ échange des informations via un réseau (wifi, Bluetooth…)
+- n'a pas de capteur
+- fonctionne sans énergie
+> Ex. montre connectée, thermostat.
+
+? La domotique sert à…
++ automatiser des fonctions de la maison (volets, chauffage, éclairage)
+- réparer les voitures
+- jardiner à la main
+> Elle peut faire économiser de l'énergie.
+
+? Vrai ou faux : un microcontrôleur peut fonctionner sans programme.
+- Vrai
++ Faux
+> Il exécute les instructions qu'on y a téléversées.
+
+? Vrai ou faux : un capteur de distance à ultrasons mesure le temps de retour d'un écho.
++ Vrai
+- Faux
+> Distance = vitesse du son × temps ÷ 2.
+
+? Vrai ou faux : une LED est un actionneur.
++ Vrai
+- Faux
+> Elle agit sur l'environnement en émettant de la lumière.
+
+? Dans un portail automatique, le relais ou le variateur assure…
++ la distribution de l'énergie vers le moteur
+- l'acquisition
+- l'alimentation
+> Il « laisse passer » l'énergie sur ordre du microcontrôleur.
+
+? Le rendement d'une chaîne d'énergie est…
++ toujours inférieur à 100 %
+- toujours égal à 100 %
+> Il y a des pertes (frottements, chaleur).
+
+? Pour représenter le fonctionnement d'un système, on utilise souvent…
++ un schéma-bloc ou un algorigramme
+- une carte de géographie
+- une recette
+> L'algorigramme décrit le programme.
+
+? Un algorigramme utilise un losange pour…
++ une condition (oui/non)
+- le début
+- une action
+> Le rectangle représente une action.
+
+? La phase de « veille » d'un appareil…
++ consomme encore de l'énergie
+- ne consomme rien
+> Éteindre complètement permet d'économiser.
+
+? Un robot aspirateur évite les obstacles grâce à…
++ des capteurs
+- un moteur seul
+- une batterie seule
+> L'information est traitée pour changer de direction.
 ```
 
 ## Voir aussi

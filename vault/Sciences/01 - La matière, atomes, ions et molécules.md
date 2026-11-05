@@ -146,6 +146,33 @@ $$\rho = \frac{m}{V} \qquad m = \rho \times V \qquad V = \frac{m}{\rho}$$
 
 ## Quiz
 
+### ⚡ Échauffement express
+
+Cinq petites questions à réponse tapée pour vérifier que les bases sont là.
+
+```quiz Échauffement express
+? Combien de protons possède l'atome de carbone (numéro atomique Z = 6) ?
+= 6
+> Le numéro atomique Z est le nombre de protons.
+
+? Un atome est électriquement neutre. S'il a 8 protons, combien a-t-il d'électrons ?
+= 8
+> Autant d'électrons (négatifs) que de protons (positifs).
+
+? Quel est le symbole chimique de l'oxygène ?
+= O
+> H = hydrogène, C = carbone, N = azote, O = oxygène.
+
+? Formule chimique de l'eau ?
+= H2O
+= H₂O
+> Deux atomes d'hydrogène et un atome d'oxygène.
+
+? Masse volumique d'un objet de 200 g et de 100 cm³ (en g/cm³) ?
+= 2
+> $\rho = \dfrac{m}{V} = \dfrac{200}{100} = 2$ g/cm³.
+```
+
 ```quiz
 ? Un atome est électriquement neutre car…
 + il a autant de protons que d'électrons
@@ -199,6 +226,187 @@ $$\rho = \frac{m}{V} \qquad m = \rho \times V \qquad V = \frac{m}{\rho}$$
 + $3$ g/cm³
 - $30$ g/cm³
 > $\rho = 300 \div 100 = 3$ g/cm³.
+```
+
+### 🎲 Entraînement sans fin
+
+Une banque de 30 questions : 10 sont tirées au hasard à chaque essai, sans répétition tant que la banque n'est pas épuisée. Recommence autant que tu veux !
+
+```quiz Entraînement sans fin ~10
+? Un atome est constitué…
++ d'un noyau (protons et neutrons) et d'électrons autour
+- uniquement d'électrons
+- de molécules
+> Le noyau est très petit et concentre presque toute la masse.
+
+? Quelle est la charge d'un proton ?
++ positive
+- négative
+- nulle
+> Le neutron est neutre, l'électron est négatif.
+
+? Où se trouvent les électrons ?
+- dans le noyau
++ autour du noyau
+- dans les neutrons
+> Ils forment le cortège électronique.
+
+? Un ion $\text{Na}^+$ est un atome de sodium qui a…
++ perdu un électron
+- gagné un électron
+- gagné un proton
+> Moins d'électrons que de protons : charge positive.
+
+? Un ion $\text{Cl}^-$ est un atome de chlore qui a…
+- perdu un électron
++ gagné un électron
+- perdu un proton
+> Un électron en plus : charge négative.
+
+? L'ion $\text{Cu}^{2+}$ a…
++ 2 électrons de moins que l'atome de cuivre
+- 2 protons de plus
+- 2 électrons de plus
+> Le nombre de protons ne change jamais dans un ion.
+
+? Une molécule est…
++ un assemblage d'atomes liés
+- un atome chargé
+- un mélange de deux liquides
+> Ex. $\text{H}_2\text{O}$, $\text{CO}_2$, $\text{O}_2$.
+
+? Combien d'atomes contient une molécule de $\text{CO}_2$ ?
+- 2
++ 3
+- 4
+> 1 carbone et 2 oxygènes.
+
+? La formule $\text{CH}_4$ (méthane) contient…
++ 1 atome de carbone et 4 d'hydrogène
+- 4 atomes de carbone et 1 d'hydrogène
+- 5 molécules
+> Le petit chiffre se rapporte à l'atome qui le précède.
+
+? Le tableau périodique classe les éléments par…
++ numéro atomique croissant
+- masse décroissante
+- ordre alphabétique
+> Chaque case correspond à un élément chimique.
+
+? Test du sulfate de cuivre anhydre blanc : il devient bleu en présence…
++ d'eau
+- de dioxyde de carbone
+- de dioxygène
+> C'est le test de l'eau.
+
+? L'eau de chaux se trouble en présence de…
+- dioxygène
++ dioxyde de carbone
+- dihydrogène
+> Test du $\text{CO}_2$.
+
+? Une petite détonation à l'approche d'une flamme indique…
++ du dihydrogène
+- du dioxygène
+- de l'eau
+> Test du $\text{H}_2$.
+
+? Une bûchette incandescente se rallume en présence de…
++ dioxygène
+- dioxyde de carbone
+- diazote
+> Test du $\text{O}_2$.
+
+? Avec la soude, les ions $\text{Cu}^{2+}$ donnent un précipité…
++ bleu
+- vert
+- rouille
+> Fe²⁺ donne vert, Fe³⁺ donne rouille.
+
+? Le nitrate d'argent donne un précipité blanc qui noircit à la lumière avec les ions…
++ chlorure $\text{Cl}^-$
+- cuivre $\text{Cu}^{2+}$
+- fer $\text{Fe}^{2+}$
+> Test des ions chlorure.
+
+? Un précipité vert avec la soude révèle les ions…
+- $\text{Fe}^{3+}$
++ $\text{Fe}^{2+}$
+- $\text{Cu}^{2+}$
+> Fe²⁺ : vert ; Fe³⁺ : rouille.
+
+? La masse volumique de l'eau vaut…
++ 1 g/cm³ (ou 1 kg/L)
+- 10 g/cm³
+- 0,1 g/cm³
+> Un litre d'eau pèse environ 1 kg.
+
+? Un objet de masse volumique 0,9 g/cm³ placé dans l'eau…
++ flotte
+- coule
+> Il est moins dense que l'eau (1 g/cm³).
+
+? Un mélange homogène, c'est un mélange…
++ où on ne distingue qu'une seule phase à l'œil nu
+- où on voit plusieurs constituants
+- qui contient forcément de l'huile
+> Ex. eau salée.
+
+? Eau + huile forment un mélange…
+- homogène
++ hétérogène
+> On voit deux phases.
+
+? Dans l'eau salée, le sel est…
++ le soluté
+- le solvant
+- la solution
+> L'eau est le solvant, l'ensemble est la solution.
+
+? Quand on dissout 10 g de sel dans 100 g d'eau, la masse de la solution est…
++ 110 g
+- 100 g
+- 90 g
+> La masse se conserve lors d'une dissolution.
+
+? Une solution saturée est une solution qui…
++ ne peut plus dissoudre de soluté
+- ne contient pas de soluté
+- est forcément chaude
+> Le soluté en excès reste au fond.
+
+? Vrai ou faux : lors d'une dissolution, le soluté disparaît.
+- Vrai
++ Faux
+> Il est toujours présent, réparti entre les molécules d'eau.
+
+? Vrai ou faux : la matière est faite d'atomes, que l'on retrouve dans tout l'Univers.
++ Vrai
+- Faux
+> Les atomes de notre corps ont été formés dans les étoiles.
+
+? Vrai ou faux : un ion positif a plus d'électrons que de protons.
+- Vrai
++ Faux
+> C'est l'inverse : il a perdu des électrons.
+
+? Le diamètre d'un atome est de l'ordre de…
++ $10^{-10}$ m
+- $10^{-3}$ m
+- $10^{3}$ m
+> Environ un dixième de milliardième de mètre.
+
+? Comparé à l'atome, le noyau est…
++ environ 100 000 fois plus petit
+- de même taille
+- 10 fois plus grand
+> L'atome est surtout constitué de vide.
+
+? 50 cm³ d'un liquide pèsent 40 g. Sa masse volumique est…
++ 0,8 g/cm³
+- 1,25 g/cm³
+- 2 000 g/cm³
+> $40 \div 50 = 0{,}8$.
 ```
 
 ## Vidéos

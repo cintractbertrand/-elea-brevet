@@ -142,6 +142,34 @@ $1 \text{ Wh} = 3\,600 \text{ J}$.
 
 ## Quiz
 
+### ⚡ Échauffement express
+
+Cinq petites questions à réponse tapée pour vérifier que les bases sont là.
+
+```quiz Échauffement express
+? L'unité légale de l'énergie est le…
+= joule
+= J
+> On utilise aussi le kWh pour l'électricité.
+
+? Un appareil de 1 kW fonctionne 5 h. Énergie consommée en kWh ?
+= 5
+> $E = P \times t = 1 \times 5$.
+
+? Une lampe de 60 W fonctionne 10 h. Énergie en Wh ?
+= 600
+> $60 \times 10 = 600$ Wh.
+
+? Une énergie qui se renouvelle rapidement (soleil, vent) est dite…
+= renouvelable
+> Le pétrole, lui, est non renouvelable.
+
+? 1 kWh = combien de Wh ?
+= 1000
+= 1 000
+> kilo = 1 000.
+```
+
 ```quiz
 ? Laquelle est une source d'énergie renouvelable ?
 - le pétrole
@@ -196,6 +224,190 @@ $1 \text{ Wh} = 3\,600 \text{ J}$.
 + $6$ kWh
 - $5$ kWh
 > $E = 3 \times 2 = 6$ kWh.
+```
+
+### 🎲 Entraînement sans fin
+
+Une banque de 30 questions : 10 sont tirées au hasard à chaque essai, sans répétition tant que la banque n'est pas épuisée. Recommence autant que tu veux !
+
+```quiz Entraînement sans fin ~10
+? Un objet en mouvement possède de l'énergie…
++ cinétique
+- thermique
+- chimique
+> Elle dépend de sa masse et de sa vitesse.
+
+? Formule de l'énergie cinétique :
++ $E_c = \dfrac{1}{2} m v^2$
+- $E_c = m v$
+- $E_c = m g h$
+> $m$ en kg, $v$ en m/s, $E_c$ en J.
+
+? Si la vitesse double, l'énergie cinétique est multipliée par…
+- 2
++ 4
+- 8
+> Elle dépend de $v^2$.
+
+? Énergie cinétique d'une balle de 2 kg à 3 m/s ?
++ 9 J
+- 6 J
+- 18 J
+> $\dfrac{1}{2} \times 2 \times 9 = 9$ J.
+
+? Un objet en hauteur possède de l'énergie…
++ potentielle de position
+- cinétique
+- lumineuse
+> Elle augmente avec l'altitude.
+
+? Quand une balle tombe, son énergie potentielle…
++ se convertit en énergie cinétique
+- disparaît
+- augmente
+> L'énergie se conserve, elle change de forme.
+
+? L'énergie mécanique est la somme de…
++ l'énergie cinétique et l'énergie potentielle
+- l'énergie thermique et lumineuse
+- la puissance et le temps
+> $E_m = E_c + E_p$.
+
+? Une pile convertit de l'énergie…
++ chimique en énergie électrique
+- électrique en énergie chimique
+- lumineuse en énergie électrique
+> Les réactions chimiques internes produisent le courant.
+
+? Un panneau photovoltaïque convertit de l'énergie…
++ lumineuse en énergie électrique
+- thermique en énergie lumineuse
+- électrique en énergie lumineuse
+> « Photo » = lumière.
+
+? Une éolienne convertit de l'énergie…
++ cinétique (du vent) en énergie électrique
+- chimique en énergie électrique
+- thermique en énergie mécanique
+> Le vent fait tourner un alternateur.
+
+? Une lampe convertit l'énergie électrique en énergie…
++ lumineuse et thermique
+- chimique
+- cinétique
+> Une partie est « perdue » en chaleur.
+
+? Un moteur électrique convertit l'énergie électrique principalement en énergie…
++ mécanique
+- lumineuse
+- chimique
+> Avec des pertes thermiques.
+
+? Dans une centrale thermique, on brûle un combustible pour…
++ chauffer de l'eau, la vapeur fait tourner une turbine reliée à un alternateur
+- produire directement de l'électricité
+- créer du vent
+> L'alternateur produit l'électricité.
+
+? Laquelle de ces sources est renouvelable ?
+- le charbon
+- l'uranium
++ l'énergie hydraulique
+> L'eau des barrages est sans cesse renouvelée par le cycle de l'eau.
+
+? Laquelle de ces sources n'est pas renouvelable ?
+- le soleil
+- la biomasse
++ le gaz naturel
+> Les combustibles fossiles mettent des millions d'années à se former.
+
+? Les combustibles fossiles rejettent surtout…
++ du dioxyde de carbone, gaz à effet de serre
+- du dioxygène
+- de l'eau pure seulement
+> Ce qui contribue au réchauffement climatique.
+
+? La relation entre énergie, puissance et durée est…
++ $E = P \times t$
+- $E = \dfrac{P}{t}$
+- $E = P + t$
+> $E$ en J si $P$ en W et $t$ en s ; en kWh si $P$ en kW et $t$ en h.
+
+? Un radiateur de 2 000 W allumé 30 min consomme…
++ 1 kWh
+- 60 kWh
+- 4 kWh
+> $2 \text{ kW} \times 0{,}5 \text{ h} = 1$ kWh.
+
+? Le rendement d'un appareil est toujours…
++ inférieur à 100 %
+- égal à 100 %
+- supérieur à 100 %
+> Il y a toujours des pertes (souvent en chaleur).
+
+? Un moteur reçoit 100 J et fournit 70 J utiles. Son rendement est…
++ 70 %
+- 30 %
+- 170 %
+> $\dfrac{70}{100}$.
+
+? Dans une chaîne énergétique, les pertes sont surtout…
++ de l'énergie thermique
+- de l'énergie chimique
+- de la masse
+> Les frottements chauffent les pièces.
+
+? Vrai ou faux : l'énergie peut être créée à partir de rien.
+- Vrai
++ Faux
+> Elle se conserve : elle se transforme seulement.
+
+? Vrai ou faux : 1 kWh = 3 600 000 J.
++ Vrai
+- Faux
+> $1\,000 \text{ W} \times 3\,600 \text{ s}$.
+
+? Lors d'un freinage, l'énergie cinétique de la voiture est convertie en…
++ énergie thermique dans les freins
+- énergie potentielle
+- énergie lumineuse
+> Les disques de frein chauffent.
+
+? Une voiture électrique peut récupérer une partie de l'énergie au freinage pour…
++ recharger la batterie
+- éclairer les phares seulement
+- augmenter sa masse
+> C'est le freinage régénératif.
+
+? Une LED est plus économe qu'une ampoule à incandescence car…
++ elle produit moins de chaleur pour la même lumière
+- elle consomme plus
+- elle n'éclaire pas
+> Son rendement est meilleur.
+
+? Le Soleil produit son énergie par…
++ fusion nucléaire
+- combustion du charbon
+- électricité
+> Des noyaux d'hydrogène fusionnent en hélium.
+
+? Une centrale nucléaire utilise…
++ la fission de l'uranium
+- la fusion du charbon
+- le vent
+> La chaleur produite fait de la vapeur.
+
+? L'énergie stockée dans les aliments est de l'énergie…
++ chimique
+- cinétique
+- électrique
+> Notre corps la convertit pour bouger et rester à 37 °C.
+
+? Pour économiser l'énergie à la maison, on peut…
++ isoler les murs et éteindre les appareils en veille
+- laisser les fenêtres ouvertes l'hiver
+- augmenter le chauffage
+> L'isolation réduit les pertes thermiques.
 ```
 
 ## Vidéos
