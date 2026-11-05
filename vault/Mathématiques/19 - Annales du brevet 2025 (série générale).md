@@ -29,6 +29,56 @@ Les **énoncés** sont repris à l'identique du sujet officiel (DNB, session 202
 | 4 | Pythagore, Thalès, proportionnalité | 11 Pythagore, 12 Thalès, 06 Proportionnalité |
 | 5 | Probabilités, Scratch | 10 Probabilités, 17 Algorithmique et Scratch |
 
+> [!tip] À retenir avant de commencer
+> - **Facteurs premiers** : on divise par 2, puis 3, 5, 7… jusqu'à obtenir 1. Un nombre premier n'a que deux diviseurs : 1 et lui-même.
+> - **Tableur** : quand on étire une formule vers la droite, les références de cellules avancent aussi (A1 devient B1).
+> - **Homothétie de rapport $k$** : les longueurs sont multipliées par $\lvert k \rvert$. Si $k > 0$ l'image est du même côté du centre, si $k < 0$ de l'autre côté.
+> - **Factoriser** $a^2 - b^2 = (a-b)(a+b)$.
+> - **Trigonométrie** : $\cos = \dfrac{\text{adjacent}}{\text{hypoténuse}}$, $\sin = \dfrac{\text{opposé}}{\text{hypoténuse}}$, $\tan = \dfrac{\text{opposé}}{\text{adjacent}}$.
+> - **Moyenne** = somme ÷ effectif ; **médiane** = valeur du milieu quand on range la série ; **probabilité** = cas favorables ÷ cas possibles.
+> - **Volume d'un pavé** $= L \times \ell \times h$ ; **masse volumique** $= \dfrac{\text{masse}}{\text{volume}}$.
+> - **Fonction affine** $f(x) = ax + b$ : $a > 0$ la droite monte, $a < 0$ elle descend ; $b$ est l'ordonnée du point où elle coupe l'axe vertical.
+
+```quiz Sujet 2025 : échauffement
+? Quelle est la décomposition de 90 en produit de facteurs premiers ?
++ $2 \times 3^2 \times 5$
+- $2 \times 5 \times 9$
+- $3 \times 30$
+- $2^2 \times 3 \times 5$
+> 90 = 2 × 45 = 2 × 3 × 15 = 2 × 3 × 3 × 5. Dans les autres propositions, il y a 9 ou 30 (non premiers), ou un 2² en trop.
+
+? En A2 on saisit « =2*A1+1 » avec A1 = 4, puis on étire jusqu'à B2 (B1 = 5). Quelle valeur obtient-on en B2 ?
+= 11
+> En B2 la formule devient =2*B1+1 = 2 × 5 + 1 = 11.
+
+? Une homothétie de centre O et de rapport 3 transforme A en A'. Si OA = 2 cm, combien mesure OA' (en cm) ?
+= 6
+> Les longueurs sont multipliées par 3 : 2 × 3 = 6 cm.
+
+? Quelle est la forme factorisée de $9x^2 - 4$ ?
++ $(3x-2)(3x+2)$
+- $(9x-2)(9x+2)$
+- $(3x-2)^2$
+- $3(x-2)(x+2)$
+> 9x² − 4 = (3x)² − 2² = (3x − 2)(3x + 2).
+
+? Dans un triangle rectangle, l'hypoténuse mesure 10 cm et un angle aigu mesure 30°. Combien mesure le côté opposé à cet angle (en cm) ?
+= 5
+> sin(30°) = opposé ÷ hypoténuse = 0,5, donc opposé = 0,5 × 10 = 5 cm.
+
+? Quelle est la moyenne de la série 4 ; 6 ; 8 ; 10 ; 12 ?
+= 8
+> (4 + 6 + 8 + 10 + 12) ÷ 5 = 40 ÷ 5 = 8.
+
+? $f(x) = -3x + 5$. Quelle est l'image de 2 par $f$ ?
+= -1
+> f(2) = −3 × 2 + 5 = −6 + 5 = −1.
+
+? Un colis a pour dimensions 0,2 m ; 0,5 m et 0,4 m. Quel est son volume en m³ ?
+= 0,04
+> 0,2 × 0,5 × 0,4 = 0,04 m³.
+```
+
 ## Exercices corrigés
 
 ### Exercice 1 (20 points)
@@ -355,6 +405,22 @@ Les **énoncés** sont repris à l'identique du sujet officiel (DNB, session 202
 ## Vidéos
 
 - [Brevet maths 2025 : correction détaillée](https://www.youtube.com/results?search_query=brevet+maths+2025+correction+m%C3%A9tropole)
+
+### Petits exercices pour s'entraîner
+
+> [!question] Petit exercice A
+> Un colis de 6 kg a pour dimensions 0,5 m ; 0,4 m et 0,3 m. Calculer son volume, puis sa masse volumique.
+
+> [!success]- Corrigé du petit exercice A
+> Volume : $0{,}5 \times 0{,}4 \times 0{,}3 = 0{,}06$ m³.
+> Masse volumique : $\dfrac{6}{0{,}06} = \mathbf{100}$ kg/m³.
+
+> [!question] Petit exercice B
+> Programme de calcul : choisir un nombre, ajouter 3, multiplier par 2, soustraire 6. Montrer que le résultat est toujours le double du nombre choisi.
+
+> [!success]- Corrigé du petit exercice B
+> Avec $x$ : $x \to x + 3 \to 2(x+3) \to 2(x+3) - 6$.
+> On développe : $2x + 6 - 6 = \mathbf{2x}$. Le résultat est bien le double du nombre choisi. *(Essai avec 5 : $8 \to 16 \to 10 = 2 \times 5$.)*
 
 ## Voir aussi
 

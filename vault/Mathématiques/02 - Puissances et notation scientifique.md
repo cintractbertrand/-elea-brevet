@@ -141,6 +141,33 @@ Un nombre positif est en **écriture scientifique** quand il s'écrit $a \times 
 
 ## Quiz
 
+### ⚡ Échauffement express
+
+Cinq petites questions à réponse tapée pour vérifier que les bases sont là.
+
+```quiz Échauffement express
+? Calcule $2^5$
+= 32
+> $2 \times 2 \times 2 \times 2 \times 2 = 32$.
+
+? Calcule $10^3$
+= 1000
+= 1 000
+> $10^3$ = un 1 suivi de 3 zéros.
+
+? Combien vaut $5^0$ ?
+= 1
+> Tout nombre non nul à la puissance 0 vaut 1.
+
+? Écris $10^{-2}$ en écriture décimale
+= 0,01
+> $10^{-2} = \dfrac{1}{100} = 0{,}01$.
+
+? Combien vaut $(-1)^{4}$ ?
+= 1
+> Un nombre pair de facteurs $-1$ donne $+1$.
+```
+
 ```quiz
 ? $10^3 \times 10^5 = ?$
 - $10^{15}$
@@ -217,6 +244,189 @@ Questions dans le style des sujets récents du brevet.
 - 2⁵
 - 4⁷
 > (2³)² = 2⁶, puis 2⁶ × 2 = 2⁷ = 128.
+```
+
+### 🎲 Entraînement sans fin
+
+Une banque de 30 questions : 10 sont tirées au hasard à chaque essai, sans répétition tant que la banque n'est pas épuisée. Recommence autant que tu veux !
+
+```quiz Entraînement sans fin ~10
+? Combien vaut $3^4$ ?
+- $12$
++ $81$
+- $64$
+> $3 \times 3 \times 3 \times 3 = 81$. Attention, ce n'est pas $3 \times 4$.
+
+? Combien vaut $(-2)^3$ ?
++ $-8$
+- $8$
+- $-6$
+> Trois facteurs négatifs : $(-2) \times (-2) \times (-2) = -8$.
+
+? Comment s'écrit $10^5 \times 10^3$ ?
++ $10^8$
+- $10^{15}$
+- $100^8$
+> On additionne les exposants : $5 + 3 = 8$.
+
+? Comment s'écrit $\dfrac{10^7}{10^2}$ ?
+- $10^{9}$
++ $10^5$
+- $10^{3{,}5}$
+> On soustrait les exposants : $7 - 2 = 5$.
+
+? Comment s'écrit $(10^2)^3$ ?
+- $10^5$
++ $10^6$
+- $10^8$
+> On multiplie les exposants : $2 \times 3 = 6$.
+
+? Combien vaut $10^{-3}$ ?
+- $-1000$
++ $0{,}001$
+- $-0{,}001$
+> Un exposant négatif donne un nombre plus petit que 1, jamais un nombre négatif.
+
+? Quelle est l'écriture scientifique de $45\,000$ ?
+- $45 \times 10^3$
++ $4{,}5 \times 10^4$
+- $0{,}45 \times 10^5$
+> Le premier nombre doit être entre 1 et 10 (10 exclu) : $4{,}5 \times 10^4$.
+
+? Quelle est l'écriture scientifique de $0{,}0072$ ?
++ $7{,}2 \times 10^{-3}$
+- $72 \times 10^{-4}$
+- $7{,}2 \times 10^{3}$
+> On déplace la virgule de 3 rangs vers la droite, d'où l'exposant $-3$.
+
+? Lequel de ces nombres est écrit en notation scientifique ?
+- $12{,}5 \times 10^3$
+- $0{,}8 \times 10^{-2}$
++ $3{,}06 \times 10^7$
+> Seul $3{,}06$ est compris entre 1 et 10.
+
+? $6{,}2 \times 10^{3}$ est égal à…
++ $6\,200$
+- $620$
+- $62\,000$
+> On décale la virgule de 3 rangs vers la droite.
+
+? Quel préfixe correspond à $10^{3}$ ?
++ kilo
+- méga
+- milli
+> kilo = mille ($10^3$), méga = million ($10^6$), milli = millième ($10^{-3}$).
+
+? Quel préfixe correspond à $10^{-6}$ ?
+- milli
++ micro
+- nano
+> micro = $10^{-6}$ ; nano = $10^{-9}$.
+
+? $1$ gigaoctet (Go) vaut…
+- $10^6$ octets
++ $10^9$ octets
+- $10^{12}$ octets
+> giga = milliard = $10^9$.
+
+? Combien vaut $2^3 \times 2^4$ ?
++ $2^7$
+- $2^{12}$
+- $4^7$
+> Même nombre, on additionne les exposants.
+
+? Combien vaut $5^2 + 5^2$ ?
+- $5^4$
+- $10^2$
++ $50$
+> $25 + 25 = 50$. On ne peut additionner les exposants que pour un produit.
+
+? Combien vaut $(3 \times 10^4) \times (2 \times 10^5)$ ?
+- $5 \times 10^9$
++ $6 \times 10^9$
+- $6 \times 10^{20}$
+> On multiplie $3 \times 2 = 6$ et $10^4 \times 10^5 = 10^9$.
+
+? Combien vaut $\dfrac{8 \times 10^6}{4 \times 10^2}$ ?
++ $2 \times 10^4$
+- $2 \times 10^3$
+- $4 \times 10^4$
+> $8 \div 4 = 2$ et $10^6 \div 10^2 = 10^4$.
+
+? La distance Terre–Soleil est d'environ $150$ millions de km. En notation scientifique :
+- $15 \times 10^7$ km
++ $1{,}5 \times 10^8$ km
+- $1{,}5 \times 10^6$ km
+> $150\,000\,000 = 1{,}5 \times 10^8$.
+
+? Un virus mesure $0{,}000\,000\,1$ m. En notation scientifique :
++ $1 \times 10^{-7}$ m
+- $1 \times 10^{-6}$ m
+- $1 \times 10^{7}$ m
+> La virgule se déplace de 7 rangs vers la droite.
+
+? Quel est le plus grand nombre ?
+- $9 \times 10^{3}$
++ $2 \times 10^{4}$
+- $9{,}9 \times 10^{3}$
+> On compare d'abord les exposants : $10^4$ l'emporte sur $10^3$.
+
+? Combien vaut $10^{0}$ ?
+- $0$
++ $1$
+- $10$
+> Par convention, $a^0 = 1$ pour tout $a$ non nul.
+
+? Combien vaut $2^{-1}$ ?
+- $-2$
++ $0{,}5$
+- $-0{,}5$
+> $2^{-1} = \dfrac{1}{2}$.
+
+? Vrai ou faux : $-3^2 = 9$
+- Vrai
++ Faux
+> $-3^2 = -(3^2) = -9$. C'est $(-3)^2$ qui vaut 9.
+
+? Vrai ou faux : $10^{-4}$ est un nombre négatif.
+- Vrai
++ Faux
+> $10^{-4} = 0{,}0001$, il est positif.
+
+? Vrai ou faux : $0{,}5 \times 10^3$ est en notation scientifique.
+- Vrai
++ Faux
+> $0{,}5$ n'est pas compris entre 1 et 10. On écrit $5 \times 10^2$.
+
+? $a^3$ signifie…
+- $a \times 3$
++ $a \times a \times a$
+- $a + a + a$
+> La puissance indique combien de fois on multiplie le nombre par lui-même.
+
+? Combien vaut $\left(\dfrac{1}{2}\right)^2$ ?
+- $1$
++ $\dfrac{1}{4}$
+- $\dfrac{2}{4}$
+> $\dfrac{1}{2} \times \dfrac{1}{2} = \dfrac{1}{4}$.
+
+? Combien de zéros contient l'écriture de $10^{9}$ ?
+- 8
++ 9
+- 10
+> $10^n$ s'écrit avec un 1 suivi de $n$ zéros.
+
+? Une image fait $3 \times 10^6$ octets. Combien en font $1\,000$ images identiques ?
++ $3 \times 10^9$ octets
+- $3 \times 10^{18}$ octets
+- $3\,000 \times 10^{3}$ octets
+> $1\,000 = 10^3$, donc $3 \times 10^6 \times 10^3 = 3 \times 10^9$ octets (3 Go).
+
+? Combien vaut $4^2 \times 4^{-2}$ ?
++ $1$
+- $0$
+- $16$
+> $4^{2 + (-2)} = 4^0 = 1$.
 ```
 
 ## Vidéos

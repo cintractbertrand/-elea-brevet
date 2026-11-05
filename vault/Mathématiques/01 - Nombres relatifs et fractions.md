@@ -148,6 +148,33 @@ On effectue dans cet ordre :
 
 ## Quiz
 
+### ⚡ Échauffement express
+
+Cinq petites questions à réponse tapée pour vérifier que les bases sont là.
+
+```quiz Échauffement express
+? Calcule $-7 + 12$
+= 5
+> On fait la différence $12 - 7 = 5$ et on garde le signe du nombre le plus loin de zéro : $+5$.
+
+? Calcule $(-6) \times (-4)$
+= 24
+> Deux signes identiques donnent un résultat positif : $6 \times 4 = 24$.
+
+? Calcule $3 + 4 \times 5$
+= 23
+> La multiplication passe avant l'addition : $4 \times 5 = 20$, puis $3 + 20 = 23$.
+
+? Calcule $\dfrac{1}{4} + \dfrac{1}{2}$ (écris la fraction, par exemple 3/4)
+= 3/4
+= 0,75
+> $\dfrac{1}{2} = \dfrac{2}{4}$, donc $\dfrac{1}{4} + \dfrac{2}{4} = \dfrac{3}{4}$.
+
+? Calcule $\dfrac{2}{3} \times 9$
+= 6
+> $9 \div 3 = 3$, puis $3 \times 2 = 6$.
+```
+
 ```quiz
 ? Combien vaut $4 + 2 \times 5$ ?
 - $30$
@@ -209,6 +236,193 @@ Questions dans le style des sujets récents du brevet.
 - 15/24
 - 8/12
 > On met au même dénominateur 12 : 9/12 + 10/12 = 19/12.
+```
+
+### 🎲 Entraînement sans fin
+
+Une banque de 31 questions : 10 sont tirées au hasard à chaque essai, sans répétition tant que la banque n'est pas épuisée. Recommence autant que tu veux !
+
+```quiz Entraînement sans fin ~10
+? Combien vaut $-8 - 5$ ?
+- $-3$
++ $-13$
+- $13$
+> Soustraire 5, c'est reculer de 5 : $-8 - 5 = -13$.
+
+? Combien vaut $-3 - (-9)$ ?
++ $6$
+- $-12$
+- $-6$
+> Soustraire un nombre négatif revient à ajouter son opposé : $-3 + 9 = 6$.
+
+? Quel est le signe de $(-2) \times (-3) \times (-5)$ ?
+- positif
++ négatif
+> Trois facteurs négatifs : un nombre impair de signes moins donne un produit négatif ($-30$).
+
+? Combien vaut $(-36) \div 4$ ?
++ $-9$
+- $9$
+- $-32$
+> Signes différents : le quotient est négatif. $36 \div 4 = 9$, donc $-9$.
+
+? Combien vaut $10 - 2 \times 3$ ?
+- $24$
++ $4$
+- $-4$
+> La multiplication d'abord : $2 \times 3 = 6$, puis $10 - 6 = 4$.
+
+? Combien vaut $(10 - 2) \times 3$ ?
++ $24$
+- $4$
+- $16$
+> Les parenthèses d'abord : $10 - 2 = 8$, puis $8 \times 3 = 24$.
+
+? Combien vaut $20 - 12 \div 4 + 1$ ?
+- $3$
++ $18$
+- $1$
+> Division d'abord : $12 \div 4 = 3$. Puis de gauche à droite : $20 - 3 + 1 = 18$.
+
+? Combien vaut $-2^2$ ?
++ $-4$
+- $4$
+> Sans parenthèses, le carré ne porte que sur 2 : $-(2 \times 2) = -4$. Attention, $(-2)^2 = 4$.
+
+? Combien vaut $(-3)^2$ ?
+- $-9$
++ $9$
+- $-6$
+> $(-3) \times (-3) = 9$ : deux signes moins donnent un plus.
+
+? Quelle fraction est égale à $\dfrac{3}{5}$ ?
+- $\dfrac{5}{3}$
++ $\dfrac{12}{20}$
+- $\dfrac{6}{15}$
+> On multiplie le numérateur et le dénominateur par 4 : $\dfrac{3 \times 4}{5 \times 4} = \dfrac{12}{20}$.
+
+? Quelle est la forme irréductible de $\dfrac{18}{24}$ ?
+- $\dfrac{9}{12}$
++ $\dfrac{3}{4}$
+- $\dfrac{6}{8}$
+> On divise en haut et en bas par 6 (le plus grand diviseur commun) : $\dfrac{3}{4}$.
+
+? Combien vaut $\dfrac{2}{3} + \dfrac{1}{6}$ ?
+- $\dfrac{3}{9}$
++ $\dfrac{5}{6}$
+- $\dfrac{3}{6}$
+> Même dénominateur d'abord : $\dfrac{2}{3} = \dfrac{4}{6}$, donc $\dfrac{4}{6} + \dfrac{1}{6} = \dfrac{5}{6}$.
+
+? Combien vaut $\dfrac{3}{4} - \dfrac{1}{3}$ ?
++ $\dfrac{5}{12}$
+- $\dfrac{2}{1}$
+- $\dfrac{2}{12}$
+> Dénominateur commun 12 : $\dfrac{9}{12} - \dfrac{4}{12} = \dfrac{5}{12}$.
+
+? Combien vaut $\dfrac{2}{5} \times \dfrac{3}{7}$ ?
++ $\dfrac{6}{35}$
+- $\dfrac{5}{12}$
+- $\dfrac{6}{12}$
+> On multiplie les numérateurs entre eux et les dénominateurs entre eux.
+
+? Combien vaut $\dfrac{4}{5} \div \dfrac{2}{3}$ ?
+- $\dfrac{8}{15}$
++ $\dfrac{6}{5}$
+- $\dfrac{2}{15}$
+> Diviser par $\dfrac{2}{3}$, c'est multiplier par $\dfrac{3}{2}$ : $\dfrac{4 \times 3}{5 \times 2} = \dfrac{12}{10} = \dfrac{6}{5}$.
+
+? Quel est l'inverse de $\dfrac{5}{8}$ ?
++ $\dfrac{8}{5}$
+- $-\dfrac{5}{8}$
+- $\dfrac{1}{8}$
+> L'inverse s'obtient en échangeant numérateur et dénominateur. L'opposé, lui, change le signe.
+
+? Quel est l'opposé de $-7$ ?
++ $7$
+- $-\dfrac{1}{7}$
+- $\dfrac{1}{7}$
+> L'opposé a le signe contraire : $-7 + 7 = 0$.
+
+? Combien vaut $1 - \dfrac{3}{8}$ ?
+- $\dfrac{2}{8}$
++ $\dfrac{5}{8}$
+- $-\dfrac{3}{8}$
+> $1 = \dfrac{8}{8}$, donc $\dfrac{8}{8} - \dfrac{3}{8} = \dfrac{5}{8}$.
+
+? Un gâteau est partagé : Léo mange $\dfrac{1}{4}$ et Inès $\dfrac{1}{3}$. Quelle part reste-t-il ?
+- $\dfrac{2}{7}$
++ $\dfrac{5}{12}$
+- $\dfrac{7}{12}$
+> Ils mangent $\dfrac{3}{12} + \dfrac{4}{12} = \dfrac{7}{12}$. Il reste $\dfrac{12}{12} - \dfrac{7}{12} = \dfrac{5}{12}$.
+
+? Prendre les $\dfrac{3}{4}$ de 60, c'est calculer…
++ $\dfrac{3}{4} \times 60 = 45$
+- $60 \div 3 \times 4 = 80$
+- $60 - \dfrac{3}{4} = 59{,}25$
+> « Les trois quarts de » se traduit par une multiplication : $60 \div 4 \times 3 = 45$.
+
+? Combien vaut $\dfrac{-12}{-3}$ ?
++ $4$
+- $-4$
+- $\dfrac{1}{4}$
+> Deux signes moins : le quotient est positif, $12 \div 3 = 4$.
+
+? Laquelle de ces fractions est la plus grande ?
+- $\dfrac{2}{3}$
++ $\dfrac{3}{4}$
+- $\dfrac{5}{8}$
+> Au dénominateur 24 : $\dfrac{16}{24}$, $\dfrac{18}{24}$ et $\dfrac{15}{24}$. La plus grande est $\dfrac{3}{4}$.
+
+? Range dans l'ordre croissant : $-3$ ; $2$ ; $-5$ ; $0$
++ $-5 < -3 < 0 < 2$
+- $-3 < -5 < 0 < 2$
+- $0 < 2 < -3 < -5$
+> Parmi les négatifs, le plus petit est le plus éloigné de zéro : $-5 < -3$.
+
+? Combien vaut $\dfrac{1}{2} + \dfrac{1}{3} \times \dfrac{3}{4}$ ?
+- $\dfrac{5}{8}$
++ $\dfrac{3}{4}$
+- $\dfrac{5}{12}$
+> La multiplication d'abord : $\dfrac{1}{3} \times \dfrac{3}{4} = \dfrac{3}{12} = \dfrac{1}{4}$. Puis $\dfrac{1}{2} + \dfrac{1}{4} = \dfrac{3}{4}$.
+
+? Vrai ou faux : $\dfrac{1}{2} + \dfrac{1}{3} = \dfrac{2}{5}$
+- Vrai
++ Faux
+> On n'additionne jamais les dénominateurs ! $\dfrac{3}{6} + \dfrac{2}{6} = \dfrac{5}{6}$.
+
+? Vrai ou faux : la somme de deux nombres négatifs est toujours négative.
++ Vrai
+- Faux
+> On recule deux fois sur la droite graduée : par exemple $-2 + (-5) = -7$.
+
+? Vrai ou faux : le produit de deux nombres négatifs est négatif.
+- Vrai
++ Faux
+> « Moins par moins donne plus » : $(-2) \times (-5) = 10$.
+
+? La température passe de $-4$ °C à $9$ °C. De combien a-t-elle augmenté ?
+- $5$ °C
++ $13$ °C
+- $-13$ °C
+> On calcule l'écart : $9 - (-4) = 9 + 4 = 13$ °C.
+
+? Combien vaut $\dfrac{7}{3}$ en écriture décimale arrondie au dixième ?
+- $2{,}1$
++ $2{,}3$
+- $0{,}4$
+> $7 \div 3 = 2{,}333\ldots$, arrondi au dixième : $2{,}3$.
+
+? Combien vaut $5 \times (-2) + (-3) \times (-4)$ ?
++ $2$
+- $-22$
+- $22$
+> $5 \times (-2) = -10$ et $(-3) \times (-4) = 12$. Puis $-10 + 12 = 2$.
+
+? Que vaut $\dfrac{3}{4}$ en pourcentage ?
+- $34$ %
++ $75$ %
+- $43$ %
+> $\dfrac{3}{4} = \dfrac{75}{100} = 75$ %.
 ```
 
 ## Vidéos

@@ -147,6 +147,32 @@ Alors leurs longueurs sont **proportionnelles** : le rapport s'appelle le **coef
 
 ## Quiz
 
+### ⚡ Échauffement express
+
+Cinq petites questions à réponse tapée pour vérifier que les bases sont là.
+
+```quiz Échauffement express
+? Si $\dfrac{AM}{AB} = \dfrac{1}{2}$ et $BC = 8$, que vaut $MN$ (configuration de Thalès) ?
+= 4
+> $MN = \dfrac{1}{2} \times 8 = 4$.
+
+? Résous $\dfrac{x}{6} = \dfrac{2}{3}$
+= 4
+> $x = 6 \times \dfrac{2}{3} = 4$.
+
+? Un agrandissement de rapport 3 : un côté de 5 cm devient (en cm)…
+= 15
+> On multiplie par 3.
+
+? Une réduction de rapport 0,5 : un côté de 12 cm devient (en cm)…
+= 6
+> $12 \times 0{,}5 = 6$.
+
+? Calcule $\dfrac{3 \times 10}{5}$
+= 6
+> C'est le calcul type d'un produit en croix.
+```
+
 ```quiz
 ? Pour appliquer le théorème de Thalès (pour calculer), il faut…
 + des droites parallèles
@@ -209,6 +235,185 @@ Questions dans le style des sujets récents du brevet.
 - 2,5 cm
 - 5 cm
 > Thalès : MN / BC = AM / AB, donc MN = 7,5 × 2 / 5 = 3 cm.
+```
+
+### 🎲 Entraînement sans fin
+
+Une banque de 30 questions : 10 sont tirées au hasard à chaque essai, sans répétition tant que la banque n'est pas épuisée. Recommence autant que tu veux !
+
+```quiz Entraînement sans fin ~10
+? Pour appliquer le théorème de Thalès, il faut…
++ deux droites sécantes coupées par deux droites parallèles
+- un triangle rectangle
+- deux droites perpendiculaires
+> La configuration de Thalès nécessite des parallèles.
+
+? $(MN) \parallel (BC)$, $M \in [AB]$, $N \in [AC]$. Quelle égalité est vraie ?
++ $\dfrac{AM}{AB} = \dfrac{AN}{AC} = \dfrac{MN}{BC}$
+- $\dfrac{AM}{AN} = \dfrac{AB}{BC}$
+- $\dfrac{AM}{MB} = \dfrac{MN}{BC}$
+> Chaque rapport compare un côté du petit triangle au côté correspondant du grand.
+
+? $AM = 3$, $AB = 9$, $BC = 12$ et $(MN) \parallel (BC)$. Que vaut $MN$ ?
+- $36$
++ $4$
+- $6$
+> $\dfrac{MN}{12} = \dfrac{3}{9}$, donc $MN = 4$.
+
+? $AM = 4$, $AB = 10$, $AN = 6$ et $(MN) \parallel (BC)$. Que vaut $AC$ ?
++ $15$
+- $2{,}4$
+- $12$
+> $\dfrac{4}{10} = \dfrac{6}{AC}$, donc $AC = \dfrac{10 \times 6}{4} = 15$.
+
+? Pour prouver que deux droites sont parallèles, on utilise…
++ la réciproque du théorème de Thalès
+- le théorème de Pythagore
+- la trigonométrie
+> On vérifie l'égalité des rapports $\dfrac{AM}{AB}$ et $\dfrac{AN}{AC}$ (avec les points dans le même ordre).
+
+? $AM = 2$, $AB = 5$, $AN = 3$, $AC = 7{,}5$. Les droites $(MN)$ et $(BC)$ sont-elles parallèles ?
++ Oui
+- Non
+> $\dfrac{2}{5} = 0{,}4$ et $\dfrac{3}{7{,}5} = 0{,}4$ : les rapports sont égaux.
+
+? $AM = 3$, $AB = 8$, $AN = 4$, $AC = 10$. Les droites $(MN)$ et $(BC)$ sont-elles parallèles ?
+- Oui
++ Non
+> $\dfrac{3}{8} = 0{,}375$ et $\dfrac{4}{10} = 0{,}4$ : différents, donc non parallèles.
+
+? Dans la configuration « papillon », les points $A$ et $M$ sont…
++ de part et d'autre du point d'intersection
+- du même côté
+- confondus
+> Les deux triangles sont opposés par le sommet.
+
+? Deux triangles sont semblables si…
++ leurs angles sont deux à deux égaux
+- ils ont la même aire
+- ils ont un côté commun
+> Leurs côtés sont alors proportionnels.
+
+? Les côtés d'un triangle mesurent 3, 4, 5 et ceux d'un autre 6, 8, 10. Sont-ils semblables ?
++ Oui, de rapport 2
+- Non
+> Tous les côtés sont multipliés par 2.
+
+? Un triangle a des angles de 50° et 60°. Un autre a des angles de 60° et 70°. Sont-ils semblables ?
++ Oui
+- Non
+> Le 3e angle du premier vaut 70°, celui du second 50° : mêmes angles.
+
+? Dans un agrandissement de rapport $k$, les longueurs sont multipliées par…
++ $k$
+- $k^2$
+- $k^3$
+> Les aires par $k^2$, les volumes par $k^3$.
+
+? Dans un agrandissement de rapport 3, les aires sont multipliées par…
+- 3
++ 9
+- 27
+> $3^2 = 9$.
+
+? Dans une réduction de rapport $\dfrac{1}{2}$, les volumes sont multipliés par…
+- $\dfrac{1}{2}$
+- $\dfrac{1}{4}$
++ $\dfrac{1}{8}$
+> $\left(\dfrac{1}{2}\right)^3 = \dfrac{1}{8}$.
+
+? Un rapport $k = 0{,}8$ correspond à…
++ une réduction
+- un agrandissement
+> $k < 1$ : les longueurs diminuent.
+
+? Un bâton de 1 m a une ombre de 1,5 m. Au même moment, un arbre a une ombre de 9 m. Hauteur de l'arbre ?
+- 13,5 m
++ 6 m
+- 10,5 m
+> Rayons parallèles : $\dfrac{h}{9} = \dfrac{1}{1{,}5}$, donc $h = 6$ m.
+
+? Vrai ou faux : le théorème de Thalès permet de calculer des longueurs.
++ Vrai
+- Faux
+> C'est son usage principal.
+
+? Vrai ou faux : si les rapports sont égaux, les droites sont forcément parallèles, même si les points ne sont pas dans le même ordre.
+- Vrai
++ Faux
+> Il faut que les points soient alignés dans le même ordre sur les deux droites.
+
+? $(DE) \parallel (BC)$. $AD = 5$, $AB = 7{,}5$, $DE = 4$. Que vaut $BC$ ?
++ $6$
+- $2{,}7$
+- $9{,}4$
+> $BC = \dfrac{7{,}5 \times 4}{5} = 6$.
+
+? Le petit triangle $AMN$ est une réduction du triangle $ABC$ de rapport…
++ $\dfrac{AM}{AB}$
+- $\dfrac{AB}{AM}$
+- $AB - AM$
+> Petit sur grand donne un rapport inférieur à 1.
+
+? Une maquette de bateau est à l'échelle $\dfrac{1}{50}$. Le vrai bateau mesure 20 m. La maquette mesure…
+- 2,5 m
++ 40 cm
+- 4 cm
+> $2\,000 \div 50 = 40$ cm.
+
+? Un carré de 3 cm de côté est agrandi en un carré de 6 cm de côté. Son aire est multipliée par…
+- 2
++ 4
+- 6
+> $9$ cm² devient $36$ cm².
+
+? Une pyramide de volume 270 cm³ est réduite de rapport $\dfrac{1}{3}$. Nouveau volume ?
+- 90 cm³
+- 30 cm³
++ 10 cm³
+> $270 \times \dfrac{1}{27} = 10$ cm³.
+
+? Dans un produit en croix $\dfrac{a}{b} = \dfrac{c}{x}$, on obtient…
++ $x = \dfrac{b \times c}{a}$
+- $x = \dfrac{a \times c}{b}$
+- $x = a + b - c$
+> On multiplie les deux nombres en diagonale et on divise par le troisième.
+
+? Configuration papillon : $OA = 3$, $OC = 6$, $AB = 4$, $(AB) \parallel (CD)$. Que vaut $CD$ ?
++ $8$
+- $2$
+- $12$
+> $\dfrac{OA}{OC} = \dfrac{AB}{CD}$, donc $CD = \dfrac{6 \times 4}{3} = 8$.
+
+? Le théorème de Thalès conduit à des…
++ triangles semblables
+- triangles rectangles
+- triangles isocèles
+> Les triangles $AMN$ et $ABC$ ont les mêmes angles.
+
+? Deux triangles semblables ont des côtés homologues de 4 cm et 10 cm. Le rapport d'agrandissement est…
++ $2{,}5$
+- $6$
+- $0{,}4$
+> $10 \div 4 = 2{,}5$.
+
+? Une photo de 10 cm × 15 cm est agrandie : la largeur passe à 20 cm. La hauteur devient…
+- 25 cm
++ 30 cm
+- 20 cm
+> Rapport 2, donc $15 \times 2 = 30$ cm.
+
+? Pour rédiger Thalès, on écrit d'abord…
++ les points alignés et les droites parallèles
+- le résultat
+- les angles
+> « Les points $A, M, B$ et $A, N, C$ sont alignés et $(MN) \parallel (BC)$, donc d'après le théorème de Thalès… »
+
+? Avec $\dfrac{AM}{AB} = \dfrac{2}{5}$ et $AB = 10$, que vaut $MB$ ?
++ $6$
+- $4$
+- $2$
+> $AM = 4$, donc $MB = 10 - 4 = 6$.
 ```
 
 ## Vidéos

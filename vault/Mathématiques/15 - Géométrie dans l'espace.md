@@ -134,6 +134,32 @@ tags: [géométrie, espace, volumes, sphère, sections]
 
 ## Quiz
 
+### ⚡ Échauffement express
+
+Cinq petites questions à réponse tapée pour vérifier que les bases sont là.
+
+```quiz Échauffement express
+? Volume d'un cube de 3 cm d'arête (en cm³) ?
+= 27
+> $3 \times 3 \times 3 = 27$.
+
+? Volume d'un pavé de 2 cm × 3 cm × 5 cm (en cm³) ?
+= 30
+> $2 \times 3 \times 5 = 30$.
+
+? Combien de faces a un cube ?
+= 6
+> Et 12 arêtes, 8 sommets.
+
+? Volume d'une pyramide de base 12 cm² et de hauteur 5 cm (en cm³) ?
+= 20
+> $\dfrac{12 \times 5}{3} = 20$.
+
+? 1 L correspond à combien de dm³ ?
+= 1
+> $1 \text{ L} = 1 \text{ dm}^3 = 1\,000 \text{ cm}^3$.
+```
+
 ```quiz
 ? Le volume d'un cylindre de rayon $r$ et de hauteur $h$ est…
 + $\pi r^2 h$
@@ -209,6 +235,190 @@ Questions dans le style des sujets récents du brevet.
 - 27π cm³
 - 9π cm³
 > V = (4/3) × π × r³ = (4/3) × π × 27 = 36π cm³.
+```
+
+### 🎲 Entraînement sans fin
+
+Une banque de 30 questions : 10 sont tirées au hasard à chaque essai, sans répétition tant que la banque n'est pas épuisée. Recommence autant que tu veux !
+
+```quiz Entraînement sans fin ~10
+? Volume d'un cylindre de rayon $r$ et de hauteur $h$ ?
++ $\pi r^2 h$
+- $2\pi r h$
+- $\dfrac{1}{3}\pi r^2 h$
+> Aire de la base (disque) × hauteur.
+
+? Volume d'un cône de rayon $r$ et de hauteur $h$ ?
+- $\pi r^2 h$
++ $\dfrac{1}{3}\pi r^2 h$
+- $\dfrac{4}{3}\pi r^3$
+> Comme une pyramide : $\dfrac{\text{base} \times h}{3}$.
+
+? Volume d'une boule de rayon $r$ ?
++ $\dfrac{4}{3}\pi r^3$
+- $4\pi r^2$
+- $\pi r^3$
+> $4\pi r^2$ est l'aire de la sphère.
+
+? Aire d'une sphère de rayon $r$ ?
+- $\dfrac{4}{3}\pi r^3$
++ $4\pi r^2$
+- $2\pi r$
+> $2\pi r$ est le périmètre d'un cercle.
+
+? Volume d'un cylindre de rayon 2 cm et de hauteur 5 cm (au cm³ près) ?
++ 63 cm³
+- 31 cm³
+- 20 cm³
+> $\pi \times 4 \times 5 = 20\pi \approx 62{,}8$ cm³.
+
+? Volume d'un cône de rayon 3 cm et de hauteur 4 cm ?
++ $12\pi$ cm³
+- $36\pi$ cm³
+- $4\pi$ cm³
+> $\dfrac{1}{3} \times \pi \times 9 \times 4 = 12\pi$.
+
+? Volume d'une boule de rayon 3 cm ?
++ $36\pi$ cm³
+- $12\pi$ cm³
+- $27\pi$ cm³
+> $\dfrac{4}{3} \times \pi \times 27 = 36\pi$.
+
+? Une pyramide et un prisme ont même base et même hauteur. Le volume de la pyramide est…
++ le tiers de celui du prisme
+- la moitié
+- le même
+> Formule : $\dfrac{1}{3} \times B \times h$.
+
+? La section d'un cube par un plan parallèle à une face est…
++ un carré
+- un triangle
+- un cercle
+> Identique à la face.
+
+? La section d'un cylindre par un plan parallèle à la base est…
++ un disque
+- un rectangle
+- un triangle
+> Même rayon que la base.
+
+? La section d'un cylindre par un plan parallèle à son axe est…
+- un disque
++ un rectangle
+- une ellipse
+> On « coupe » le cylindre dans la longueur.
+
+? La section d'une sphère par un plan est…
++ un cercle
+- un carré
+- une droite
+> Le plus grand cercle passe par le centre.
+
+? La section d'une pyramide par un plan parallèle à sa base est…
++ une réduction de la base
+- un agrandissement de la base
+- toujours un triangle
+> La forme est la même, en plus petit.
+
+? Une pyramide de hauteur 9 cm est coupée à 3 cm du sommet, parallèlement à la base. Rapport de réduction ?
++ $\dfrac{1}{3}$
+- $\dfrac{1}{9}$
+- $3$
+> $\dfrac{3}{9} = \dfrac{1}{3}$.
+
+? Sur Terre, les méridiens relient…
++ le pôle Nord au pôle Sud
+- les points de même latitude
+- l'équateur au tropique
+> Le méridien de Greenwich est la référence (longitude 0°).
+
+? La latitude d'un point se mesure par rapport à…
++ l'équateur
+- le méridien de Greenwich
+- le pôle Nord
+> De 0° à 90° Nord ou Sud.
+
+? La longitude d'un point se mesure par rapport à…
+- l'équateur
++ le méridien de Greenwich
+- le tropique du Cancer
+> De 0° à 180° Est ou Ouest.
+
+? Paris a pour coordonnées environ…
++ 49° N ; 2° E
+- 2° N ; 49° E
+- 49° S ; 2° O
+> Latitude d'abord (Nord), puis longitude (Est).
+
+? Dans un pavé droit $ABCDEFGH$, le point de coordonnées $(0 ; 0 ; 0)$ est…
++ l'origine du repère
+- le centre du pavé
+- le sommet le plus haut
+> Dans l'espace, on repère un point par 3 coordonnées : abscisse, ordonnée, altitude.
+
+? 1 m³ vaut…
+- 100 L
++ 1 000 L
+- 10 000 L
+> $1 \text{ m}^3 = 1\,000 \text{ dm}^3$.
+
+? 250 cm³ valent…
++ 25 cL
+- 2,5 L
+- 250 L
+> $1 \text{ cm}^3 = 1 \text{ mL}$, donc 250 mL = 25 cL.
+
+? Un aquarium de 50 cm × 30 cm × 40 cm contient au maximum…
++ 60 L
+- 120 L
+- 6 L
+> $60\,000$ cm³ = 60 dm³ = 60 L.
+
+? Si on double le rayon d'une boule, son volume est multiplié par…
+- 2
+- 4
++ 8
+> Le volume dépend de $r^3$ : $2^3 = 8$.
+
+? Vrai ou faux : un cube est un pavé droit particulier.
++ Vrai
+- Faux
+> Toutes ses arêtes sont égales.
+
+? Vrai ou faux : un prisme droit a deux bases identiques et parallèles.
++ Vrai
+- Faux
+> Les faces latérales sont des rectangles.
+
+? Combien d'arêtes a une pyramide à base carrée ?
+- 5
++ 8
+- 12
+> 4 pour la base et 4 qui montent au sommet.
+
+? Combien de faces a une pyramide à base carrée ?
++ 5
+- 4
+- 6
+> 1 base carrée + 4 faces triangulaires.
+
+? Un patron de cylindre est formé de…
++ deux disques et un rectangle
+- deux rectangles et un disque
+- un seul disque
+> La longueur du rectangle est le périmètre du disque.
+
+? Volume d'un prisme à base triangulaire (base 6 cm², hauteur 10 cm) ?
++ 60 cm³
+- 20 cm³
+- 30 cm³
+> Aire de la base × hauteur.
+
+? Une boule de glace a un rayon de 3 cm. Elle a un volume d'environ…
++ 113 cm³
+- 28 cm³
+- 37 cm³
+> $36\pi \approx 113$ cm³.
 ```
 
 ## Vidéos

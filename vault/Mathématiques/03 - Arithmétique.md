@@ -565,6 +565,35 @@ $$\frac{84}{126} = \frac{2^2 \times 3 \times 7}{2 \times 3^2 \times 7} = \frac{2
 
 ## Quiz
 
+### ⚡ Échauffement express
+
+Cinq petites questions à réponse tapée pour vérifier que les bases sont là.
+
+```quiz Échauffement express
+? Quel est le plus petit nombre premier ?
+= 2
+> 2 est le seul nombre premier pair. 1 n'est pas premier (il n'a qu'un diviseur).
+
+? Décompose 12 en produit de facteurs premiers (écris par exemple 2x2x3)
+= 2x2x3
+= 2^2x3
+= 2²x3
+= 3x2x2
+> $12 = 2 \times 6 = 2 \times 2 \times 3 = 2^2 \times 3$.
+
+? Quel est le PGCD de 12 et 18 ?
+= 6
+> Diviseurs de 12 : 1, 2, 3, 4, 6, 12. Diviseurs de 18 : 1, 2, 3, 6, 9, 18. Le plus grand commun est 6.
+
+? Combien de diviseurs a le nombre 7 ?
+= 2
+> 7 est premier : ses seuls diviseurs sont 1 et 7.
+
+? Quel est le reste de la division euclidienne de 47 par 5 ?
+= 2
+> $47 = 5 \times 9 + 2$.
+```
+
 ```quiz
 ? Lequel de ces nombres est premier ?
 - 21
@@ -642,6 +671,185 @@ Questions dans le style des sujets récents du brevet.
 - 2³ × 7
 - 6 × 10
 > 60 = 4 × 15 = 2² × 3 × 5.
+```
+
+### 🎲 Entraînement sans fin
+
+Une banque de 30 questions : 10 sont tirées au hasard à chaque essai, sans répétition tant que la banque n'est pas épuisée. Recommence autant que tu veux !
+
+```quiz Entraînement sans fin ~10
+? Lequel de ces nombres est premier ?
+- $21$
++ $23$
+- $27$
+> $21 = 3 \times 7$ et $27 = 3 \times 9$. 23 n'a que 1 et 23 comme diviseurs.
+
+? Lequel de ces nombres n'est pas premier ?
+- $13$
+- $29$
++ $51$
+> $51 = 3 \times 17$ (la somme de ses chiffres, 6, est divisible par 3).
+
+? 1 est-il un nombre premier ?
+- Oui
++ Non
+> Un nombre premier a exactement deux diviseurs distincts : 1 et lui-même. 1 n'en a qu'un.
+
+? Quelle est la décomposition en facteurs premiers de $60$ ?
++ $2^2 \times 3 \times 5$
+- $4 \times 15$
+- $2 \times 30$
+> Il ne doit rester que des nombres premiers : $60 = 2 \times 2 \times 3 \times 5$.
+
+? Quelle est la décomposition en facteurs premiers de $84$ ?
+- $2 \times 42$
++ $2^2 \times 3 \times 7$
+- $4 \times 21$
+> $84 = 2 \times 42 = 2 \times 2 \times 21 = 2^2 \times 3 \times 7$.
+
+? Quelle est la décomposition en facteurs premiers de $100$ ?
++ $2^2 \times 5^2$
+- $10^2$
+- $2 \times 5 \times 10$
+> $100 = 4 \times 25 = 2^2 \times 5^2$. 10 n'est pas premier.
+
+? Un nombre est divisible par 3 si…
+- il se termine par 3
++ la somme de ses chiffres est divisible par 3
+- il est impair
+> Exemple : 123 → $1 + 2 + 3 = 6$, divisible par 3.
+
+? Un nombre est divisible par 9 si…
++ la somme de ses chiffres est divisible par 9
+- il se termine par 9
+- il est divisible par 3
+> Exemple : 729 → $7 + 2 + 9 = 18$, divisible par 9.
+
+? Quels nombres sont divisibles par 5 ?
++ $345$
++ $1\,200$
+- $552$
+> Un nombre est divisible par 5 s'il se termine par 0 ou 5.
+
+? 2 024 est-il divisible par 4 ?
++ Oui
+- Non
+> On regarde les deux derniers chiffres : 24 est divisible par 4.
+
+? Quel est le PGCD de 24 et 36 ?
+- $6$
++ $12$
+- $72$
+> $24 = 2^3 \times 3$ et $36 = 2^2 \times 3^2$ : PGCD $= 2^2 \times 3 = 12$.
+
+? Que signifie « $a$ et $b$ sont premiers entre eux » ?
+- $a$ et $b$ sont premiers
++ leur seul diviseur commun est 1
+- $a$ divise $b$
+> Exemple : 8 et 15 sont premiers entre eux, sans être premiers.
+
+? 8 et 15 sont-ils premiers entre eux ?
++ Oui
+- Non
+> Diviseurs de 8 : 1, 2, 4, 8. Diviseurs de 15 : 1, 3, 5, 15. Seul 1 est commun.
+
+? Pour rendre $\dfrac{42}{56}$ irréductible, on divise en haut et en bas par…
+- $7$
++ $14$
+- $2$
+> PGCD(42 ; 56) = 14, d'où $\dfrac{3}{4}$. Diviser par 7 donne $\dfrac{6}{8}$, pas encore irréductible.
+
+? Dans $47 = 5 \times 9 + 2$, que représente 9 ?
+- le diviseur
++ le quotient
+- le reste
+> Dividende = diviseur × quotient + reste, avec reste < diviseur.
+
+? Quels sont les diviseurs de 18 ?
++ 1, 2, 3, 6, 9, 18
+- 2, 3, 6, 9
+- 1, 3, 6, 18, 36
+> On cherche les paires : $1 \times 18$, $2 \times 9$, $3 \times 6$.
+
+? Combien de diviseurs possède 16 ?
+- 4
++ 5
+- 8
+> 1, 2, 4, 8, 16.
+
+? Un fleuriste a 84 roses et 60 tulipes. Il veut le plus grand nombre de bouquets identiques utilisant toutes les fleurs. Combien de bouquets ?
+- 6
++ 12
+- 24
+> On cherche PGCD(84 ; 60) = 12. Chaque bouquet aura 7 roses et 5 tulipes.
+
+? Quel est le plus petit multiple commun non nul de 4 et 6 ?
++ $12$
+- $24$
+- $2$
+> Multiples de 4 : 4, 8, 12… Multiples de 6 : 6, 12… Le premier commun est 12.
+
+? Deux bus partent ensemble ; l'un passe toutes les 12 min, l'autre toutes les 18 min. Dans combien de temps repartent-ils ensemble ?
+- 30 min
++ 36 min
+- 6 min
+> On cherche le plus petit multiple commun de 12 et 18 : 36.
+
+? Vrai ou faux : tout nombre pair est divisible par 4.
+- Vrai
++ Faux
+> Contre-exemple : 6 est pair mais pas divisible par 4.
+
+? Vrai ou faux : la somme de deux nombres impairs est paire.
++ Vrai
+- Faux
+> $(2n+1) + (2p+1) = 2(n+p+1)$, un multiple de 2.
+
+? Vrai ou faux : le produit de deux nombres premiers est un nombre premier.
+- Vrai
++ Faux
+> $3 \times 5 = 15$ a quatre diviseurs : 1, 3, 5, 15.
+
+? Vrai ou faux : 91 est un nombre premier.
+- Vrai
++ Faux
+> Piège classique : $91 = 7 \times 13$.
+
+? Quel nombre est un multiple de 7 ?
+- $54$
++ $63$
+- $75$
+> $63 = 7 \times 9$.
+
+? Si $n$ est un entier, $2n$ est toujours…
++ pair
+- impair
+- premier
+> $2n$ est un multiple de 2.
+
+? Si $n$ est un entier, $2n + 1$ est toujours…
+- pair
++ impair
+- divisible par 3
+> Un nombre pair plus 1 donne un nombre impair.
+
+? Pour tester si 97 est premier, il suffit d'essayer de le diviser par…
+- tous les nombres jusqu'à 96
++ les nombres premiers jusqu'à 9 (2, 3, 5, 7)
+- 2 seulement
+> $10^2 = 100 > 97$ : un diviseur plus grand que 10 aurait un partenaire plus petit que 10. Aucun ne marche, 97 est premier.
+
+? Quelle est la forme irréductible de $\dfrac{2^3 \times 3}{2^2 \times 3^2}$ ?
++ $\dfrac{2}{3}$
+- $\dfrac{8}{9}$
+- $\dfrac{6}{9}$
+> On simplifie $2^2 \times 3$ en haut et en bas : il reste $\dfrac{2}{3}$.
+
+? Combien de nombres premiers y a-t-il entre 1 et 20 ?
+- 7
++ 8
+- 10
+> 2, 3, 5, 7, 11, 13, 17, 19.
 ```
 
 ## Vidéos

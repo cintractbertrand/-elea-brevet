@@ -29,6 +29,56 @@ Les **énoncés** sont repris à l'identique du sujet officiel (DNB, session 202
 | 4 | Location de voiture, fonctions affines | 06, 07, 08, 05 |
 | 5 | Scratch, transformations | 17, 14 |
 
+> [!tip] À retenir avant de commencer
+> - **Nombre premier** : exactement deux diviseurs, 1 et lui-même (1 n'est pas premier).
+> - **Patron d'un cube d'arête $a$** : 6 carrés, aire totale $6a^2$.
+> - **Format 16 : 9** : les longueurs sont proportionnelles à 16 et à 9.
+> - **Médiane** : on range la série ; si l'effectif est pair, c'est la moyenne des deux valeurs du milieu.
+> - **Réciproque de Thalès** : si $\dfrac{SN}{SO} = \dfrac{SU}{SD}$, alors (NU) // (OD). Si les rapports sont différents, elles ne sont pas parallèles.
+> - **Secteur de disque** d'angle $\alpha$ : aire $= \dfrac{\alpha}{360} \times \pi r^2$.
+> - **Comparer deux formules** : on écrit un prix en fonction de $x$ pour chacune, puis on résout l'équation « prix 1 = prix 2 ».
+> - **Scratch** : un tour complet fait 360°.
+
+```quiz Sujet 2024 AA1 : échauffement
+? 49 est-il un nombre premier ?
++ Non, car $49 = 7 \times 7$
+- Oui, car il est impair
+- Oui, car il n'est pas divisible par 2, 3 ou 5
+- Non, car il est supérieur à 40
+> 49 = 7 × 7 a trois diviseurs (1, 7 et 49) : il n'est pas premier.
+
+? Quelle est l'aire totale du patron d'un cube d'arête 3 cm (en cm²) ?
+= 54
+> 6 × 3² = 6 × 9 = 54 cm².
+
+? Un écran est au format 4 : 3. Sa longueur est de 20 cm. Combien mesure sa largeur (en cm) ?
+= 15
+> 20 × 3 ÷ 4 = 15 cm.
+
+? Quelle est la médiane de la série 1 ; 2 ; 4 ; 5 ; 8 ; 9 ?
+= 4,5
+> 6 valeurs : on prend la moyenne des deux valeurs du milieu, (4 + 5) ÷ 2 = 4,5.
+
+? Quelle est l'aire d'un quart de disque de rayon 10 cm, arrondie au dixième de cm² ?
+= 78,5
+> (1/4) × π × 10² = 25π ≈ 78,5 cm².
+
+? Une formule de location coûte 0,4 € par kilomètre. Combien coûtent 200 km (en €) ?
+= 80
+> 0,4 × 200 = 80 €.
+
+? Résous l'équation $0{,}2x + 100 = 0{,}4x$. (écris le nombre seul)
+= 500
+> 100 = 0,4x − 0,2x = 0,2x, donc x = 100 ÷ 0,2 = 500.
+
+? Dans un triangle SOD, N est sur [SO] et U sur [SD]. SN/SO = 1/2 mais SU/SD = 5/11. Les droites (NU) et (OD) sont-elles parallèles ?
++ Non, car les deux rapports sont différents
+- Oui, car SN/SO est égal à 1/2
+- Oui, car N et U sont alignés avec S
+- On ne peut pas savoir
+> D'après la réciproque de Thalès, il faut des rapports égaux. Ici 1/2 ≠ 5/11 : les droites ne sont pas parallèles.
+```
+
 ## Exercices corrigés
 
 ### Exercice 1 (20 points) : QCM
@@ -359,6 +409,21 @@ Les **énoncés** sont repris à l'identique du sujet officiel (DNB, session 202
 > **4. a.** Le bloc « Motif » est dans une boucle « répéter 3 fois » : il est exécuté **3 fois**.
 >
 > **b.** La valeur de départ est 80. À la fin de chaque tour, on multiplie par 1,2. Après 3 tours : $80 \times 1{,}2 \times 1{,}2 \times 1{,}2 = 80 \times 1{,}728 = \mathbf{138{,}24}$.
+
+### Petits exercices pour s'entraîner
+
+> [!question] Petit exercice A
+> Deux formules de location : X coûte 0,30 € par km ; Y coûte 100 € de forfait puis 0,10 € par km. Pour quelle distance les deux formules coûtent-elles le même prix ?
+
+> [!success]- Corrigé du petit exercice A
+> Prix de X : $0{,}3x$. Prix de Y : $0{,}1x + 100$.
+> $0{,}3x = 0{,}1x + 100$, donc $0{,}2x = 100$ et $x = \mathbf{500}$ km. Pour 500 km, les deux coûtent $150$ €.
+
+> [!question] Petit exercice B
+> Un disque de rayon 6 cm est partagé en 4 secteurs identiques. Quelle est l'aire d'un secteur, arrondie au dixième ?
+
+> [!success]- Corrigé du petit exercice B
+> Aire du disque : $\pi \times 6^2 = 36\pi$. Un secteur en est le quart : $\dfrac{36\pi}{4} = 9\pi \approx \mathbf{28{,}3}$ cm².
 
 ## Voir aussi
 
