@@ -286,3 +286,9 @@
 /* Silver parle anglais : phrase en anglais + traduction en petit */
 .chat-bulle .chat-en { display: block; font-weight: 700; }
 .chat-bulle .chat-fr { display: block; margin-top: 3px; font-size: .78em; opacity: .75; font-style: italic; }
+
+/* Téléphone : pendant un jeu (mini-jeux, jeux de la carte), Silver et le bouton ↑ laissent la place au plateau */
+@media (max-width: 900px) {
+  body.en-minijeu .chat, body.en-jeu .chat, body.en-minijeu .chat-objet, body.en-jeu .chat-objet,
+  body.en-minijeu .haut-btn, body.en-jeu .haut-btn { display: none !important; }
+}

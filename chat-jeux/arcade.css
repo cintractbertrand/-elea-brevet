@@ -77,3 +77,9 @@
 }
 .ar-zone-2048 .ar-scene { width: min(100%, max(260px, var(--libre) - 46px)); }
 @media (pointer: coarse) { .ar-zone-2048 .ar-croix { display: none; } }
+
+/* Téléphone : le Snake et sa croix tiennent ensemble dans l'écran */
+@media (max-width: 760px) {
+  .ar-zone-snake .ar-scene { width: min(100%, max(220px, calc(100svh - 370px))); }
+  .ar-zone-briques .ar-scene { width: min(100%, max(240px, calc((100svh - 230px) * var(--ratio, 1)))); }
+}

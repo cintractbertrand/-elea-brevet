@@ -75,11 +75,17 @@ function panneau(scene, { titre, texte = '', bouton = 'Jouer', emoji = '🎮', a
   d.className = 'mj-panneau ar-panneau';
   d.innerHTML = `<div class="mj-panneau-in"><div class="ar-panneau-emoji">${emoji}</div><h2>${titre}</h2>${texte ? `<p>${texte}</p>` : ''}<button class="btn mj-go" type="button">${bouton}</button></div>`;
   scene.appendChild(d);
-  const go = () => { d.remove(); action(); };
+  const go = () => { d.remove(); action(); auCentre(scene.closest('.ar-zone') || scene); };
   d.querySelector('.mj-go').addEventListener('click', (e) => { e.stopPropagation(); go(); });
   d.addEventListener('pointerdown', (e) => e.stopPropagation());
   d.querySelector('.mj-go').focus({ preventScroll: true });
   return d;
+}
+// Sur téléphone, le plateau (et ses boutons) doit être entièrement visible pendant la partie
+function auCentre(el) {
+  if (!matchMedia('(max-width: 760px)').matches) return;
+  const r = el.getBoundingClientRect(), haut = 64;
+  if (r.top < haut || r.bottom > innerHeight - 8) window.scrollBy({ top: r.top - haut - Math.max(0, (innerHeight - haut - r.height) / 2), behavior: 'smooth' });
 }
 function bulle(scene, x, y, txt, cls = '') {
   const s = document.createElement('span');
