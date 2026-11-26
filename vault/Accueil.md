@@ -13,6 +13,7 @@ Bienvenue ! Ce coffre Obsidian contient les fiches de révision du brevet, rang�
 - 📚 [[Français]]
 - 🌍 [[Histoire-Géographie-EMC]]
 - 🔬 [[Sciences]] (physique-chimie, SVT, technologie)
+- 🇪🇸 [[Espagnol]]
 
 ## Les épreuves du brevet en un coup d'œil
 

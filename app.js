@@ -9,6 +9,7 @@ const SUBJECTS = {
   'Histoire-Géographie-EMC': { emoji: '🌍', color: '#c77700' },
   'Sciences': { emoji: '🔬', color: '#0f9b8e' },
   'Anglais-TOEIC': { emoji: '🇬🇧', color: '#2f6fd6' },
+  'Espagnol': { emoji: '🇪🇸', color: '#c60b1e' },
 };
 const SUBJECT_ORDER = Object.keys(SUBJECTS);
 
